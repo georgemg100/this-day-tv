@@ -1,5 +1,6 @@
 # Every morning: pick programming for today and the next two days, commit the
 # schedules, and publish web/ to GitHub Pages. No admin needed.
+# Pushing changes under web/ (e.g. a hand-picked day) just redeploys.
 #
 # One-time setup: push this repo to GitHub, then Settings → Pages → Source:
 # "GitHub Actions". Run it once by hand from the Actions tab to go live.
@@ -8,6 +9,9 @@ name: Daily programming
 on:
   schedule:
     - cron: '0 9 * * *' # 09:00 UTC = 4–5 AM US Eastern
+  push:
+    branches: [main]
+    paths: ['web/**']
   workflow_dispatch:
     inputs:
       days:
@@ -45,10 +49,12 @@ jobs:
           node-version: 22
 
       - name: Pick programming
+        if: github.event_name != 'push'
         working-directory: admin
         run: node autopilot.js --days "${{ inputs.days || '3' }}" ${{ inputs.extra }}
 
       - name: Commit schedules
+        if: github.event_name != 'push'
         run: |
           git config user.name "this-day-tv-bot"
           git config user.email "this-day-tv-bot@users.noreply.github.com"
