@@ -36,11 +36,11 @@ Click the power knob. Browsers only allow sound after a click or tap. A sample N
 For a dedicated screen (an old monitor or a smart TV browser), open `…/?on` to switch on automatically. This only works where the browser allows autoplay; otherwise the power knob comes back.
 
 ### Autopilot: programming every morning, no admin
-`admin/autopilot.js` programs a whole day on its own:
-1. Scores every year in range for that date.
-2. Picks up to 8 years spread across the decades, one channel each.
-3. Fills each channel with that year's programming. It prefers clips that aired on that exact date, then the same week, then the rest of the year, and skips anything dated *after* the broadcast day, which would be news nobody had seen yet.
-4. Adds commercials from that year and Wikipedia headlines.
+`admin/autopilot.js` programs a whole day on its own. By default (`--mode exact`) **every program on air aired on that exact date**:
+1. Finds everything archive.org has from that month and day, across all years in range.
+2. Keeps only items with real evidence of the date: the date written in the title or ID (for example "The Price is Right (November 3, 1972)"), or a TV, game-show or newsreel collection whose uploaders record air dates. It skips mis-dated movies, season box sets, fringe uploads, and titles that name a different year.
+3. Picks up to 10 years, rotating across decades, one channel each.
+4. Fills each channel with that year's exact-date programs, commercials from that year (not date-specific), and Wikipedia headlines.
 5. Publishes `web/schedules/MM-DD.json`.
 
 ```sh
@@ -48,13 +48,11 @@ cd admin
 node autopilot.js                 # today
 node autopilot.js --days 7        # today + next 6 days
 node autopilot.js --date 12-25 --dry-run
-node autopilot.js --channels 10   # more channels
-node autopilot.js --rights any    # also use rights-unknown programs (fills the 80s/90s)
+node autopilot.js --channels 12   # more channels
+node autopilot.js --mode pd       # public domain only, filled from the same week/year
 ```
 
-**Rights defaults:**
-- **Programs:** public domain only, from curated collections like Universal Newsreels and Prelinger. That's plentiful for the 1960s, thinner for the 70s, and close to nothing for the 80s and 90s, so most channels land in 1960–1982.
-- **Commercials:** most period ads carry no rights tag, so they're allowed by default. Pass `--ad-rights pd` to be strict.
+**Rights:** almost everything that aired on a given date is a recording of a copyrighted broadcast. For November 3, only 5 of about 500 exact-date items are public domain. Exact mode plays them regardless of rights status. The video streams from archive.org, not your site, but showing it publicly is your responsibility. `--mode pd` is the cautious alternative: public domain only, with same-week and same-year filler.
 
 Days you published by hand from the console are never overwritten unless you pass `--force`.
 

@@ -158,10 +158,10 @@ export function shapeDoc(doc, extra = {}) {
 }
 
 /** Programming that aired (or was filmed) on MM-DD in [from, to]. */
-export async function searchByDate({ mm, dd, from, to, media = 'video', limit = 60 }) {
+export async function searchByDate({ mm, dd, from, to, media = 'video', limit = 60, rows = 80 }) {
   const queries = buildDateQueries(mm, dd, from, to, media);
   const settled = await Promise.allSettled(
-    queries.map(async ({ strategy, q }) => ({ strategy, docs: await advancedSearch(q, { rows: 80, sort: 'downloads desc' }) })),
+    queries.map(async ({ strategy, q }) => ({ strategy, docs: await advancedSearch(q, { rows, sort: 'downloads desc' }) })),
   );
   const merged = new Map();
   const errors = [];
@@ -189,7 +189,7 @@ export async function searchByDate({ mm, dd, from, to, media = 'video', limit = 
         score: scoreDoc(doc, strategies),
       });
     })
-    .filter((r) => r.airYear !== null)
+    .filter((r) => r.airYear !== null && r.airYear >= from && r.airYear <= to)
     .sort((a, b) => b.score - a.score || (a.airYear || 0) - (b.airYear || 0));
   return { results: results.slice(0, limit), errors };
 }

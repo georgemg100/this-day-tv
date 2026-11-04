@@ -179,3 +179,22 @@ test('autopilot helpers', async () => {
   assert.ok(!looksLikeJunk("McDonald's Commercials"));
   assert.ok(!looksLikeJunk("Invasion Scare. Castro Masses Troops, Claims U.S. 'Aggression'"));
 });
+
+test('exact-date evidence filters', async () => {
+  const { airedThatDay, looksLikeCompilation, looksLikeMeeting, cleanTitle } = await import('../lib/autopilot.js');
+  const r = (title, strategies, collections, airYear = 1969) => ({ title, strategies, collections, airYear, airDate: `${airYear}-11-03`, identifier: 'x' });
+  assert.ok(airedThatDay(r('Richard Nixon Nov. 3, 1969 Speech Excerpt', ['title'], [])));
+  assert.ok(airedThatDay(r('1993 11 03 The Late Show With David Letterman', ['date'], ['opensource_movies'], 1993)));
+  assert.ok(airedThatDay(r('The New Price is Right (November 3, 1972)', ['title'], ['gameshow_tpir'], 1972)));
+  assert.ok(!airedThatDay(r('Prescription Thugs', ['title'], ['opensource_movies', 'community'], 1972)), 'date only in description, untrusted collection');
+  assert.ok(!airedThatDay(r('How U.S. Air Cavalry Evolved', ['title'], ['altcensored', 'fringe'], 1965)));
+  assert.ok(airedThatDay(r('Wally, the Author (Ozzie & Harriet)', ['date'], ['classic_tv_1960s'], 1965)), 'classic TV date field = air date');
+  assert.ok(!airedThatDay(r('Carrie (50th Anniversary)', ['date', 'title'], ['opensource_movies'], 1976)), 'release date in description is not an air date');
+  assert.ok(!airedThatDay(r('The Who Live At The Isle of Wight Festival 1970', ['date'], ['classic_tv'], 1998)), 'title names another year');
+  assert.ok(!airedThatDay(r('Reel America 1970 : CSPAN2 : August 21, 2021', ['title'], [], 1969)));
+  assert.ok(looksLikeCompilation('Pingu: The Complete Series 2 (1991-94)'));
+  assert.ok(!looksLikeCompilation('General Hospital- November 3, 1989 (most)'));
+  assert.ok(looksLikeMeeting('Amherst Select Board Meeting - November 3, 1997'));
+  assert.ok(!looksLikeMeeting('Live With Regis And Kathie Lee'));
+  assert.equal(cleanTitle('Richard Nixon Nov. 3, 1969 Speech Excerpt'), 'Richard Nixon Nov. 3, 1969 Speech Excerpt');
+});

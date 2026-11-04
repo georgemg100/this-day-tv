@@ -26,13 +26,17 @@ const CALLSIGNS = ['WTDI', 'WKTV', 'WNTW', 'WYRS', 'WHEN', 'WOLD', 'WPST', 'WDAY
 const TAGLINES = ['Your window to yesterday', 'Seven on your dial', 'The way it was', 'Tonight, back then', 'Stay tuned', 'Your evening companion'];
 
 export const DEFAULTS = {
-  channels: 8,
-  rights: 'pd', // programs: 'pd' = public domain only, 'any' = also unknown/claimed
+  // 'exact': only programs that aired on this exact date (any rights status).
+  // 'pd':    public-domain programs, filled from the same week / year.
+  mode: 'exact',
+  channels: 10,
+  rights: 'pd', // mode 'pd' only: 'pd' = public domain only, 'any' = also unknown/claimed
   adRights: 'any', // commercials: most period ads carry no rights tag at all
-  targetMinutes: 45, // fill each channel to about this much before looping
-  maxProgramMinutes: 40, // skip single items longer than this
+  targetMinutes: 60, // fill each channel to about this much before looping
+  maxProgramMinutes: 40, // mode 'pd': skip single items longer than this
+  maxExactMinutes: 150, // mode 'exact': whole evenings of coverage are fine (split into acts)
   maxPrograms: 12,
-  minMinutes: 8, // a year needs at least this much programming to get a channel
+  minMinutes: 5, // a year needs at least this much programming to get a channel
   maxAds: 6,
   adsPerBreak: 2,
   concurrency: 4, // simultaneous archive.org requests (be polite)
@@ -78,11 +82,17 @@ function limiter(n) {
 
 /** "Inauguration. Thieu Sworn In, Stresses Peace, 1967/11/03" -> "Thieu Sworn In, Stresses Peace" */
 export function cleanTitle(title, description = '') {
+  const dated = /[,\s]*\(?\b(19|20)\d{2}[/-]\d{2}[/-]\d{2}\)?\s*$/;
+  // A bare identifier for a title ("e_history_StreamRoot_DH_0287_19601103_01"): describe it instead.
+  if (/^[\w.-]+$/.test(String(title || '')) && /\d{5,}/.test(title) && description) {
+    let d = String(description).replace(/\s*\(.*?\)\s*/g, ' ').split(/(?<=[a-z])\.\s|;\s/)[0].trim().replace(/[\s.]+$/, '');
+    if (d.length > 72) d = `${d.slice(0, 72).replace(/\s+\S*$/, '')}…`;
+    if (d.length >= 12) return d;
+  }
   let t = String(title || '').replace(/_/g, ' ');
   t = t.replace(/\.(wmv|mp4|mov|avi|mpe?g|m4v|ogv|flv|mkv)$/i, ''); // file names
   t = t.replace(/^\[(.*)\]$/, '$1'); // "[Bradley: Second to None]"
   // Bare place names ("England, 1967/11/03"): the description says what happened.
-  const dated = /[,\s]*\(?\b(19|20)\d{2}[/-]\d{2}[/-]\d{2}\)?\s*$/;
   const bare = t.replace(dated, '').trim();
   if (dated.test(t) && bare.split(/\s+/).length <= 2 && description) {
     let d = String(description).replace(/\s*\(.*?\)\s*/g, ' ').replace(/^\(\d+\)\s*/, '').split(/(?<=[a-z])\.\s|;\s/)[0].trim();
@@ -90,11 +100,12 @@ export function cleanTitle(title, description = '') {
     d = d.replace(/[\s.]+$/, '');
     if (d.length >= 12) return d;
   }
-  t = t.replace(/[,\s]*\(?\b(19|20)\d{2}[/-]\d{2}[/-]\d{2}\)?\s*$/, ''); // trailing date
+  const newsreelStyle = dated.test(t);
+  t = t.replace(dated, ''); // trailing date
   t = t.replace(/\s*\((19|20)\d{2}\)\s*$/, ''); // trailing (1967)
   const parts = t.split(/\.\s+/);
-  // Universal Newsreel style "Place. Headline": keep the headline.
-  if (parts.length === 2 && parts[0].split(' ').length <= 3 && parts[1].length > 8) t = parts[1];
+  // Universal Newsreel style "Place. Headline, 1967/11/03": keep the headline.
+  if (newsreelStyle && parts.length === 2 && parts[0].split(' ').length <= 3 && parts[1].length > 8) t = parts[1];
   return t.replace(/\s+/g, ' ').trim().slice(0, 120) || String(title).slice(0, 120);
 }
 
@@ -120,7 +131,52 @@ export function titleKey(title) {
   const m = /\(?\bpart\s+([ivx\d]+)\)?/i.exec(t);
   const part = m ? m[1] : 'whole';
   if (m) t = t.replace(m[0], '');
+  t = t.replace(/\([^)]*\)|\[[^\]]*\]/g, ' '); // "(1980, better quality)" vs "(1980)"
   return { base: t.replace(/[^a-z0-9]+/g, ' ').trim(), part };
+}
+
+// Collections whose uploaders record original air dates (in the date field or
+// description), as opposed to upload or release dates.
+const AIRDATE_COLLECTIONS = /^(universal_newsreels|prelinger|nasa|tvnews|classic_tv(_\d{4}s)?|classic_tv_commercials|gameshows?(_.*)?|ublangsdale)$/;
+const SKIP_COLLECTIONS = new Set(['fringe', 'deemphasize', 'altcensored', 'feature_films']);
+const MONTHS_LONG = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+const MONTHS_ABBR = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+/** Does the item's own title or identifier carry its air date? */
+export function datedInTitle(r) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(r.airDate || '');
+  if (!m) return false;
+  const [, y, MM, DD] = m;
+  const mon = +MM - 1;
+  const d = String(+DD);
+  const title = String(r.title || '');
+  const id = String(r.identifier || '');
+  const forms = [
+    `${MONTHS_LONG[mon]} ${d}, ${y}`, `${MONTHS_ABBR[mon]} ${d}, ${y}`, `${MONTHS_ABBR[mon]}. ${d}, ${y}`, `${d} ${MONTHS_LONG[mon]} ${y}`,
+    `${y}/${MM}/${DD}`, `${y}-${MM}-${DD}`, `${y} ${MM} ${DD}`, `${y}.${MM}.${DD}`, `${+MM}/${d}/${y.slice(2)}`, `${+MM}/${d}/${y}`,
+  ];
+  return forms.some((f) => title.includes(f)) || id.includes(`${y}-${MM}-${DD}`) || id.includes(`${y}${MM}${DD}`) || id.includes(`${y.slice(2)}${MM}${DD}`);
+}
+
+/** Is there real evidence this item aired on that day in that year? */
+export function airedThatDay(r) {
+  if (!r.airYear) return false;
+  const colls = r.collections || [];
+  if (colls.some((c) => SKIP_COLLECTIONS.has(c))) return false;
+  // A title naming some other year ("…1970 : CSPAN2 : 2021") is a later upload or re-air.
+  const otherYears = (String(r.title).match(/\b(19[0-9]{2}|20[0-3][0-9])\b/g) || []).map(Number).filter((y) => y !== r.airYear);
+  if (otherYears.length) return false;
+  if (datedInTitle(r)) return true;
+  return colls.some((c) => AIRDATE_COLLECTIONS.test(c));
+}
+
+/** Box sets and season dumps aren't one day's broadcast. */
+export function looksLikeMeeting(title) {
+  return /\b(board|council|committee|commission|selectmen|trustees|planning)\b.*\bmeeting\b|\bmeeting\b.*\b(board|council|committee)\b/i.test(String(title || ''));
+}
+
+export function looksLikeCompilation(title) {
+  return /\b(complete (series|season)|season \d+|seasons?\s*\d+\s*[-–]|series \d+\s*[-–]\s*\d+|collection|compilation|vol(ume)?\.?\s*\d+|box set|\d{4}\s*[-–]\s*\d{2,4}\)|laserdisc|vhs tape|dvd transfer|tv season)\b/i.test(String(title || ''));
 }
 
 function bestFile(item) {
@@ -154,6 +210,8 @@ export async function programDay(key, options = {}) {
   const rand = seeded(`${key}:${o.from}-${o.to}`);
   const limit = limiter(o.concurrency);
   const log = o.log;
+
+  if (o.mode === 'exact') return programExactDay(key, mm, dd, o, rand, limit, log);
 
   // 1. Quick pass over the whole range: dated clips + Wikipedia items per year.
   log(`${key}: scanning ${o.from}–${o.to}`);
@@ -201,7 +259,6 @@ export async function programDay(key, options = {}) {
   // 4. Build channels until we have enough (years whose clips don't pan out are skipped).
   const channels = [];
   const library = [];
-  const report = [];
   for (const cand of ordered) {
     if (channels.length >= o.channels) break;
     const programs = await fillPrograms(cand, o, limit);
@@ -214,6 +271,11 @@ export async function programDay(key, options = {}) {
     library.push(...programs, ...ads);
     channels.push({ year: cand.year, programs, ads, headlines: cand.headlines });
   }
+  return finish(key, mm, dd, o, channels, library);
+}
+
+function finish(key, mm, dd, o, channels, library) {
+  const report = [];
   channels.sort((a, b) => a.year - b.year);
   const numbers = CHANNEL_NUMBERS.slice(0, channels.length).sort((a, b) => a - b);
 
@@ -240,7 +302,7 @@ export async function programDay(key, options = {}) {
   const draft = normalizeDraft(key, { title: `This Day in History — ${prettyDate(mm, dd)}`, channels: draftChannels });
   const { compiled, warnings } = compile(draft, library, { target: 'web' });
   compiled.generatedBy = 'autopilot';
-  compiled.options = { rights: o.rights, adRights: o.adRights };
+  compiled.options = { mode: o.mode, rights: o.mode === 'exact' ? 'any' : o.rights, adRights: o.adRights };
   return { compiled, warnings, report };
 }
 
@@ -283,4 +345,94 @@ async function fillAds(year, o, limit, rand) {
     });
   }
   return ads;
+}
+
+// ---------------------------------------------------------------- exact-date mode
+// Everything on air aired on this exact date. One range search finds every
+// candidate across all years; years are ranked by how much they have.
+async function programExactDay(key, mm, dd, o, rand, limit, log) {
+  log(`${key}: finding everything that aired on ${prettyDate(mm, dd)}, ${o.from}–${o.to}`);
+  const [range, news] = await Promise.all([
+    limit(() => searchByDate({ mm, dd, from: o.from, to: o.to, limit: 1000, rows: 400 })),
+    onThisDay({ mm, dd, from: o.from, to: o.to }).catch(() => ({ results: [] })),
+  ]);
+  const candidates = range.results.filter((r) =>
+    r.score > 0 // drops mis-dated feature films and rips
+    && !r.collections?.includes('feature_films')
+    && airedThatDay(r)
+    && !looksLikeJunk(r.title)
+    && !looksLikeMeeting(r.title)
+    && !looksLikeCompilation(r.title));
+  // Date in the title or identifier is strong evidence; a bare `date` field is
+  // sometimes just when it was uploaded.
+  const evidence = (r) => (r.strategies.includes('identifier') || r.strategies.includes('title') ? 2 : 1);
+  const byYear = new Map();
+  for (const r of candidates) {
+    if (!byYear.has(r.airYear)) byYear.set(r.airYear, []);
+    byYear.get(r.airYear).push(r);
+  }
+  const years = [...byYear.entries()]
+    .map(([year, list]) => ({
+      year,
+      list: list.sort((a, b) => evidence(b) - evidence(a) || b.score - a.score),
+      headlines: news.results.filter((e) => e.year === year),
+      weight: list.reduce((s, r) => s + evidence(r), 0),
+    }))
+    .sort((a, b) => b.weight - a.weight || a.year - b.year);
+  log(`${key}: ${candidates.length} exact-date items across ${years.length} years`);
+
+  // Spread channels across decades: best year of each decade in turn.
+  const byDecade = new Map();
+  for (const y of years) {
+    const d = Math.floor(y.year / 10) * 10;
+    if (!byDecade.has(d)) byDecade.set(d, []);
+    byDecade.get(d).push(y);
+  }
+  const ordered = [];
+  while ([...byDecade.values()].some((l) => l.length)) {
+    for (const d of [...byDecade.keys()].sort((a, b) => a - b)) {
+      const next = byDecade.get(d).shift();
+      if (next) ordered.push(next);
+    }
+  }
+
+  const channels = [];
+  const library = [];
+  for (const y of ordered) {
+    if (channels.length >= o.channels) break;
+    const programs = await fillExact(y, o, limit);
+    const minutes = programs.reduce((s, p) => s + p.segments.reduce((t, g) => t + g.duration, 0), 0) / 60;
+    if (minutes < o.minMinutes) {
+      log(`${key}: ${y.year} skipped (${programs.length ? `only ${minutes.toFixed(1)} min` : 'no playable video'})`);
+      continue;
+    }
+    const ads = await fillAds(y.year, o, limit, rand);
+    library.push(...programs, ...ads);
+    channels.push({ year: y.year, programs, ads, headlines: y.headlines });
+  }
+  return finish(key, mm, dd, o, channels, library);
+}
+
+async function fillExact(y, o, limit) {
+  const picked = [];
+  const seen = new Set();
+  let seconds = 0;
+  const full = () => seconds >= o.targetMinutes * 60 || picked.length >= o.maxPrograms;
+  for (let i = 0; i < y.list.length && !full(); i += o.concurrency) {
+    const batch = y.list.slice(i, i + o.concurrency);
+    const metas = await Promise.all(batch.map((r) => limit(() => getItem(r.identifier)).catch(() => null)));
+    batch.forEach((r, j) => {
+      const file = metas[j] && bestFile(metas[j]);
+      if (!file || file.length < 20 || file.length > o.maxExactMinutes * 60 || full()) return;
+      // Same show twice on one day is almost always two uploads of one episode.
+      const { base, part } = titleKey(r.title);
+      const show = base.split(' ').slice(0, 4).join(' ');
+      if (seen.has(`${base}|${part}`) || seen.has(`show:${show}`)) return;
+      seen.add(`${base}|${part}`);
+      seen.add(`show:${show}`);
+      picked.push(toLibraryItem(r, metas[j], file, { category: categoryFor(r), year: y.year }));
+      seconds += file.length;
+    });
+  }
+  return picked;
 }

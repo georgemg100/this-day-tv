@@ -4,8 +4,11 @@
 //   node autopilot.js                    today (station timezone)
 //   node autopilot.js --days 7           today and the next 6 days
 //   node autopilot.js --date 12-25       a specific day
-//   node autopilot.js --channels 10      more channels (one year each)
-//   node autopilot.js --rights any       allow programs whose rights are unknown (more 80s/90s)
+//   node autopilot.js --channels 12      more channels (one year each, max 12)
+//   node autopilot.js --mode pd          public-domain programs only, filled from the
+//                                        same week/year (default: --mode exact, i.e.
+//                                        only what aired on the date, any rights)
+//   node autopilot.js --mode pd --rights any   pd mode, but allow rights-unknown fill
 //   node autopilot.js --ad-rights pd     only public-domain commercials
 //   node autopilot.js --force            replace a day you published by hand
 //   node autopilot.js --dry-run          print the plan, write nothing
@@ -27,12 +30,13 @@ function parseArgs(argv) {
     else if (a === '--date') args.date = parseMMDD(val()).key;
     else if (a === '--channels') args.channels = Math.max(1, Math.min(12, Number(val()) || DEFAULTS.channels));
     else if (a === '--rights') args.rights = val() === 'any' ? 'any' : 'pd';
+    else if (a === '--mode') args.mode = val() === 'pd' ? 'pd' : 'exact';
     else if (a === '--ad-rights') args.adRights = val() === 'pd' ? 'pd' : 'any';
     else if (a === '--target-minutes') args.targetMinutes = Number(val()) || DEFAULTS.targetMinutes;
     else if (a === '--force') args.force = true;
     else if (a === '--dry-run') args.dryRun = true;
     else if (a === '--help' || a === '-h') {
-      console.log(fs.readFileSync(new URL(import.meta.url), 'utf8').split('\n').slice(1, 15).join('\n').replace(/^\/\/ ?/gm, ''));
+      console.log(fs.readFileSync(new URL(import.meta.url), 'utf8').split('\n').slice(1, 18).join('\n').replace(/^\/\/ ?/gm, ''));
       process.exit(0);
     } else throw new Error(`unknown option ${a}`);
   }
@@ -61,7 +65,7 @@ for (const key of dayKeys(start, args.days)) {
   const t0 = Date.now();
   try {
     const { compiled, warnings, report } = await programDay(key, {
-      channels: args.channels, rights: args.rights, adRights: args.adRights, targetMinutes: args.targetMinutes,
+      channels: args.channels, mode: args.mode, rights: args.rights, adRights: args.adRights, targetMinutes: args.targetMinutes,
       log: (m) => console.log(`  ${m}`),
     });
     if (!compiled) {
