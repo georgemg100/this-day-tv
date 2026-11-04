@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#120d0a">
+  <meta name="description" content="Television from this day in history: newsreels, newscasts and commercials as they aired, streamed from the Internet Archive.">
+  <title>This Day TV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Playfair+Display:wght@700;900&family=Libre+Baskerville:wght@400;700&family=Fredoka:wght@600&display=swap">
+  <link rel="stylesheet" href="css/tv.css">
+</head>
+<body>
+  <main class="room">
+    <div class="tube" id="tube">
+      <div class="picture" id="picture" aria-live="polite">
+        <video id="vA" playsinline preload="auto" aria-label="Broadcast"></video>
+        <video id="vB" playsinline preload="auto" aria-hidden="true"></video>
+
+        <div class="layer radio" id="radio" hidden>
+          <div class="on-air">ON THE AIR</div>
+          <div class="radio-title" id="radioTitle"></div>
+          <div class="radio-sub" id="radioSub"></div>
+          <div class="bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        </div>
+
+        <div class="layer card" id="card" hidden>
+          <div class="card-inner">
+            <div class="kicker" id="cardKicker"></div>
+            <div class="rule"></div>
+            <h1 class="card-title" id="cardTitle"></h1>
+            <p class="card-body" id="cardBody"></p>
+          </div>
+        </div>
+
+        <div class="layer pattern" id="pattern" hidden>
+          <div class="bars-top"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <div class="bars-mid"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <div class="bars-low"><i></i><i></i><i></i><i></i></div>
+          <div class="slate">
+            <div class="slate-title">PLEASE STAND BY</div>
+            <div class="slate-sub" id="patternSub"></div>
+          </div>
+        </div>
+
+        <canvas class="layer static" id="static" width="160" height="120" hidden></canvas>
+
+        <div class="bug" id="bug" hidden></div>
+        <div class="lower" id="lower" hidden>
+          <div class="lower-title" id="lowerTitle"></div>
+          <div class="lower-sub" id="lowerSub"></div>
+        </div>
+        <div class="credit" id="credit"></div>
+        <div class="glass" aria-hidden="true"></div>
+      </div>
+
+      <div class="off" id="off">
+        <div class="off-inner">
+          <div class="off-brand">This Day TV</div>
+          <div class="off-date" id="offDate">&nbsp;</div>
+          <button class="power-knob" id="powerOn" type="button" aria-label="Turn on the TV">
+            <span aria-hidden="true">⏻</span>
+          </button>
+          <div class="off-hint" id="offHint">Turn on the TV (sound on)</div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="controls" id="controls" aria-label="TV controls">
+      <button type="button" id="btnPower" title="Power (P)" aria-label="Power">⏻</button>
+      <button type="button" id="btnDown" title="Channel down (↓)" aria-label="Channel down">▼</button>
+      <div class="dial">
+        <div class="dial-channel" id="dialChannel">—</div>
+        <div class="dial-now" id="dialNow"></div>
+      </div>
+      <button type="button" id="btnUp" title="Channel up (↑)" aria-label="Channel up">▲</button>
+      <button type="button" id="btnGuide" title="Listings (G)" aria-label="Listings">☰</button>
+      <button type="button" id="btnMute" title="Mute (M)" aria-label="Mute">🔊</button>
+      <button type="button" id="btnFull" title="Full screen (F)" aria-label="Full screen">⛶</button>
+    </nav>
+
+    <section class="guide" id="guide" hidden aria-label="Listings">
+      <header class="guide-head">
+        <div>
+          <div class="guide-kicker" id="guideKicker">Listings</div>
+          <h2 id="guideTitle">Tonight</h2>
+        </div>
+        <button type="button" id="guideClose" aria-label="Close listings">✕</button>
+      </header>
+      <div class="guide-channels" id="guideChannels"></div>
+      <ol class="guide-list" id="guideList"></ol>
+      <p class="guide-foot">Programming streamed from the Internet Archive. Times are <span id="guideTz"></span>.</p>
+    </section>
+  </main>
+
+  <script type="module" src="js/tv.js"></script>
+</body>
+</html>

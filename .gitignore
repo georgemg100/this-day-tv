@@ -1,0 +1,6 @@
+node_modules/
+admin/.env
+admin/data/
+admin/media/
+.DS_Store
+*.tmp

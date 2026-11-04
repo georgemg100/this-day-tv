@@ -1,0 +1,28 @@
+{
+  "name": "ThisDayTV",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "ThisDayTV": {
+        "$path": "src/shared"
+      }
+    },
+    "ServerScriptService": {
+      "ThisDayTVServer": {
+        "$path": "src/server"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "ThisDayTVClient": {
+          "$path": "src/client"
+        }
+      }
+    },
+    "HttpService": {
+      "$properties": {
+        "HttpEnabled": true
+      }
+    }
+  }
+}

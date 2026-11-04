@@ -1,0 +1,15 @@
+{
+  "name": "this-day-tv-admin",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Admin console for the This Day TV Roblox station: find archival programming, ingest it, upload to Roblox, and publish daily lineups.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "autopilot": "node autopilot.js",
+    "test": "node --test test/*.test.js"
+  }
+}

@@ -1,0 +1,1775 @@
+<roblox version="4">
+  <Item class="HttpService" referent="0">
+    <Properties>
+      <string name="Name">HttpService</string>
+      <bool name="HttpEnabled">true</bool>
+    </Properties>
+  </Item>
+  <Item class="ReplicatedStorage" referent="1">
+    <Properties>
+      <string name="Name">ReplicatedStorage</string>
+    </Properties>
+    <Item class="Folder" referent="2">
+      <Properties>
+        <string name="Name">ThisDayTV</string>
+      </Properties>
+      <Item class="ModuleScript" referent="3">
+        <Properties>
+          <string name="Name">Broadcast</string>
+          <string name="Source"><![CDATA[--!strict
+-- Pure broadcast math shared by server and client: station day, schedule
+-- validation, and "what is on channel N at time T".
+--
+-- Every channel is a loop anchored to local midnight of the station day, so
+-- all servers and all players see the same thing at the same moment, using
+-- workspace:GetServerTimeNow() as the shared clock.
+
+local Config = require(script.Parent.Config)
+
+export type Item = {
+	kind: string, -- "video" | "audio" | "card"
+	duration: number,
+	assetId: string?,
+	title: string?,
+	text: string?,
+	style: string?,
+	year: number?,
+	airDate: string?,
+	category: string?,
+	part: number?,
+	parts: number?,
+	credit: string?,
+}
+
+export type Channel = {
+	number: number,
+	name: string,
+	tagline: string?,
+	year: number?, -- the channel's broadcast year (everything on it is from then)
+	totalDuration: number,
+	items: { Item },
+}
+
+export type Schedule = {
+	format: number,
+	date: string,
+	title: string?,
+	channels: { Channel },
+}
+
+export type StationDay = { key: string, anchor: number, month: number, day: number }
+
+local Broadcast = {}
+
+Broadcast.MONTHS = {
+	"January", "February", "March", "April", "May", "June",
+	"July", "August", "September", "October", "November", "December",
+}
+Broadcast.MONTHS_SHORT = { "JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC" }
+
+-- Days since 1970-01-01 for a civil date (proleptic Gregorian).
+function Broadcast.daysFromCivil(y: number, m: number, d: number): number
+	if m <= 2 then
+		y -= 1
+	end
+	local era = (if y >= 0 then y else y - 399) // 400
+	local yoe = y - era * 400
+	local mp = (m + 9) % 12
+	local doy = (153 * mp + 2) // 5 + d - 1
+	local doe = yoe * 365 + yoe // 4 - yoe // 100 + doy
+	return era * 146097 + doe - 719468
+end
+
+-- Day of month of the nth Sunday of (y, m).
+local function nthSunday(y: number, m: number, n: number): number
+	local dow = (Broadcast.daysFromCivil(y, m, 1) + 4) % 7 -- 0 = Sunday (1970-01-01 was a Thursday)
+	return 1 + (7 - dow) % 7 + (n - 1) * 7
+end
+
+function Broadcast.utcOffsetSeconds(now: number): number
+	local std = Config.UtcOffsetMinutes * 60
+	if not Config.ObserveUSDaylightSaving then
+		return std
+	end
+	local year = (os.date("!*t", math.floor(now + std)) :: any).year
+	-- 2:00 local standard time, second Sunday of March -> 2:00 local daylight time, first Sunday of November
+	local startsAt = Broadcast.daysFromCivil(year, 3, nthSunday(year, 3, 2)) * 86400 + 7200 - std
+	local endsAt = Broadcast.daysFromCivil(year, 11, nthSunday(year, 11, 1)) * 86400 + 7200 - (std + 3600)
+	if now >= startsAt and now < endsAt then
+		return std + 3600
+	end
+	return std
+end
+
+function Broadcast.stationDay(now: number): StationDay
+	local offset = Broadcast.utcOffsetSeconds(now)
+	local dayIndex = (now + offset) // 86400
+	local t = os.date("!*t", math.floor(dayIndex * 86400)) :: any
+	return {
+		key = string.format("%02d-%02d", t.month, t.day),
+		anchor = dayIndex * 86400 - offset,
+		month = t.month,
+		day = t.day,
+	}
+end
+
+-- Station-local "h:mm PM" for a unix time (for listings).
+function Broadcast.localClock(t: number): string
+	local lt = os.date("!*t", math.floor(t + Broadcast.utcOffsetSeconds(t))) :: any
+	local hour = lt.hour % 12
+	if hour == 0 then
+		hour = 12
+	end
+	return string.format("%d:%02d %s", hour, lt.min, if lt.hour < 12 then "AM" else "PM")
+end
+
+local VALID_KINDS = { video = true, audio = true, card = true }
+
+local function str(v: any, max: number): string?
+	if type(v) ~= "string" or v == "" then
+		return nil
+	end
+	return string.sub(v, 1, max)
+end
+
+-- Defensive copy of whatever came out of the DataStore / HTTP. Drops bad items
+-- and recomputes totals rather than trusting them.
+function Broadcast.sanitize(raw: any): Schedule?
+	if type(raw) ~= "table" or type(raw.channels) ~= "table" then
+		return nil
+	end
+	local channels: { Channel } = {}
+	for _, ch in raw.channels do
+		if type(ch) ~= "table" or type(ch.items) ~= "table" then
+			continue
+		end
+		local items: { Item } = {}
+		local total = 0
+		for _, it in ch.items do
+			if type(it) ~= "table" or not VALID_KINDS[it.kind] then
+				continue
+			end
+			local duration = tonumber(it.duration)
+			if not duration or duration <= 0 or duration ~= duration then
+				continue
+			end
+			local assetId: string? = if it.assetId ~= nil then (string.gsub(tostring(it.assetId), "%D", "")) else nil
+			if it.kind ~= "card" and (not assetId or assetId == "") then
+				continue
+			end
+			table.insert(items, {
+				kind = it.kind,
+				duration = duration,
+				assetId = assetId,
+				title = str(it.title, 120),
+				text = str(it.text, 400),
+				style = str(it.style, 20),
+				year = tonumber(it.year),
+				airDate = str(it.airDate, 10),
+				category = str(it.category, 20),
+				part = tonumber(it.part),
+				parts = tonumber(it.parts),
+				credit = str(it.credit, 120),
+			})
+			total += duration
+		end
+		if #items > 0 then
+			table.insert(channels, {
+				number = tonumber(ch.number) or (#channels + 2),
+				name = str(ch.name, 24) or "TV",
+				tagline = str(ch.tagline, 80),
+				year = tonumber(ch.year),
+				totalDuration = total,
+				items = items,
+			})
+		end
+	end
+	if #channels == 0 then
+		return nil
+	end
+	table.sort(channels, function(a, b)
+		return a.number < b.number
+	end)
+	return {
+		format = tonumber(raw.format) or 1,
+		date = str(raw.date, 5) or "",
+		title = str(raw.title, 100),
+		channels = channels,
+	}
+end
+
+-- What's on `channel` at `now`: item index, seconds into it, and the unix time it started.
+function Broadcast.locate(channel: Channel, now: number, anchor: number): (number, number, number)
+	local total = channel.totalDuration
+	local elapsed = (now - anchor) % total
+	local loopStart = now - elapsed
+	local acc = 0
+	for i, item in channel.items do
+		if elapsed < acc + item.duration then
+			return i, elapsed - acc, loopStart + acc
+		end
+		acc += item.duration
+	end
+	local last = #channel.items
+	return last, 0, loopStart + total - channel.items[last].duration
+end
+
+-- Next `count` items after the current one, with their start times.
+function Broadcast.upcoming(channel: Channel, now: number, anchor: number, count: number): { { item: Item, startsAt: number } }
+	local index, offset = Broadcast.locate(channel, now, anchor)
+	local out = {}
+	local t = now - offset
+	for _ = 1, math.min(count, #channel.items) do
+		local item = channel.items[index]
+		table.insert(out, { item = item, startsAt = t })
+		t += item.duration
+		index = index % #channel.items + 1
+	end
+	return out
+end
+
+return Broadcast
+]]></string>
+        </Properties>
+      </Item>
+      <Item class="ModuleScript" referent="4">
+        <Properties>
+          <string name="Name">Config</string>
+          <string name="Source"><![CDATA[--!strict
+-- Station settings. Keep DataStoreName / MessagingTopic / timezone in sync
+-- with admin/.env (ROBLOX_DATASTORE, ROBLOX_TOPIC, STATION_TIMEZONE).
+
+local Config = {
+	-- Where the admin console publishes each day's lineup (key = "MM-DD").
+	DataStoreName = "ThisDayTV",
+	-- Open Cloud publishMessage topic that makes live servers reload at once.
+	MessagingTopic = "ThisDayTV",
+
+	-- Optional second source, used when the DataStore has no entry: an HTTPS URL
+	-- with %s for MM-DD, e.g. "https://tv.example.com/public/schedule/%s".
+	-- Needs Game Settings > Security > Allow HTTP Requests.
+	ScheduleUrl = "",
+
+	-- What "today" means. Default is US Eastern: UTC-5, plus US daylight saving.
+	UtcOffsetMinutes = -300,
+	ObserveUSDaylightSaving = true,
+
+	-- If nothing is published for today, build a free all-headlines channel from
+	-- Wikipedia's "On this day" feed (needs Allow HTTP Requests). Otherwise the
+	-- TV shows a test pattern.
+	AutoHeadlinesWhenEmpty = true,
+	HeadlineYearFrom = 1960,
+	HeadlineYearTo = 1999,
+
+	-- Re-read the DataStore this often even without a publish message (seconds).
+	RefreshSeconds = 300,
+
+	-- Playback
+	Volume = 2, -- VideoFrame/Sound volume (0-10). Sound is 3D, from the TV.
+	ResyncThreshold = 2.0, -- seconds of drift before a video is re-seeked
+	LoadTimeout = 12, -- seconds to wait for an asset before "technical difficulties"
+	LowerThirdSeconds = 7,
+}
+
+return Config
+]]></string>
+        </Properties>
+      </Item>
+    </Item>
+  </Item>
+  <Item class="ServerScriptService" referent="5">
+    <Properties>
+      <string name="Name">ServerScriptService</string>
+    </Properties>
+    <Item class="Folder" referent="6">
+      <Properties>
+        <string name="Name">ThisDayTVServer</string>
+      </Properties>
+      <Item class="ModuleScript" referent="7">
+        <Properties>
+          <string name="Name">Headlines</string>
+          <string name="Source"><![CDATA[-- Free fallback programming: Wikipedia "On this day" events and deaths as
+-- headline cards. Used only when nothing is published for today. Each channel
+-- is a single year (the years with the most to report), so a channel never
+-- mixes years. Needs HttpEnabled.
+local HttpService = game:GetService("HttpService")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local shared = ReplicatedStorage:WaitForChild("ThisDayTV")
+local Config = require(shared:WaitForChild("Config"))
+local Broadcast = require(shared:WaitForChild("Broadcast"))
+
+local Headlines = {}
+
+local MAX_CHANNELS = 3
+local NUMBERS = { 4, 7, 11 }
+local CALLSIGNS = { "WTDI", "WKTV", "WNTW" }
+
+local cache: { [string]: any } = {}
+
+function Headlines.build(day: { key: string, month: number, day: number }): any
+	if cache[day.key] ~= nil then
+		return cache[day.key] or nil
+	end
+	local url = string.format("https://en.wikipedia.org/api/rest_v1/feed/onthisday/all/%02d/%02d", day.month, day.day)
+	local ok, body = pcall(function()
+		return HttpService:GetAsync(url, true)
+	end)
+	if not ok then
+		warn(`[ThisDayTV] headline fallback unavailable: {body}`)
+		return nil
+	end
+	local decoded, data = pcall(HttpService.JSONDecode, HttpService, body)
+	if not decoded or type(data) ~= "table" then
+		return nil
+	end
+
+	-- Group events, then deaths, by year.
+	local byYear: { [number]: { { text: string, death: boolean } } } = {}
+	for _, kind in { "events", "deaths" } do
+		for _, e in (data[kind] or {}) do
+			if type(e.year) == "number" and e.year >= Config.HeadlineYearFrom and e.year <= Config.HeadlineYearTo and type(e.text) == "string" then
+				byYear[e.year] = byYear[e.year] or {}
+				table.insert(byYear[e.year], { text = e.text, death = kind == "deaths" })
+			end
+		end
+	end
+	local years = {}
+	for year, list in byYear do
+		table.insert(years, { year = year, count = #list })
+	end
+	table.sort(years, function(a, b)
+		return if a.count ~= b.count then a.count > b.count else a.year < b.year
+	end)
+	if #years == 0 then
+		cache[day.key] = false
+		return nil
+	end
+	local picked = {}
+	for i = 1, math.min(MAX_CHANNELS, #years) do
+		table.insert(picked, years[i].year)
+	end
+	table.sort(picked)
+
+	local dateText = `{Broadcast.MONTHS[day.month]} {day.day}`
+	local channels = {}
+	for n, year in picked do
+		local callsign = CALLSIGNS[n]
+		local items = {
+			{ kind = "card", style = "station-id", duration = 8, year = year, title = `{callsign} · CHANNEL {NUMBERS[n]}`, text = `Good evening. It's {dateText}, {year}. Here is the news.` },
+		}
+		for i, e in byYear[year] do
+			table.insert(items, {
+				kind = "card",
+				style = "headline",
+				duration = 12,
+				year = year,
+				title = `{dateText}, {year}`,
+				text = string.sub(if e.death then "Died today: " .. e.text else e.text, 1, 400),
+			})
+			if i % 4 == 0 and i < #byYear[year] then
+				table.insert(items, { kind = "card", style = "break", duration = 4, title = "We'll be right back", text = "Stay tuned!" })
+			end
+		end
+		table.insert(items, { kind = "card", style = "sign-off", duration = 8, year = year, title = "That concludes our news", text = `{callsign} thanks you for watching. Headlines courtesy of Wikipedia.` })
+		table.insert(channels, { number = NUMBERS[n], name = callsign, tagline = `News of {year}`, year = year, items = items })
+	end
+
+	local schedule = { format = 1, date = day.key, title = `Headlines — {dateText}`, channels = channels }
+	cache[day.key] = schedule
+	return schedule
+end
+
+return Headlines
+]]></string>
+        </Properties>
+      </Item>
+      <Item class="Script" referent="8">
+        <Properties>
+          <string name="Name">Main</string>
+          <token name="RunContext">0</token>
+          <string name="Source"><![CDATA[-- This Day TV: server entry point.
+local ServerScriptService = game:GetService("ServerScriptService")
+
+local root = ServerScriptService:WaitForChild("ThisDayTVServer")
+local WorldBuilder = require(root:WaitForChild("WorldBuilder"))
+local ScheduleService = require(root:WaitForChild("ScheduleService"))
+
+WorldBuilder.build()
+ScheduleService.start()
+]]></string>
+        </Properties>
+      </Item>
+      <Item class="ModuleScript" referent="9">
+        <Properties>
+          <string name="Name">ScheduleService</string>
+          <string name="Source"><![CDATA[-- Loads today's lineup and replicates it to every client.
+--
+-- Sources, in order:
+--   1. DataStore Config.DataStoreName, key "MM-DD"  (written by the admin console via Open Cloud)
+--   2. Config.ScheduleUrl                            (optional HTTPS mirror)
+--   3. Wikipedia "On this day" headline cards        (free fallback, needs HTTP)
+--   4. nothing -> clients show a test pattern
+--
+-- Reloads when the station day rolls over, every Config.RefreshSeconds, and
+-- immediately when the admin console publishes (MessagingService topic).
+
+local DataStoreService = game:GetService("DataStoreService")
+local HttpService = game:GetService("HttpService")
+local MessagingService = game:GetService("MessagingService")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local shared = ReplicatedStorage:WaitForChild("ThisDayTV")
+local Config = require(shared:WaitForChild("Config"))
+local Broadcast = require(shared:WaitForChild("Broadcast"))
+local Headlines = require(script.Parent:WaitForChild("Headlines"))
+
+local ScheduleService = {}
+
+local stateFolder: Folder
+local broadcastValue: StringValue
+local currentKey: string? = nil
+local loading = false
+
+local function getStore()
+	local ok, store = pcall(function()
+		return DataStoreService:GetDataStore(Config.DataStoreName)
+	end)
+	return if ok then store else nil
+end
+
+local function fromDataStore(key: string): any
+	local store = getStore()
+	if not store then
+		return nil
+	end
+	for attempt = 1, 3 do
+		local ok, value = pcall(function()
+			return store:GetAsync(key)
+		end)
+		if ok then
+			return value
+		end
+		warn(`[ThisDayTV] DataStore read failed (attempt {attempt}): {value}`)
+		task.wait(attempt * 2)
+	end
+	return nil
+end
+
+local function fromUrl(key: string): any
+	if Config.ScheduleUrl == "" then
+		return nil
+	end
+	local ok, body = pcall(function()
+		return HttpService:GetAsync(string.format(Config.ScheduleUrl, key), true)
+	end)
+	if not ok then
+		warn(`[ThisDayTV] ScheduleUrl fetch failed: {body}`)
+		return nil
+	end
+	local decoded, value = pcall(HttpService.JSONDecode, HttpService, body)
+	return if decoded then value else nil
+end
+
+local function loadNow(reason: string)
+	local day = Broadcast.stationDay(os.time())
+	local source = "none"
+	local schedule = Broadcast.sanitize(fromDataStore(day.key))
+	if schedule then
+		source = "datastore"
+	else
+		schedule = Broadcast.sanitize(fromUrl(day.key))
+		if schedule then
+			source = "url"
+		elseif Config.AutoHeadlinesWhenEmpty then
+			schedule = Broadcast.sanitize(Headlines.build(day))
+			if schedule then
+				source = "headlines"
+			end
+		end
+	end
+
+	currentKey = day.key
+	broadcastValue.Value = HttpService:JSONEncode({
+		key = day.key,
+		month = day.month,
+		day = day.day,
+		anchor = day.anchor,
+		source = source,
+		schedule = schedule,
+		loadedAt = os.time(),
+	})
+	local channelCount = if schedule then #schedule.channels else 0
+	print(`[ThisDayTV] {day.key}: {channelCount} channel(s) from {source} ({reason})`)
+end
+
+local pending: string? = nil
+
+-- Serialised: a publish message that arrives mid-load triggers one more load
+-- afterwards instead of being dropped.
+local function load(reason: string)
+	if loading then
+		pending = reason
+		return
+	end
+	loading = true
+	local nextReason: string? = reason
+	while nextReason do
+		pending = nil
+		local ok, err = pcall(loadNow, nextReason)
+		if not ok then
+			warn(`[ThisDayTV] schedule load failed: {err}`)
+		end
+		nextReason = pending
+	end
+	loading = false
+end
+
+function ScheduleService.start()
+	stateFolder = Instance.new("Folder")
+	stateFolder.Name = "ThisDayTVState"
+	broadcastValue = Instance.new("StringValue")
+	broadcastValue.Name = "Broadcast"
+	broadcastValue.Parent = stateFolder
+	stateFolder.Parent = ReplicatedStorage
+
+	load("startup")
+
+	task.spawn(function()
+		local ok, err = pcall(function()
+			MessagingService:SubscribeAsync(Config.MessagingTopic, function(message)
+				local data = tostring(message.Data)
+				if data == "*" or data == currentKey then
+					load("publish message")
+				end
+			end)
+		end)
+		if not ok then
+			warn(`[ThisDayTV] MessagingService subscribe failed (live reload disabled): {err}`)
+		end
+	end)
+
+	task.spawn(function()
+		local lastFull = os.clock()
+		while true do
+			task.wait(15)
+			local day = Broadcast.stationDay(os.time())
+			if day.key ~= currentKey then
+				load("new day")
+				lastFull = os.clock()
+			elseif os.clock() - lastFull >= Config.RefreshSeconds then
+				load("refresh")
+				lastFull = os.clock()
+			end
+		end
+	end)
+end
+
+return ScheduleService
+]]></string>
+        </Properties>
+      </Item>
+      <Item class="ModuleScript" referent="10">
+        <Properties>
+          <string name="Name">WorldBuilder</string>
+          <string name="Source"><![CDATA[-- Builds the 1960s living room in code, so the project needs no binary place
+-- file. Skipped if workspace already has a "TVStation" (e.g. you built your own;
+-- just keep a TVStation.TV.Screen part whose Front face is the picture tube,
+-- plus optional TVStation.Calendar and TVStation.Listings parts).
+
+local Lighting = game:GetService("Lighting")
+
+local WorldBuilder = {}
+
+local WALNUT = Color3.fromRGB(92, 58, 36)
+local DARK_WALNUT = Color3.fromRGB(64, 40, 26)
+local AVOCADO = Color3.fromRGB(112, 122, 52)
+local HARVEST_GOLD = Color3.fromRGB(218, 165, 32)
+local BURNT_ORANGE = Color3.fromRGB(196, 98, 38)
+local WALLPAPER = Color3.fromRGB(222, 196, 128)
+local CREAM = Color3.fromRGB(240, 228, 200)
+
+local function part(parent: Instance, props: { [string]: any }): BasePart
+	local className = props.ClassName or "Part"
+	local p = Instance.new(className) :: BasePart
+	p.Anchored = true
+	p.TopSurface = Enum.SurfaceType.Smooth
+	p.BottomSurface = Enum.SurfaceType.Smooth
+	p.Material = Enum.Material.SmoothPlastic
+	for k, v in props do
+		if k ~= "ClassName" and k ~= "Shape" then
+			(p :: any)[k] = v
+		end
+	end
+	if props.Shape then
+		(p :: any).Shape = props.Shape
+	end
+	p.Parent = parent
+	return p
+end
+
+local function model(parent: Instance, name: string): Model
+	local m = Instance.new("Model")
+	m.Name = name
+	m.Parent = parent
+	return m
+end
+
+-- Cylinder standing upright (Roblox cylinders run along X by default).
+local function upright(cf: CFrame): CFrame
+	return cf * CFrame.Angles(0, 0, math.rad(90))
+end
+
+local function buildRoom(root: Model)
+	local room = model(root, "Room")
+	part(room, { Name = "Floor", Size = Vector3.new(44, 1, 34), CFrame = CFrame.new(0, -0.5, 0), Material = Enum.Material.WoodPlanks, Color = Color3.fromRGB(122, 82, 50) })
+	part(room, { Name = "ShagRug", Size = Vector3.new(20, 0.2, 13), CFrame = CFrame.new(0, 0.1, 1), Material = Enum.Material.Fabric, Color = BURNT_ORANGE })
+	part(room, { Name = "Ceiling", Size = Vector3.new(44, 1, 34), CFrame = CFrame.new(0, 14.5, 0), Color = CREAM })
+
+	local walls = {
+		{ "NorthWall", Vector3.new(44, 14, 1), Vector3.new(0, 7, -17.5), Vector3.new(0, 0, 1) },
+		{ "SouthWall", Vector3.new(44, 14, 1), Vector3.new(0, 7, 17.5), Vector3.new(0, 0, -1) },
+		{ "WestWall", Vector3.new(1, 14, 34), Vector3.new(-22.5, 7, 0), Vector3.new(1, 0, 0) },
+		{ "EastWall", Vector3.new(1, 14, 34), Vector3.new(22.5, 7, 0), Vector3.new(-1, 0, 0) },
+	}
+	for _, w in walls do
+		local name, size, pos, inward = w[1], w[2], w[3], w[4]
+		part(room, { Name = name, Size = size, CFrame = CFrame.new(pos), Material = Enum.Material.Fabric, Color = WALLPAPER })
+		-- Wood paneling on the lower half, slightly proud of the wall.
+		local panelSize = Vector3.new(if size.X > 1 then size.X - 2 else 0.2, 5, if size.Z > 1 then size.Z - 2 else 0.2)
+		part(room, { Name = name .. "Paneling", Size = panelSize, CFrame = CFrame.new(Vector3.new(pos.X, 2.5, pos.Z) + inward * 0.6), Material = Enum.Material.Wood, Color = DARK_WALNUT })
+		part(room, { Name = name .. "ChairRail", Size = panelSize + Vector3.new(0, -4.7, 0) + Vector3.new(if size.X > 1 then 0 else 0.15, 0, if size.Z > 1 then 0 else 0.15), CFrame = CFrame.new(Vector3.new(pos.X, 5.1, pos.Z) + inward * 0.7), Material = Enum.Material.Wood, Color = WALNUT })
+	end
+
+	-- Night-time window on the east wall, with curtains.
+	part(room, { Name = "WindowFrame", Size = Vector3.new(0.4, 6.4, 8.4), CFrame = CFrame.new(21.85, 8, -2), Material = Enum.Material.Wood, Color = CREAM })
+	local glass = part(room, { Name = "WindowGlass", Size = Vector3.new(0.2, 6, 8), CFrame = CFrame.new(21.6, 8, -2), Material = Enum.Material.Neon, Color = Color3.fromRGB(24, 32, 70), Transparency = 0.15 })
+	glass.CastShadow = false
+	part(room, { Name = "WindowMullion", Size = Vector3.new(0.3, 6, 0.25), CFrame = CFrame.new(21.5, 8, -2), Color = CREAM })
+	part(room, { Name = "WindowTransom", Size = Vector3.new(0.3, 0.25, 8), CFrame = CFrame.new(21.5, 8, -2), Color = CREAM })
+	for _, z in { -7, 3 } do
+		part(room, { Name = "Curtain", Size = Vector3.new(0.4, 8, 2.4), CFrame = CFrame.new(21.2, 7.6, z), Material = Enum.Material.Fabric, Color = HARVEST_GOLD })
+	end
+
+	-- Door on the south wall (decor).
+	part(room, { Name = "Door", Size = Vector3.new(4.5, 9, 0.3), CFrame = CFrame.new(14, 4.5, 16.85), Material = Enum.Material.Wood, Color = WALNUT })
+	part(room, { Name = "DoorKnob", Shape = Enum.PartType.Ball, Size = Vector3.new(0.4, 0.4, 0.4), CFrame = CFrame.new(12.3, 4.3, 16.6), Material = Enum.Material.Metal, Color = HARVEST_GOLD })
+
+	-- Framed art.
+	for i, spec in { { -15, Color3.fromRGB(46, 110, 120) }, { 15, Color3.fromRGB(180, 70, 50) } } do
+		part(room, { Name = "Frame" .. i, Size = Vector3.new(3.6, 2.8, 0.2), CFrame = CFrame.new(spec[1], 9.2, -16.85), Material = Enum.Material.Wood, Color = HARVEST_GOLD })
+		part(room, { Name = "Art" .. i, Size = Vector3.new(3, 2.2, 0.1), CFrame = CFrame.new(spec[1], 9.2, -16.72), Color = spec[2] })
+	end
+end
+
+local function buildTV(root: Model): BasePart
+	local tv = model(root, "TV")
+	local cabinetCF = CFrame.new(0, 3.2, -14.6)
+	part(tv, { Name = "Cabinet", Size = Vector3.new(10, 4.4, 3.4), CFrame = cabinetCF, Material = Enum.Material.Wood, Color = WALNUT })
+	part(tv, { Name = "CabinetTop", Size = Vector3.new(10.4, 0.25, 3.7), CFrame = cabinetCF * CFrame.new(0, 2.3, 0), Material = Enum.Material.Wood, Color = DARK_WALNUT })
+	for _, x in { -4.4, 4.4 } do
+		for _, z in { -1.2, 1.2 } do
+			part(tv, { Name = "Leg", Shape = Enum.PartType.Cylinder, Size = Vector3.new(1, 0.35, 0.35), CFrame = upright(CFrame.new(x, 0.5, -14.6 + z)), Material = Enum.Material.Wood, Color = DARK_WALNUT })
+		end
+	end
+
+	local front = -14.6 + 1.7 -- cabinet front face z
+	part(tv, { Name = "Bezel", Size = Vector3.new(6.1, 4.0, 0.12), CFrame = CFrame.new(-1.6, 3.25, front + 0.06), Color = Color3.fromRGB(38, 34, 30) })
+	-- 4:3 picture tube. Its Front face (local -Z) points into the room.
+	local screenPos = Vector3.new(-1.6, 3.25, front + 0.14)
+	local screen = part(tv, {
+		Name = "Screen",
+		Size = Vector3.new(5.2, 3.9, 0.05),
+		CFrame = CFrame.lookAt(screenPos, screenPos + Vector3.new(0, 0, 1)),
+		Color = Color3.fromRGB(12, 14, 14),
+		Material = Enum.Material.Glass,
+		Reflectance = 0.05,
+	})
+	screen.CastShadow = false
+	local glow = Instance.new("SurfaceLight")
+	glow.Name = "Glow"
+	glow.Face = Enum.NormalId.Front
+	glow.Angle = 100
+	glow.Range = 16
+	glow.Brightness = 1.4
+	glow.Color = Color3.fromRGB(190, 210, 255)
+	glow.Shadows = true
+	glow.Parent = screen
+
+	part(tv, { Name = "SpeakerGrille", Size = Vector3.new(2.4, 2.4, 0.1), CFrame = CFrame.new(3.4, 2.6, front + 0.05), Material = Enum.Material.Fabric, Color = Color3.fromRGB(196, 176, 140) })
+	for i, x in { 2.8, 4.0 } do
+		part(tv, {
+			Name = "Knob" .. i,
+			Shape = Enum.PartType.Cylinder,
+			Size = Vector3.new(0.35, 0.7, 0.7),
+			CFrame = CFrame.new(x, 4.55, front + 0.17) * CFrame.Angles(0, math.rad(90), 0),
+			Color = Color3.fromRGB(30, 26, 22),
+		})
+	end
+	part(tv, { Name = "BrandPlate", Size = Vector3.new(1.4, 0.25, 0.05), CFrame = CFrame.new(-1.6, 1.12, front + 0.03), Material = Enum.Material.Metal, Color = HARVEST_GOLD })
+
+	-- Rabbit ears.
+	local base = Vector3.new(0.5, 5.65, -14.8)
+	part(tv, { Name = "AntennaBase", Shape = Enum.PartType.Ball, Size = Vector3.new(0.9, 0.9, 0.9), CFrame = CFrame.new(base), Color = Color3.fromRGB(30, 26, 22) })
+	for i, tilt in { 28, -28 } do
+		local cf = CFrame.new(base) * CFrame.Angles(math.rad(-8), 0, math.rad(tilt)) * CFrame.new(0, 2.2, 0)
+		part(tv, { Name = "Antenna" .. i, Shape = Enum.PartType.Cylinder, Size = Vector3.new(4.4, 0.08, 0.08), CFrame = upright(cf), Material = Enum.Material.Metal, Color = Color3.fromRGB(200, 200, 205) })
+	end
+
+	local prompt = Instance.new("ProximityPrompt")
+	prompt.Name = "ChannelPrompt"
+	prompt.ActionText = "Change channel"
+	prompt.ObjectText = "Television"
+	prompt.KeyboardKeyCode = Enum.KeyCode.E
+	prompt.MaxActivationDistance = 12
+	prompt.RequiresLineOfSight = false
+	prompt.Parent = tv:FindFirstChild("Cabinet")
+
+	return screen
+end
+
+local function buildFurniture(root: Model)
+	local furn = model(root, "Furniture")
+
+	-- Couch facing the TV.
+	local couchZ = 7
+	part(furn, { Name = "CouchBase", Size = Vector3.new(12, 1.4, 4), CFrame = CFrame.new(0, 1.0, couchZ), Material = Enum.Material.Fabric, Color = AVOCADO })
+	part(furn, { Name = "CouchBack", Size = Vector3.new(12, 3.4, 1.2), CFrame = CFrame.new(0, 3.1, couchZ + 1.6) * CFrame.Angles(math.rad(-8), 0, 0), Material = Enum.Material.Fabric, Color = AVOCADO })
+	for _, x in { -6.6, 6.6 } do
+		part(furn, { Name = "CouchArm", Size = Vector3.new(1.2, 2.6, 4.2), CFrame = CFrame.new(x, 1.6, couchZ), Material = Enum.Material.Fabric, Color = AVOCADO })
+	end
+	for i, x in { -4, 0, 4 } do
+		-- Seats face the TV (-Z), which is CFrame.new's default look direction.
+		part(furn, { ClassName = "Seat", Name = "CouchSeat" .. i, Size = Vector3.new(3.8, 0.6, 3.4), CFrame = CFrame.new(x, 2.0, couchZ - 0.2), Material = Enum.Material.Fabric, Color = Color3.fromRGB(124, 134, 60) })
+	end
+
+	-- Coffee table.
+	part(furn, { Name = "CoffeeTableTop", Size = Vector3.new(6.5, 0.3, 3), CFrame = CFrame.new(0, 1.6, 1.8), Material = Enum.Material.Wood, Color = WALNUT })
+	for _, x in { -2.9, 2.9 } do
+		for _, z in { -1.1, 1.1 } do
+			part(furn, { Name = "CoffeeTableLeg", Shape = Enum.PartType.Cylinder, Size = Vector3.new(1.45, 0.25, 0.25), CFrame = upright(CFrame.new(x, 0.72, 1.8 + z)), Material = Enum.Material.Wood, Color = DARK_WALNUT })
+		end
+	end
+	part(furn, { Name = "CandyDish", Shape = Enum.PartType.Cylinder, Size = Vector3.new(0.3, 1.2, 1.2), CFrame = upright(CFrame.new(1.6, 1.9, 1.8)), Material = Enum.Material.Glass, Color = BURNT_ORANGE, Transparency = 0.3 })
+
+	-- Floor lamp with the room's warm light.
+	local lampPos = Vector3.new(-9.5, 0, 7.5)
+	part(furn, { Name = "LampBase", Shape = Enum.PartType.Cylinder, Size = Vector3.new(0.3, 1.6, 1.6), CFrame = upright(CFrame.new(lampPos + Vector3.new(0, 0.15, 0))), Material = Enum.Material.Metal, Color = HARVEST_GOLD })
+	part(furn, { Name = "LampPole", Shape = Enum.PartType.Cylinder, Size = Vector3.new(7, 0.18, 0.18), CFrame = upright(CFrame.new(lampPos + Vector3.new(0, 3.6, 0))), Material = Enum.Material.Metal, Color = HARVEST_GOLD })
+	local shade = part(furn, { Name = "LampShade", Shape = Enum.PartType.Cylinder, Size = Vector3.new(1.6, 2.2, 2.2), CFrame = upright(CFrame.new(lampPos + Vector3.new(0, 7.4, 0))), Material = Enum.Material.Fabric, Color = CREAM, Transparency = 0.1 })
+	local light = Instance.new("PointLight")
+	light.Color = Color3.fromRGB(255, 196, 130)
+	light.Range = 26
+	light.Brightness = 1.3
+	light.Shadows = true
+	light.Parent = shade
+
+	-- Side table with a rotary phone.
+	local st = Vector3.new(9.5, 0, 7.5)
+	part(furn, { Name = "SideTable", Size = Vector3.new(2.6, 2.4, 2.6), CFrame = CFrame.new(st + Vector3.new(0, 1.2, 0)), Material = Enum.Material.Wood, Color = WALNUT })
+	part(furn, { Name = "PhoneBody", Size = Vector3.new(1.2, 0.5, 1.0), CFrame = CFrame.new(st + Vector3.new(0, 2.65, 0)), Color = Color3.fromRGB(180, 40, 40) })
+	part(furn, { Name = "PhoneHandset", Size = Vector3.new(1.4, 0.25, 0.35), CFrame = CFrame.new(st + Vector3.new(0, 3.0, -0.2)), Color = Color3.fromRGB(180, 40, 40) })
+	part(furn, { Name = "PhoneDial", Shape = Enum.PartType.Cylinder, Size = Vector3.new(0.05, 0.6, 0.6), CFrame = CFrame.new(st + Vector3.new(0, 2.8, 0.52)) * CFrame.Angles(0, math.rad(90), 0), Color = CREAM })
+
+	-- Hi-fi console along the west wall.
+	part(furn, { Name = "HiFiConsole", Size = Vector3.new(2.6, 2.6, 10), CFrame = CFrame.new(-20.4, 1.3, 1), Material = Enum.Material.Wood, Color = WALNUT })
+	part(furn, { Name = "HiFiGrille", Size = Vector3.new(0.1, 1.8, 3), CFrame = CFrame.new(-19.05, 1.4, -2.2), Material = Enum.Material.Fabric, Color = Color3.fromRGB(196, 176, 140) })
+	part(furn, { Name = "HiFiGrille2", Size = Vector3.new(0.1, 1.8, 3), CFrame = CFrame.new(-19.05, 1.4, 4.2), Material = Enum.Material.Fabric, Color = Color3.fromRGB(196, 176, 140) })
+	part(furn, { Name = "Record", Shape = Enum.PartType.Cylinder, Size = Vector3.new(0.06, 2, 2), CFrame = upright(CFrame.new(-20.4, 2.65, 1)), Color = Color3.fromRGB(15, 15, 15) })
+end
+
+local function buildWallDisplays(root: Model)
+	-- Client scripts draw on these (see client/Decor.luau).
+	local calPos = Vector3.new(-8.5, 7.6, -16.9)
+	part(root, { Name = "Calendar", Size = Vector3.new(2.6, 3.4, 0.1), CFrame = CFrame.lookAt(calPos, calPos + Vector3.new(0, 0, 1)), Color = Color3.fromRGB(250, 246, 236) })
+	local listPos = Vector3.new(9.5, 7.4, -16.9)
+	part(root, { Name = "ListingsFrame", Size = Vector3.new(5.0, 5.4, 0.12), CFrame = CFrame.new(listPos - Vector3.new(0, 0, 0.04)), Material = Enum.Material.Wood, Color = WALNUT })
+	part(root, { Name = "Listings", Size = Vector3.new(4.6, 5.0, 0.1), CFrame = CFrame.lookAt(listPos + Vector3.new(0, 0, 0.04), listPos + Vector3.new(0, 0, 1)), Material = Enum.Material.Fabric, Color = Color3.fromRGB(176, 128, 82) })
+end
+
+local function setupLighting()
+	Lighting.ClockTime = 21
+	Lighting.Brightness = 1
+	Lighting.Ambient = Color3.fromRGB(78, 62, 50)
+	Lighting.OutdoorAmbient = Color3.fromRGB(40, 40, 60)
+	Lighting.EnvironmentDiffuseScale = 0.2
+	Lighting.EnvironmentSpecularScale = 0.3
+	Lighting.GlobalShadows = true
+	if not Lighting:FindFirstChild("ThisDayTVGrade") then
+		local cc = Instance.new("ColorCorrectionEffect")
+		cc.Name = "ThisDayTVGrade"
+		cc.TintColor = Color3.fromRGB(255, 240, 222)
+		cc.Saturation = 0.05
+		cc.Contrast = 0.05
+		cc.Parent = Lighting
+		local bloom = Instance.new("BloomEffect")
+		bloom.Name = "ThisDayTVBloom"
+		bloom.Intensity = 0.35
+		bloom.Size = 20
+		bloom.Threshold = 1.6
+		bloom.Parent = Lighting
+	end
+end
+
+function WorldBuilder.build()
+	if workspace:FindFirstChild("TVStation") then
+		return
+	end
+	local root = Instance.new("Model")
+	root.Name = "TVStation"
+	buildRoom(root)
+	buildTV(root)
+	buildFurniture(root)
+	buildWallDisplays(root)
+
+	local spawn = Instance.new("SpawnLocation")
+	spawn.Name = "Spawn"
+	spawn.Anchored = true
+	spawn.Size = Vector3.new(6, 0.2, 4)
+	spawn.CFrame = CFrame.new(0, 0.1, 13) -- faces -Z, toward the TV
+	spawn.Transparency = 1
+	spawn.CanCollide = false
+	spawn.Neutral = true
+	spawn.Duration = 0
+	spawn.Parent = root
+
+	root.Parent = workspace
+	setupLighting()
+end
+
+return WorldBuilder
+]]></string>
+        </Properties>
+      </Item>
+    </Item>
+  </Item>
+  <Item class="StarterPlayer" referent="11">
+    <Properties>
+      <string name="Name">StarterPlayer</string>
+    </Properties>
+    <Item class="StarterPlayerScripts" referent="12">
+      <Properties>
+        <string name="Name">StarterPlayerScripts</string>
+      </Properties>
+      <Item class="Folder" referent="13">
+        <Properties>
+          <string name="Name">ThisDayTVClient</string>
+        </Properties>
+        <Item class="ModuleScript" referent="14">
+          <Properties>
+            <string name="Name">Decor</string>
+            <string name="Source"><![CDATA[-- Wall calendar (its year flips to whatever year is on the TV) and the
+-- listings board (what's coming up on the channel you're watching).
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local Broadcast = require(ReplicatedStorage:WaitForChild("ThisDayTV"):WaitForChild("Broadcast"))
+
+local Decor = {}
+Decor.__index = Decor
+
+local function new(className: string, props: { [string]: any }): any
+	local inst = Instance.new(className)
+	for k, v in props do
+		if k ~= "Parent" then
+			(inst :: any)[k] = v
+		end
+	end
+	inst.Parent = props.Parent
+	return inst
+end
+
+local function surface(part: BasePart, w: number, h: number): SurfaceGui
+	return new("SurfaceGui", {
+		Parent = part,
+		Face = Enum.NormalId.Front,
+		SizingMode = Enum.SurfaceGuiSizingMode.FixedSize,
+		CanvasSize = Vector2.new(w, h),
+		LightInfluence = 0.6,
+		MaxDistance = 120,
+	})
+end
+
+function Decor.new(station: Instance)
+	local self = setmetatable({}, Decor)
+	local cal = station:FindFirstChild("Calendar") :: BasePart?
+	if cal then
+		local g = surface(cal, 260, 340)
+		new("Frame", { Parent = g, BackgroundColor3 = Color3.fromRGB(176, 40, 32), BorderSizePixel = 0, Size = UDim2.new(1, 0, 0, 70) })
+		self.calMonth = new("TextLabel", { Parent = g, BackgroundTransparency = 1, Size = UDim2.new(1, 0, 0, 70), Font = Enum.Font.Oswald, TextSize = 40, TextColor3 = Color3.new(1, 1, 1), Text = "" })
+		self.calDay = new("TextLabel", { Parent = g, BackgroundTransparency = 1, Position = UDim2.fromOffset(0, 70), Size = UDim2.new(1, 0, 0, 170), Font = Enum.Font.Bodoni, TextSize = 150, TextColor3 = Color3.fromRGB(30, 26, 22), Text = "" })
+		self.calYear = new("TextLabel", { Parent = g, BackgroundTransparency = 1, Position = UDim2.fromOffset(0, 240), Size = UDim2.new(1, 0, 0, 60), Font = Enum.Font.Garamond, TextSize = 52, TextColor3 = Color3.fromRGB(176, 40, 32), Text = "19__" })
+		new("TextLabel", { Parent = g, BackgroundTransparency = 1, Position = UDim2.fromOffset(0, 300), Size = UDim2.new(1, 0, 0, 30), Font = Enum.Font.Garamond, TextSize = 20, TextColor3 = Color3.fromRGB(110, 100, 90), Text = "the year on your screen" })
+	end
+
+	local board = station:FindFirstChild("Listings") :: BasePart?
+	if board then
+		local g = surface(board, 460, 500)
+		local paper = new("Frame", { Parent = g, BackgroundColor3 = Color3.fromRGB(250, 244, 226), BorderSizePixel = 0, Position = UDim2.fromOffset(20, 20), Size = UDim2.new(1, -40, 1, -40), Rotation = -1 })
+		self.listTitle = new("TextLabel", { Parent = paper, BackgroundTransparency = 1, Position = UDim2.fromOffset(16, 10), Size = UDim2.new(1, -32, 0, 44), Font = Enum.Font.Oswald, TextSize = 30, TextColor3 = Color3.fromRGB(176, 40, 32), Text = "TONIGHT'S LISTINGS", TextXAlignment = Enum.TextXAlignment.Left })
+		new("Frame", { Parent = paper, BackgroundColor3 = Color3.fromRGB(30, 26, 22), BorderSizePixel = 0, Position = UDim2.fromOffset(16, 56), Size = UDim2.new(1, -32, 0, 3) })
+		self.rows = {}
+		for i = 1, 8 do
+			local y = 66 + (i - 1) * 46
+			local time = new("TextLabel", { Parent = paper, BackgroundTransparency = 1, Position = UDim2.fromOffset(16, y), Size = UDim2.fromOffset(92, 42), Font = Enum.Font.Oswald, TextSize = 20, TextColor3 = Color3.fromRGB(30, 26, 22), TextXAlignment = Enum.TextXAlignment.Left, Text = "" })
+			local title = new("TextLabel", { Parent = paper, BackgroundTransparency = 1, Position = UDim2.fromOffset(110, y), Size = UDim2.new(1, -126, 0, 42), Font = Enum.Font.Garamond, TextSize = 21, TextColor3 = Color3.fromRGB(30, 26, 22), TextXAlignment = Enum.TextXAlignment.Left, TextWrapped = true, TextTruncate = Enum.TextTruncate.AtEnd, Text = "" })
+			self.rows[i] = { time = time, title = title }
+		end
+	end
+	return self
+end
+
+function Decor:setDate(month: number?, day: number?)
+	if self.calMonth then
+		self.calMonth.Text = if month then string.upper(Broadcast.MONTHS[month]) else ""
+		self.calDay.Text = if day then tostring(day) else ""
+	end
+end
+
+function Decor:setYear(year: number?)
+	if self.calYear then
+		self.calYear.Text = if year then tostring(year) else "19__"
+	end
+end
+
+local function listingTitle(item: any): string?
+	if item.kind == "card" then
+		if item.style == "break" then
+			return nil
+		end
+		return item.title
+	end
+	if item.category == "commercial" then
+		return nil
+	end
+	local t = item.title or "Untitled"
+	if item.year then
+		t ..= ` ({item.year})`
+	end
+	return t
+end
+
+function Decor:setListings(channel: any?, now: number, anchor: number)
+	if not self.rows then
+		return
+	end
+	local entries = {}
+	if channel then
+		self.listTitle.Text = `ON CH {channel.number} · {channel.name}`
+		local last: string? = nil
+		for _, u in Broadcast.upcoming(channel, now, anchor, math.min(#channel.items, 80)) do
+			local title = listingTitle(u.item)
+			if title and title ~= last then
+				table.insert(entries, { time = Broadcast.localClock(u.startsAt), title = title })
+				last = title
+			end
+			if #entries >= #self.rows then
+				break
+			end
+		end
+	else
+		self.listTitle.Text = "TONIGHT'S LISTINGS"
+	end
+	for i, row in self.rows do
+		local e = entries[i]
+		row.time.Text = if e then e.time else ""
+		row.title.Text = if e then e.title else (if i == 1 and not channel then "No programming scheduled" else "")
+	end
+end
+
+return Decor
+]]></string>
+          </Properties>
+        </Item>
+        <Item class="ModuleScript" referent="15">
+          <Properties>
+            <string name="Name">Remote</string>
+            <string name="Source"><![CDATA[-- On-screen "remote control": channel up/down, mute, and watch mode (camera
+-- settles in front of the set). Keyboard: [ / ] change channel, M mutes, F
+-- toggles watch mode. The TV's E prompt changes channel too.
+
+local ContextActionService = game:GetService("ContextActionService")
+
+local Remote = {}
+Remote.__index = Remote
+
+local WOOD = Color3.fromRGB(78, 50, 32)
+local CREAM = Color3.fromRGB(245, 232, 200)
+local ORANGE = Color3.fromRGB(214, 106, 44)
+
+local function new(className: string, props: { [string]: any }, children: { Instance }?): any
+	local inst = Instance.new(className)
+	for k, v in props do
+		if k ~= "Parent" then
+			(inst :: any)[k] = v
+		end
+	end
+	for _, c in children or {} do
+		c.Parent = inst
+	end
+	if props.Parent then
+		inst.Parent = props.Parent
+	end
+	return inst
+end
+
+local function button(parent: Instance, text: string, order: number, width: number): TextButton
+	return new("TextButton", {
+		Parent = parent,
+		LayoutOrder = order,
+		Text = text,
+		Font = Enum.Font.Oswald,
+		TextSize = 20,
+		TextColor3 = Color3.fromRGB(40, 26, 18),
+		BackgroundColor3 = CREAM,
+		AutoButtonColor = true,
+		Size = UDim2.fromOffset(width, 44),
+	}, {
+		new("UICorner", { CornerRadius = UDim.new(0, 8) }),
+		new("UIStroke", { Color = Color3.fromRGB(40, 26, 18), Thickness = 1.5, ApplyStrokeMode = Enum.ApplyStrokeMode.Border }),
+	})
+end
+
+export type Handlers = {
+	onChannel: (delta: number) -> (),
+	onMute: () -> boolean,
+	onWatch: () -> boolean,
+}
+
+function Remote.new(playerGui: PlayerGui, handlers: Handlers)
+	local self = setmetatable({}, Remote)
+	local gui = new("ScreenGui", { Name = "ThisDayTVRemote", ResetOnSpawn = false, IgnoreGuiInset = false, ZIndexBehavior = Enum.ZIndexBehavior.Sibling, Parent = playerGui })
+
+	local panel = new("Frame", {
+		Parent = gui,
+		AnchorPoint = Vector2.new(0.5, 1),
+		Position = UDim2.new(0.5, 0, 1, -14),
+		Size = UDim2.fromOffset(560, 64),
+		BackgroundColor3 = WOOD,
+	}, {
+		new("UICorner", { CornerRadius = UDim.new(0, 14) }),
+		new("UIStroke", { Color = Color3.fromRGB(40, 26, 18), Thickness = 2 }),
+		new("UIPadding", { PaddingLeft = UDim.new(0, 10), PaddingRight = UDim.new(0, 10) }),
+		new("UIListLayout", { FillDirection = Enum.FillDirection.Horizontal, VerticalAlignment = Enum.VerticalAlignment.Center, HorizontalAlignment = Enum.HorizontalAlignment.Center, Padding = UDim.new(0, 8), SortOrder = Enum.SortOrder.LayoutOrder }),
+		new("UISizeConstraint", { MaxSize = Vector2.new(560, 64) }),
+	})
+	-- Shrink on narrow (phone) screens.
+	local scale = new("UIScale", { Parent = panel })
+	local function rescale()
+		local cam = workspace.CurrentCamera
+		if cam then
+			scale.Scale = math.clamp((cam.ViewportSize.X - 16) / 560, 0.5, 1)
+		end
+	end
+	rescale()
+	if workspace.CurrentCamera then
+		workspace.CurrentCamera:GetPropertyChangedSignal("ViewportSize"):Connect(rescale)
+	end
+
+	local down = button(panel, "◀ CH", 1, 64)
+	local info = new("Frame", { Parent = panel, LayoutOrder = 2, BackgroundTransparency = 1, Size = UDim2.fromOffset(250, 52) })
+	self.channelLabel = new("TextLabel", { Parent = info, BackgroundTransparency = 1, Size = UDim2.new(1, 0, 0, 26), Font = Enum.Font.Oswald, TextSize = 22, TextColor3 = ORANGE, Text = "WTDI · CH 4", TextTruncate = Enum.TextTruncate.AtEnd })
+	self.nowLabel = new("TextLabel", { Parent = info, BackgroundTransparency = 1, Position = UDim2.fromOffset(0, 26), Size = UDim2.new(1, 0, 0, 24), Font = Enum.Font.Garamond, TextSize = 18, TextColor3 = CREAM, Text = "", TextTruncate = Enum.TextTruncate.AtEnd })
+	local up = button(panel, "CH ▶", 3, 64)
+	local mute = button(panel, "🔊", 4, 48)
+	local watch = button(panel, "Watch", 5, 70)
+
+	down.Activated:Connect(function()
+		handlers.onChannel(-1)
+	end)
+	up.Activated:Connect(function()
+		handlers.onChannel(1)
+	end)
+	local function doMute()
+		mute.Text = if handlers.onMute() then "🔇" else "🔊"
+	end
+	local function doWatch()
+		watch.Text = if handlers.onWatch() then "Leave" else "Watch"
+	end
+	mute.Activated:Connect(doMute)
+	watch.Activated:Connect(doWatch)
+	self.watchButton = watch
+
+	ContextActionService:BindAction("ThisDayTV_ChannelDown", function(_, s)
+		if s == Enum.UserInputState.Begin then
+			handlers.onChannel(-1)
+		end
+		return Enum.ContextActionResult.Pass
+	end, false, Enum.KeyCode.LeftBracket, Enum.KeyCode.PageDown)
+	ContextActionService:BindAction("ThisDayTV_ChannelUp", function(_, s)
+		if s == Enum.UserInputState.Begin then
+			handlers.onChannel(1)
+		end
+		return Enum.ContextActionResult.Pass
+	end, false, Enum.KeyCode.RightBracket, Enum.KeyCode.PageUp)
+	ContextActionService:BindAction("ThisDayTV_Mute", function(_, s)
+		if s == Enum.UserInputState.Begin then
+			doMute()
+		end
+		return Enum.ContextActionResult.Pass
+	end, false, Enum.KeyCode.M)
+	ContextActionService:BindAction("ThisDayTV_Watch", function(_, s)
+		if s == Enum.UserInputState.Begin then
+			doWatch()
+		end
+		return Enum.ContextActionResult.Pass
+	end, false, Enum.KeyCode.F)
+
+	return self
+end
+
+function Remote:setChannel(text: string)
+	self.channelLabel.Text = text
+end
+
+function Remote:setNow(text: string)
+	self.nowLabel.Text = text
+end
+
+function Remote:setWatching(on: boolean)
+	self.watchButton.Text = if on then "Leave" else "Watch"
+end
+
+return Remote
+]]></string>
+          </Properties>
+        </Item>
+        <Item class="ModuleScript" referent="16">
+          <Properties>
+            <string name="Name">Screen</string>
+            <string name="Source"><![CDATA[-- The picture tube: a local SurfaceGui on TVStation.TV.Screen with layers for
+-- video, audio ("radio"), text cards, test pattern, static and on-screen graphics.
+-- Parented directly to the part so VideoFrame/Sound audio is 3D from the TV.
+
+local RunService = game:GetService("RunService")
+local TweenService = game:GetService("TweenService")
+
+local Screen = {}
+Screen.__index = Screen
+
+local W, H = 640, 480
+
+local function new(className: string, props: { [string]: any }, children: { Instance }?): any
+	local inst = Instance.new(className)
+	for k, v in props do
+		if k ~= "Parent" then
+			(inst :: any)[k] = v
+		end
+	end
+	for _, c in children or {} do
+		c.Parent = inst
+	end
+	if props.Parent then
+		inst.Parent = props.Parent
+	end
+	return inst
+end
+
+local function full(props: { [string]: any }): { [string]: any }
+	props.Size = props.Size or UDim2.fromScale(1, 1)
+	props.BorderSizePixel = 0
+	return props
+end
+
+local function label(props: { [string]: any }): TextLabel
+	props.BackgroundTransparency = props.BackgroundTransparency or 1
+	props.TextWrapped = if props.TextWrapped == nil then true else props.TextWrapped
+	props.TextColor3 = props.TextColor3 or Color3.new(1, 1, 1)
+	props.BorderSizePixel = 0
+	return new("TextLabel", props)
+end
+
+local CARD_THEMES = {
+	["station-id"] = { bg = Color3.fromRGB(18, 34, 74), bg2 = Color3.fromRGB(8, 14, 34), ink = Color3.fromRGB(255, 236, 190), accent = Color3.fromRGB(230, 120, 40), titleFont = Enum.Font.Bodoni, bodyFont = Enum.Font.Garamond },
+	headline = { bg = Color3.fromRGB(238, 230, 210), bg2 = Color3.fromRGB(214, 204, 180), ink = Color3.fromRGB(30, 26, 22), accent = Color3.fromRGB(120, 24, 20), titleFont = Enum.Font.Garamond, bodyFont = Enum.Font.Merriweather },
+	["break"] = { bg = Color3.fromRGB(226, 120, 40), bg2 = Color3.fromRGB(200, 70, 40), ink = Color3.fromRGB(255, 248, 225), accent = Color3.fromRGB(40, 110, 110), titleFont = Enum.Font.FredokaOne, bodyFont = Enum.Font.FredokaOne },
+	["sign-off"] = { bg = Color3.fromRGB(10, 10, 12), bg2 = Color3.fromRGB(30, 30, 40), ink = Color3.fromRGB(230, 230, 230), accent = Color3.fromRGB(200, 170, 90), titleFont = Enum.Font.Bodoni, bodyFont = Enum.Font.Garamond },
+	custom = { bg = Color3.fromRGB(30, 80, 80), bg2 = Color3.fromRGB(14, 40, 44), ink = Color3.fromRGB(245, 235, 210), accent = Color3.fromRGB(230, 170, 50), titleFont = Enum.Font.Oswald, bodyFont = Enum.Font.Garamond },
+	trouble = { bg = Color3.fromRGB(20, 20, 20), bg2 = Color3.fromRGB(50, 50, 50), ink = Color3.fromRGB(255, 255, 255), accent = Color3.fromRGB(220, 50, 50), titleFont = Enum.Font.Oswald, bodyFont = Enum.Font.Oswald },
+}
+Screen.CARD_THEMES = CARD_THEMES
+
+local SMPTE_TOP = { { 192, 192, 192 }, { 192, 192, 0 }, { 0, 192, 192 }, { 0, 192, 0 }, { 192, 0, 192 }, { 192, 0, 0 }, { 0, 0, 192 } }
+local SMPTE_MID = { { 0, 0, 192 }, { 19, 19, 19 }, { 192, 0, 192 }, { 19, 19, 19 }, { 0, 192, 192 }, { 19, 19, 19 }, { 192, 192, 192 } }
+local SMPTE_LOW = { { 0, 33, 76, 5 / 28 }, { 255, 255, 255, 5 / 28 }, { 50, 0, 106, 5 / 28 }, { 19, 19, 19, 13 / 28 } }
+
+function Screen.new(part: BasePart)
+	local self = setmetatable({}, Screen)
+	self.part = part
+
+	local gui = new("SurfaceGui", {
+		Name = "ThisDayTVPicture",
+		Face = Enum.NormalId.Front,
+		SizingMode = Enum.SurfaceGuiSizingMode.FixedSize,
+		CanvasSize = Vector2.new(W, H),
+		LightInfluence = 0,
+		Brightness = 1.25,
+		ClipsDescendants = true,
+		ZIndexBehavior = Enum.ZIndexBehavior.Sibling,
+		ResetOnSpawn = false,
+		MaxDistance = 250,
+	})
+	self.gui = gui
+
+	new("Frame", full({ Name = "Black", BackgroundColor3 = Color3.new(0, 0, 0), ZIndex = 1, Parent = gui }))
+
+	self.video = new("VideoFrame", full({ Name = "Video", BackgroundTransparency = 1, Visible = false, Looped = false, ZIndex = 2, Parent = gui }))
+
+	-- Audio-only programming: a radio-style slate.
+	self.radio = new("Frame", full({ Name = "Radio", BackgroundColor3 = Color3.fromRGB(44, 30, 22), Visible = false, ZIndex = 3, Parent = gui }), {
+		new("UIGradient", { Rotation = 90, Color = ColorSequence.new(Color3.fromRGB(70, 46, 30), Color3.fromRGB(24, 16, 12)) }),
+	})
+	label({ Name = "OnAir", Parent = self.radio, Text = "ON THE AIR", Font = Enum.Font.Oswald, TextSize = 26, TextColor3 = Color3.fromRGB(255, 90, 60), Position = UDim2.fromOffset(0, 70), Size = UDim2.new(1, 0, 0, 34), ZIndex = 4 })
+	self.radioTitle = label({ Name = "Title", Parent = self.radio, Text = "", Font = Enum.Font.Bodoni, TextSize = 40, TextColor3 = Color3.fromRGB(255, 236, 190), Position = UDim2.fromOffset(40, 130), Size = UDim2.new(1, -80, 0, 140), ZIndex = 4 })
+	self.radioSub = label({ Name = "Sub", Parent = self.radio, Text = "", Font = Enum.Font.Garamond, TextSize = 26, TextColor3 = Color3.fromRGB(220, 200, 160), Position = UDim2.fromOffset(40, 290), Size = UDim2.new(1, -80, 0, 40), ZIndex = 4 })
+	self.radioBars = {}
+	for i = 1, 24 do
+		self.radioBars[i] = new("Frame", { Parent = self.radio, BackgroundColor3 = Color3.fromRGB(230, 160, 60), BorderSizePixel = 0, AnchorPoint = Vector2.new(0, 1), Position = UDim2.fromOffset(80 + (i - 1) * 20, 420), Size = UDim2.fromOffset(12, 10), ZIndex = 4 })
+	end
+
+	-- Text cards.
+	self.card = new("Frame", full({ Name = "Card", Visible = false, ZIndex = 5, Parent = gui }))
+	self.cardGradient = new("UIGradient", { Rotation = 90, Parent = self.card })
+	self.cardRule = new("Frame", { Parent = self.card, BorderSizePixel = 0, Position = UDim2.fromOffset(60, 150), Size = UDim2.new(1, -120, 0, 4), ZIndex = 6 })
+	self.cardKicker = label({ Name = "Kicker", Parent = self.card, Text = "", TextSize = 22, Position = UDim2.fromOffset(60, 60), Size = UDim2.new(1, -120, 0, 28), ZIndex = 6, TextXAlignment = Enum.TextXAlignment.Left })
+	self.cardTitle = label({ Name = "Title", Parent = self.card, Text = "", TextSize = 44, Position = UDim2.fromOffset(60, 88), Size = UDim2.new(1, -120, 0, 60), ZIndex = 6, TextScaled = true, TextXAlignment = Enum.TextXAlignment.Left })
+	new("UITextSizeConstraint", { MaxTextSize = 48, Parent = self.cardTitle })
+	self.cardBody = label({ Name = "Body", Parent = self.card, Text = "", TextSize = 30, Position = UDim2.fromOffset(60, 172), Size = UDim2.new(1, -120, 0, 250), ZIndex = 6, TextScaled = true, TextXAlignment = Enum.TextXAlignment.Left, TextYAlignment = Enum.TextYAlignment.Top })
+	new("UITextSizeConstraint", { MaxTextSize = 34, MinTextSize = 14, Parent = self.cardBody })
+
+	-- Test pattern (SMPTE-style colour bars).
+	self.pattern = new("Frame", full({ Name = "TestPattern", BackgroundColor3 = Color3.new(0, 0, 0), Visible = false, ZIndex = 7, Parent = gui }))
+	for i, c in SMPTE_TOP do
+		new("Frame", { Parent = self.pattern, BorderSizePixel = 0, BackgroundColor3 = Color3.fromRGB(c[1], c[2], c[3]), Position = UDim2.fromScale((i - 1) / 7, 0), Size = UDim2.fromScale(1 / 7 + 0.002, 0.67), ZIndex = 7 })
+	end
+	for i, c in SMPTE_MID do
+		new("Frame", { Parent = self.pattern, BorderSizePixel = 0, BackgroundColor3 = Color3.fromRGB(c[1], c[2], c[3]), Position = UDim2.fromScale((i - 1) / 7, 0.67), Size = UDim2.fromScale(1 / 7 + 0.002, 0.08), ZIndex = 7 })
+	end
+	local x = 0
+	for _, c in SMPTE_LOW do
+		new("Frame", { Parent = self.pattern, BorderSizePixel = 0, BackgroundColor3 = Color3.fromRGB(c[1], c[2], c[3]), Position = UDim2.fromScale(x, 0.75), Size = UDim2.fromScale(c[4] + 0.002, 0.25), ZIndex = 7 })
+		x += c[4]
+	end
+	local slate = new("Frame", { Parent = self.pattern, BackgroundColor3 = Color3.new(0, 0, 0), BackgroundTransparency = 0.15, BorderSizePixel = 0, AnchorPoint = Vector2.new(0.5, 0.5), Position = UDim2.fromScale(0.5, 0.42), Size = UDim2.fromOffset(470, 150), ZIndex = 8 })
+	label({ Parent = slate, Text = "PLEASE STAND BY", Font = Enum.Font.Oswald, TextSize = 46, Size = UDim2.new(1, 0, 0, 70), Position = UDim2.fromOffset(0, 12), ZIndex = 9 })
+	self.patternSub = label({ Parent = slate, Text = "", Font = Enum.Font.Garamond, TextSize = 22, Size = UDim2.new(1, -30, 0, 60), Position = UDim2.fromOffset(15, 80), ZIndex = 9 })
+
+	-- Snow between channels.
+	self.static = new("Frame", full({ Name = "Static", BackgroundColor3 = Color3.fromRGB(90, 90, 90), Visible = false, ZIndex = 20, Parent = gui }))
+	self.staticCells = {}
+	local cols, rows = 32, 24
+	for r = 0, rows - 1 do
+		for c = 0, cols - 1 do
+			table.insert(self.staticCells, new("Frame", { Parent = self.static, BorderSizePixel = 0, Position = UDim2.fromScale(c / cols, r / rows), Size = UDim2.fromScale(1 / cols + 0.001, 1 / rows + 0.001), ZIndex = 20 }))
+		end
+	end
+
+	-- Station bug (top right) and lower third.
+	self.bug = new("Frame", { Name = "Bug", Parent = gui, BackgroundColor3 = Color3.new(0, 0, 0), BackgroundTransparency = 0.45, BorderSizePixel = 0, AnchorPoint = Vector2.new(1, 0), Position = UDim2.new(1, -16, 0, 14), Size = UDim2.fromOffset(170, 34), ZIndex = 15, Visible = false }, {
+		new("UICorner", { CornerRadius = UDim.new(0, 6) }),
+	})
+	self.bugText = label({ Parent = self.bug, Text = "", Font = Enum.Font.Oswald, TextSize = 20, Size = UDim2.fromScale(1, 1), ZIndex = 16 })
+
+	self.lower = new("Frame", { Name = "LowerThird", Parent = gui, BackgroundColor3 = Color3.fromRGB(16, 30, 60), BackgroundTransparency = 0.12, BorderSizePixel = 0, Position = UDim2.new(0, 24, 1, -112), Size = UDim2.new(1, -48, 0, 78), ZIndex = 15, Visible = false }, {
+		new("UICorner", { CornerRadius = UDim.new(0, 4) }),
+		new("Frame", { BackgroundColor3 = Color3.fromRGB(230, 120, 40), BorderSizePixel = 0, Size = UDim2.new(0, 8, 1, 0), ZIndex = 16 }),
+	})
+	self.lowerTitle = label({ Parent = self.lower, Text = "", Font = Enum.Font.Oswald, TextSize = 28, TextXAlignment = Enum.TextXAlignment.Left, TextTruncate = Enum.TextTruncate.AtEnd, TextWrapped = false, Position = UDim2.fromOffset(22, 8), Size = UDim2.new(1, -34, 0, 34), ZIndex = 16 })
+	self.lowerSub = label({ Parent = self.lower, Text = "", Font = Enum.Font.Garamond, TextSize = 22, TextColor3 = Color3.fromRGB(230, 220, 190), TextXAlignment = Enum.TextXAlignment.Left, TextTruncate = Enum.TextTruncate.AtEnd, TextWrapped = false, Position = UDim2.fromOffset(22, 42), Size = UDim2.new(1, -34, 0, 28), ZIndex = 16 })
+
+	self.credit = label({ Name = "Credit", Parent = gui, Text = "", Font = Enum.Font.Gotham, TextSize = 13, TextColor3 = Color3.fromRGB(220, 220, 220), TextTransparency = 0.35, TextXAlignment = Enum.TextXAlignment.Left, Position = UDim2.new(0, 14, 1, -24), Size = UDim2.new(1, -28, 0, 18), ZIndex = 15, TextWrapped = false })
+
+	-- Glass: a soft highlight and darkened edges, CRT-style.
+	new("Frame", full({ Name = "Glass", Parent = gui, BackgroundColor3 = Color3.new(1, 1, 1), ZIndex = 30, BackgroundTransparency = 0 }), {
+		new("UIGradient", {
+			Rotation = 70,
+			Transparency = NumberSequence.new({ NumberSequenceKeypoint.new(0, 0.88), NumberSequenceKeypoint.new(0.35, 0.97), NumberSequenceKeypoint.new(1, 1) }),
+		}),
+	})
+	for _, spec in { { 0, 90 }, { 1, 270 } } do
+		new("Frame", { Parent = gui, BackgroundColor3 = Color3.new(0, 0, 0), BorderSizePixel = 0, Position = UDim2.fromScale(0, 0), Size = UDim2.fromScale(1, 1), ZIndex = 31 }, {
+			new("UIGradient", {
+				Rotation = spec[2],
+				Transparency = NumberSequence.new({ NumberSequenceKeypoint.new(0, 0.55), NumberSequenceKeypoint.new(0.12, 1), NumberSequenceKeypoint.new(1, 1) }),
+			}),
+		})
+	end
+
+	self.sound = new("Sound", { Name = "ThisDayTVAudio", RollOffMode = Enum.RollOffMode.InverseTapered, RollOffMinDistance = 10, RollOffMaxDistance = 90, Parent = part })
+	self.video.RollOffMode = Enum.RollOffMode.InverseTapered
+	self.video.RollOffMinDistance = 10
+	self.video.RollOffMaxDistance = 90
+
+	gui.Parent = part
+	self.glow = part:FindFirstChild("Glow") :: SurfaceLight?
+	self.lowerToken = 0
+
+	RunService.RenderStepped:Connect(function()
+		if self.radio.Visible then
+			local t = os.clock()
+			for i, bar in self.radioBars do
+				local hgt = 10 + math.abs(math.sin(t * (3 + i % 5) + i)) * (40 + (i % 3) * 25)
+				bar.Size = UDim2.fromOffset(12, hgt)
+			end
+		end
+	end)
+	return self
+end
+
+function Screen:setGlow(color: Color3)
+	if self.glow then
+		TweenService:Create(self.glow, TweenInfo.new(0.6), { Color = color }):Play()
+	end
+end
+
+function Screen:hideAll()
+	self.video.Visible = false
+	self.radio.Visible = false
+	self.card.Visible = false
+	self.pattern.Visible = false
+	self.lower.Visible = false
+	self.credit.Text = ""
+end
+
+function Screen:stopMedia()
+	pcall(function()
+		self.video:Pause()
+	end)
+	self.video.Video = "" -- frees the decoder, per Roblox guidance
+	self.sound:Stop()
+	self.sound.SoundId = ""
+end
+
+function Screen:setVolume(v: number)
+	self.video.Volume = v
+	self.sound.Volume = v
+end
+
+function Screen:showCard(style: string?, kicker: string, title: string, body: string)
+	local theme = CARD_THEMES[style or "custom"] or CARD_THEMES.custom
+	self:hideAll()
+	self.card.BackgroundColor3 = Color3.new(1, 1, 1)
+	self.cardGradient.Color = ColorSequence.new(theme.bg, theme.bg2)
+	self.cardRule.BackgroundColor3 = theme.accent
+	self.cardKicker.Font = theme.bodyFont
+	self.cardKicker.TextColor3 = theme.accent
+	self.cardKicker.Text = string.upper(kicker)
+	self.cardTitle.Font = theme.titleFont
+	self.cardTitle.TextColor3 = theme.ink
+	self.cardTitle.Text = title
+	self.cardBody.Font = theme.bodyFont
+	self.cardBody.TextColor3 = theme.ink
+	self.cardBody.Text = body
+	self.card.Visible = true
+	self:setGlow(theme.bg:Lerp(Color3.new(1, 1, 1), 0.4))
+end
+
+function Screen:showTestPattern(sub: string)
+	self:hideAll()
+	self.patternSub.Text = sub
+	self.pattern.Visible = true
+	self:setGlow(Color3.fromRGB(210, 210, 255))
+end
+
+function Screen:showRadio(title: string, sub: string)
+	self:hideAll()
+	self.radioTitle.Text = title
+	self.radioSub.Text = sub
+	self.radio.Visible = true
+	self:setGlow(Color3.fromRGB(255, 190, 120))
+end
+
+function Screen:showVideoLayer()
+	self:hideAll()
+	self.video.Visible = true
+	self:setGlow(Color3.fromRGB(190, 210, 255))
+end
+
+function Screen:setBug(text: string?)
+	self.bug.Visible = text ~= nil and text ~= ""
+	self.bugText.Text = text or ""
+end
+
+function Screen:setCredit(text: string?)
+	self.credit.Text = text or ""
+end
+
+function Screen:showLowerThird(title: string, sub: string, seconds: number)
+	self.lowerToken += 1
+	local token = self.lowerToken
+	self.lowerTitle.Text = title
+	self.lowerSub.Text = sub
+	self.lower.Visible = true
+	task.delay(seconds, function()
+		if self.lowerToken == token then
+			self.lower.Visible = false
+		end
+	end)
+end
+
+-- Channel-change snow, `seconds` long. Runs alongside whatever loads beneath.
+function Screen:snow(seconds: number)
+	self.static.Visible = true
+	local untilT = os.clock() + seconds
+	local conn
+	conn = RunService.RenderStepped:Connect(function()
+		if os.clock() >= untilT then
+			conn:Disconnect()
+			self.static.Visible = false
+			return
+		end
+		for _, cell in self.staticCells do
+			local v = math.random(20, 235)
+			cell.BackgroundColor3 = Color3.fromRGB(v, v, v)
+		end
+	end)
+end
+
+return Screen
+]]></string>
+          </Properties>
+        </Item>
+        <Item class="LocalScript" referent="17">
+          <Properties>
+            <string name="Name">TVClient</string>
+            <string name="Source"><![CDATA[-- This Day TV: client controller. Tunes the living-room set to the shared
+-- broadcast clock so every player sees the same moment of the same day in history.
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local HttpService = game:GetService("HttpService")
+local RunService = game:GetService("RunService")
+local TweenService = game:GetService("TweenService")
+
+local player = Players.LocalPlayer
+local shared = ReplicatedStorage:WaitForChild("ThisDayTV")
+local Config = require(shared:WaitForChild("Config"))
+local Broadcast = require(shared:WaitForChild("Broadcast"))
+local Screen = require(script.Parent:WaitForChild("Screen"))
+local Remote = require(script.Parent:WaitForChild("Remote"))
+local Decor = require(script.Parent:WaitForChild("Decor"))
+
+local station = workspace:WaitForChild("TVStation")
+local screenPart = station:WaitForChild("TV"):WaitForChild("Screen") :: BasePart
+local broadcastValue = ReplicatedStorage:WaitForChild("ThisDayTVState"):WaitForChild("Broadcast") :: StringValue
+
+local screen = Screen.new(screenPart)
+local decor = Decor.new(station)
+
+local state = {
+	payload = nil :: any,
+	channelIndex = 1,
+	current = nil :: string?, -- identity of what's on screen
+	item = nil :: any,
+	startedAt = 0,
+	token = 0,
+	muted = false,
+	watching = false,
+}
+
+local function serverNow(): number
+	return workspace:GetServerTimeNow()
+end
+
+local function channels(): { any }?
+	local p = state.payload
+	return if p and p.schedule then p.schedule.channels else nil
+end
+
+local function currentChannel(): any?
+	local chs = channels()
+	return if chs then chs[state.channelIndex] else nil
+end
+
+local function dayText(year: number?): string
+	local p = state.payload
+	if not p then
+		return ""
+	end
+	local base = `{Broadcast.MONTHS_SHORT[p.month]} {p.day}`
+	return if year then `{base}, {year}` else base
+end
+
+local function longDate(item: any): string
+	if item.airDate then
+		local y, m, d = string.match(item.airDate, "^(%d+)-(%d+)-(%d+)$")
+		if y then
+			return `{Broadcast.MONTHS[tonumber(m) :: number]} {tonumber(d)}, {y}`
+		end
+	end
+	return if item.year then tostring(item.year) else ""
+end
+
+local remote
+
+local function describeNow(ch: any?, item: any?)
+	if not ch or not item then
+		remote:setNow("Off the air")
+		return
+	end
+	if item.kind == "card" then
+		remote:setNow(item.title or "")
+	elseif item.category == "commercial" then
+		remote:setNow("A word from our sponsors")
+	else
+		remote:setNow(`{item.title or "Untitled"}{if item.year then ` · {item.year}` else ""}`)
+	end
+end
+
+local function cardKicker(ch: any, item: any): string
+	if item.style == "station-id" then
+		return `Channel {ch.number}`
+	elseif item.style == "headline" then
+		return "The news of the day"
+	end
+	return ch.name
+end
+
+local function mediaLowerThird(item: any)
+	if item.category == "commercial" then
+		return
+	end
+	local sub = {}
+	local when = longDate(item)
+	if when ~= "" then
+		table.insert(sub, if item.airDate then `Originally broadcast {when}` else when)
+	end
+	if item.parts and item.parts > 1 then
+		table.insert(sub, `Part {item.part} of {item.parts}`)
+	end
+	screen:showLowerThird(item.title or "", table.concat(sub, "  ·  "), Config.LowerThirdSeconds)
+end
+
+-- Wait for an asset to load, bail out if the channel moved on meanwhile.
+local function waitLoaded(obj: any, token: number): boolean
+	local t0 = os.clock()
+	while not obj.IsLoaded do
+		if token ~= state.token or os.clock() - t0 > Config.LoadTimeout then
+			return false
+		end
+		task.wait(0.1)
+	end
+	return token == state.token
+end
+
+local function technicalDifficulties(ch: any)
+	screen:showCard("trouble", ch.name, "TECHNICAL DIFFICULTIES", "Please stand by. Normal programming will resume shortly.")
+end
+
+local function tune(ch: any, item: any, startedAt: number)
+	state.token += 1
+	local token = state.token
+	state.item = item
+	state.startedAt = startedAt
+	screen:stopMedia()
+	screen:setCredit(nil)
+	decor:setYear(ch.year or item.year)
+	decor:setListings(ch, serverNow(), state.payload.anchor)
+	describeNow(ch, item)
+
+	if item.kind == "card" then
+		screen:setBug(nil)
+		screen:showCard(item.style, cardKicker(ch, item), item.title or "", item.text or "")
+		return
+	end
+
+	screen:setBug(`CH {ch.number}  ·  {dayText(ch.year or item.year)}`)
+	local media: any
+	if item.kind == "video" then
+		screen:showVideoLayer()
+		media = screen.video
+		media.Video = "rbxassetid://" .. item.assetId
+	else
+		screen:showRadio(item.title or "", longDate(item))
+		media = screen.sound
+		media.SoundId = "rbxassetid://" .. item.assetId
+	end
+
+	task.spawn(function()
+		if not waitLoaded(media, token) then
+			if token == state.token then
+				technicalDifficulties(ch)
+			end
+			return
+		end
+		local pos = serverNow() - startedAt
+		if pos >= item.duration - 0.25 then
+			return
+		end
+		if pos > 0.4 then
+			media.TimePosition = pos
+		end
+		media:Play()
+		if item.credit then
+			screen:setCredit(item.credit)
+		end
+		mediaLowerThird(item)
+	end)
+end
+
+local function showOffAir()
+	state.token += 1
+	state.item = nil
+	screen:stopMedia()
+	screen:setBug(nil)
+	local p = state.payload
+	local when = if p then `{Broadcast.MONTHS[p.month]} {p.day}` else "today"
+	screen:showTestPattern(`Programming for {when} has not been scheduled yet.`)
+	decor:setYear(nil)
+	decor:setListings(nil, 0, 0)
+	remote:setChannel("This Day TV")
+	describeNow(nil, nil)
+end
+
+local function updateChannelLabel()
+	local ch = currentChannel()
+	if ch then
+		remote:setChannel(`{ch.name} · CH {ch.number}{if ch.year then ` · {ch.year}` else ""}`)
+	end
+end
+
+local function refresh(force: boolean?)
+	local ch = currentChannel()
+	if not ch then
+		if state.current ~= "off-air" then
+			state.current = "off-air"
+			showOffAir()
+		end
+		return
+	end
+	local now = serverNow()
+	local idx, _, startedAt = Broadcast.locate(ch, now, state.payload.anchor)
+	local item = ch.items[idx]
+	local key = `{ch.number}|{idx}|{math.floor(startedAt + 0.5)}|{item.assetId or item.title or ""}`
+	if force or key ~= state.current then
+		state.current = key
+		tune(ch, item, startedAt)
+	end
+end
+
+local function applyPayload(json: string)
+	local ok, payload = pcall(HttpService.JSONDecode, HttpService, json)
+	if not ok or type(payload) ~= "table" then
+		return
+	end
+	local previous = currentChannel()
+	state.payload = payload
+	decor:setDate(payload.month, payload.day)
+	-- Stay on the same channel number across reloads if it still exists.
+	state.channelIndex = 1
+	local chs = channels()
+	if chs and previous then
+		for i, ch in chs do
+			if ch.number == previous.number then
+				state.channelIndex = i
+			end
+		end
+	end
+	updateChannelLabel()
+	refresh() -- identity key means an unchanged item keeps playing untouched
+end
+
+local function changeChannel(delta: number)
+	local chs = channels()
+	if not chs or #chs == 0 then
+		screen:snow(0.35)
+		return
+	end
+	state.channelIndex = (state.channelIndex - 1 + delta) % #chs + 1
+	updateChannelLabel()
+	screen:snow(0.45)
+	refresh(true)
+end
+
+-- Watch mode: settle the camera in front of the set.
+local camera = workspace.CurrentCamera
+local function setWatching(on: boolean)
+	state.watching = on
+	camera = workspace.CurrentCamera
+	if on then
+		camera.CameraType = Enum.CameraType.Scriptable
+		local target = screenPart.Position
+		local eye = target + screenPart.CFrame.LookVector * 6.6
+		TweenService:Create(camera, TweenInfo.new(0.8, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+			CFrame = CFrame.lookAt(eye, target),
+			FieldOfView = 50,
+		}):Play()
+	else
+		camera.FieldOfView = 70
+		camera.CameraType = Enum.CameraType.Custom
+	end
+	remote:setWatching(on)
+end
+
+remote = Remote.new(player:WaitForChild("PlayerGui") :: PlayerGui, {
+	onChannel = changeChannel,
+	onMute = function()
+		state.muted = not state.muted
+		screen:setVolume(if state.muted then 0 else Config.Volume)
+		return state.muted
+	end,
+	onWatch = function()
+		setWatching(not state.watching)
+		return state.watching
+	end,
+})
+
+player.CharacterAdded:Connect(function()
+	if state.watching then
+		setWatching(false)
+	end
+end)
+
+local prompt = station:FindFirstChild("ChannelPrompt", true) :: ProximityPrompt?
+if prompt then
+	prompt.Triggered:Connect(function()
+		changeChannel(1)
+	end)
+end
+
+screen:setVolume(Config.Volume)
+broadcastValue.Changed:Connect(applyPayload)
+if broadcastValue.Value ~= "" then
+	applyPayload(broadcastValue.Value)
+else
+	showOffAir()
+	state.current = "off-air"
+end
+
+-- Main loop: re-evaluate what's on, keep media in sync, refresh listings.
+local accum, lastSync, lastListings = 0, 0, 0
+RunService.Heartbeat:Connect(function(dt)
+	accum += dt
+	if accum < 0.2 then
+		return
+	end
+	accum = 0
+	if not state.payload then
+		return
+	end
+	refresh()
+
+	local now = os.clock()
+	local item = state.item
+	if item and item.kind ~= "card" and now - lastSync > 2 then
+		lastSync = now
+		local media: any = if item.kind == "video" then screen.video else screen.sound
+		local expected = serverNow() - state.startedAt
+		local playing = if item.kind == "video" then media.Playing else media.IsPlaying
+		if playing and expected < item.duration - 1 and math.abs(media.TimePosition - expected) > Config.ResyncThreshold then
+			media.TimePosition = expected
+		end
+	end
+	if now - lastListings > 30 then
+		lastListings = now
+		local ch = currentChannel()
+		if ch then
+			decor:setListings(ch, serverNow(), state.payload.anchor)
+		end
+	end
+end)
+]]></string>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+  </Item>
+</roblox>

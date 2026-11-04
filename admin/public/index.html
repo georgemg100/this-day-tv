@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>This Day TV Control Room</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="masthead">
+    <div class="brand">
+      <span class="brand-dot" aria-hidden="true"></span>
+      <div>
+        <div class="brand-name">This Day TV</div>
+        <div class="brand-sub">Control Room</div>
+      </div>
+    </div>
+    <form class="date-controls" id="dateForm" autocomplete="off">
+      <label>Day
+        <select id="month" aria-label="Month"></select>
+        <select id="day" aria-label="Day"></select>
+      </label>
+      <label class="year-pick">Channel
+        <select id="bcChannel" aria-label="Channel you are programming"></select>
+        <input id="bcYear" type="number" min="1890" max="2100" placeholder="year" aria-label="Channel year" title="Everything on this channel comes from this year">
+      </label>
+      <label>Search range
+        <input id="yearFrom" type="number" min="1890" max="2100" aria-label="From year">
+        <span aria-hidden="true">–</span>
+        <input id="yearTo" type="number" min="1890" max="2100" aria-label="To year">
+      </label>
+      <button type="button" class="btn ghost" id="todayBtn">Today</button>
+    </form>
+    <div class="toolbar-actions">
+      <a class="btn" href="/tv/" target="_blank" rel="noopener">Open TV ↗</a>
+      <div class="chips" id="statusChips"></div>
+    </div>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button role="tab" data-tab="find" aria-selected="true">Find programming</button>
+    <button role="tab" data-tab="library">Library</button>
+    <button role="tab" data-tab="lineup">Lineup &amp; publish</button>
+    <button role="tab" data-tab="setup">Setup</button>
+  </nav>
+
+  <main>
+    <!-- FIND -->
+    <section id="tab-find" class="tab-panel">
+      <div class="toolbar">
+        <div class="seg" id="findSource" role="radiogroup" aria-label="Source">
+          <button data-src="archive" aria-pressed="true">archive.org · this date</button>
+          <button data-src="commercials">Commercials</button>
+          <button data-src="exa">Exa.ai</button>
+          <button data-src="headlines">Headlines</button>
+        </div>
+        <form id="findForm" class="find-form">
+          <select id="findMedia" aria-label="Media type">
+            <option value="video">Video</option>
+            <option value="audio">Radio / audio</option>
+            <option value="both">Both</option>
+          </select>
+          <input id="findYear" type="number" placeholder="Year (opt.)" aria-label="Year">
+          <input id="findText" type="search" placeholder="Keywords (optional)" aria-label="Keywords">
+          <button class="btn primary" type="submit">Search</button>
+        </form>
+      </div>
+      <div class="year-finder" id="yearFinder"></div>
+      <p class="hint" id="findHint"></p>
+      <div id="findResults" class="results"></div>
+    </section>
+
+    <!-- LIBRARY -->
+    <section id="tab-library" class="tab-panel" hidden>
+      <div class="toolbar">
+        <div class="seg" id="libFilter">
+          <button data-f="all" aria-pressed="true">All</button>
+          <button data-f="program">Programs</button>
+          <button data-f="news">News</button>
+          <button data-f="commercial">Commercials</button>
+          <button data-f="psa">PSAs</button>
+        </div>
+        <div class="toolbar-actions">
+          <button class="btn" id="addUrlBtn">Add from URL / file…</button>
+          <button class="btn" id="addManualBtn">Add existing Roblox asset…</button>
+        </div>
+      </div>
+      <div id="libraryList" class="library"></div>
+    </section>
+
+    <!-- LINEUP -->
+    <section id="tab-lineup" class="tab-panel" hidden>
+      <div class="lineup-head">
+        <div>
+          <h2 id="lineupTitle">Lineup</h2>
+          <div class="muted" id="lineupMeta"></div>
+        </div>
+        <div class="toolbar-actions">
+          <span class="dirty" id="dirtyFlag" hidden>Unsaved changes</span>
+          <button class="btn" id="previewBtn">Preview broadcast JSON</button>
+          <button class="btn" id="saveBtn">Save</button>
+          <button class="btn primary" id="publishBtn">Publish…</button>
+        </div>
+      </div>
+      <div id="lineupWarnings"></div>
+      <div class="channel-bar" id="channelBar"></div>
+      <div class="lineup-grid">
+        <div>
+          <div class="channel-settings" id="channelSettings"></div>
+          <div class="timeline" id="timeline" aria-label="Loop timeline"></div>
+          <ol class="entries" id="entries"></ol>
+        </div>
+        <aside class="palette">
+          <details open>
+            <summary>Auto-build this channel</summary>
+            <div id="autoBuild"></div>
+          </details>
+          <details open>
+            <summary>Add a library clip</summary>
+            <div id="addSegment"></div>
+          </details>
+          <details>
+            <summary>Add a card</summary>
+            <div id="addCard"></div>
+          </details>
+        </aside>
+      </div>
+    </section>
+
+    <!-- SETUP -->
+    <section id="tab-setup" class="tab-panel" hidden>
+      <div id="setup"></div>
+    </section>
+  </main>
+
+  <aside class="jobs" id="jobs" aria-live="polite"></aside>
+  <div class="toasts" id="toasts" aria-live="assertive"></div>
+  <dialog id="modal"><div id="modalBody"></div></dialog>
+
+  <script type="module" src="/app.js"></script>
+</body>
+</html>
