@@ -39,7 +39,7 @@ For a dedicated screen (an old monitor or a smart TV browser), open `…/?on` to
 `admin/autopilot.js` programs a whole day on its own. By default (`--mode exact`) **every program on air aired on that exact date**:
 1. Finds everything archive.org has from that month and day, across all years in range.
 2. Keeps only items with real evidence of the date: the date written in the title or ID (for example "The Price is Right (November 3, 1972)"), or a TV, game-show or newsreel collection whose uploaders record air dates. It skips mis-dated movies, season box sets, fringe uploads, and titles that name a different year.
-3. Picks up to 10 years, rotating across decades, one channel each.
+3. Ranks clips by historical importance. Clips that match that year's Wikipedia headlines for the date come first, then news (newsreels, newscasts, speeches, elections, launches), then entertainment, with sports last. Picks up to 12 years, most newsworthy first, at most 3 per decade, one channel each. News leads each channel.
 4. Fills each channel with that year's exact-date programs, commercials from that year (not date-specific), and Wikipedia headlines.
 5. Publishes `web/schedules/MM-DD.json`.
 

@@ -192,9 +192,23 @@ test('exact-date evidence filters', async () => {
   assert.ok(!airedThatDay(r('Carrie (50th Anniversary)', ['date', 'title'], ['opensource_movies'], 1976)), 'release date in description is not an air date');
   assert.ok(!airedThatDay(r('The Who Live At The Isle of Wight Festival 1970', ['date'], ['classic_tv'], 1998)), 'title names another year');
   assert.ok(!airedThatDay(r('Reel America 1970 : CSPAN2 : August 21, 2021', ['title'], [], 1969)));
+  assert.ok(!airedThatDay(r('0236 NM International GOP Women November 11, 1993', ['date'], ['classic_tv'], 1993)), 'title names a different day');
+  assert.ok(airedThatDay(r('WDBJ-7 (CBS) Full Newscast: November 3, 1989', ['title'], [], 1989)));
   assert.ok(looksLikeCompilation('Pingu: The Complete Series 2 (1991-94)'));
   assert.ok(!looksLikeCompilation('General Hospital- November 3, 1989 (most)'));
   assert.ok(looksLikeMeeting('Amherst Select Board Meeting - November 3, 1997'));
   assert.ok(!looksLikeMeeting('Live With Regis And Kathie Lee'));
   assert.equal(cleanTitle('Richard Nixon Nov. 3, 1969 Speech Excerpt'), 'Richard Nixon Nov. 3, 1969 Speech Excerpt');
+});
+
+test('historical relevance ranks news and the day\'s stories first', async () => {
+  const { historyScore, headlineMatch } = await import('../lib/autopilot.js');
+  const heads = [{ year: 1969, text: 'Vietnam War: U.S. President Richard Nixon addresses the nation on television and radio, asking the silent majority to join him.' }];
+  const nixon = { title: 'Richard Nixon Nov. 3, 1969 Speech Excerpt', description: 'United for Peace', collections: [] };
+  const game = { title: 'The New Price is Right (November 3, 1972)', description: '', collections: ['gameshow_tpir'] };
+  const reel = { title: 'KNTV Channel 11 News Reels November 3, 1965', description: '', collections: [] };
+  assert.deepEqual(headlineMatch(nixon, heads).shared.sort(), ['nixon', 'richard']);
+  assert.ok(historyScore(nixon, heads) >= 60, 'speech matching the headline scores highest');
+  assert.ok(historyScore(reel, []) > historyScore(game, []), 'news beats game shows');
+  assert.ok(historyScore(game, []) < 0);
 });

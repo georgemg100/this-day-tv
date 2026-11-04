@@ -20,7 +20,7 @@ import { config } from './config.js';
 
 const SAFE_RIGHTS = new Set(['public-domain', 'likely-public-domain']);
 const PLAYABLE_FORMATS = new Set(['h.264', 'MPEG4', '512Kb MPEG4', 'h.264 IA', 'h.264 HD']);
-const NEWS_COLLECTIONS = new Set(['universal_newsreels', 'newsandpublicaffairs', 'tvnews']);
+const NEWS_COLLECTIONS = new Set(['universal_newsreels', 'tvnews']);
 const CHANNEL_NUMBERS = [2, 4, 5, 7, 9, 11, 13, 3, 6, 8, 10, 12];
 const CALLSIGNS = ['WTDI', 'WKTV', 'WNTW', 'WYRS', 'WHEN', 'WOLD', 'WPST', 'WDAY', 'WNOW', 'WTHN', 'WAGO', 'WERA'];
 const TAGLINES = ['Your window to yesterday', 'Seven on your dial', 'The way it was', 'Tonight, back then', 'Stay tuned', 'Your evening companion'];
@@ -29,7 +29,7 @@ export const DEFAULTS = {
   // 'exact': only programs that aired on this exact date (any rights status).
   // 'pd':    public-domain programs, filled from the same week / year.
   mode: 'exact',
-  channels: 10,
+  channels: 12,
   rights: 'pd', // mode 'pd' only: 'pd' = public domain only, 'any' = also unknown/claimed
   adRights: 'any', // commercials: most period ads carry no rights tag at all
   targetMinutes: 60, // fill each channel to about this much before looping
@@ -166,8 +166,56 @@ export function airedThatDay(r) {
   // A title naming some other year ("…1970 : CSPAN2 : 2021") is a later upload or re-air.
   const otherYears = (String(r.title).match(/\b(19[0-9]{2}|20[0-3][0-9])\b/g) || []).map(Number).filter((y) => y !== r.airYear);
   if (otherYears.length) return false;
+  // …or some other day ("GOP Women November 11, 1993" filed under November 3).
+  const m = /^\d{4}-(\d{2})-(\d{2})$/.exec(r.airDate || '');
+  if (m) {
+    const re = new RegExp(`\\b(${MONTHS_LONG.join('|')}|${MONTHS_ABBR.join('|')})\\.? (\\d{1,2})\\b`, 'gi');
+    for (const [, mon, day] of String(r.title).matchAll(re)) {
+      const idx = MONTHS_LONG.findIndex((x) => x.toLowerCase() === mon.toLowerCase()) + 1 || MONTHS_ABBR.findIndex((x) => x.toLowerCase() === mon.toLowerCase()) + 1;
+      if (idx !== +m[1] || +day !== +m[2]) return false;
+    }
+  }
   if (datedInTitle(r)) return true;
   return colls.some((c) => AIRDATE_COLLECTIONS.test(c));
+}
+
+// ---------------------------------------------------------------- historical relevance
+const STOPWORDS = new Set('the and for with from that this into over under after before about their there which while where when what were was are has have had his her its they them then than been being also more most other some such only very will would could should shall upon onto within without against during between among through across around until since part show episode series live news video film reel reels tape recording broadcast television station channel complete partial most united states american national first second third years year day days november october september december january february march april june july august'.split(' '));
+const NEWS_WORDS = /\b(news(reel|cast|film|room)?|bulletin|special report|report|press conference|briefing|speech|address(es)?|election|campaign|debate|inaugurat\w*|summit|launch|mission|apollo|gemini|shuttle|war|vietnam|president\w*|senate|congress|governor|mayor|funeral|assassinat\w*|protest|riot|strike|crisis|treaty|coverage|documentary|interview)\b/i;
+const ENTERTAINMENT_WORDS = /\b(price is right|game show|wheel of fortune|jeopardy|general hospital|soap|sitcom|cartoon|bodies in motion|aerobic|exercise|workout|talk show|regis|sally jessy|donahue|oprah|music video|concert)\b/i;
+const SPORTS_WORDS = /\b(football|soccer|baseball|basketball|hockey|volleyball|varsity|bowling|wrestling|game of the week|district final|sectional|semi ?final|playoffs?|vs\.?)\b/i;
+const HISTORY_COLLECTIONS = /^(universal_newsreels|tvnews|ublangsdale|nasa|gov\.archives.*|.*presidential.*|cspan.*)$/;
+
+const tokens = (text) => new Set((String(text || '').toLowerCase().match(/[a-z][a-z'.-]{3,}/g) || [])
+  .map((w) => w.replace(/['.-]+$/, '').replace(/'s$/, '')).filter((w) => w.length >= 4 && !STOPWORDS.has(w)));
+
+/** Which of the day's headlines (same year) this item is about, if any. */
+export function headlineMatch(r, headlines) {
+  const mine = tokens(`${r.title} ${r.description || ''}`);
+  let best = null;
+  for (const h of headlines) {
+    const shared = [...tokens(h.text)].filter((w) => mine.has(w));
+    if (shared.length >= 2 && (!best || shared.length > best.shared.length)) best = { headline: h.text, shared };
+  }
+  return best;
+}
+
+/** How historically important an item looks: news and the day's big stories first. */
+export function historyScore(r, headlines = []) {
+  let score = 0;
+  const text = `${r.title} ${r.description || ''}`;
+  const match = headlineMatch(r, headlines);
+  if (match) score += 40 + Math.min(20, (match.shared.length - 2) * 5);
+  const colls = r.collections || [];
+  if (colls.some((c) => HISTORY_COLLECTIONS.test(c))) score += 25;
+  else if (colls.includes('newsandpublicaffairs')) score += 8; // broad: lots of community uploads
+  if (SPORTS_WORDS.test(r.title)) return score - 25; // a game is not the news, whatever it's filed under
+  if (NEWS_WORDS.test(r.title)) score += 20;
+  else if (NEWS_WORDS.test(r.description || '')) score += 8;
+  if (ENTERTAINMENT_WORDS.test(text)) score -= 15;
+  // Foreign-language programming still airs, but English-language news leads.
+  if (/tagesschau|\bin korean\b|[\u3040-\u30ff\u3400-\u9fff\uac00-\ud7af\u0400-\u04ff]/i.test(text)) score -= 12;
+  return score;
 }
 
 /** Box sets and season dumps aren't one day's broadcast. */
@@ -294,7 +342,7 @@ function finish(key, mm, dd, o, channels, library) {
     });
     const minutes = c.programs.reduce((s, p) => s + p.segments.reduce((t, g) => t + g.duration, 0), 0) / 60;
     report.push({ channel: number, name, year: c.year, programs: c.programs.length, minutes: Math.round(minutes), ads: c.ads.length, headlines: c.headlines.length,
-      titles: c.programs.map((p) => `${p.title}${p.airDate ? ` (${p.airDate})` : ''}`) });
+      titles: c.programs.map((p) => `${p.history >= 40 ? '★ ' : p.category === 'news' ? '• ' : '  '}${p.title}${p.airDate ? ` (${p.airDate})` : ''}`) });
     return { number, name, tagline: TAGLINES[i % TAGLINES.length], year: c.year, entries };
   });
 
@@ -372,29 +420,31 @@ async function programExactDay(key, mm, dd, o, rand, limit, log) {
     byYear.get(r.airYear).push(r);
   }
   const years = [...byYear.entries()]
-    .map(([year, list]) => ({
-      year,
-      list: list.sort((a, b) => evidence(b) - evidence(a) || b.score - a.score),
-      headlines: news.results.filter((e) => e.year === year),
-      weight: list.reduce((s, r) => s + evidence(r), 0),
-    }))
+    .map(([year, list]) => {
+      const headlines = news.results.filter((e) => e.year === year);
+      list.forEach((r) => { r.history = historyScore(r, headlines); });
+      // Most historically relevant first, then strongest date evidence.
+      list.sort((a, b) => b.history - a.history || evidence(b) - evidence(a) || b.score - a.score);
+      const topHistory = list.slice(0, 3).reduce((s, r) => s + Math.max(0, r.history), 0);
+      return { year, list, headlines, weight: topHistory + headlines.length * 5 + list.reduce((s, r) => s + evidence(r), 0) };
+    })
     .sort((a, b) => b.weight - a.weight || a.year - b.year);
   log(`${key}: ${candidates.length} exact-date items across ${years.length} years`);
 
-  // Spread channels across decades: best year of each decade in turn.
-  const byDecade = new Map();
-  for (const y of years) {
-    const d = Math.floor(y.year / 10) * 10;
-    if (!byDecade.has(d)) byDecade.set(d, []);
-    byDecade.get(d).push(y);
-  }
+  // Most important years first, at most 3 per decade so the dial still spans eras.
+  // Years whose best item is entertainment or sports go to the back of the line.
+  const perDecade = Math.max(3, Math.ceil(o.channels / 4));
+  const used = new Map();
   const ordered = [];
-  while ([...byDecade.values()].some((l) => l.length)) {
-    for (const d of [...byDecade.keys()].sort((a, b) => a - b)) {
-      const next = byDecade.get(d).shift();
-      if (next) ordered.push(next);
-    }
+  const rest = [];
+  for (const y of [...years].sort((a, b) => (b.list[0].history > 0) - (a.list[0].history > 0) || b.weight - a.weight)) {
+    const d = Math.floor(y.year / 10) * 10;
+    if ((used.get(d) || 0) < perDecade) {
+      used.set(d, (used.get(d) || 0) + 1);
+      ordered.push(y);
+    } else rest.push(y);
   }
+  ordered.push(...rest); // only reached if the capped picks run out
 
   const channels = [];
   const library = [];
@@ -430,7 +480,10 @@ async function fillExact(y, o, limit) {
       if (seen.has(`${base}|${part}`) || seen.has(`show:${show}`)) return;
       seen.add(`${base}|${part}`);
       seen.add(`show:${show}`);
-      picked.push(toLibraryItem(r, metas[j], file, { category: categoryFor(r), year: y.year }));
+      const category = categoryFor(r) === 'program' && r.history >= 20 ? 'news' : categoryFor(r);
+      const item = toLibraryItem(r, metas[j], file, { category, year: y.year });
+      item.history = r.history;
+      picked.push(item);
       seconds += file.length;
     });
   }
