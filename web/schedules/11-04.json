@@ -3,7 +3,7 @@
   "target": "web",
   "date": "11-04",
   "title": "This Day in History — November 4",
-  "publishedAt": "2026-11-04T03:13:36.540Z",
+  "publishedAt": "2026-11-04T03:30:47.560Z",
   "channels": [
     {
       "number": 2,
@@ -492,152 +492,253 @@
       ]
     },
     {
-      "number": 4,
+      "number": 3,
       "name": "WKTV",
       "tagline": "Seven on your dial",
       "year": 1961,
-      "totalDuration": 3639.94,
+      "totalDuration": 3956.19,
       "items": [
         {
           "kind": "card",
           "style": "station-id",
           "duration": 8,
-          "title": "WKTV · CHANNEL 4",
+          "title": "WKTV · CHANNEL 3",
           "text": "Good evening. It's November 4, 1961. Stay tuned.",
           "year": 1961
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/200446_Decorating_Unlimited/200446_Decorating_Unlimited_inout.mp4",
+          "src": "https://archive.org/download/1961-08-07_Cosmonaut/1961-08-07_Cosmonaut.mp4",
           "start": 0,
-          "duration": 583.81,
-          "title": "Decorating Unlimited",
+          "duration": 74.04,
+          "title": "Russian Orbits Globe17 Times",
           "year": 1961,
-          "airDate": "1961-11-01",
-          "category": "program",
+          "airDate": "1961-08-07",
+          "category": "news",
           "part": 1,
-          "parts": 3,
-          "credit": "archive.org/details/200446_Decorating_Unlimited"
-        },
-        {
-          "kind": "card",
-          "style": "break",
-          "duration": 4,
-          "title": "We'll be right back",
-          "text": "Stay tuned!",
-          "year": null
+          "parts": 1,
+          "credit": "archive.org/details/1961-08-07_Cosmonaut"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/cheer1961/cheer1961.mp4",
+          "src": "https://archive.org/download/1961RoyRogersQuickShooterHat/1961%20Roy%20Rogers%20Quick%20Shooter%20Hat.mp4",
           "start": 0,
-          "duration": 63.53,
-          "title": "1961 commercial for Cheer laundry detergent",
+          "duration": 50.06,
+          "title": "1961 Roy Rogers Quick Shooter Hat",
           "year": 1961,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/cheer1961"
+          "credit": "archive.org/details/1961RoyRogersQuickShooterHat"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/nucoa1961/nucoa1961.mp4",
+          "src": "https://archive.org/download/Happy1961CommercialForCoca-cola/1961HappyCoca-ColaAd_512kb.mp4",
           "start": 0,
-          "duration": 63.64,
-          "title": "1961 commercial for Nucoa margarine",
+          "duration": 73.07,
+          "title": "Happy 1961 commercial for Coca-Cola",
           "year": 1961,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/nucoa1961"
+          "credit": "archive.org/details/Happy1961CommercialForCoca-cola"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/200446_Decorating_Unlimited/200446_Decorating_Unlimited_inout.mp4",
-          "start": 583.81,
-          "duration": 583.81,
-          "title": "Decorating Unlimited",
-          "year": 1961,
-          "airDate": "1961-11-01",
-          "category": "program",
-          "part": 2,
-          "parts": 3,
-          "credit": "archive.org/details/200446_Decorating_Unlimited"
-        },
-        {
-          "kind": "card",
-          "style": "break",
-          "duration": 4,
-          "title": "We'll be right back",
-          "text": "Stay tuned!",
-          "year": null
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/OriginalCommercialsFrom1961twilightZoneEpisode/ChesterfieldCommercial-1961-2.mp4",
+          "src": "https://archive.org/download/1961-04-19_Cuba_Invaded/1961-04-19_Cuba_Invaded.mp4",
           "start": 0,
-          "duration": 59.59,
-          "title": "Original commercials from 1961 Twilight Zone episode",
+          "duration": 128.78,
+          "title": "Foes of Castro Open Offensive",
+          "year": 1961,
+          "airDate": "1961-04-19",
+          "category": "news",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1961-04-19_Cuba_Invaded"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/BettySydneyCakeMixChocolate1961TVCommercialXvid/Betty%20Sydney%20Cake%20mix%20_chocolate_%201961%20TV%20commercial_xvid.mp4",
+          "start": 0,
+          "duration": 22.88,
+          "title": "Betty Sydney Cake Mix Chocolate 1961 TV Commercial",
           "year": 1961,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/OriginalCommercialsFrom1961twilightZoneEpisode"
+          "credit": "archive.org/details/BettySydneyCakeMixChocolate1961TVCommercialXvid"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1961CommercialForfabWashingPowder/FabWashingPowder1961.mp4",
+          "src": "https://archive.org/download/Kent1961/Kent1961.mp4",
           "start": 0,
-          "duration": 70,
-          "title": "1961 commercial for Fab washing powder",
+          "duration": 60.18,
+          "title": "1961 commercial for Kent cigarettes",
           "year": 1961,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1961CommercialForfabWashingPowder"
+          "credit": "archive.org/details/Kent1961"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/200446_Decorating_Unlimited/200446_Decorating_Unlimited_inout.mp4",
-          "start": 1167.62,
-          "duration": 583.81,
-          "title": "Decorating Unlimited",
-          "year": 1961,
-          "airDate": "1961-11-01",
-          "category": "program",
-          "part": 3,
-          "parts": 3,
-          "credit": "archive.org/details/200446_Decorating_Unlimited"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/Carnation1961/Carnation1961.mp4",
+          "src": "https://archive.org/download/1961-04-19_First_Pictures/1961-04-19_First_Pictures.mp4",
           "start": 0,
-          "duration": 67.96,
-          "title": "1961 commercial for Carnation Instant Nonfat Dry Milk",
+          "duration": 103.08,
+          "title": "Soviets Hail Space hero",
+          "year": 1961,
+          "airDate": "1961-04-19",
+          "category": "news",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1961-04-19_First_Pictures"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1961CommercialForSani-flush/saniflush1961.mp4",
+          "start": 0,
+          "duration": 30.73,
+          "title": "1961 commercial for Sani-Flush",
           "year": 1961,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/Carnation1961"
+          "credit": "archive.org/details/1961CommercialForSani-flush"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1961CommercialForLustre-cremeWithShirleyJones/LustreCreme1961.mp4",
+          "src": "https://archive.org/download/1961GreatGarlooByMarx/1961%20Great%20Garloo%20by%20Marx.mp4",
           "start": 0,
-          "duration": 29.96,
-          "title": "1961 commercial for Lustre-Creme with Shirley Jones",
+          "duration": 59.06,
+          "title": "The Great Garloo",
           "year": 1961,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1961CommercialForLustre-cremeWithShirleyJones"
+          "credit": "archive.org/details/1961GreatGarlooByMarx"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1961-04-13_Eichmann_trial/1961-04-13_Eichmann_trial.mp4",
+          "start": 0,
+          "duration": 109.48,
+          "title": "Eichmann trial for Holocaust crimes",
+          "year": 1961,
+          "airDate": "1961-04-13",
+          "category": "news",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1961-04-13_Eichmann_trial"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1961RoyRogersQuickShooterHat/1961%20Roy%20Rogers%20Quick%20Shooter%20Hat.mp4",
+          "start": 0,
+          "duration": 50.06,
+          "title": "1961 Roy Rogers Quick Shooter Hat",
+          "year": 1961,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1961RoyRogersQuickShooterHat"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/Happy1961CommercialForCoca-cola/1961HappyCoca-ColaAd_512kb.mp4",
+          "start": 0,
+          "duration": 73.07,
+          "title": "Happy 1961 commercial for Coca-Cola",
+          "year": 1961,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/Happy1961CommercialForCoca-cola"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/UniversalNewsreelVolume34Issue801-23-1961/Universal%20Newsreel%20Volume%2034%20Issue%208%2001-23-1961.mp4",
+          "start": 0,
+          "duration": 384.9,
+          "title": "Universal Newsreel Volume 34, Issue 8: 01/23/1961",
+          "year": 1961,
+          "airDate": "1961-01-23",
+          "category": "news",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/UniversalNewsreelVolume34Issue801-23-1961"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/BettySydneyCakeMixChocolate1961TVCommercialXvid/Betty%20Sydney%20Cake%20mix%20_chocolate_%201961%20TV%20commercial_xvid.mp4",
+          "start": 0,
+          "duration": 22.88,
+          "title": "Betty Sydney Cake Mix Chocolate 1961 TV Commercial",
+          "year": 1961,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/BettySydneyCakeMixChocolate1961TVCommercialXvid"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/Kent1961/Kent1961.mp4",
+          "start": 0,
+          "duration": 60.18,
+          "title": "1961 commercial for Kent cigarettes",
+          "year": 1961,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/Kent1961"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1961-01-23_Inauguration/1961-01-23_Inauguration_512kb.mp4",
+          "start": 0,
+          "duration": 361.23,
+          "title": "Kennedy Sworn In, New Era Begins",
+          "year": 1961,
+          "airDate": "1961-01-23",
+          "category": "news",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1961-01-23_Inauguration"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1961CommercialForSani-flush/saniflush1961.mp4",
+          "start": 0,
+          "duration": 30.73,
+          "title": "1961 commercial for Sani-Flush",
+          "year": 1961,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1961CommercialForSani-flush"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1961GreatGarlooByMarx/1961%20Great%20Garloo%20by%20Marx.mp4",
+          "start": 0,
+          "duration": 59.06,
+          "title": "The Great Garloo",
+          "year": 1961,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1961GreatGarlooByMarx"
         },
         {
           "kind": "video",
@@ -654,29 +755,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/cheer1961/cheer1961.mp4",
+          "src": "https://archive.org/download/1961RoyRogersQuickShooterHat/1961%20Roy%20Rogers%20Quick%20Shooter%20Hat.mp4",
           "start": 0,
-          "duration": 63.53,
-          "title": "1961 commercial for Cheer laundry detergent",
+          "duration": 50.06,
+          "title": "1961 Roy Rogers Quick Shooter Hat",
           "year": 1961,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/cheer1961"
+          "credit": "archive.org/details/1961RoyRogersQuickShooterHat"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/nucoa1961/nucoa1961.mp4",
+          "src": "https://archive.org/download/Happy1961CommercialForCoca-cola/1961HappyCoca-ColaAd_512kb.mp4",
           "start": 0,
-          "duration": 63.64,
-          "title": "1961 commercial for Nucoa margarine",
+          "duration": 73.07,
+          "title": "Happy 1961 commercial for Coca-Cola",
           "year": 1961,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/nucoa1961"
+          "credit": "archive.org/details/Happy1961CommercialForCoca-cola"
         },
         {
           "kind": "video",
@@ -701,29 +802,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/OriginalCommercialsFrom1961twilightZoneEpisode/ChesterfieldCommercial-1961-2.mp4",
+          "src": "https://archive.org/download/BettySydneyCakeMixChocolate1961TVCommercialXvid/Betty%20Sydney%20Cake%20mix%20_chocolate_%201961%20TV%20commercial_xvid.mp4",
           "start": 0,
-          "duration": 59.59,
-          "title": "Original commercials from 1961 Twilight Zone episode",
+          "duration": 22.88,
+          "title": "Betty Sydney Cake Mix Chocolate 1961 TV Commercial",
           "year": 1961,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/OriginalCommercialsFrom1961twilightZoneEpisode"
+          "credit": "archive.org/details/BettySydneyCakeMixChocolate1961TVCommercialXvid"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1961CommercialForfabWashingPowder/FabWashingPowder1961.mp4",
+          "src": "https://archive.org/download/Kent1961/Kent1961.mp4",
           "start": 0,
-          "duration": 70,
-          "title": "1961 commercial for Fab washing powder",
+          "duration": 60.18,
+          "title": "1961 commercial for Kent cigarettes",
           "year": 1961,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1961CommercialForfabWashingPowder"
+          "credit": "archive.org/details/Kent1961"
         },
         {
           "kind": "video",
@@ -740,29 +841,68 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/Carnation1961/Carnation1961.mp4",
+          "src": "https://archive.org/download/1961CommercialForSani-flush/saniflush1961.mp4",
           "start": 0,
-          "duration": 67.96,
-          "title": "1961 commercial for Carnation Instant Nonfat Dry Milk",
+          "duration": 30.73,
+          "title": "1961 commercial for Sani-Flush",
           "year": 1961,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/Carnation1961"
+          "credit": "archive.org/details/1961CommercialForSani-flush"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1961CommercialForLustre-cremeWithShirleyJones/LustreCreme1961.mp4",
+          "src": "https://archive.org/download/1961GreatGarlooByMarx/1961%20Great%20Garloo%20by%20Marx.mp4",
           "start": 0,
-          "duration": 29.96,
-          "title": "1961 commercial for Lustre-Creme with Shirley Jones",
+          "duration": 59.06,
+          "title": "The Great Garloo",
           "year": 1961,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1961CommercialForLustre-cremeWithShirleyJones"
+          "credit": "archive.org/details/1961GreatGarlooByMarx"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/boys_beware/boys_beware.mp4",
+          "start": 0,
+          "duration": 612.46,
+          "title": "Boys Beware",
+          "year": 1961,
+          "airDate": null,
+          "category": "program",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/boys_beware"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1961RoyRogersQuickShooterHat/1961%20Roy%20Rogers%20Quick%20Shooter%20Hat.mp4",
+          "start": 0,
+          "duration": 50.06,
+          "title": "1961 Roy Rogers Quick Shooter Hat",
+          "year": 1961,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1961RoyRogersQuickShooterHat"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/Happy1961CommercialForCoca-cola/1961HappyCoca-ColaAd_512kb.mp4",
+          "start": 0,
+          "duration": 73.07,
+          "title": "Happy 1961 commercial for Coca-Cola",
+          "year": 1961,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/Happy1961CommercialForCoca-cola"
         },
         {
           "kind": "card",
@@ -775,17 +915,17 @@
       ]
     },
     {
-      "number": 5,
+      "number": 4,
       "name": "WNTW",
       "tagline": "The way it was",
       "year": 1964,
-      "totalDuration": 3311.979,
+      "totalDuration": 3671.719,
       "items": [
         {
           "kind": "card",
           "style": "station-id",
           "duration": 8,
-          "title": "WNTW · CHANNEL 5",
+          "title": "WNTW · CHANNEL 4",
           "text": "Good evening. It's November 4, 1964. Stay tuned.",
           "year": 1964
         },
@@ -804,29 +944,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1964Jell-oCommercial/Jell-O-1964.mp4",
+          "src": "https://archive.org/download/GasHeating1964/GasHeating1964.mp4",
           "start": 0,
-          "duration": 29.22,
-          "title": "1964 Jell-O commercial",
+          "duration": 60.29,
+          "title": "1964 commercial for gas heating",
           "year": 1964,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1964Jell-oCommercial"
+          "credit": "archive.org/details/GasHeating1964"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/PromoForEmergencyWard103/Promo%20for%20''Emergency%20Ward%2010''%20(3).mp4",
+          "src": "https://archive.org/download/1964CapnCrunchBreakfastOnTheGuppy/1964%20Cap'n%20Crunch%20Breakfast%20on%20the%20Guppy.mp4",
           "start": 0,
-          "duration": 60.84,
-          "title": "Promo For ''Emergency Ward 10'' (3)",
+          "duration": 60.38,
+          "title": "Cap'n Crunch \"Breakfast On The Guppy\" (First Commercial)",
           "year": 1964,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/PromoForEmergencyWard103"
+          "credit": "archive.org/details/1964CapnCrunchBreakfastOnTheGuppy"
         },
         {
           "kind": "video",
@@ -851,29 +991,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1964CommercialForFreshDeodorant/fresh1964.mp4",
+          "src": "https://archive.org/download/1964DutchMasters2/1964DutchMasters2.mp4",
           "start": 0,
-          "duration": 30.4,
-          "title": "1964 commercial for Fresh deodorant",
+          "duration": 66.37,
+          "title": "1964 commercial for Dutch Masters cigars (ad 2)",
           "year": 1964,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1964CommercialForFreshDeodorant"
+          "credit": "archive.org/details/1964DutchMasters2"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/QuakerState1964Ad2/QuakerState1964Ad2.mp4",
+          "src": "https://archive.org/download/theycallhimflipper/Flipper%20(64)%20%20S01E13-NA_Segment_0_x264.mp4",
           "start": 0,
-          "duration": 61.94,
-          "title": "1964 commercial: Quaker State motor oil (ad 2)",
+          "duration": 45.34,
+          "title": "Flipper Intro",
           "year": 1964,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/QuakerState1964Ad2"
+          "credit": "archive.org/details/theycallhimflipper"
         },
         {
           "kind": "video",
@@ -898,29 +1038,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1964CapnCrunchBreakfastOnTheGuppy/1964%20Cap'n%20Crunch%20Breakfast%20on%20the%20Guppy.mp4",
+          "src": "https://archive.org/download/CevroletFor1964AirielCommercial/Chevrolet1964_512kb.mp4",
           "start": 0,
-          "duration": 60.38,
-          "title": "Cap'n Crunch \"Breakfast On The Guppy\" (First Commercial)",
+          "duration": 119.89,
+          "title": "Chevrolet for 1964 Airiel Commercial",
           "year": 1964,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1964CapnCrunchBreakfastOnTheGuppy"
+          "credit": "archive.org/details/CevroletFor1964AirielCommercial"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/Election_Ads_02/Commercial-LBJ1964ElectionAdKKKforGoldwater_512kb.mp4",
+          "src": "https://archive.org/download/Pepsodent1964/Pepsodent1964.mp4",
           "start": 0,
-          "duration": 19.02,
-          "title": "Presidential Campaign Ads 1964",
+          "duration": 89.4,
+          "title": "1964 commercial: Pepsodent",
           "year": 1964,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/Election_Ads_02"
+          "credit": "archive.org/details/Pepsodent1964"
         },
         {
           "kind": "video",
@@ -937,29 +1077,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1964Jell-oCommercial/Jell-O-1964.mp4",
+          "src": "https://archive.org/download/GasHeating1964/GasHeating1964.mp4",
           "start": 0,
-          "duration": 29.22,
-          "title": "1964 Jell-O commercial",
+          "duration": 60.29,
+          "title": "1964 commercial for gas heating",
           "year": 1964,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1964Jell-oCommercial"
+          "credit": "archive.org/details/GasHeating1964"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/PromoForEmergencyWard103/Promo%20for%20''Emergency%20Ward%2010''%20(3).mp4",
+          "src": "https://archive.org/download/1964CapnCrunchBreakfastOnTheGuppy/1964%20Cap'n%20Crunch%20Breakfast%20on%20the%20Guppy.mp4",
           "start": 0,
-          "duration": 60.84,
-          "title": "Promo For ''Emergency Ward 10'' (3)",
+          "duration": 60.38,
+          "title": "Cap'n Crunch \"Breakfast On The Guppy\" (First Commercial)",
           "year": 1964,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/PromoForEmergencyWard103"
+          "credit": "archive.org/details/1964CapnCrunchBreakfastOnTheGuppy"
         },
         {
           "kind": "video",
@@ -984,29 +1124,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1964CommercialForFreshDeodorant/fresh1964.mp4",
+          "src": "https://archive.org/download/1964DutchMasters2/1964DutchMasters2.mp4",
           "start": 0,
-          "duration": 30.4,
-          "title": "1964 commercial for Fresh deodorant",
+          "duration": 66.37,
+          "title": "1964 commercial for Dutch Masters cigars (ad 2)",
           "year": 1964,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1964CommercialForFreshDeodorant"
+          "credit": "archive.org/details/1964DutchMasters2"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/QuakerState1964Ad2/QuakerState1964Ad2.mp4",
+          "src": "https://archive.org/download/theycallhimflipper/Flipper%20(64)%20%20S01E13-NA_Segment_0_x264.mp4",
           "start": 0,
-          "duration": 61.94,
-          "title": "1964 commercial: Quaker State motor oil (ad 2)",
+          "duration": 45.34,
+          "title": "Flipper Intro",
           "year": 1964,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/QuakerState1964Ad2"
+          "credit": "archive.org/details/theycallhimflipper"
         },
         {
           "kind": "video",
@@ -1023,29 +1163,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1964CapnCrunchBreakfastOnTheGuppy/1964%20Cap'n%20Crunch%20Breakfast%20on%20the%20Guppy.mp4",
+          "src": "https://archive.org/download/CevroletFor1964AirielCommercial/Chevrolet1964_512kb.mp4",
           "start": 0,
-          "duration": 60.38,
-          "title": "Cap'n Crunch \"Breakfast On The Guppy\" (First Commercial)",
+          "duration": 119.89,
+          "title": "Chevrolet for 1964 Airiel Commercial",
           "year": 1964,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1964CapnCrunchBreakfastOnTheGuppy"
+          "credit": "archive.org/details/CevroletFor1964AirielCommercial"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/Election_Ads_02/Commercial-LBJ1964ElectionAdKKKforGoldwater_512kb.mp4",
+          "src": "https://archive.org/download/Pepsodent1964/Pepsodent1964.mp4",
           "start": 0,
-          "duration": 19.02,
-          "title": "Presidential Campaign Ads 1964",
+          "duration": 89.4,
+          "title": "1964 commercial: Pepsodent",
           "year": 1964,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/Election_Ads_02"
+          "credit": "archive.org/details/Pepsodent1964"
         },
         {
           "kind": "card",
@@ -1058,17 +1198,17 @@
       ]
     },
     {
-      "number": 7,
+      "number": 5,
       "name": "WYRS",
       "tagline": "Tonight, back then",
       "year": 1968,
-      "totalDuration": 3659.91,
+      "totalDuration": 3619.64,
       "items": [
         {
           "kind": "card",
           "style": "station-id",
           "duration": 8,
-          "title": "WYRS · CHANNEL 7",
+          "title": "WYRS · CHANNEL 5",
           "text": "Good evening. It's November 4, 1968. Stay tuned.",
           "year": 1968
         },
@@ -1095,29 +1235,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial151968-1971/VirginiaSlims_15.mp4",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial171968-1971/VirginiaSlims_17.mp4",
           "start": 0,
-          "duration": 60.01,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial 15 / 1968-1971",
+          "duration": 60.45,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 17 / 1968-1971",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial151968-1971"
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial171968-1971"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial0219681971/VirginiaSlims_02.mp4",
+          "src": "https://archive.org/download/1968CommercialFordashLaundryDetergent/Dash1968.mp4",
           "start": 0,
-          "duration": 59.92,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial 02 / 1968-1971",
+          "duration": 59.69,
+          "title": "1968 commercial for Dash laundry detergent",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial0219681971"
+          "credit": "archive.org/details/1968CommercialFordashLaundryDetergent"
         },
         {
           "kind": "card",
@@ -1150,29 +1290,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/BorisKarloffRonsonCometLighter1968/Boris%20Karloff%20Ronson%20Comet%20Lighter%201968.mp4",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial0319681971/VirginiaSlims_03.mp4",
           "start": 0,
-          "duration": 59.21,
-          "title": "Ronson Comet Lighter with Boris Karloff",
+          "duration": 59.88,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 03 / 1968-1971",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/BorisKarloffRonsonCometLighter1968"
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial0319681971"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/3CommercialsFromSame1968Broadcast/Dove1968.mp4",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial151968-1971/VirginiaSlims_15.mp4",
           "start": 0,
-          "duration": 29.96,
-          "title": "3 commercials from same 1968 broadcast",
+          "duration": 60.01,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 15 / 1968-1971",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/3CommercialsFromSame1968Broadcast"
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial151968-1971"
         },
         {
           "kind": "video",
@@ -1189,29 +1329,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial171968-1971/VirginiaSlims_17.mp4",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercialHumor031968-1971/VirginiaSlims_Humor_03.mp4",
           "start": 0,
-          "duration": 60.45,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial 17 / 1968-1971",
+          "duration": 10.44,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial / Humor 03 / 1968-1971",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial171968-1971"
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercialHumor031968-1971"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial0119681971/VirginiaSlims_01.mp4",
+          "src": "https://archive.org/download/1968Speedline2In1StuntDragRaceSet/1968%20Speedline%202%20in%201%20stunt%20%26%20drag%20Race%20Set.mp4",
           "start": 0,
-          "duration": 60.22,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial 01 / 1968-1971",
+          "duration": 59.06,
+          "title": "Speedline 2 in 1 Stunt & Drag Race Set",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial0119681971"
+          "credit": "archive.org/details/1968Speedline2In1StuntDragRaceSet"
         },
         {
           "kind": "video",
@@ -1236,29 +1376,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial151968-1971/VirginiaSlims_15.mp4",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial171968-1971/VirginiaSlims_17.mp4",
           "start": 0,
-          "duration": 60.01,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial 15 / 1968-1971",
+          "duration": 60.45,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 17 / 1968-1971",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial151968-1971"
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial171968-1971"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial0219681971/VirginiaSlims_02.mp4",
+          "src": "https://archive.org/download/1968CommercialFordashLaundryDetergent/Dash1968.mp4",
           "start": 0,
-          "duration": 59.92,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial 02 / 1968-1971",
+          "duration": 59.69,
+          "title": "1968 commercial for Dash laundry detergent",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial0219681971"
+          "credit": "archive.org/details/1968CommercialFordashLaundryDetergent"
         },
         {
           "kind": "video",
@@ -1275,29 +1415,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/BorisKarloffRonsonCometLighter1968/Boris%20Karloff%20Ronson%20Comet%20Lighter%201968.mp4",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial0319681971/VirginiaSlims_03.mp4",
           "start": 0,
-          "duration": 59.21,
-          "title": "Ronson Comet Lighter with Boris Karloff",
+          "duration": 59.88,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 03 / 1968-1971",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/BorisKarloffRonsonCometLighter1968"
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial0319681971"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/3CommercialsFromSame1968Broadcast/Dove1968.mp4",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial151968-1971/VirginiaSlims_15.mp4",
           "start": 0,
-          "duration": 29.96,
-          "title": "3 commercials from same 1968 broadcast",
+          "duration": 60.01,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 15 / 1968-1971",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/3CommercialsFromSame1968Broadcast"
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial151968-1971"
         },
         {
           "kind": "video",
@@ -1322,29 +1462,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial171968-1971/VirginiaSlims_17.mp4",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercialHumor031968-1971/VirginiaSlims_Humor_03.mp4",
           "start": 0,
-          "duration": 60.45,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial 17 / 1968-1971",
+          "duration": 10.44,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial / Humor 03 / 1968-1971",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial171968-1971"
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercialHumor031968-1971"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial0119681971/VirginiaSlims_01.mp4",
+          "src": "https://archive.org/download/1968Speedline2In1StuntDragRaceSet/1968%20Speedline%202%20in%201%20stunt%20%26%20drag%20Race%20Set.mp4",
           "start": 0,
-          "duration": 60.22,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial 01 / 1968-1971",
+          "duration": 59.06,
+          "title": "Speedline 2 in 1 Stunt & Drag Race Set",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial0119681971"
+          "credit": "archive.org/details/1968Speedline2In1StuntDragRaceSet"
         },
         {
           "kind": "video",
@@ -1361,29 +1501,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial151968-1971/VirginiaSlims_15.mp4",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial171968-1971/VirginiaSlims_17.mp4",
           "start": 0,
-          "duration": 60.01,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial 15 / 1968-1971",
+          "duration": 60.45,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 17 / 1968-1971",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial151968-1971"
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial171968-1971"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial0219681971/VirginiaSlims_02.mp4",
+          "src": "https://archive.org/download/1968CommercialFordashLaundryDetergent/Dash1968.mp4",
           "start": 0,
-          "duration": 59.92,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial 02 / 1968-1971",
+          "duration": 59.69,
+          "title": "1968 commercial for Dash laundry detergent",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial0219681971"
+          "credit": "archive.org/details/1968CommercialFordashLaundryDetergent"
         },
         {
           "kind": "card",
@@ -1396,7 +1536,7 @@
       ]
     },
     {
-      "number": 9,
+      "number": 7,
       "name": "WHEN",
       "tagline": "Stay tuned",
       "year": 1970,
@@ -1406,7 +1546,7 @@
           "kind": "card",
           "style": "station-id",
           "duration": 8,
-          "title": "WHEN · CHANNEL 9",
+          "title": "WHEN · CHANNEL 7",
           "text": "Good evening. It's November 4, 1970. Stay tuned.",
           "year": 1970
         },
@@ -1695,17 +1835,17 @@
       ]
     },
     {
-      "number": 11,
+      "number": 9,
       "name": "WOLD",
       "tagline": "Your evening companion",
       "year": 1971,
-      "totalDuration": 4328.349,
+      "totalDuration": 4246.009,
       "items": [
         {
           "kind": "card",
           "style": "station-id",
           "duration": 8,
-          "title": "WOLD · CHANNEL 11",
+          "title": "WOLD · CHANNEL 9",
           "text": "Good evening. It's November 4, 1971. Stay tuned.",
           "year": 1971
         },
@@ -1732,19 +1872,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial101968-1971/VirginiaSlims_10.mp4",
-          "start": 0,
-          "duration": 60.22,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial 10 / 1968-1971",
-          "year": 1971,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial101968-1971"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial161968-1971/VirginiaSlims_16.mp4",
           "start": 0,
           "duration": 60.19,
@@ -1755,6 +1882,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial161968-1971"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1970sAmericanExpressWithMelBlanc/1970s%20American%20Express%20with%20Mel%20Blanc.mp4",
+          "start": 0,
+          "duration": 29.71,
+          "title": "1970s American Express With Mel Blanc",
+          "year": 1971,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1970sAmericanExpressWithMelBlanc"
         },
         {
           "kind": "video",
@@ -1771,19 +1911,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial111968-1971/VirginiaSlims_11.mp4",
-          "start": 0,
-          "duration": 60.38,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial 11 / 1968-1971",
-          "year": 1971,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial111968-1971"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/FrankenberryCountChoculaTevevisionCommercial1971/frankerberry_countchockula_1971.0001_512kb.mp4",
           "start": 0,
           "duration": 31.13,
@@ -1794,6 +1921,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/FrankenberryCountChoculaTevevisionCommercial1971"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial101968-1971/VirginiaSlims_10.mp4",
+          "start": 0,
+          "duration": 60.22,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 10 / 1968-1971",
+          "year": 1971,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial101968-1971"
         },
         {
           "kind": "video",
@@ -1818,29 +1958,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial0819681971/VirginiaSlims_08.mp4",
+          "src": "https://archive.org/download/1971CommercialForLifebuoySoap/1971%20commercial%20for%20Lifebuoy%20soap.mp4",
           "start": 0,
-          "duration": 10.2,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial 08 / 1968-1971",
+          "duration": 29.3,
+          "title": "1971 commercial for Lifebuoy soap",
           "year": 1971,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial0819681971"
+          "credit": "archive.org/details/1971CommercialForLifebuoySoap"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercialHumor06Pies/VirginiaSlims_Humor_06_Pies.mp4",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial161968-1971/VirginiaSlims_16.mp4",
           "start": 0,
-          "duration": 60.02,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial / Humor 06 / Pies / 1968-1971",
+          "duration": 60.19,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 16 / 1968-1971",
           "year": 1971,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercialHumor06Pies"
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial161968-1971"
         },
         {
           "kind": "video",
@@ -1865,29 +2005,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial101968-1971/VirginiaSlims_10.mp4",
+          "src": "https://archive.org/download/1970sAmericanExpressWithMelBlanc/1970s%20American%20Express%20with%20Mel%20Blanc.mp4",
           "start": 0,
-          "duration": 60.22,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial 10 / 1968-1971",
+          "duration": 29.71,
+          "title": "1970s American Express With Mel Blanc",
           "year": 1971,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial101968-1971"
+          "credit": "archive.org/details/1970sAmericanExpressWithMelBlanc"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial161968-1971/VirginiaSlims_16.mp4",
+          "src": "https://archive.org/download/FrankenberryCountChoculaTevevisionCommercial1971/frankerberry_countchockula_1971.0001_512kb.mp4",
           "start": 0,
-          "duration": 60.19,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial 16 / 1968-1971",
+          "duration": 31.13,
+          "title": "Franken Berry / Count Chocula : Tevevision Commercial 1971",
           "year": 1971,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial161968-1971"
+          "credit": "archive.org/details/FrankenberryCountChoculaTevevisionCommercial1971"
         },
         {
           "kind": "video",
@@ -1904,29 +2044,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial111968-1971/VirginiaSlims_11.mp4",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial101968-1971/VirginiaSlims_10.mp4",
           "start": 0,
-          "duration": 60.38,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial 11 / 1968-1971",
+          "duration": 60.22,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 10 / 1968-1971",
           "year": 1971,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial111968-1971"
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial101968-1971"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/FrankenberryCountChoculaTevevisionCommercial1971/frankerberry_countchockula_1971.0001_512kb.mp4",
+          "src": "https://archive.org/download/1971CommercialForLifebuoySoap/1971%20commercial%20for%20Lifebuoy%20soap.mp4",
           "start": 0,
-          "duration": 31.13,
-          "title": "Franken Berry / Count Chocula : Tevevision Commercial 1971",
+          "duration": 29.3,
+          "title": "1971 commercial for Lifebuoy soap",
           "year": 1971,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/FrankenberryCountChoculaTevevisionCommercial1971"
+          "credit": "archive.org/details/1971CommercialForLifebuoySoap"
         },
         {
           "kind": "video",
@@ -1951,29 +2091,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial0819681971/VirginiaSlims_08.mp4",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial161968-1971/VirginiaSlims_16.mp4",
           "start": 0,
-          "duration": 10.2,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial 08 / 1968-1971",
+          "duration": 60.19,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 16 / 1968-1971",
           "year": 1971,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial0819681971"
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial161968-1971"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercialHumor06Pies/VirginiaSlims_Humor_06_Pies.mp4",
+          "src": "https://archive.org/download/1970sAmericanExpressWithMelBlanc/1970s%20American%20Express%20with%20Mel%20Blanc.mp4",
           "start": 0,
-          "duration": 60.02,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial / Humor 06 / Pies / 1968-1971",
+          "duration": 29.71,
+          "title": "1970s American Express With Mel Blanc",
           "year": 1971,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercialHumor06Pies"
+          "credit": "archive.org/details/1970sAmericanExpressWithMelBlanc"
         },
         {
           "kind": "video",
@@ -1990,6 +2130,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/FrankenberryCountChoculaTevevisionCommercial1971/frankerberry_countchockula_1971.0001_512kb.mp4",
+          "start": 0,
+          "duration": 31.13,
+          "title": "Franken Berry / Count Chocula : Tevevision Commercial 1971",
+          "year": 1971,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/FrankenberryCountChoculaTevevisionCommercial1971"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial101968-1971/VirginiaSlims_10.mp4",
           "start": 0,
           "duration": 60.22,
@@ -2002,19 +2155,6 @@
           "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial101968-1971"
         },
         {
-          "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial161968-1971/VirginiaSlims_16.mp4",
-          "start": 0,
-          "duration": 60.19,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial 16 / 1968-1971",
-          "year": 1971,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial161968-1971"
-        },
-        {
           "kind": "card",
           "style": "sign-off",
           "duration": 8,
@@ -2025,9 +2165,347 @@
       ]
     },
     {
-      "number": 13,
+      "number": 11,
       "name": "WPST",
       "tagline": "Your window to yesterday",
+      "year": 1975,
+      "totalDuration": 3725.12,
+      "items": [
+        {
+          "kind": "card",
+          "style": "station-id",
+          "duration": 8,
+          "title": "WPST · CHANNEL 11",
+          "text": "Good evening. It's November 4, 1975. Stay tuned.",
+          "year": 1975
+        },
+        {
+          "kind": "card",
+          "style": "headline",
+          "duration": 10,
+          "title": "November 4, 1975",
+          "text": "Died today: Francis Dvornik, Czech priest and academic (born 1893)",
+          "year": 1975
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/WhentheC1975/WhentheC1975.mp4",
+          "start": 0,
+          "duration": 418.835,
+          "title": "When the Circuit Breaks: America's Energy Crisis (Part I)",
+          "year": 1975,
+          "airDate": null,
+          "category": "program",
+          "part": 1,
+          "parts": 2,
+          "credit": "archive.org/details/WhentheC1975"
+        },
+        {
+          "kind": "card",
+          "style": "break",
+          "duration": 4,
+          "title": "We'll be right back",
+          "text": "Stay tuned!",
+          "year": null
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/jody-foster/Jody%20Foster.mp4",
+          "start": 0,
+          "duration": 23.57,
+          "title": "Jody Foster - One-A-Day Vitamins (1975) TV Commercial",
+          "year": 1975,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/jody-foster"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/michael-rupert-as-pippin-1975-commerical_202006/Michael%20Rupert%20as%20Pippin%20(1975%20Commerical).mp4",
+          "start": 0,
+          "duration": 60.51,
+          "title": "Pippin - Commercial 2 - With You Ballet",
+          "year": 1975,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/michael-rupert-as-pippin-1975-commerical_202006"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/WhentheC1975/WhentheC1975.mp4",
+          "start": 418.835,
+          "duration": 418.835,
+          "title": "When the Circuit Breaks: America's Energy Crisis (Part I)",
+          "year": 1975,
+          "airDate": null,
+          "category": "program",
+          "part": 2,
+          "parts": 2,
+          "credit": "archive.org/details/WhentheC1975"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1975-commercial-for-ritz-thrift-shop/1975%20commercial%20for%20Ritz%20Thrift%20Shop.mp4",
+          "start": 0,
+          "duration": 29.46,
+          "title": "1975 commercial for Ritz Thrift Shop",
+          "year": 1975,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1975-commercial-for-ritz-thrift-shop"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/ktel-mood-shirts-commercial-480p/Ktel%20Mood%20Shirts%20commercial480p.mp4",
+          "start": 0,
+          "duration": 36.13,
+          "title": "K-Tel Mood Shirts Commercial",
+          "year": 1975,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/ktel-mood-shirts-commercial-480p"
+        },
+        {
+          "kind": "card",
+          "style": "headline",
+          "duration": 10,
+          "title": "November 4, 1975",
+          "text": "Died today: Izzat Husrieh, Syrian journalist, historian, and academic (born 1914)",
+          "year": 1975
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/pollution_below/pollution_below.mp4",
+          "start": 0,
+          "duration": 427.44,
+          "title": "Pollution Below",
+          "year": 1975,
+          "airDate": null,
+          "category": "program",
+          "part": 1,
+          "parts": 2,
+          "credit": "archive.org/details/pollution_below"
+        },
+        {
+          "kind": "card",
+          "style": "break",
+          "duration": 4,
+          "title": "We'll be right back",
+          "text": "Stay tuned!",
+          "year": null
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/yt-5s.com-lyons-maid-newsagent-1975-advert-hq-1080p/yt5s.com-Lyons%20Maid%20-%20Newsagent%20(1975)%20Advert%20HQ-(1080p).mp4",
+          "start": 0,
+          "duration": 49.53,
+          "title": "Lyons Maid Commercial: \"Newsagent\"",
+          "year": 1975,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/yt-5s.com-lyons-maid-newsagent-1975-advert-hq-1080p"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1970s7UpSeeTheLight1/SeeTheLightOf7-up1970s2.mp4",
+          "start": 0,
+          "duration": 60.24,
+          "title": "See the Light with 7-Up!",
+          "year": 1975,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1970s7UpSeeTheLight1"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/pollution_below/pollution_below.mp4",
+          "start": 427.44,
+          "duration": 427.44,
+          "title": "Pollution Below",
+          "year": 1975,
+          "airDate": null,
+          "category": "program",
+          "part": 2,
+          "parts": 2,
+          "credit": "archive.org/details/pollution_below"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/jody-foster/Jody%20Foster.mp4",
+          "start": 0,
+          "duration": 23.57,
+          "title": "Jody Foster - One-A-Day Vitamins (1975) TV Commercial",
+          "year": 1975,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/jody-foster"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/michael-rupert-as-pippin-1975-commerical_202006/Michael%20Rupert%20as%20Pippin%20(1975%20Commerical).mp4",
+          "start": 0,
+          "duration": 60.51,
+          "title": "Pippin - Commercial 2 - With You Ballet",
+          "year": 1975,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/michael-rupert-as-pippin-1975-commerical_202006"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/WhentheC1975_2/WhentheC1975_2.mp4",
+          "start": 0,
+          "duration": 409.195,
+          "title": "When the Circuit Breaks: America's Energy Crisis (Part II)",
+          "year": 1975,
+          "airDate": null,
+          "category": "program",
+          "part": 1,
+          "parts": 2,
+          "credit": "archive.org/details/WhentheC1975_2"
+        },
+        {
+          "kind": "card",
+          "style": "break",
+          "duration": 4,
+          "title": "We'll be right back",
+          "text": "Stay tuned!",
+          "year": null
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1975-commercial-for-ritz-thrift-shop/1975%20commercial%20for%20Ritz%20Thrift%20Shop.mp4",
+          "start": 0,
+          "duration": 29.46,
+          "title": "1975 commercial for Ritz Thrift Shop",
+          "year": 1975,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1975-commercial-for-ritz-thrift-shop"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/ktel-mood-shirts-commercial-480p/Ktel%20Mood%20Shirts%20commercial480p.mp4",
+          "start": 0,
+          "duration": 36.13,
+          "title": "K-Tel Mood Shirts Commercial",
+          "year": 1975,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/ktel-mood-shirts-commercial-480p"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/WhentheC1975_2/WhentheC1975_2.mp4",
+          "start": 409.195,
+          "duration": 409.195,
+          "title": "When the Circuit Breaks: America's Energy Crisis (Part II)",
+          "year": 1975,
+          "airDate": null,
+          "category": "program",
+          "part": 2,
+          "parts": 2,
+          "credit": "archive.org/details/WhentheC1975_2"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/yt-5s.com-lyons-maid-newsagent-1975-advert-hq-1080p/yt5s.com-Lyons%20Maid%20-%20Newsagent%20(1975)%20Advert%20HQ-(1080p).mp4",
+          "start": 0,
+          "duration": 49.53,
+          "title": "Lyons Maid Commercial: \"Newsagent\"",
+          "year": 1975,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/yt-5s.com-lyons-maid-newsagent-1975-advert-hq-1080p"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1970s7UpSeeTheLight1/SeeTheLightOf7-up1970s2.mp4",
+          "start": 0,
+          "duration": 60.24,
+          "title": "See the Light with 7-Up!",
+          "year": 1975,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1970s7UpSeeTheLight1"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/New_Spirit_for_76/0337_New_Spirit_for_76_A_14_46_10_00_3mb.mp4",
+          "start": 0,
+          "duration": 563.22,
+          "title": "New Spirit for '76, A",
+          "year": 1975,
+          "airDate": null,
+          "category": "program",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/New_Spirit_for_76"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/jody-foster/Jody%20Foster.mp4",
+          "start": 0,
+          "duration": 23.57,
+          "title": "Jody Foster - One-A-Day Vitamins (1975) TV Commercial",
+          "year": 1975,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/jody-foster"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/michael-rupert-as-pippin-1975-commerical_202006/Michael%20Rupert%20as%20Pippin%20(1975%20Commerical).mp4",
+          "start": 0,
+          "duration": 60.51,
+          "title": "Pippin - Commercial 2 - With You Ballet",
+          "year": 1975,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/michael-rupert-as-pippin-1975-commerical_202006"
+        },
+        {
+          "kind": "card",
+          "style": "sign-off",
+          "duration": 8,
+          "title": "That concludes our broadcast day",
+          "text": "WPST thanks you for watching. Our programming will now repeat.",
+          "year": 1975
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "name": "WDAY",
+      "tagline": "Seven on your dial",
       "year": 1982,
       "totalDuration": 2936.191,
       "items": [
@@ -2035,7 +2513,7 @@
           "kind": "card",
           "style": "station-id",
           "duration": 8,
-          "title": "WPST · CHANNEL 13",
+          "title": "WDAY · CHANNEL 13",
           "text": "Good evening. It's November 4, 1982. Stay tuned.",
           "year": 1982
         },
@@ -2248,7 +2726,7 @@
           "style": "sign-off",
           "duration": 8,
           "title": "That concludes our broadcast day",
-          "text": "WPST thanks you for watching. Our programming will now repeat.",
+          "text": "WDAY thanks you for watching. Our programming will now repeat.",
           "year": 1982
         }
       ]

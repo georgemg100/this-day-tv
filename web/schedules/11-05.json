@@ -3,7 +3,7 @@
   "target": "web",
   "date": "11-05",
   "title": "This Day in History — November 5",
-  "publishedAt": "2026-11-04T03:15:29.482Z",
+  "publishedAt": "2026-11-04T03:32:23.191Z",
   "channels": [
     {
       "number": 2,
@@ -1275,76 +1275,68 @@
       "number": 7,
       "name": "WHEN",
       "tagline": "Stay tuned",
-      "year": 1979,
-      "totalDuration": 3321.092,
+      "year": 1982,
+      "totalDuration": 2841.661,
       "items": [
         {
           "kind": "card",
           "style": "station-id",
           "duration": 8,
           "title": "WHEN · CHANNEL 7",
-          "text": "Good evening. It's November 5, 1979. Stay tuned.",
-          "year": 1979
-        },
-        {
-          "kind": "card",
-          "style": "headline",
-          "duration": 10,
-          "title": "November 5, 1979",
-          "text": "Died today: Al Capp, American cartoonist (born 1909)",
-          "year": 1979
+          "text": "Good evening. It's November 5, 1982. Stay tuned.",
+          "year": 1982
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/AlcoholT1979/AlcoholT1979.mp4",
+          "src": "https://archive.org/download/0828_Bradley--Second_to_None_12_26_55_00/0828_Bradley_Second_to_None_12_26_55_00.mp4",
           "start": 0,
-          "duration": 537.54,
-          "title": "Alcohol Trigger Films for Junior High: The Party, The Mother, The Bride",
-          "year": 1979,
+          "duration": 624.66,
+          "title": "Bradley: Second to None",
+          "year": 1982,
           "airDate": null,
           "category": "program",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/AlcoholT1979"
+          "credit": "archive.org/details/0828_Bradley--Second_to_None_12_26_55_00"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/sega_gremlin_tape_archive/19%20-%201983%20Star%20Trek%20Home%20Game%20Commercial.mp4",
+          "src": "https://archive.org/download/AtariComputers_Feb8_1982/AtariComputers_Feb8_1982.mp4",
           "start": 0,
-          "duration": 30.63,
-          "title": "The Sega-Gremlin Tape Archive",
-          "year": 1979,
+          "duration": 29.56,
+          "title": "Atari Computers commercial (USA, 1982)",
+          "year": 1982,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/sega_gremlin_tape_archive"
+          "credit": "archive.org/details/AtariComputers_Feb8_1982"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/JordacheJeansCommercial1979/Jordache%20Jeans%20commercial%201979.mp4",
+          "src": "https://archive.org/download/MAGISynthavisionDemoReel1982/MAGI%20Synthavision%20Demo%20Reel%201982.mp4",
           "start": 0,
-          "duration": 30.16,
-          "title": "Jordache jeans commercial (USA, 1979)",
-          "year": 1979,
+          "duration": 150.37,
+          "title": "MAGI Synthavision Demo Reel 1982",
+          "year": 1982,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/JordacheJeansCommercial1979"
+          "credit": "archive.org/details/MAGISynthavisionDemoReel1982"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/6354_HM_New_York_Vacation_September_1979_01_00_35_00/6354_HM_New_York_Vacation_September_1979_01_00_35_00_3mb.mp4",
+          "src": "https://archive.org/download/JSC_818_Space_Shuttle_Columbia_Second_Flight.wmv/Jsc-818_spaceShuttleColumbiaSecondFlight.mp4",
           "start": 0,
-          "duration": 587.253,
-          "title": "Home Movies: New York Vacation, September 1979\"",
-          "year": 1979,
+          "duration": 575.447,
+          "title": "JSC 818 Space Shuttle Columbia Second Flight",
+          "year": 1982,
           "airDate": null,
           "category": "program",
           "part": 1,
-          "parts": 4,
-          "credit": "archive.org/details/6354_HM_New_York_Vacation_September_1979_01_00_35_00"
+          "parts": 3,
+          "credit": "archive.org/details/JSC_818_Space_Shuttle_Columbia_Second_Flight.wmv"
         },
         {
           "kind": "card",
@@ -1356,42 +1348,42 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/ComputerPerfection_Dec79/ComputerPerfection_Dec79.mp4",
+          "src": "https://archive.org/download/ComputerFair1982/ComputerFair1982.mp4",
           "start": 0,
-          "duration": 29.56,
-          "title": "Computer Perfection commercial (USA, 1979)",
-          "year": 1979,
+          "duration": 10.84,
+          "title": "1982 commercial: Computer Fair",
+          "year": 1982,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/ComputerPerfection_Dec79"
+          "credit": "archive.org/details/ComputerFair1982"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1979-disco-dance-machine-commercial/1979%20Disco%20Dance%20Machine%20Commercial.mp4",
+          "src": "https://archive.org/download/Denclen1982/Denclen1982.mp4",
           "start": 0,
-          "duration": 31.09,
-          "title": "1979 Disco Dance Machine Commercial",
-          "year": 1979,
+          "duration": 30.32,
+          "title": "1982 commercial: Denclen",
+          "year": 1982,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1979-disco-dance-machine-commercial"
+          "credit": "archive.org/details/Denclen1982"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/6354_HM_New_York_Vacation_September_1979_01_00_35_00/6354_HM_New_York_Vacation_September_1979_01_00_35_00_3mb.mp4",
-          "start": 587.253,
-          "duration": 587.253,
-          "title": "Home Movies: New York Vacation, September 1979\"",
-          "year": 1979,
+          "src": "https://archive.org/download/JSC_818_Space_Shuttle_Columbia_Second_Flight.wmv/Jsc-818_spaceShuttleColumbiaSecondFlight.mp4",
+          "start": 575.447,
+          "duration": 575.447,
+          "title": "JSC 818 Space Shuttle Columbia Second Flight",
+          "year": 1982,
           "airDate": null,
           "category": "program",
           "part": 2,
-          "parts": 4,
-          "credit": "archive.org/details/6354_HM_New_York_Vacation_September_1979_01_00_35_00"
+          "parts": 3,
+          "credit": "archive.org/details/JSC_818_Space_Shuttle_Columbia_Second_Flight.wmv"
         },
         {
           "kind": "card",
@@ -1403,115 +1395,68 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/mickey-mouse-disco-record-offer-1979/Mickey%20Mouse%20Disco%20(Record%20Offer%2C%201979).mp4",
+          "src": "https://archive.org/download/BottledMilk1982/Bottled%20Milk%201982.mp4",
           "start": 0,
-          "duration": 122.09,
-          "title": "Mickey Mouse Disco ( Record Offer, 1979)",
-          "year": 1979,
+          "duration": 42.68,
+          "title": "1982 commercial: Milk",
+          "year": 1982,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/mickey-mouse-disco-record-offer-1979"
+          "credit": "archive.org/details/BottledMilk1982"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/cadburys-caramel-rabbit-1979-tv-advert/Cadburys%20Caramel%20Rabbit%201979%20TV%20Advert.mp4",
+          "src": "https://archive.org/download/TopnFillCakeToppingFilling1982/Top'n'Fill%20Cake%20Topping%20%26%20Filling%20(1982).mp4",
           "start": 0,
-          "duration": 31.57,
-          "title": "Cadbury's Caramel - Take It Easy (1979) TV Advert",
-          "year": 1979,
+          "duration": 22.96,
+          "title": "1982 commercial: Top'n'Fill cake topping & filling",
+          "year": 1982,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/cadburys-caramel-rabbit-1979-tv-advert"
+          "credit": "archive.org/details/TopnFillCakeToppingFilling1982"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/6354_HM_New_York_Vacation_September_1979_01_00_35_00/6354_HM_New_York_Vacation_September_1979_01_00_35_00_3mb.mp4",
-          "start": 1174.505,
-          "duration": 587.253,
-          "title": "Home Movies: New York Vacation, September 1979\"",
-          "year": 1979,
+          "src": "https://archive.org/download/JSC_818_Space_Shuttle_Columbia_Second_Flight.wmv/Jsc-818_spaceShuttleColumbiaSecondFlight.mp4",
+          "start": 1150.893,
+          "duration": 575.447,
+          "title": "JSC 818 Space Shuttle Columbia Second Flight",
+          "year": 1982,
           "airDate": null,
           "category": "program",
           "part": 3,
-          "parts": 4,
-          "credit": "archive.org/details/6354_HM_New_York_Vacation_September_1979_01_00_35_00"
-        },
-        {
-          "kind": "card",
-          "style": "break",
-          "duration": 4,
-          "title": "We'll be right back",
-          "text": "Stay tuned!",
-          "year": null
+          "parts": 3,
+          "credit": "archive.org/details/JSC_818_Space_Shuttle_Columbia_Second_Flight.wmv"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/sega_gremlin_tape_archive/19%20-%201983%20Star%20Trek%20Home%20Game%20Commercial.mp4",
-          "start": 0,
-          "duration": 30.63,
-          "title": "The Sega-Gremlin Tape Archive",
-          "year": 1979,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/sega_gremlin_tape_archive"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/JordacheJeansCommercial1979/Jordache%20Jeans%20commercial%201979.mp4",
-          "start": 0,
-          "duration": 30.16,
-          "title": "Jordache jeans commercial (USA, 1979)",
-          "year": 1979,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/JordacheJeansCommercial1979"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/6354_HM_New_York_Vacation_September_1979_01_00_35_00/6354_HM_New_York_Vacation_September_1979_01_00_35_00_3mb.mp4",
-          "start": 1761.758,
-          "duration": 587.253,
-          "title": "Home Movies: New York Vacation, September 1979\"",
-          "year": 1979,
-          "airDate": null,
-          "category": "program",
-          "part": 4,
-          "parts": 4,
-          "credit": "archive.org/details/6354_HM_New_York_Vacation_September_1979_01_00_35_00"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/ComputerPerfection_Dec79/ComputerPerfection_Dec79.mp4",
+          "src": "https://archive.org/download/AtariComputers_Feb8_1982/AtariComputers_Feb8_1982.mp4",
           "start": 0,
           "duration": 29.56,
-          "title": "Computer Perfection commercial (USA, 1979)",
-          "year": 1979,
+          "title": "Atari Computers commercial (USA, 1982)",
+          "year": 1982,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/ComputerPerfection_Dec79"
+          "credit": "archive.org/details/AtariComputers_Feb8_1982"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1979-disco-dance-machine-commercial/1979%20Disco%20Dance%20Machine%20Commercial.mp4",
+          "src": "https://archive.org/download/MAGISynthavisionDemoReel1982/MAGI%20Synthavision%20Demo%20Reel%201982.mp4",
           "start": 0,
-          "duration": 31.09,
-          "title": "1979 Disco Dance Machine Commercial",
-          "year": 1979,
+          "duration": 150.37,
+          "title": "MAGI Synthavision Demo Reel 1982",
+          "year": 1982,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1979-disco-dance-machine-commercial"
+          "credit": "archive.org/details/MAGISynthavisionDemoReel1982"
         },
         {
           "kind": "card",
@@ -1519,7 +1464,7 @@
           "duration": 8,
           "title": "That concludes our broadcast day",
           "text": "WHEN thanks you for watching. Our programming will now repeat.",
-          "year": 1979
+          "year": 1982
         }
       ]
     },
