@@ -1,6 +1,7 @@
 // This Day TV — web player. Streams archive.org media straight into the page,
 // tuned to a shared clock so every viewer sees the same moment of the same day.
 import * as B from './broadcast.js';
+import { mountSupport } from './support.js';
 
 const $ = (id) => document.getElementById(id);
 const DEFAULT_STATION = { name: 'This Day TV', timezone: 'America/New_York', yearFrom: 1960, yearTo: 1999, channelName: 'WTDI' };
@@ -30,6 +31,16 @@ const state = {
   loading: false,
 };
 const headlineCache = new Map();
+const params = new URLSearchParams(location.search);
+const linkedChannel = Number(params.get('ch')) || null; // ?ch=9 tunes straight to channel 9
+
+// Viewer support: entry points, the pledge card, and a weekly reminder that
+// only ever appears over a commercial break.
+const support = mountSupport({
+  store,
+  canNudge: () => state.on && $('guide').hidden && $('lower').hidden && !!state.item
+    && (state.item.category === 'commercial' || (state.item.kind === 'card' && state.item.style === 'break')),
+});
 
 const now = () => Date.now() / 1000 + state.clockOffset;
 const tz = () => state.station.timezone;
@@ -99,6 +110,7 @@ function showCard(style, kicker, title, body) {
   $('cardKicker').textContent = kicker || '';
   $('cardTitle').textContent = title || '';
   $('cardBody').textContent = body || '';
+  $('cardFoot').textContent = support.cardFoot(style);
   card.hidden = false;
 }
 
@@ -197,6 +209,7 @@ function tune(ch, item, startedAt) {
   state.item = item;
   state.startedAt = startedAt;
   hideLayers();
+  if (item.category !== 'commercial' && item.style !== 'break') support.hideNudge();
   updateDial();
   if (!$('guide').hidden) renderGuide();
 
@@ -375,7 +388,7 @@ async function loadDay() {
       schedule = await fetchHeadlines(day);
       if (schedule) source = 'headlines';
     }
-    const keepNumber = channel()?.number ?? Number(store.get('tdtv-channel'));
+    const keepNumber = channel()?.number ?? linkedChannel ?? Number(store.get('tdtv-channel'));
     state.day = day;
     state.schedule = schedule;
     state.source = source;
@@ -443,6 +456,7 @@ function powerOff(hint) {
   stopMedia();
   videos.forEach(clearSrc);
   hideLayers();
+  support.hideNudge();
   setBug(null);
   $('tube').classList.remove('on');
   $('off').hidden = false;
@@ -542,9 +556,10 @@ $('tube').addEventListener('dblclick', toggleFullscreen);
 let digits = '';
 let digitTimer = 0;
 document.addEventListener('keydown', (e) => {
-  if (e.metaKey || e.ctrlKey || e.altKey) return;
+  if (e.metaKey || e.ctrlKey || e.altKey || support.isOpen()) return;
   const k = e.key;
-  if (k === 'ArrowUp' || k === 'PageUp') changeChannel(1);
+  if ((k === 's' || k === 'S') && !$('btnSupport').hidden) support.open();
+  else if (k === 'ArrowUp' || k === 'PageUp') changeChannel(1);
   else if (k === 'ArrowDown' || k === 'PageDown') changeChannel(-1);
   else if (k === 'm' || k === 'M') setMuted(!state.muted);
   else if (k === 'f' || k === 'F') toggleFullscreen();
@@ -566,7 +581,7 @@ function wake() {
   document.body.classList.remove('idle');
   clearTimeout(idleTimer);
   idleTimer = setTimeout(() => {
-    if (state.on && $('guide').hidden && !document.querySelector('.controls:hover, .controls :focus-visible')) document.body.classList.add('idle');
+    if (state.on && $('guide').hidden && !support.isOpen() && !document.querySelector('.controls:hover, .controls :focus-visible')) document.body.classList.add('idle');
   }, 3200);
 }
 ['pointermove', 'pointerdown', 'touchstart'].forEach((ev) => document.addEventListener(ev, wake, { passive: true }));
@@ -575,15 +590,26 @@ function wake() {
 (async function boot() {
   setMuted(state.muted);
   await loadStation();
+  support.configure(state.station.support, { previewMode: params.has('pledge') });
   await Promise.all([syncClock(), loadDay()]);
   wake();
+  // Back from checkout (?member) or a direct link to the pledge card (?pledge).
+  support.handleLocation(params);
+  if (params.has('member') || params.has('pledge') || params.has('support')) {
+    const clean = new URLSearchParams(params);
+    ['member', 'pledge', 'support'].forEach((k) => clean.delete(k));
+    history.replaceState(null, '', `${location.pathname}${clean.size ? `?${clean}` : ''}${location.hash}`);
+  }
   // ?on — for kiosks / smart-TV browsers that allow autoplay. If the browser
   // blocks it, play() fails and the power button comes back.
-  if (new URLSearchParams(location.search).has('on')) powerOn();
+  if (params.has('on')) powerOn();
   let lastMaintain = 0;
   let lastReload = performance.now();
+  let lastTick = performance.now();
   setInterval(() => {
     const t = performance.now();
+    if (state.on && document.visibilityState === 'visible') support.tick((t - lastTick) / 1000);
+    lastTick = t;
     if (state.day && B.stationDay(now(), tz()).key !== state.day.key) loadDay();
     else if (t - lastReload > 5 * 60 * 1000) { lastReload = t; loadDay(); } // pick up new publishes
     refresh();

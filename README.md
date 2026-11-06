@@ -90,6 +90,24 @@ Redeploy after you publish a new day. Players check for updates every 5 minutes.
 
 **Rights:** whoever shows a broadcast is responsible for having the rights to it, website or not. The console ranks Universal Newsreels, Prelinger, NASA and other curated public-domain collections first, and flags everything else "verify". Each clip's archive.org source is credited on screen.
 
+**Links:** `?ch=9` tunes straight to channel 9, `?on` powers the set on (kiosks), and `?pledge` opens the membership card. A link preview image is served from `share.png`.
+
+### Viewer support (memberships)
+This works like public-TV pledge drives. The programming is free and the same for everyone, and members chip in. Nothing ever interrupts a program:
+
+- **Entry points:** a **Support** button on the control bar, a line on the "off" screen, and a note in the listings.
+- **On air:** break and sign-off cards carry a small "Viewer-supported television" line. For members it reads "Made possible by members like you".
+- **One reminder a week:** after 25 minutes of watching, a reminder appears over a commercial break for 11 seconds. Members never see it.
+
+To turn it on:
+1. Create a recurring **Payment Link** for each tier in Stripe (Ko-fi, Buy Me a Coffee or Patreon links work too). Set each link's success page to `https://thisdayin.tv/?member`.
+2. Optionally, enable Stripe's **customer portal** and copy its login link.
+3. Paste the links into the `support` block in `web/station.json` (`tiers[].url`, `manageUrl`), then push. Tiers without a link show "Soon". With no links at all, the whole flow stays hidden. Preview it with `?pledge`.
+
+Set `nudgeAfterMinutes` to 0 to turn the weekly reminder off.
+
+Membership is remembered per browser and works on the honour system: it only changes the thank-yous and silences the reminder, so it gates nothing. There are no accounts, and no payment data touches this site.
+
 ## Roblox version (optional)
 
 ### Roblox video costs
@@ -187,7 +205,9 @@ web/                        the TV website (static; deploy this folder)
   index.html, css/tv.css    the set, cards, test pattern, controls, listings
   js/broadcast.js           day/time math + "what's on now" (mirrors Broadcast.luau)
   js/tv.js                  player: power, tuning, preloading, sync, guide
-  station.json              timezone + year range (written on publish)
+  js/support.js             membership card, on-air thank-yous, weekly reminder
+  station.json              timezone + year range (written on publish), support links
+  share.png                 link preview image
   schedules/MM-DD.json      published lineups
 admin/                      Node admin console (zero dependencies)
   server.js                 HTTP API + static UI

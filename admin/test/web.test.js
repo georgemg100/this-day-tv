@@ -4,6 +4,7 @@ process.env.DATA_DIR = `/tmp/tdtv-test-web-${process.pid}`;
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import * as B from '../../web/js/broadcast.js';
+import { supportConfig, shouldNudge, cardFootText } from '../../web/js/support.js';
 import { compile, normalizeDraft, uploadCost, webSource } from '../lib/schedule.js';
 
 const TZ = 'America/New_York';
@@ -211,4 +212,43 @@ test('historical relevance ranks news and the day\'s stories first', async () =>
   assert.ok(historyScore(nixon, heads) >= 60, 'speech matching the headline scores highest');
   assert.ok(historyScore(reel, []) > historyScore(game, []), 'news beats game shows');
   assert.ok(historyScore(game, []) < 0);
+});
+
+test('web: viewer support config, reminders and on-air thanks', () => {
+  const off = supportConfig(undefined);
+  assert.equal(off.enabled, false);
+  assert.deepEqual(off.tiers, []);
+
+  const cfg = supportConfig({
+    nudgeAfterMinutes: 20,
+    manageUrl: 'javascript:alert(1)',
+    tiers: [
+      { name: 'Viewer', price: '$3 a month', url: '' },
+      { name: 'Member', price: '$5 a month', url: 'https://buy.stripe.com/test_abc', featured: true },
+      { name: 'Sneaky', price: '$1', url: 'http://insecure.example/pay' },
+      { name: 'No price', url: 'https://buy.stripe.com/x' },
+    ],
+  });
+  assert.equal(cfg.enabled, true);
+  assert.equal(cfg.manageUrl, '', 'non-https manage link dropped');
+  assert.deepEqual(cfg.tiers.map((t) => [t.name, t.url, t.featured]), [
+    ['Viewer', '', false],
+    ['Member', 'https://buy.stripe.com/test_abc', true],
+    ['Sneaky', '', false],
+  ]);
+  assert.equal(supportConfig({ tiers: [{ price: '$3', url: '' }] }).enabled, false, 'no links, nothing shown');
+
+  const base = { enabled: true, member: false, afterMinutes: 25, watchedSeconds: 26 * 60, lastNudgeMs: 0, nowMs: 1e12 };
+  assert.equal(shouldNudge(base), true);
+  assert.equal(shouldNudge({ ...base, watchedSeconds: 10 * 60 }), false, 'not before a long watch');
+  assert.equal(shouldNudge({ ...base, member: true }), false, 'never for members');
+  assert.equal(shouldNudge({ ...base, enabled: false }), false);
+  assert.equal(shouldNudge({ ...base, afterMinutes: 0 }), false, '0 turns reminders off');
+  assert.equal(shouldNudge({ ...base, lastNudgeMs: 1e12 - 3 * 86400e3 }), false, 'at most weekly');
+  assert.equal(shouldNudge({ ...base, lastNudgeMs: 1e12 - 8 * 86400e3 }), true);
+
+  assert.equal(cardFootText('break', { enabled: true, member: false }), 'Viewer-supported television');
+  assert.equal(cardFootText('sign-off', { enabled: true, member: true }), 'Made possible by members like you');
+  assert.equal(cardFootText('headline', { enabled: true, member: false }), '');
+  assert.equal(cardFootText('break', { enabled: false, member: false }), '');
 });

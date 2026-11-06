@@ -3,5 +3,31 @@
   "channelName": "WTDI",
   "timezone": "America/New_York",
   "yearFrom": 1960,
-  "yearTo": 1999
+  "yearTo": 1999,
+  "support": {
+    "processor": "Stripe",
+    "nudgeAfterMinutes": 25,
+    "manageUrl": "",
+    "tiers": [
+      {
+        "name": "Viewer",
+        "price": "$3 a month",
+        "blurb": "For the occasional channel-flipper",
+        "url": ""
+      },
+      {
+        "name": "Member",
+        "price": "$5 a month",
+        "blurb": "The classic pledge",
+        "url": "",
+        "featured": true
+      },
+      {
+        "name": "Patron",
+        "price": "$50 a year",
+        "blurb": "A whole year of history, paid up front",
+        "url": ""
+      }
+    ]
+  }
 }

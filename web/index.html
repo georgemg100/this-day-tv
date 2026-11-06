@@ -6,9 +6,19 @@
   <meta name="theme-color" content="#120d0a">
   <meta name="description" content="Television from this day in history: newsreels, newscasts and commercials as they aired, streamed from the Internet Archive.">
   <title>This Day TV</title>
+  <link rel="canonical" href="https://thisdayin.tv/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="This Day TV">
+  <meta property="og:title" content="This Day TV — turn on the TV, it's this day in history">
+  <meta property="og:description" content="Twelve channels, each a different year. Newscasts, newsreels and commercials that aired on this date, 1960 to 1999.">
+  <meta property="og:url" content="https://thisdayin.tv/">
+  <meta property="og:image" content="https://thisdayin.tv/share.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Playfair+Display:wght@700;900&family=Libre+Baskerville:wght@400;700&family=Fredoka:wght@600&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Playfair+Display:wght@700;900&family=Libre+Baskerville:wght@400;700&family=Fredoka:wght@600&family=Special+Elite&display=swap">
   <link rel="stylesheet" href="css/tv.css">
 </head>
 <body>
@@ -32,6 +42,7 @@
             <h1 class="card-title" id="cardTitle"></h1>
             <p class="card-body" id="cardBody"></p>
           </div>
+          <div class="card-foot" id="cardFoot"></div>
         </div>
 
         <div class="layer pattern" id="pattern" hidden>
@@ -52,6 +63,10 @@
           <div class="lower-sub" id="lowerSub"></div>
         </div>
         <div class="credit" id="credit"></div>
+        <button class="nudge" id="nudge" type="button" hidden>
+          <span class="nudge-title">This Day TV is viewer-supported</span>
+          <span class="nudge-sub">Keep the past on the air · Become a member ▸</span>
+        </button>
         <div class="glass" aria-hidden="true"></div>
       </div>
 
@@ -63,6 +78,7 @@
             <span aria-hidden="true">⏻</span>
           </button>
           <div class="off-hint" id="offHint">Turn on the TV (sound on)</div>
+          <button class="off-support" id="offSupport" type="button" hidden></button>
         </div>
       </div>
     </div>
@@ -78,6 +94,7 @@
       <button type="button" id="btnGuide" title="Listings (G)" aria-label="Listings">☰</button>
       <button type="button" id="btnMute" title="Mute (M)" aria-label="Mute">🔊</button>
       <button type="button" id="btnFull" title="Full screen (F)" aria-label="Full screen">⛶</button>
+      <button type="button" id="btnSupport" class="support-btn" title="Support the station (S)" aria-label="Support the station" hidden>Support</button>
     </nav>
 
     <section class="guide" id="guide" hidden aria-label="Listings">
@@ -90,8 +107,49 @@
       </header>
       <div class="guide-channels" id="guideChannels"></div>
       <ol class="guide-list" id="guideList"></ol>
+      <div class="guide-support" id="guideSupport" hidden>
+        <p id="guideSupportText"></p>
+        <button type="button" id="guideSupportBtn">Become a member</button>
+      </div>
       <p class="guide-foot">Programming streamed from the Internet Archive. Times are <span id="guideTz"></span>.</p>
     </section>
+
+    <dialog class="pledge" id="pledge" aria-labelledby="pledgeTitle">
+      <div class="pledge-card">
+        <button type="button" class="pledge-x" id="pledgeClose" aria-label="Close">✕</button>
+
+        <div id="pledgeForm">
+          <div class="pledge-kicker" id="pledgeCallsign">Viewer-supported television</div>
+          <h2 class="pledge-title" id="pledgeTitle">Keep the past on the air</h2>
+          <p class="pledge-lede">This Day TV is free for everyone, every day, and it always will be. Members keep it running: the hunt through the archives each morning, the hosting, and new channels.</p>
+          <div class="pledge-rule" aria-hidden="true"></div>
+          <p class="pledge-yes">Yes! I'd like to become a member at this level:</p>
+          <ul class="pledge-tiers" id="pledgeTiers"></ul>
+          <p class="pledge-fine"><span id="pledgeProcessor"></span> Members get our thanks on the air and no more reminders. The programming is the same for everyone.</p>
+          <p class="pledge-links">
+            <button type="button" class="linkish" id="pledgeAlready">Already a member? Mark this device</button>
+            <a class="linkish" id="pledgeManage" href="#" target="_blank" rel="noopener" hidden>Manage membership</a>
+          </p>
+        </div>
+
+        <div id="pledgeMember" hidden>
+          <div class="pledge-kicker" id="memberThanks" hidden>Your pledge came through</div>
+          <h2 class="pledge-title">Thank you, member!</h2>
+          <div class="member-card" aria-label="Membership card">
+            <div class="member-card-top"><span id="memberStation">This Day TV</span><span>Member</span></div>
+            <div class="member-card-name">Viewer &amp; Friend of the Station</div>
+            <div class="member-card-since" id="memberSince"></div>
+            <div class="member-card-foot">Thank you for keeping the past on the air.</div>
+          </div>
+          <p class="pledge-fine">You'll hear "made possible by members like you" during breaks, and the reminders are switched off on this device.</p>
+          <p class="pledge-links">
+            <button type="button" class="linkish" id="memberClose">Back to the program</button>
+            <a class="linkish" id="memberManage" href="#" target="_blank" rel="noopener" hidden>Manage membership</a>
+            <button type="button" class="linkish" id="memberForget">Not a member on this device</button>
+          </p>
+        </div>
+      </div>
+    </dialog>
   </main>
 
   <script type="module" src="js/tv.js"></script>
