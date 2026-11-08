@@ -3,14 +3,14 @@
   "target": "web",
   "date": "11-08",
   "title": "This Day in History — November 8",
-  "publishedAt": "2026-11-07T09:11:59.824Z",
+  "publishedAt": "2026-11-08T09:09:02.438Z",
   "channels": [
     {
       "number": 2,
       "name": "WTDI",
       "tagline": "Your window to yesterday",
       "year": 1966,
-      "totalDuration": 1910.59,
+      "totalDuration": 1908.03,
       "items": [
         {
           "kind": "card",
@@ -111,16 +111,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1966-10/1966-10.mp4",
+          "src": "https://archive.org/download/1966-11/1966-11.mp4",
           "start": 0,
-          "duration": 63.06,
-          "title": "1966 10",
+          "duration": 60.5,
+          "title": "1966 11",
           "year": 1966,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1966-10"
+          "credit": "archive.org/details/1966-11"
         },
         {
           "kind": "video",
