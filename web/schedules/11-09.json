@@ -3,14 +3,14 @@
   "target": "web",
   "date": "11-09",
   "title": "This Day in History — November 9",
-  "publishedAt": "2026-11-08T09:11:18.601Z",
+  "publishedAt": "2026-11-09T09:12:07.930Z",
   "channels": [
     {
       "number": 2,
       "name": "WTDI",
       "tagline": "Your window to yesterday",
       "year": 1963,
-      "totalDuration": 702.35,
+      "totalDuration": 1858.53,
       "items": [
         {
           "kind": "card",
@@ -30,16 +30,24 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/e_history_StreamRoot_DH_0442_19631109_01/e_history_StreamRoot_DH_0442_19631109_01.mp4",
+          "src": "https://archive.org/download/97325_hm_family_scenes_1963/97325.mp4",
           "start": 0,
-          "duration": 578.41,
-          "title": "In Korean: 대한뉴스 제 442호 제 34회 광주학생사건과 제11회 학생의 날 기념식이 전남 광주 서중학교 교정에서…",
+          "duration": 470.14,
+          "title": "Home Movie: 97325: Family Scenes, 1963",
           "year": 1963,
           "airDate": "1963-11-09",
           "category": "program",
           "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/e_history_StreamRoot_DH_0442_19631109_01"
+          "parts": 2,
+          "credit": "archive.org/details/97325_hm_family_scenes_1963"
+        },
+        {
+          "kind": "card",
+          "style": "break",
+          "duration": 4,
+          "title": "We'll be right back",
+          "text": "Stay tuned!",
+          "year": null
         },
         {
           "kind": "video",
@@ -68,12 +76,43 @@
           "credit": "archive.org/details/1963CommercialsFromSameBroadcast"
         },
         {
-          "kind": "card",
-          "style": "custom",
-          "duration": 5,
-          "title": "News Roundup",
-          "text": "More of the news on November 9, 1963…",
-          "year": 1963
+          "kind": "video",
+          "src": "https://archive.org/download/97325_hm_family_scenes_1963/97325.mp4",
+          "start": 470.14,
+          "duration": 470.14,
+          "title": "Home Movie: 97325: Family Scenes, 1963",
+          "year": 1963,
+          "airDate": "1963-11-09",
+          "category": "program",
+          "part": 2,
+          "parts": 2,
+          "credit": "archive.org/details/97325_hm_family_scenes_1963"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/DutchMasters1963Ad2/DutchMasters1963-Ad2.mp4",
+          "start": 0,
+          "duration": 60.41,
+          "title": "1963 commercial: Dutch Masters (Ad 2)",
+          "year": 1963,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/DutchMasters1963Ad2"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/Promo_Hootenanny_ABC-TV_1963_Saturday_Night/Promo_Hootenanny_ABC-TV_1963_Saturday_Night_512kb.mp4",
+          "start": 0,
+          "duration": 59.93,
+          "title": "Promo Hootenanny ABC-TV 1963 Saturday Night",
+          "year": 1963,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/Promo_Hootenanny_ABC-TV_1963_Saturday_Night"
         },
         {
           "kind": "card",
@@ -82,6 +121,45 @@
           "title": "November 9, 1963",
           "text": "At a coal mine in Miike, Japan, an explosion kills 458 and hospitalises 839 with carbon monoxide poisoning.",
           "year": 1963
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/e_history_StreamRoot_DH_0442_19631109_01/e_history_StreamRoot_DH_0442_19631109_01.mp4",
+          "start": 0,
+          "duration": 578.41,
+          "title": "In Korean: 대한뉴스 제 442호 제 34회 광주학생사건과 제11회 학생의 날 기념식이 전남 광주 서중학교 교정에서…",
+          "year": 1963,
+          "airDate": "1963-11-09",
+          "category": "program",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/e_history_StreamRoot_DH_0442_19631109_01"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/Cascade19631962/Cascade1963-1962.mp4",
+          "start": 0,
+          "duration": 36.82,
+          "title": "1963 commercial for Cascade dishwashing liquid",
+          "year": 1963,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/Cascade19631962"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/MurielCigars1963Ad7/MurielCigars1963-Ad7.mp4",
+          "start": 0,
+          "duration": 59.74,
+          "title": "1963 commercial: Muriel cigars (Ad 7)",
+          "year": 1963,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/MurielCigars1963Ad7"
         },
         {
           "kind": "card",
