@@ -3,7 +3,7 @@
   "target": "web",
   "date": "11-11",
   "title": "This Day in History — November 11",
-  "publishedAt": "2026-11-09T09:13:48.212Z",
+  "publishedAt": "2026-11-10T09:10:24.286Z",
   "channels": [
     {
       "number": 2,
@@ -2835,7 +2835,7 @@
       "name": "WTHN",
       "tagline": "Tonight, back then",
       "year": 1993,
-      "totalDuration": 5605.84,
+      "totalDuration": 5610.33,
       "items": [
         {
           "kind": "card",
@@ -2876,6 +2876,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/vts-01-1_20230709_0957/CBS%20Saturday%20Mornings%20VHS%20(1992-93)/VTS_01_6.mp4",
+          "start": 0,
+          "duration": 87.29,
+          "title": "CBS Saturday Mornings VHS (1992-93)",
+          "year": 1993,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/vts-01-1_20230709_0957"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/thesimpsonskfccommercialscanadaonly1993/The%20Simpsons%20-%20KFC%20Commercials%20-%20Canada%20Only%20(1993).mp4",
           "start": 0,
           "duration": 82.8,
@@ -2886,19 +2899,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/thesimpsonskfccommercialscanadaonly1993"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/1993variouscommercials/1993%20Oreo%20Cookie%20Commercial.mp4",
-          "start": 0,
-          "duration": 29.78,
-          "title": "Various 1993 Commercials/Promos",
-          "year": 1993,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1993variouscommercials"
         },
         {
           "kind": "video",
@@ -2923,6 +2923,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/1993variouscommercials/1993%20Oreo%20Cookie%20Commercial.mp4",
+          "start": 0,
+          "duration": 29.78,
+          "title": "Various 1993 Commercials/Promos",
+          "year": 1993,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1993variouscommercials"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/vts-01-1_20230709_0957/CBS%20Saturday%20Mornings%20VHS%20(1992-93)/VTS_01_6.mp4",
           "start": 0,
           "duration": 87.29,
@@ -2933,19 +2946,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/vts-01-1_20230709_0957"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/thesimpsonskfccommercialscanadaonly1993/The%20Simpsons%20-%20KFC%20Commercials%20-%20Canada%20Only%20(1993).mp4",
-          "start": 0,
-          "duration": 82.8,
-          "title": "The Simpsons KFC Commercials Canada Only",
-          "year": 1993,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/thesimpsonskfccommercialscanadaonly1993"
         },
         {
           "kind": "video",
@@ -2970,45 +2970,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1993variouscommercials/1993%20Oreo%20Cookie%20Commercial.mp4",
-          "start": 0,
-          "duration": 29.78,
-          "title": "Various 1993 Commercials/Promos",
-          "year": 1993,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1993variouscommercials"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/vts-01-1_20230709_0957/CBS%20Saturday%20Mornings%20VHS%20(1992-93)/VTS_01_6.mp4",
-          "start": 0,
-          "duration": 87.29,
-          "title": "CBS Saturday Mornings VHS (1992-93)",
-          "year": 1993,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/vts-01-1_20230709_0957"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/norcama-North_Reading_Korean_War_Memorial_Dedication_November_11_1993/North_Reading_Korean_War_Memorial_Dedication_November_11_1993.mp4",
-          "start": 2057.025,
-          "duration": 685.675,
-          "title": "North Reading Korean War Memorial Dedication – November 11, 1993",
-          "year": 1993,
-          "airDate": "1993-11-11",
-          "category": "news",
-          "part": 4,
-          "parts": 4,
-          "credit": "archive.org/details/norcama-North_Reading_Korean_War_Memorial_Dedication_November_11_1993"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/thesimpsonskfccommercialscanadaonly1993/The%20Simpsons%20-%20KFC%20Commercials%20-%20Canada%20Only%20(1993).mp4",
           "start": 0,
           "duration": 82.8,
@@ -3032,6 +2993,45 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1993variouscommercials"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/norcama-North_Reading_Korean_War_Memorial_Dedication_November_11_1993/North_Reading_Korean_War_Memorial_Dedication_November_11_1993.mp4",
+          "start": 2057.025,
+          "duration": 685.675,
+          "title": "North Reading Korean War Memorial Dedication – November 11, 1993",
+          "year": 1993,
+          "airDate": "1993-11-11",
+          "category": "news",
+          "part": 4,
+          "parts": 4,
+          "credit": "archive.org/details/norcama-North_Reading_Korean_War_Memorial_Dedication_November_11_1993"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/vts-01-1_20230709_0957/CBS%20Saturday%20Mornings%20VHS%20(1992-93)/VTS_01_6.mp4",
+          "start": 0,
+          "duration": 87.29,
+          "title": "CBS Saturday Mornings VHS (1992-93)",
+          "year": 1993,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/vts-01-1_20230709_0957"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/thesimpsonskfccommercialscanadaonly1993/The%20Simpsons%20-%20KFC%20Commercials%20-%20Canada%20Only%20(1993).mp4",
+          "start": 0,
+          "duration": 82.8,
+          "title": "The Simpsons KFC Commercials Canada Only",
+          "year": 1993,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/thesimpsonskfccommercialscanadaonly1993"
         },
         {
           "kind": "card",
@@ -3064,45 +3064,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/vts-01-1_20230709_0957/CBS%20Saturday%20Mornings%20VHS%20(1992-93)/VTS_01_6.mp4",
-          "start": 0,
-          "duration": 87.29,
-          "title": "CBS Saturday Mornings VHS (1992-93)",
-          "year": 1993,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/vts-01-1_20230709_0957"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/thesimpsonskfccommercialscanadaonly1993/The%20Simpsons%20-%20KFC%20Commercials%20-%20Canada%20Only%20(1993).mp4",
-          "start": 0,
-          "duration": 82.8,
-          "title": "The Simpsons KFC Commercials Canada Only",
-          "year": 1993,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/thesimpsonskfccommercialscanadaonly1993"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/tagesschau-20-clock-evening-news-1993-11-11/tagesschau-20-clock-evening-news-1993-11-11.mp4",
-          "start": 463.85,
-          "duration": 463.85,
-          "title": "Tagesschau 20-clock Evening News",
-          "year": 1993,
-          "airDate": "1993-11-11",
-          "category": "news",
-          "part": 2,
-          "parts": 2,
-          "credit": "archive.org/details/tagesschau-20-clock-evening-news-1993-11-11"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/1993variouscommercials/1993%20Oreo%20Cookie%20Commercial.mp4",
           "start": 0,
           "duration": 29.78,
@@ -3126,6 +3087,45 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/vts-01-1_20230709_0957"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/tagesschau-20-clock-evening-news-1993-11-11/tagesschau-20-clock-evening-news-1993-11-11.mp4",
+          "start": 463.85,
+          "duration": 463.85,
+          "title": "Tagesschau 20-clock Evening News",
+          "year": 1993,
+          "airDate": "1993-11-11",
+          "category": "news",
+          "part": 2,
+          "parts": 2,
+          "credit": "archive.org/details/tagesschau-20-clock-evening-news-1993-11-11"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/thesimpsonskfccommercialscanadaonly1993/The%20Simpsons%20-%20KFC%20Commercials%20-%20Canada%20Only%20(1993).mp4",
+          "start": 0,
+          "duration": 82.8,
+          "title": "The Simpsons KFC Commercials Canada Only",
+          "year": 1993,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/thesimpsonskfccommercialscanadaonly1993"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1993variouscommercials/1993%20Oreo%20Cookie%20Commercial.mp4",
+          "start": 0,
+          "duration": 29.78,
+          "title": "Various 1993 Commercials/Promos",
+          "year": 1993,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1993variouscommercials"
         },
         {
           "kind": "card",
@@ -3158,45 +3158,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/thesimpsonskfccommercialscanadaonly1993/The%20Simpsons%20-%20KFC%20Commercials%20-%20Canada%20Only%20(1993).mp4",
-          "start": 0,
-          "duration": 82.8,
-          "title": "The Simpsons KFC Commercials Canada Only",
-          "year": 1993,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/thesimpsonskfccommercialscanadaonly1993"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/1993variouscommercials/1993%20Oreo%20Cookie%20Commercial.mp4",
-          "start": 0,
-          "duration": 29.78,
-          "title": "Various 1993 Commercials/Promos",
-          "year": 1993,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1993variouscommercials"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/0236-nm-international-gop-women-1993-11-03/0236_NM_International_GOP_Women_1993-11-03.mp4",
-          "start": 393.645,
-          "duration": 393.645,
-          "title": "0236 NM International GOP Women November 11, 1993",
-          "year": 1993,
-          "airDate": "1993-11-11",
-          "category": "program",
-          "part": 2,
-          "parts": 2,
-          "credit": "archive.org/details/0236-nm-international-gop-women-1993-11-03"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/vts-01-1_20230709_0957/CBS%20Saturday%20Mornings%20VHS%20(1992-93)/VTS_01_6.mp4",
           "start": 0,
           "duration": 87.29,
@@ -3220,6 +3181,45 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/thesimpsonskfccommercialscanadaonly1993"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/0236-nm-international-gop-women-1993-11-03/0236_NM_International_GOP_Women_1993-11-03.mp4",
+          "start": 393.645,
+          "duration": 393.645,
+          "title": "0236 NM International GOP Women November 11, 1993",
+          "year": 1993,
+          "airDate": "1993-11-11",
+          "category": "program",
+          "part": 2,
+          "parts": 2,
+          "credit": "archive.org/details/0236-nm-international-gop-women-1993-11-03"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1993variouscommercials/1993%20Oreo%20Cookie%20Commercial.mp4",
+          "start": 0,
+          "duration": 29.78,
+          "title": "Various 1993 Commercials/Promos",
+          "year": 1993,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1993variouscommercials"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/vts-01-1_20230709_0957/CBS%20Saturday%20Mornings%20VHS%20(1992-93)/VTS_01_6.mp4",
+          "start": 0,
+          "duration": 87.29,
+          "title": "CBS Saturday Mornings VHS (1992-93)",
+          "year": 1993,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/vts-01-1_20230709_0957"
         },
         {
           "kind": "card",

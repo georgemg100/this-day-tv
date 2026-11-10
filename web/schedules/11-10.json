@@ -3,14 +3,14 @@
   "target": "web",
   "date": "11-10",
   "title": "This Day in History — November 10",
-  "publishedAt": "2026-11-09T09:12:57.057Z",
+  "publishedAt": "2026-11-10T09:09:36.126Z",
   "channels": [
     {
       "number": 2,
       "name": "WTDI",
       "tagline": "Your window to yesterday",
       "year": 1960,
-      "totalDuration": 4492.702,
+      "totalDuration": 6122.281,
       "items": [
         {
           "kind": "card",
@@ -241,16 +241,24 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/e_history_StreamRoot_DH_0288_19601110_01/e_history_StreamRoot_DH_0288_19601110_01.mp4",
+          "src": "https://archive.org/download/6275_HM_Oregon_Montana_01_00_36_03/6275_HM_Oregon_Montana_01_00_36_03.mp4",
           "start": 0,
-          "duration": 560.36,
-          "title": "In Korean: 대한뉴스 제 288호 초대 스웨덴 대사 신임장을 제정하고 국군의장대를 사열함. -주한 스웨덴 대사 그론월씨,…",
+          "duration": 654.593,
+          "title": "Home Movies: Oregon, Montana",
           "year": 1960,
           "airDate": "1960-11-10",
           "category": "program",
           "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/e_history_StreamRoot_DH_0288_19601110_01"
+          "parts": 3,
+          "credit": "archive.org/details/6275_HM_Oregon_Montana_01_00_36_03"
+        },
+        {
+          "kind": "card",
+          "style": "break",
+          "duration": 4,
+          "title": "We'll be right back",
+          "text": "Stay tuned!",
+          "year": null
         },
         {
           "kind": "video",
@@ -277,6 +285,92 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1960CommercialForkingSizeCoca-cola"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/6275_HM_Oregon_Montana_01_00_36_03/6275_HM_Oregon_Montana_01_00_36_03.mp4",
+          "start": 654.593,
+          "duration": 654.593,
+          "title": "Home Movies: Oregon, Montana",
+          "year": 1960,
+          "airDate": "1960-11-10",
+          "category": "program",
+          "part": 2,
+          "parts": 3,
+          "credit": "archive.org/details/6275_HM_Oregon_Montana_01_00_36_03"
+        },
+        {
+          "kind": "card",
+          "style": "break",
+          "duration": 4,
+          "title": "We'll be right back",
+          "text": "Stay tuned!",
+          "year": null
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1960CommercialForAnacin/anacin1960.mp4",
+          "start": 0,
+          "duration": 61.27,
+          "title": "1960 commercial for Anacin",
+          "year": 1960,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1960CommercialForAnacin"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1960MattelChattyCathyDoll/1960%20Mattel%20Chatty%20Cathy%20doll.mp4",
+          "start": 0,
+          "duration": 59.66,
+          "title": "1960 Mattel Chatty Cathy Doll",
+          "year": 1960,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1960MattelChattyCathyDoll"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/6275_HM_Oregon_Montana_01_00_36_03/6275_HM_Oregon_Montana_01_00_36_03.mp4",
+          "start": 1309.187,
+          "duration": 654.593,
+          "title": "Home Movies: Oregon, Montana",
+          "year": 1960,
+          "airDate": "1960-11-10",
+          "category": "program",
+          "part": 3,
+          "parts": 3,
+          "credit": "archive.org/details/6275_HM_Oregon_Montana_01_00_36_03"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1960SimonizInstantCarWaxWithTheThreeStooges/1960%20Simoniz%20Instant%20Car%20Wax%20with%20The%20Three%20Stooges.mp4",
+          "start": 0,
+          "duration": 63.46,
+          "title": "Instant Simoniz Car Wax with The Three Stooges",
+          "year": 1960,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1960SimonizInstantCarWaxWithTheThreeStooges"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/Duncan_Hines_1960_Uploaded_By_Yugi-Moto/Duncan_Hines_1960.mp4",
+          "start": 0,
+          "duration": 33.77,
+          "title": "Classic Commercial for Duncan Hine's Cake Mix",
+          "year": 1960,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/Duncan_Hines_1960_Uploaded_By_Yugi-Moto"
         },
         {
           "kind": "card",
