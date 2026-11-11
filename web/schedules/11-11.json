@@ -3,7 +3,7 @@
   "target": "web",
   "date": "11-11",
   "title": "This Day in History — November 11",
-  "publishedAt": "2026-11-10T09:10:24.286Z",
+  "publishedAt": "2026-11-11T09:09:37.973Z",
   "channels": [
     {
       "number": 2,
@@ -145,7 +145,7 @@
       "name": "WKTV",
       "tagline": "Seven on your dial",
       "year": 1968,
-      "totalDuration": 3867.71,
+      "totalDuration": 4348.22,
       "items": [
         {
           "kind": "card",
@@ -436,6 +436,45 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/PrimateneMistChefBoyardeeCheesePizzaprobably1968"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/match_your_mood/match_your_mood.mp4",
+          "start": 0,
+          "duration": 389.57,
+          "title": "Match Your Mood",
+          "year": 1968,
+          "airDate": "1968-11-11",
+          "category": "program",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/match_your_mood"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial0619681971/VirginiaSlims_06.mp4",
+          "start": 0,
+          "duration": 60.98,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 06 / 1968-1971",
+          "year": 1968,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial0619681971"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/3CommercialsFromSame1968Broadcast/Dove1968.mp4",
+          "start": 0,
+          "duration": 29.96,
+          "title": "3 commercials from same 1968 broadcast",
+          "year": 1968,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/3CommercialsFromSame1968Broadcast"
         },
         {
           "kind": "card",
