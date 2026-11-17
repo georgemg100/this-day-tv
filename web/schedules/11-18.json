@@ -3,7 +3,7 @@
   "target": "web",
   "date": "11-18",
   "title": "This Day in History — November 18",
-  "publishedAt": "2026-11-16T09:13:40.306Z",
+  "publishedAt": "2026-11-17T09:10:51.215Z",
   "channels": [
     {
       "number": 2,
@@ -340,7 +340,7 @@
       "name": "WKTV",
       "tagline": "Seven on your dial",
       "year": 1970,
-      "totalDuration": 2851.43,
+      "totalDuration": 2836.2,
       "items": [
         {
           "kind": "card",
@@ -381,19 +381,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/pampers-babysitter-commercial-70s/PG_-_Pampers_Disposable_Diapers_-_The_Expert_Babysitter_-_Vintage_Commercial_-_1960s_-_1970s.mp4",
-          "start": 0,
-          "duration": 60.09,
-          "title": "Pampers Disposable Diapers - The Expert Babysitter Vintage Commercial (Early 1970's) featuring Denise Nickerson",
-          "year": 1970,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/pampers-babysitter-commercial-70s"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/1970-sponsor-tag-for-wisk/1970%20sponsor%20tag%20for%20Wisk.mp4",
           "start": 0,
           "duration": 17,
@@ -404,6 +391,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1970-sponsor-tag-for-wisk"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1970-2/1970-2.mp4",
+          "start": 0,
+          "duration": 85.4,
+          "title": "1970 2",
+          "year": 1970,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1970-2"
         },
         {
           "kind": "video",
@@ -428,29 +428,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/campbells-curly-noodle-soup-tv-commercial-game-show-spoof/Circa_1969_Campbells_Curly_Noodle_Soup_TV_commercial_game_show_spoof.mp4",
+          "src": "https://archive.org/download/chevrolet-camaro-super-hugger-1970/Chevrolet-CamaroSuperHugger-1970.mp4",
           "start": 0,
-          "duration": 31.23,
-          "title": "Campbell's Curly Noodle Soup Commercial (game show spoof)",
+          "duration": 49.95,
+          "title": "Chevrolet, Camaro Super Hugger 01 - Television Commercial, 16mm",
           "year": 1970,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/campbells-curly-noodle-soup-tv-commercial-game-show-spoof"
+          "credit": "archive.org/details/chevrolet-camaro-super-hugger-1970"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/magnavox-commercials/Magnavox-Commercials.mp4",
+          "src": "https://archive.org/download/1970-1/1970-1.mp4",
           "start": 0,
-          "duration": 131.43,
-          "title": "Magnavox - Television Commercials, 16mm",
+          "duration": 55.19,
+          "title": "1970 1",
           "year": 1970,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/magnavox-commercials"
+          "credit": "archive.org/details/1970-1"
         },
         {
           "kind": "video",
@@ -475,29 +475,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/JeneticsDenimJeans1970sAustralianTVCommercial70sAdGenetics/Jenetics%20denim%20jeans%201970s%20Australian%20TV%20commercial%2070s%20ad%20genetics.mp4",
+          "src": "https://archive.org/download/classic-tv-commercial-amc-javelin-richard-dreyfuss-1970/Classic%20TV%20commercial%20-%20AMC%20Javelin%20(Richard%20Dreyfuss)%201970.mp4",
           "start": 0,
-          "duration": 31.25,
-          "title": "Jenetics jeans commercial (Australia, 1970s)",
+          "duration": 55.22,
+          "title": "Classic TV Commercial AMC Javelin ( Richard Dreyfuss) 1970",
           "year": 1970,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/JeneticsDenimJeans1970sAustralianTVCommercial70sAdGenetics"
+          "credit": "archive.org/details/classic-tv-commercial-amc-javelin-richard-dreyfuss-1970"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1970PromoForTheOddCouple/1970%20Promo%20for%20''The%20Odd%20Couple''.mp4",
+          "src": "https://archive.org/download/JordacheJeans70s/Jordache%20Jeans%2070s.mp4",
           "start": 0,
-          "duration": 62.46,
-          "title": "1970 promo for The Odd Couple",
+          "duration": 30.16,
+          "title": "Jordache jeans commercial (USA, 1970s)",
           "year": 1970,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1970PromoForTheOddCouple"
+          "credit": "archive.org/details/JordacheJeans70s"
         },
         {
           "kind": "video",
@@ -514,19 +514,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/pampers-babysitter-commercial-70s/PG_-_Pampers_Disposable_Diapers_-_The_Expert_Babysitter_-_Vintage_Commercial_-_1960s_-_1970s.mp4",
-          "start": 0,
-          "duration": 60.09,
-          "title": "Pampers Disposable Diapers - The Expert Babysitter Vintage Commercial (Early 1970's) featuring Denise Nickerson",
-          "year": 1970,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/pampers-babysitter-commercial-70s"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/1970-sponsor-tag-for-wisk/1970%20sponsor%20tag%20for%20Wisk.mp4",
           "start": 0,
           "duration": 17,
@@ -537,6 +524,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1970-sponsor-tag-for-wisk"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1970-2/1970-2.mp4",
+          "start": 0,
+          "duration": 85.4,
+          "title": "1970 2",
+          "year": 1970,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1970-2"
         },
         {
           "kind": "card",
@@ -553,7 +553,7 @@
       "name": "WNTW",
       "tagline": "The way it was",
       "year": 1976,
-      "totalDuration": 1328.18,
+      "totalDuration": 1072.91,
       "items": [
         {
           "kind": "card",
@@ -594,29 +594,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977LWTCommercialBreak/1976%20LWT%20Commercial%20Break.mp4",
+          "src": "https://archive.org/download/1976CampbellsChickenNoodleOsSoup/1976%20Campbell's%20Chicken%20Noodle%20O's%20Soup.mp4",
           "start": 0,
-          "duration": 157.84,
-          "title": "1976 LWT Commercial Break",
+          "duration": 29.66,
+          "title": "Campbell's Chicken Noodle O's Soup",
           "year": 1976,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977LWTCommercialBreak"
+          "credit": "archive.org/details/1976CampbellsChickenNoodleOsSoup"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/CareFreeSugarlessGumWithDenaDietrich/Care%20Free%20Sugarless%20Gum%20with%20Dena%20Dietrich.mp4",
+          "src": "https://archive.org/download/1976-commercial-for-manikin-cigars/1976%20commercial%20for%20Manikin%20cigars.mp4",
           "start": 0,
-          "duration": 30.14,
-          "title": "Care Free Sugarless Gum With Dena Dietrich",
+          "duration": 30.41,
+          "title": "1976 commercial for Manikin cigars",
           "year": 1976,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/CareFreeSugarlessGumWithDenaDietrich"
+          "credit": "archive.org/details/1976-commercial-for-manikin-cigars"
         },
         {
           "kind": "video",
@@ -646,16 +646,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977LWTCommercialBreak6/1976%20LWT%20Commercial%20Break%20(6).mp4",
+          "src": "https://archive.org/download/1976-commercial-for-whiskas-neptune-cat-food/1976%20commercial%20for%20Whiskas%20Neptune%20cat%20food.mp4",
           "start": 0,
-          "duration": 156.8,
-          "title": "1976 LWT Commercial Break (6)",
+          "duration": 29.44,
+          "title": "1976 commercial for Whiskas Neptune cat food",
           "year": 1976,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977LWTCommercialBreak6"
+          "credit": "archive.org/details/1976-commercial-for-whiskas-neptune-cat-food"
         },
         {
           "kind": "card",
@@ -672,7 +672,7 @@
       "name": "WYRS",
       "tagline": "Tonight, back then",
       "year": 1977,
-      "totalDuration": 2147.921,
+      "totalDuration": 2102.831,
       "items": [
         {
           "kind": "card",
@@ -713,29 +713,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/TheHardyBoysNancyDrewMysteriesPromo/The%20Hardy%20Boys-Nancy%20Drew%20Mysteries%20promo.mp4",
+          "src": "https://archive.org/download/1977NecafeInstantCoffeeCommercial/1977%20Necafe%20Instant%20Coffee%20commercial.mp4",
           "start": 0,
           "duration": 30.77,
-          "title": "The Hardy Boys/Nancy Drew Mysteries promo",
+          "title": "Necafe Instant Coffee",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/TheHardyBoysNancyDrewMysteriesPromo"
+          "credit": "archive.org/details/1977NecafeInstantCoffeeCommercial"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977GoldenGrahamsCereal/1977%20Golden%20Grahams%20Cereal.mp4",
+          "src": "https://archive.org/download/1977CommercialForArrival/1977%20commercial%20for%20Arrival.mp4",
           "start": 0,
-          "duration": 30.02,
-          "title": "Oh, Those Golden Grahams!",
+          "duration": 14.23,
+          "title": "1977 commercial for 'Arrival' by ABBA",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977GoldenGrahamsCereal"
+          "credit": "archive.org/details/1977CommercialForArrival"
         },
         {
           "kind": "video",
@@ -773,16 +773,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977DelMonteCornWithBillCosby/1977%20Del%20Monte%20Corn%20with%20Bill%20Cosby.mp4",
+          "src": "https://archive.org/download/classic-atari-2600-commercials-from-the-80s-segment-0-x-264-002/Classic%20Atari%202600%20Commercials%20From%20the%20-80s_Segment_0_x264_002.mp4",
           "start": 0,
-          "duration": 30.6,
-          "title": "Del Monte Corn with Bill Cosby",
+          "duration": 30.62,
+          "title": "Atari Commercials P2",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977DelMonteCornWithBillCosby"
+          "credit": "archive.org/details/classic-atari-2600-commercials-from-the-80s-segment-0-x-264-002"
         },
         {
           "kind": "video",
@@ -799,29 +799,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/DigibarnXeroxMonksTvCommercial1977/XEROXMonks_KoreyKay_512kb.mp4",
+          "src": "https://archive.org/download/1977GravyTrainDogFoodWithJuneLockhart/1977%20Gravy%20Train%20Dog%20Food%20with%20June%20Lockhart.mp4",
           "start": 0,
-          "duration": 60.33,
-          "title": "Digibarn: Xerox Monks TV Commercial",
+          "duration": 30.43,
+          "title": "Gravy Train Dog Food with June Lockhart",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/DigibarnXeroxMonksTvCommercial1977"
+          "credit": "archive.org/details/1977GravyTrainDogFoodWithJuneLockhart"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977HappyDaysFonzieLovesPinkyPromo/1977%20Happy%20Days-Fonzie%20Loves%20Pinky%20promo.mp4",
+          "src": "https://archive.org/download/1977PlaytexSeamlessSupportCanBeBeautifulBra/1977%20Playtex%20Seamless%20Support%20Can%20Be%20Beautiful%20Bra.mp4",
           "start": 0,
-          "duration": 30.62,
-          "title": "Happy Days/Fonzie Loves Pinky promo",
+          "duration": 31.2,
+          "title": "Playtex Seamless Support Can Be Beautiful Bra",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977HappyDaysFonzieLovesPinkyPromo"
+          "credit": "archive.org/details/1977PlaytexSeamlessSupportCanBeBeautifulBra"
         },
         {
           "kind": "card",
@@ -838,7 +838,7 @@
       "name": "WHEN",
       "tagline": "Stay tuned",
       "year": 1982,
-      "totalDuration": 5201.441,
+      "totalDuration": 5016.601,
       "items": [
         {
           "kind": "card",
@@ -871,19 +871,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/circus-world-championships-1980s/The%20Circus%20World%20Championships%20(1982%20airing)%20-%2006%20-%20ads%20(3rd%20break).mp4",
-          "start": 0,
-          "duration": 81.66,
-          "title": "The Circus World Championships (2 episodes - early 1980s)",
-          "year": 1982,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/circus-world-championships-1980s"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/MAGISynthavisionDemoReel1982/MAGI%20Synthavision%20Demo%20Reel%201982.mp4",
           "start": 0,
           "duration": 150.37,
@@ -894,6 +881,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/MAGISynthavisionDemoReel1982"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/Nescafe1982/Nescafe1982.mp4",
+          "start": 0,
+          "duration": 10.76,
+          "title": "1982 advert for Nescafe",
+          "year": 1982,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/Nescafe1982"
         },
         {
           "kind": "video",
@@ -918,42 +918,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/Flash1982/Flash1982.mp4",
+          "src": "https://archive.org/download/DiscoverAtari2_Feb8_82/DiscoverAtari2_Feb8_82.mp4",
           "start": 0,
-          "duration": 39.8,
-          "title": "1982 advert for Pine Fresh Flash",
+          "duration": 60.09,
+          "title": "Atari - Discover Atari (USA, 1982)",
           "year": 1982,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/Flash1982"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/AtariComputers_Feb8_1982/AtariComputers_Feb8_1982.mp4",
-          "start": 0,
-          "duration": 29.56,
-          "title": "Atari Computers commercial (USA, 1982)",
-          "year": 1982,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/AtariComputers_Feb8_1982"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/WMAR_JACKA_1212_009_DIG/WMAR_JACKA_1212_009_DIG.mp4",
-          "start": 1204.907,
-          "duration": 602.453,
-          "title": "Jack Anderson Confidential",
-          "year": 1982,
-          "airDate": "1982-11-18",
-          "category": "news",
-          "part": 3,
-          "parts": 3,
-          "credit": "archive.org/details/WMAR_JACKA_1212_009_DIG"
+          "credit": "archive.org/details/DiscoverAtari2_Feb8_82"
         },
         {
           "kind": "video",
@@ -970,16 +944,42 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/Denclen1982/Denclen1982.mp4",
+          "src": "https://archive.org/download/WMAR_JACKA_1212_009_DIG/WMAR_JACKA_1212_009_DIG.mp4",
+          "start": 1204.907,
+          "duration": 602.453,
+          "title": "Jack Anderson Confidential",
+          "year": 1982,
+          "airDate": "1982-11-18",
+          "category": "news",
+          "part": 3,
+          "parts": 3,
+          "credit": "archive.org/details/WMAR_JACKA_1212_009_DIG"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/BottledMilk1982/Bottled%20Milk%201982.mp4",
           "start": 0,
-          "duration": 30.32,
-          "title": "1982 commercial: Denclen",
+          "duration": 42.68,
+          "title": "1982 commercial: Milk",
           "year": 1982,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/Denclen1982"
+          "credit": "archive.org/details/BottledMilk1982"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/ComputerFair1982/ComputerFair1982.mp4",
+          "start": 0,
+          "duration": 10.84,
+          "title": "1982 commercial: Computer Fair",
+          "year": 1982,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/ComputerFair1982"
         },
         {
           "kind": "video",
@@ -1004,19 +1004,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/circus-world-championships-1980s/The%20Circus%20World%20Championships%20(1982%20airing)%20-%2006%20-%20ads%20(3rd%20break).mp4",
-          "start": 0,
-          "duration": 81.66,
-          "title": "The Circus World Championships (2 episodes - early 1980s)",
-          "year": 1982,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/circus-world-championships-1980s"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/MAGISynthavisionDemoReel1982/MAGI%20Synthavision%20Demo%20Reel%201982.mp4",
           "start": 0,
           "duration": 150.37,
@@ -1027,6 +1014,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/MAGISynthavisionDemoReel1982"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/Nescafe1982/Nescafe1982.mp4",
+          "start": 0,
+          "duration": 10.76,
+          "title": "1982 advert for Nescafe",
+          "year": 1982,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/Nescafe1982"
         },
         {
           "kind": "video",
@@ -1051,29 +1051,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/Flash1982/Flash1982.mp4",
+          "src": "https://archive.org/download/DiscoverAtari2_Feb8_82/DiscoverAtari2_Feb8_82.mp4",
           "start": 0,
-          "duration": 39.8,
-          "title": "1982 advert for Pine Fresh Flash",
+          "duration": 60.09,
+          "title": "Atari - Discover Atari (USA, 1982)",
           "year": 1982,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/Flash1982"
+          "credit": "archive.org/details/DiscoverAtari2_Feb8_82"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/AtariComputers_Feb8_1982/AtariComputers_Feb8_1982.mp4",
+          "src": "https://archive.org/download/TopnFillCakeToppingFilling1982/Top'n'Fill%20Cake%20Topping%20%26%20Filling%20(1982).mp4",
           "start": 0,
-          "duration": 29.56,
-          "title": "Atari Computers commercial (USA, 1982)",
+          "duration": 22.96,
+          "title": "1982 commercial: Top'n'Fill cake topping & filling",
           "year": 1982,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/AtariComputers_Feb8_1982"
+          "credit": "archive.org/details/TopnFillCakeToppingFilling1982"
         },
         {
           "kind": "video",
@@ -1098,29 +1098,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/TopnFillCakeToppingFilling1982/Top'n'Fill%20Cake%20Topping%20%26%20Filling%20(1982).mp4",
+          "src": "https://archive.org/download/BottledMilk1982/Bottled%20Milk%201982.mp4",
           "start": 0,
-          "duration": 22.96,
-          "title": "1982 commercial: Top'n'Fill cake topping & filling",
+          "duration": 42.68,
+          "title": "1982 commercial: Milk",
           "year": 1982,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/TopnFillCakeToppingFilling1982"
+          "credit": "archive.org/details/BottledMilk1982"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/Denclen1982/Denclen1982.mp4",
+          "src": "https://archive.org/download/ComputerFair1982/ComputerFair1982.mp4",
           "start": 0,
-          "duration": 30.32,
-          "title": "1982 commercial: Denclen",
+          "duration": 10.84,
+          "title": "1982 commercial: Computer Fair",
           "year": 1982,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/Denclen1982"
+          "credit": "archive.org/details/ComputerFair1982"
         },
         {
           "kind": "video",
@@ -1137,19 +1137,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/circus-world-championships-1980s/The%20Circus%20World%20Championships%20(1982%20airing)%20-%2006%20-%20ads%20(3rd%20break).mp4",
-          "start": 0,
-          "duration": 81.66,
-          "title": "The Circus World Championships (2 episodes - early 1980s)",
-          "year": 1982,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/circus-world-championships-1980s"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/MAGISynthavisionDemoReel1982/MAGI%20Synthavision%20Demo%20Reel%201982.mp4",
           "start": 0,
           "duration": 150.37,
@@ -1160,6 +1147,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/MAGISynthavisionDemoReel1982"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/Nescafe1982/Nescafe1982.mp4",
+          "start": 0,
+          "duration": 10.76,
+          "title": "1982 advert for Nescafe",
+          "year": 1982,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/Nescafe1982"
         },
         {
           "kind": "card",
@@ -1217,16 +1217,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/GremlinsFandango_3-11-85/GremlinsFandango_3-11-85.mp4",
+          "src": "https://archive.org/download/1985-back-to-the-future-movie-commercial/1985%20Back%20to%20the%20Future%20Movie%20Commercial.mp4",
           "start": 0,
-          "duration": 29.71,
-          "title": "Warner Home Video - Gremlins/Fandango",
+          "duration": 31.4,
+          "title": "1985 Back To The Future Movie Commercial",
           "year": 1985,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/GremlinsFandango_3-11-85"
+          "credit": "archive.org/details/1985-back-to-the-future-movie-commercial"
         },
         {
           "kind": "video",
@@ -1256,16 +1256,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1985-back-to-the-future-movie-commercial/1985%20Back%20to%20the%20Future%20Movie%20Commercial.mp4",
+          "src": "https://archive.org/download/GremlinsFandango_3-11-85/GremlinsFandango_3-11-85.mp4",
           "start": 0,
-          "duration": 31.4,
-          "title": "1985 Back To The Future Movie Commercial",
+          "duration": 29.71,
+          "title": "Warner Home Video - Gremlins/Fandango",
           "year": 1985,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1985-back-to-the-future-movie-commercial"
+          "credit": "archive.org/details/GremlinsFandango_3-11-85"
         },
         {
           "kind": "video",
@@ -1303,19 +1303,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/castlemaine-xxxx-lager-advert/Castlemaine%20XXXX%20Lager%20Advert.mp4",
-          "start": 0,
-          "duration": 30.76,
-          "title": "Castlemaine XXXX Lager Advert",
-          "year": 1985,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/castlemaine-xxxx-lager-advert"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/1985-rocky-iv-movie-commercial/1985%20Rocky%20IV%20Movie%20Commercial.mp4",
           "start": 0,
           "duration": 31.03,
@@ -1326,6 +1313,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1985-rocky-iv-movie-commercial"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/castlemaine-xxxx-lager-advert/Castlemaine%20XXXX%20Lager%20Advert.mp4",
+          "start": 0,
+          "duration": 30.76,
+          "title": "Castlemaine XXXX Lager Advert",
+          "year": 1985,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/castlemaine-xxxx-lager-advert"
         },
         {
           "kind": "video",
@@ -1350,16 +1350,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/GremlinsFandango_3-11-85/GremlinsFandango_3-11-85.mp4",
+          "src": "https://archive.org/download/1985-back-to-the-future-movie-commercial/1985%20Back%20to%20the%20Future%20Movie%20Commercial.mp4",
           "start": 0,
-          "duration": 29.71,
-          "title": "Warner Home Video - Gremlins/Fandango",
+          "duration": 31.4,
+          "title": "1985 Back To The Future Movie Commercial",
           "year": 1985,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/GremlinsFandango_3-11-85"
+          "credit": "archive.org/details/1985-back-to-the-future-movie-commercial"
         },
         {
           "kind": "video",
@@ -1389,16 +1389,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1985-back-to-the-future-movie-commercial/1985%20Back%20to%20the%20Future%20Movie%20Commercial.mp4",
+          "src": "https://archive.org/download/GremlinsFandango_3-11-85/GremlinsFandango_3-11-85.mp4",
           "start": 0,
-          "duration": 31.4,
-          "title": "1985 Back To The Future Movie Commercial",
+          "duration": 29.71,
+          "title": "Warner Home Video - Gremlins/Fandango",
           "year": 1985,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1985-back-to-the-future-movie-commercial"
+          "credit": "archive.org/details/GremlinsFandango_3-11-85"
         },
         {
           "kind": "video",
@@ -1768,19 +1768,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/blue-sky-studios-commercials/Starburst%20Cheerleaders%20Commercial%20(1999).mp4",
-          "start": 0,
-          "duration": 30.77,
-          "title": "Early Blue Sky Studios Commercials (1992-2000)",
-          "year": 1992,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/blue-sky-studios-commercials"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/1992-uan-2/1992%20UAN2.mp4",
           "start": 0,
           "duration": 165,
@@ -1791,6 +1778,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1992-uan-2"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/blue-sky-studios-commercials/Starburst%20Cheerleaders%20Commercial%20(1999).mp4",
+          "start": 0,
+          "duration": 30.77,
+          "title": "Early Blue Sky Studios Commercials (1992-2000)",
+          "year": 1992,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/blue-sky-studios-commercials"
         },
         {
           "kind": "video",
@@ -1807,6 +1807,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/RapRatvideoboardgamepromo1992/'Rap%20Rat'%20video%20board%20game%20promo%20(1992).mp4",
+          "start": 0,
+          "duration": 30.37,
+          "title": "'Rap Rat' video board game promo",
+          "year": 1992,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/RapRatvideoboardgamepromo1992"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/aerobicsozstyle-1992/11%20-%20Aerobics%20Oz%20Style%202%20ads%20(3rd%20break).mp4",
           "start": 0,
           "duration": 130.03,
@@ -1817,19 +1830,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/aerobicsozstyle-1992"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/sonikku/Sonic%20Spinball%20advert.mp4",
-          "start": 0,
-          "duration": 16.07,
-          "title": "Sonic Commercials",
-          "year": 1992,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/sonikku"
         },
         {
           "kind": "video",
@@ -1854,29 +1854,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/RapRatvideoboardgamepromo1992/'Rap%20Rat'%20video%20board%20game%20promo%20(1992).mp4",
+          "src": "https://archive.org/download/sonikku/Sonic%20Spinball%20advert.mp4",
           "start": 0,
-          "duration": 30.37,
-          "title": "'Rap Rat' video board game promo",
+          "duration": 16.07,
+          "title": "Sonic Commercials",
           "year": 1992,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/RapRatvideoboardgamepromo1992"
+          "credit": "archive.org/details/sonikku"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/blue-sky-studios-commercials/Starburst%20Cheerleaders%20Commercial%20(1999).mp4",
+          "src": "https://archive.org/download/1992-uan-2/1992%20UAN2.mp4",
           "start": 0,
-          "duration": 30.77,
-          "title": "Early Blue Sky Studios Commercials (1992-2000)",
+          "duration": 165,
+          "title": "More 1992 USA Up All Night Bumpers/Commercialz #tuneintrashout",
           "year": 1992,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/blue-sky-studios-commercials"
+          "credit": "archive.org/details/1992-uan-2"
         },
         {
           "kind": "video",
@@ -1893,29 +1893,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1992-uan-2/1992%20UAN2.mp4",
+          "src": "https://archive.org/download/blue-sky-studios-commercials/Starburst%20Cheerleaders%20Commercial%20(1999).mp4",
           "start": 0,
-          "duration": 165,
-          "title": "More 1992 USA Up All Night Bumpers/Commercialz #tuneintrashout",
+          "duration": 30.77,
+          "title": "Early Blue Sky Studios Commercials (1992-2000)",
           "year": 1992,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1992-uan-2"
+          "credit": "archive.org/details/blue-sky-studios-commercials"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/aerobicsozstyle-1992/11%20-%20Aerobics%20Oz%20Style%202%20ads%20(3rd%20break).mp4",
+          "src": "https://archive.org/download/RapRatvideoboardgamepromo1992/'Rap%20Rat'%20video%20board%20game%20promo%20(1992).mp4",
           "start": 0,
-          "duration": 130.03,
-          "title": "Aerobics Oz Style - 7 episodes",
+          "duration": 30.37,
+          "title": "'Rap Rat' video board game promo",
           "year": 1992,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/aerobicsozstyle-1992"
+          "credit": "archive.org/details/RapRatvideoboardgamepromo1992"
         },
         {
           "kind": "video",
@@ -1940,6 +1940,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/aerobicsozstyle-1992/11%20-%20Aerobics%20Oz%20Style%202%20ads%20(3rd%20break).mp4",
+          "start": 0,
+          "duration": 130.03,
+          "title": "Aerobics Oz Style - 7 episodes",
+          "year": 1992,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/aerobicsozstyle-1992"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/sonikku/Sonic%20Spinball%20advert.mp4",
           "start": 0,
           "duration": 16.07,
@@ -1950,19 +1963,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/sonikku"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/RapRatvideoboardgamepromo1992/'Rap%20Rat'%20video%20board%20game%20promo%20(1992).mp4",
-          "start": 0,
-          "duration": 30.37,
-          "title": "'Rap Rat' video board game promo",
-          "year": 1992,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/RapRatvideoboardgamepromo1992"
         },
         {
           "kind": "video",
@@ -1979,19 +1979,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/blue-sky-studios-commercials/Starburst%20Cheerleaders%20Commercial%20(1999).mp4",
-          "start": 0,
-          "duration": 30.77,
-          "title": "Early Blue Sky Studios Commercials (1992-2000)",
-          "year": 1992,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/blue-sky-studios-commercials"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/1992-uan-2/1992%20UAN2.mp4",
           "start": 0,
           "duration": 165,
@@ -2002,6 +1989,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1992-uan-2"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/blue-sky-studios-commercials/Starburst%20Cheerleaders%20Commercial%20(1999).mp4",
+          "start": 0,
+          "duration": 30.77,
+          "title": "Early Blue Sky Studios Commercials (1992-2000)",
+          "year": 1992,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/blue-sky-studios-commercials"
         },
         {
           "kind": "card",
@@ -2599,7 +2599,7 @@
       "name": "WTHN",
       "tagline": "Tonight, back then",
       "year": 1996,
-      "totalDuration": 11924.275,
+      "totalDuration": 11924.875,
       "items": [
         {
           "kind": "card",
@@ -2640,16 +2640,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1995-chevy-blazer-commercial/1995%20Chevy%20Blazer%20Commercial.mp4",
+          "src": "https://archive.org/download/rare-first-pokemon-red-and-green-japanese-commercial-ever/RARE%20first%20Pok%C3%A9mon%20Red%20and%20Green%20Japanese%20commercial%20EVER%20HD-z4JeRKo3Rr4.mp4",
           "start": 0,
-          "duration": 29.93,
-          "title": "1996 Chevy Blazer Commercial",
+          "duration": 30.53,
+          "title": "RARE First Pokémon Red And Green Japanese Commercial EVER",
           "year": 1996,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1995-chevy-blazer-commercial"
+          "credit": "archive.org/details/rare-first-pokemon-red-and-green-japanese-commercial-ever"
         },
         {
           "kind": "video",
@@ -2687,19 +2687,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/rare-first-pokemon-red-and-green-japanese-commercial-ever/RARE%20first%20Pok%C3%A9mon%20Red%20and%20Green%20Japanese%20commercial%20EVER%20HD-z4JeRKo3Rr4.mp4",
-          "start": 0,
-          "duration": 30.53,
-          "title": "RARE First Pokémon Red And Green Japanese Commercial EVER",
-          "year": 1996,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/rare-first-pokemon-red-and-green-japanese-commercial-ever"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore/KVBC%20Ch%203%20-%201996%20-%20The%20Good%20Guys!-WOW!%20Multimedia%20Superstore.mp4",
           "start": 0,
           "duration": 30.04,
@@ -2710,6 +2697,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1995-chevy-blazer-commercial/1995%20Chevy%20Blazer%20Commercial.mp4",
+          "start": 0,
+          "duration": 29.93,
+          "title": "1996 Chevy Blazer Commercial",
+          "year": 1996,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1995-chevy-blazer-commercial"
         },
         {
           "kind": "video",
@@ -2739,16 +2739,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1995-chevy-blazer-commercial/1995%20Chevy%20Blazer%20Commercial.mp4",
+          "src": "https://archive.org/download/rare-first-pokemon-red-and-green-japanese-commercial-ever/RARE%20first%20Pok%C3%A9mon%20Red%20and%20Green%20Japanese%20commercial%20EVER%20HD-z4JeRKo3Rr4.mp4",
           "start": 0,
-          "duration": 29.93,
-          "title": "1996 Chevy Blazer Commercial",
+          "duration": 30.53,
+          "title": "RARE First Pokémon Red And Green Japanese Commercial EVER",
           "year": 1996,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1995-chevy-blazer-commercial"
+          "credit": "archive.org/details/rare-first-pokemon-red-and-green-japanese-commercial-ever"
         },
         {
           "kind": "video",
@@ -2786,16 +2786,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/rare-first-pokemon-red-and-green-japanese-commercial-ever/RARE%20first%20Pok%C3%A9mon%20Red%20and%20Green%20Japanese%20commercial%20EVER%20HD-z4JeRKo3Rr4.mp4",
+          "src": "https://archive.org/download/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore/KVBC%20Ch%203%20-%201996%20-%20The%20Good%20Guys!-WOW!%20Multimedia%20Superstore.mp4",
           "start": 0,
-          "duration": 30.53,
-          "title": "RARE First Pokémon Red And Green Japanese Commercial EVER",
+          "duration": 30.04,
+          "title": "KVBC Ch. 3 - (1996) The Good Guys! WOW! Multimedia Superstore Commercial",
           "year": 1996,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/rare-first-pokemon-red-and-green-japanese-commercial-ever"
+          "credit": "archive.org/details/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore"
         },
         {
           "kind": "video",
@@ -2820,16 +2820,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore/KVBC%20Ch%203%20-%201996%20-%20The%20Good%20Guys!-WOW!%20Multimedia%20Superstore.mp4",
+          "src": "https://archive.org/download/1995-chevy-blazer-commercial/1995%20Chevy%20Blazer%20Commercial.mp4",
           "start": 0,
-          "duration": 30.04,
-          "title": "KVBC Ch. 3 - (1996) The Good Guys! WOW! Multimedia Superstore Commercial",
+          "duration": 29.93,
+          "title": "1996 Chevy Blazer Commercial",
           "year": 1996,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore"
+          "credit": "archive.org/details/1995-chevy-blazer-commercial"
         },
         {
           "kind": "video",
@@ -2867,16 +2867,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1995-chevy-blazer-commercial/1995%20Chevy%20Blazer%20Commercial.mp4",
+          "src": "https://archive.org/download/rare-first-pokemon-red-and-green-japanese-commercial-ever/RARE%20first%20Pok%C3%A9mon%20Red%20and%20Green%20Japanese%20commercial%20EVER%20HD-z4JeRKo3Rr4.mp4",
           "start": 0,
-          "duration": 29.93,
-          "title": "1996 Chevy Blazer Commercial",
+          "duration": 30.53,
+          "title": "RARE First Pokémon Red And Green Japanese Commercial EVER",
           "year": 1996,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1995-chevy-blazer-commercial"
+          "credit": "archive.org/details/rare-first-pokemon-red-and-green-japanese-commercial-ever"
         },
         {
           "kind": "video",
@@ -2914,19 +2914,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/rare-first-pokemon-red-and-green-japanese-commercial-ever/RARE%20first%20Pok%C3%A9mon%20Red%20and%20Green%20Japanese%20commercial%20EVER%20HD-z4JeRKo3Rr4.mp4",
-          "start": 0,
-          "duration": 30.53,
-          "title": "RARE First Pokémon Red And Green Japanese Commercial EVER",
-          "year": 1996,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/rare-first-pokemon-red-and-green-japanese-commercial-ever"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore/KVBC%20Ch%203%20-%201996%20-%20The%20Good%20Guys!-WOW!%20Multimedia%20Superstore.mp4",
           "start": 0,
           "duration": 30.04,
@@ -2937,6 +2924,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1995-chevy-blazer-commercial/1995%20Chevy%20Blazer%20Commercial.mp4",
+          "start": 0,
+          "duration": 29.93,
+          "title": "1996 Chevy Blazer Commercial",
+          "year": 1996,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1995-chevy-blazer-commercial"
         },
         {
           "kind": "video",
@@ -2974,16 +2974,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1995-chevy-blazer-commercial/1995%20Chevy%20Blazer%20Commercial.mp4",
+          "src": "https://archive.org/download/rare-first-pokemon-red-and-green-japanese-commercial-ever/RARE%20first%20Pok%C3%A9mon%20Red%20and%20Green%20Japanese%20commercial%20EVER%20HD-z4JeRKo3Rr4.mp4",
           "start": 0,
-          "duration": 29.93,
-          "title": "1996 Chevy Blazer Commercial",
+          "duration": 30.53,
+          "title": "RARE First Pokémon Red And Green Japanese Commercial EVER",
           "year": 1996,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1995-chevy-blazer-commercial"
+          "credit": "archive.org/details/rare-first-pokemon-red-and-green-japanese-commercial-ever"
         },
         {
           "kind": "video",
@@ -3021,16 +3021,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/rare-first-pokemon-red-and-green-japanese-commercial-ever/RARE%20first%20Pok%C3%A9mon%20Red%20and%20Green%20Japanese%20commercial%20EVER%20HD-z4JeRKo3Rr4.mp4",
+          "src": "https://archive.org/download/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore/KVBC%20Ch%203%20-%201996%20-%20The%20Good%20Guys!-WOW!%20Multimedia%20Superstore.mp4",
           "start": 0,
-          "duration": 30.53,
-          "title": "RARE First Pokémon Red And Green Japanese Commercial EVER",
+          "duration": 30.04,
+          "title": "KVBC Ch. 3 - (1996) The Good Guys! WOW! Multimedia Superstore Commercial",
           "year": 1996,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/rare-first-pokemon-red-and-green-japanese-commercial-ever"
+          "credit": "archive.org/details/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore"
         },
         {
           "kind": "video",
@@ -3055,16 +3055,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore/KVBC%20Ch%203%20-%201996%20-%20The%20Good%20Guys!-WOW!%20Multimedia%20Superstore.mp4",
+          "src": "https://archive.org/download/1995-chevy-blazer-commercial/1995%20Chevy%20Blazer%20Commercial.mp4",
           "start": 0,
-          "duration": 30.04,
-          "title": "KVBC Ch. 3 - (1996) The Good Guys! WOW! Multimedia Superstore Commercial",
+          "duration": 29.93,
+          "title": "1996 Chevy Blazer Commercial",
           "year": 1996,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore"
+          "credit": "archive.org/details/1995-chevy-blazer-commercial"
         },
         {
           "kind": "video",
@@ -3102,16 +3102,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1995-chevy-blazer-commercial/1995%20Chevy%20Blazer%20Commercial.mp4",
+          "src": "https://archive.org/download/rare-first-pokemon-red-and-green-japanese-commercial-ever/RARE%20first%20Pok%C3%A9mon%20Red%20and%20Green%20Japanese%20commercial%20EVER%20HD-z4JeRKo3Rr4.mp4",
           "start": 0,
-          "duration": 29.93,
-          "title": "1996 Chevy Blazer Commercial",
+          "duration": 30.53,
+          "title": "RARE First Pokémon Red And Green Japanese Commercial EVER",
           "year": 1996,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1995-chevy-blazer-commercial"
+          "credit": "archive.org/details/rare-first-pokemon-red-and-green-japanese-commercial-ever"
         },
         {
           "kind": "video",
@@ -3149,19 +3149,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/rare-first-pokemon-red-and-green-japanese-commercial-ever/RARE%20first%20Pok%C3%A9mon%20Red%20and%20Green%20Japanese%20commercial%20EVER%20HD-z4JeRKo3Rr4.mp4",
-          "start": 0,
-          "duration": 30.53,
-          "title": "RARE First Pokémon Red And Green Japanese Commercial EVER",
-          "year": 1996,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/rare-first-pokemon-red-and-green-japanese-commercial-ever"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore/KVBC%20Ch%203%20-%201996%20-%20The%20Good%20Guys!-WOW!%20Multimedia%20Superstore.mp4",
           "start": 0,
           "duration": 30.04,
@@ -3172,6 +3159,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1995-chevy-blazer-commercial/1995%20Chevy%20Blazer%20Commercial.mp4",
+          "start": 0,
+          "duration": 29.93,
+          "title": "1996 Chevy Blazer Commercial",
+          "year": 1996,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1995-chevy-blazer-commercial"
         },
         {
           "kind": "video",
@@ -3209,16 +3209,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1995-chevy-blazer-commercial/1995%20Chevy%20Blazer%20Commercial.mp4",
+          "src": "https://archive.org/download/rare-first-pokemon-red-and-green-japanese-commercial-ever/RARE%20first%20Pok%C3%A9mon%20Red%20and%20Green%20Japanese%20commercial%20EVER%20HD-z4JeRKo3Rr4.mp4",
           "start": 0,
-          "duration": 29.93,
-          "title": "1996 Chevy Blazer Commercial",
+          "duration": 30.53,
+          "title": "RARE First Pokémon Red And Green Japanese Commercial EVER",
           "year": 1996,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1995-chevy-blazer-commercial"
+          "credit": "archive.org/details/rare-first-pokemon-red-and-green-japanese-commercial-ever"
         },
         {
           "kind": "video",
@@ -3256,16 +3256,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/rare-first-pokemon-red-and-green-japanese-commercial-ever/RARE%20first%20Pok%C3%A9mon%20Red%20and%20Green%20Japanese%20commercial%20EVER%20HD-z4JeRKo3Rr4.mp4",
+          "src": "https://archive.org/download/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore/KVBC%20Ch%203%20-%201996%20-%20The%20Good%20Guys!-WOW!%20Multimedia%20Superstore.mp4",
           "start": 0,
-          "duration": 30.53,
-          "title": "RARE First Pokémon Red And Green Japanese Commercial EVER",
+          "duration": 30.04,
+          "title": "KVBC Ch. 3 - (1996) The Good Guys! WOW! Multimedia Superstore Commercial",
           "year": 1996,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/rare-first-pokemon-red-and-green-japanese-commercial-ever"
+          "credit": "archive.org/details/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore"
         },
         {
           "kind": "video",
@@ -3290,16 +3290,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore/KVBC%20Ch%203%20-%201996%20-%20The%20Good%20Guys!-WOW!%20Multimedia%20Superstore.mp4",
+          "src": "https://archive.org/download/1995-chevy-blazer-commercial/1995%20Chevy%20Blazer%20Commercial.mp4",
           "start": 0,
-          "duration": 30.04,
-          "title": "KVBC Ch. 3 - (1996) The Good Guys! WOW! Multimedia Superstore Commercial",
+          "duration": 29.93,
+          "title": "1996 Chevy Blazer Commercial",
           "year": 1996,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore"
+          "credit": "archive.org/details/1995-chevy-blazer-commercial"
         },
         {
           "kind": "video",
@@ -3329,16 +3329,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1995-chevy-blazer-commercial/1995%20Chevy%20Blazer%20Commercial.mp4",
+          "src": "https://archive.org/download/rare-first-pokemon-red-and-green-japanese-commercial-ever/RARE%20first%20Pok%C3%A9mon%20Red%20and%20Green%20Japanese%20commercial%20EVER%20HD-z4JeRKo3Rr4.mp4",
           "start": 0,
-          "duration": 29.93,
-          "title": "1996 Chevy Blazer Commercial",
+          "duration": 30.53,
+          "title": "RARE First Pokémon Red And Green Japanese Commercial EVER",
           "year": 1996,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1995-chevy-blazer-commercial"
+          "credit": "archive.org/details/rare-first-pokemon-red-and-green-japanese-commercial-ever"
         },
         {
           "kind": "video",
