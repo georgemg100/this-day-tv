@@ -3,7 +3,7 @@
   "target": "web",
   "date": "11-19",
   "title": "This Day in History — November 19",
-  "publishedAt": "2026-11-18T09:09:49.599Z",
+  "publishedAt": "2026-11-19T09:10:26.136Z",
   "channels": [
     {
       "number": 2,
@@ -2991,7 +2991,7 @@
       "name": "WTHN",
       "tagline": "Tonight, back then",
       "year": 1996,
-      "totalDuration": 9333.261,
+      "totalDuration": 9318.291,
       "items": [
         {
           "kind": "card",
@@ -3032,19 +3032,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1995-chevy-blazer-commercial/1995%20Chevy%20Blazer%20Commercial.mp4",
-          "start": 0,
-          "duration": 29.93,
-          "title": "1996 Chevy Blazer Commercial",
-          "year": 1996,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1995-chevy-blazer-commercial"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/1996-commercial-for-athletes-foot/1996%20commercial%20for%20Athlete's%20Foot.mp4",
           "start": 0,
           "duration": 14.96,
@@ -3055,6 +3042,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1996-commercial-for-athletes-foot"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/commercials-nick-jr-1996/commercials%20-%20Nick%20Jr%20-%201996.mp4",
+          "start": 0,
+          "duration": 95.12,
+          "title": "Commercials - Nick Jr - 1996",
+          "year": 1996,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/commercials-nick-jr-1996"
         },
         {
           "kind": "video",
@@ -3079,19 +3079,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/commercials-nick-jr-1996/commercials%20-%20Nick%20Jr%20-%201996.mp4",
-          "start": 0,
-          "duration": 95.12,
-          "title": "Commercials - Nick Jr - 1996",
-          "year": 1996,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/commercials-nick-jr-1996"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/rare-first-pokemon-red-and-green-japanese-commercial-ever/RARE%20first%20Pok%C3%A9mon%20Red%20and%20Green%20Japanese%20commercial%20EVER%20HD-z4JeRKo3Rr4.mp4",
           "start": 0,
           "duration": 30.53,
@@ -3102,19 +3089,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/rare-first-pokemon-red-and-green-japanese-commercial-ever"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/wctv-11pm-news-november-19-1996/WCTV%2011pm%20News%20(November%2019%2C%201996).mp4",
-          "start": 1425.007,
-          "duration": 712.503,
-          "title": "WCTV 11pm News (November 19, 1996)",
-          "year": 1996,
-          "airDate": "1996-11-19",
-          "category": "news",
-          "part": 3,
-          "parts": 3,
-          "credit": "archive.org/details/wctv-11pm-news-november-19-1996"
         },
         {
           "kind": "video",
@@ -3131,6 +3105,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/wctv-11pm-news-november-19-1996/WCTV%2011pm%20News%20(November%2019%2C%201996).mp4",
+          "start": 1425.007,
+          "duration": 712.503,
+          "title": "WCTV 11pm News (November 19, 1996)",
+          "year": 1996,
+          "airDate": "1996-11-19",
+          "category": "news",
+          "part": 3,
+          "parts": 3,
+          "credit": "archive.org/details/wctv-11pm-news-november-19-1996"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/1995-chevy-blazer-commercial/1995%20Chevy%20Blazer%20Commercial.mp4",
           "start": 0,
           "duration": 29.93,
@@ -3141,6 +3128,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1995-chevy-blazer-commercial"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1996-commercial-for-athletes-foot/1996%20commercial%20for%20Athlete's%20Foot.mp4",
+          "start": 0,
+          "duration": 14.96,
+          "title": "1996 commercial for Athlete's Foot",
+          "year": 1996,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1996-commercial-for-athletes-foot"
         },
         {
           "kind": "card",
@@ -3173,19 +3173,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1996-commercial-for-athletes-foot/1996%20commercial%20for%20Athlete's%20Foot.mp4",
-          "start": 0,
-          "duration": 14.96,
-          "title": "1996 commercial for Athlete's Foot",
-          "year": 1996,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1996-commercial-for-athletes-foot"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/commercials-nick-jr-1996/commercials%20-%20Nick%20Jr%20-%201996.mp4",
           "start": 0,
           "duration": 95.12,
@@ -3196,19 +3183,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/commercials-nick-jr-1996"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/tagesschau-20-clock-evening-news-1996-11-19/tagesschau-20-clock-evening-news-1996-11-19.mp4",
-          "start": 491.565,
-          "duration": 491.565,
-          "title": "Tagesschau 20-clock Evening News",
-          "year": 1996,
-          "airDate": "1996-11-19",
-          "category": "news",
-          "part": 2,
-          "parts": 2,
-          "credit": "archive.org/details/tagesschau-20-clock-evening-news-1996-11-19"
         },
         {
           "kind": "video",
@@ -3225,6 +3199,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/tagesschau-20-clock-evening-news-1996-11-19/tagesschau-20-clock-evening-news-1996-11-19.mp4",
+          "start": 491.565,
+          "duration": 491.565,
+          "title": "Tagesschau 20-clock Evening News",
+          "year": 1996,
+          "airDate": "1996-11-19",
+          "category": "news",
+          "part": 2,
+          "parts": 2,
+          "credit": "archive.org/details/tagesschau-20-clock-evening-news-1996-11-19"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore/KVBC%20Ch%203%20-%201996%20-%20The%20Good%20Guys!-WOW!%20Multimedia%20Superstore.mp4",
           "start": 0,
           "duration": 30.04,
@@ -3235,6 +3222,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1995-chevy-blazer-commercial/1995%20Chevy%20Blazer%20Commercial.mp4",
+          "start": 0,
+          "duration": 29.93,
+          "title": "1996 Chevy Blazer Commercial",
+          "year": 1996,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1995-chevy-blazer-commercial"
         },
         {
           "kind": "video",
@@ -3259,19 +3259,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1995-chevy-blazer-commercial/1995%20Chevy%20Blazer%20Commercial.mp4",
-          "start": 0,
-          "duration": 29.93,
-          "title": "1996 Chevy Blazer Commercial",
-          "year": 1996,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1995-chevy-blazer-commercial"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/1996-commercial-for-athletes-foot/1996%20commercial%20for%20Athlete's%20Foot.mp4",
           "start": 0,
           "duration": 14.96,
@@ -3282,6 +3269,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1996-commercial-for-athletes-foot"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/commercials-nick-jr-1996/commercials%20-%20Nick%20Jr%20-%201996.mp4",
+          "start": 0,
+          "duration": 95.12,
+          "title": "Commercials - Nick Jr - 1996",
+          "year": 1996,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/commercials-nick-jr-1996"
         },
         {
           "kind": "video",
@@ -3306,19 +3306,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/commercials-nick-jr-1996/commercials%20-%20Nick%20Jr%20-%201996.mp4",
-          "start": 0,
-          "duration": 95.12,
-          "title": "Commercials - Nick Jr - 1996",
-          "year": 1996,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/commercials-nick-jr-1996"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/rare-first-pokemon-red-and-green-japanese-commercial-ever/RARE%20first%20Pok%C3%A9mon%20Red%20and%20Green%20Japanese%20commercial%20EVER%20HD-z4JeRKo3Rr4.mp4",
           "start": 0,
           "duration": 30.53,
@@ -3329,6 +3316,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/rare-first-pokemon-red-and-green-japanese-commercial-ever"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore/KVBC%20Ch%203%20-%201996%20-%20The%20Good%20Guys!-WOW!%20Multimedia%20Superstore.mp4",
+          "start": 0,
+          "duration": 30.04,
+          "title": "KVBC Ch. 3 - (1996) The Good Guys! WOW! Multimedia Superstore Commercial",
+          "year": 1996,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore"
         },
         {
           "kind": "video",
@@ -3353,19 +3353,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore/KVBC%20Ch%203%20-%201996%20-%20The%20Good%20Guys!-WOW!%20Multimedia%20Superstore.mp4",
-          "start": 0,
-          "duration": 30.04,
-          "title": "KVBC Ch. 3 - (1996) The Good Guys! WOW! Multimedia Superstore Commercial",
-          "year": 1996,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/1995-chevy-blazer-commercial/1995%20Chevy%20Blazer%20Commercial.mp4",
           "start": 0,
           "duration": 29.93,
@@ -3376,6 +3363,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1995-chevy-blazer-commercial"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1996-commercial-for-athletes-foot/1996%20commercial%20for%20Athlete's%20Foot.mp4",
+          "start": 0,
+          "duration": 14.96,
+          "title": "1996 commercial for Athlete's Foot",
+          "year": 1996,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1996-commercial-for-athletes-foot"
         },
         {
           "kind": "video",
@@ -3400,19 +3400,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1996-commercial-for-athletes-foot/1996%20commercial%20for%20Athlete's%20Foot.mp4",
-          "start": 0,
-          "duration": 14.96,
-          "title": "1996 commercial for Athlete's Foot",
-          "year": 1996,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1996-commercial-for-athletes-foot"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/commercials-nick-jr-1996/commercials%20-%20Nick%20Jr%20-%201996.mp4",
           "start": 0,
           "duration": 95.12,
@@ -3423,6 +3410,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/commercials-nick-jr-1996"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/rare-first-pokemon-red-and-green-japanese-commercial-ever/RARE%20first%20Pok%C3%A9mon%20Red%20and%20Green%20Japanese%20commercial%20EVER%20HD-z4JeRKo3Rr4.mp4",
+          "start": 0,
+          "duration": 30.53,
+          "title": "RARE First Pokémon Red And Green Japanese Commercial EVER",
+          "year": 1996,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/rare-first-pokemon-red-and-green-japanese-commercial-ever"
         },
         {
           "kind": "video",
@@ -3447,6 +3447,100 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore/KVBC%20Ch%203%20-%201996%20-%20The%20Good%20Guys!-WOW!%20Multimedia%20Superstore.mp4",
+          "start": 0,
+          "duration": 30.04,
+          "title": "KVBC Ch. 3 - (1996) The Good Guys! WOW! Multimedia Superstore Commercial",
+          "year": 1996,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1995-chevy-blazer-commercial/1995%20Chevy%20Blazer%20Commercial.mp4",
+          "start": 0,
+          "duration": 29.93,
+          "title": "1996 Chevy Blazer Commercial",
+          "year": 1996,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1995-chevy-blazer-commercial"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/FWCityCouncil-1996-11-19/96-40_a.mp4",
+          "start": 3189.869,
+          "duration": 637.974,
+          "title": "Fort Wayne City Council",
+          "year": 1996,
+          "airDate": "1996-11-19",
+          "category": "program",
+          "part": 6,
+          "parts": 8,
+          "credit": "archive.org/details/FWCityCouncil-1996-11-19"
+        },
+        {
+          "kind": "card",
+          "style": "break",
+          "duration": 4,
+          "title": "We'll be right back",
+          "text": "Stay tuned!",
+          "year": null
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1996-commercial-for-athletes-foot/1996%20commercial%20for%20Athlete's%20Foot.mp4",
+          "start": 0,
+          "duration": 14.96,
+          "title": "1996 commercial for Athlete's Foot",
+          "year": 1996,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1996-commercial-for-athletes-foot"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/commercials-nick-jr-1996/commercials%20-%20Nick%20Jr%20-%201996.mp4",
+          "start": 0,
+          "duration": 95.12,
+          "title": "Commercials - Nick Jr - 1996",
+          "year": 1996,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/commercials-nick-jr-1996"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/FWCityCouncil-1996-11-19/96-40_a.mp4",
+          "start": 3827.842,
+          "duration": 637.974,
+          "title": "Fort Wayne City Council",
+          "year": 1996,
+          "airDate": "1996-11-19",
+          "category": "program",
+          "part": 7,
+          "parts": 8,
+          "credit": "archive.org/details/FWCityCouncil-1996-11-19"
+        },
+        {
+          "kind": "card",
+          "style": "break",
+          "duration": 4,
+          "title": "We'll be right back",
+          "text": "Stay tuned!",
+          "year": null
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/rare-first-pokemon-red-and-green-japanese-commercial-ever/RARE%20first%20Pok%C3%A9mon%20Red%20and%20Green%20Japanese%20commercial%20EVER%20HD-z4JeRKo3Rr4.mp4",
           "start": 0,
           "duration": 30.53,
@@ -3474,23 +3568,15 @@
         {
           "kind": "video",
           "src": "https://archive.org/download/FWCityCouncil-1996-11-19/96-40_a.mp4",
-          "start": 3189.869,
+          "start": 4465.816,
           "duration": 637.974,
           "title": "Fort Wayne City Council",
           "year": 1996,
           "airDate": "1996-11-19",
           "category": "program",
-          "part": 6,
+          "part": 8,
           "parts": 8,
           "credit": "archive.org/details/FWCityCouncil-1996-11-19"
-        },
-        {
-          "kind": "card",
-          "style": "break",
-          "duration": 4,
-          "title": "We'll be right back",
-          "text": "Stay tuned!",
-          "year": null
         },
         {
           "kind": "video",
@@ -3517,92 +3603,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1996-commercial-for-athletes-foot"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/FWCityCouncil-1996-11-19/96-40_a.mp4",
-          "start": 3827.842,
-          "duration": 637.974,
-          "title": "Fort Wayne City Council",
-          "year": 1996,
-          "airDate": "1996-11-19",
-          "category": "program",
-          "part": 7,
-          "parts": 8,
-          "credit": "archive.org/details/FWCityCouncil-1996-11-19"
-        },
-        {
-          "kind": "card",
-          "style": "break",
-          "duration": 4,
-          "title": "We'll be right back",
-          "text": "Stay tuned!",
-          "year": null
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/commercials-nick-jr-1996/commercials%20-%20Nick%20Jr%20-%201996.mp4",
-          "start": 0,
-          "duration": 95.12,
-          "title": "Commercials - Nick Jr - 1996",
-          "year": 1996,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/commercials-nick-jr-1996"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/rare-first-pokemon-red-and-green-japanese-commercial-ever/RARE%20first%20Pok%C3%A9mon%20Red%20and%20Green%20Japanese%20commercial%20EVER%20HD-z4JeRKo3Rr4.mp4",
-          "start": 0,
-          "duration": 30.53,
-          "title": "RARE First Pokémon Red And Green Japanese Commercial EVER",
-          "year": 1996,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/rare-first-pokemon-red-and-green-japanese-commercial-ever"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/FWCityCouncil-1996-11-19/96-40_a.mp4",
-          "start": 4465.816,
-          "duration": 637.974,
-          "title": "Fort Wayne City Council",
-          "year": 1996,
-          "airDate": "1996-11-19",
-          "category": "program",
-          "part": 8,
-          "parts": 8,
-          "credit": "archive.org/details/FWCityCouncil-1996-11-19"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore/KVBC%20Ch%203%20-%201996%20-%20The%20Good%20Guys!-WOW!%20Multimedia%20Superstore.mp4",
-          "start": 0,
-          "duration": 30.04,
-          "title": "KVBC Ch. 3 - (1996) The Good Guys! WOW! Multimedia Superstore Commercial",
-          "year": 1996,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/1995-chevy-blazer-commercial/1995%20Chevy%20Blazer%20Commercial.mp4",
-          "start": 0,
-          "duration": 29.93,
-          "title": "1996 Chevy Blazer Commercial",
-          "year": 1996,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1995-chevy-blazer-commercial"
         },
         {
           "kind": "card",

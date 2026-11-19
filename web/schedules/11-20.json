@@ -3,7 +3,7 @@
   "target": "web",
   "date": "11-20",
   "title": "This Day in History — November 20",
-  "publishedAt": "2026-11-18T09:10:39.037Z",
+  "publishedAt": "2026-11-19T09:11:35.756Z",
   "channels": [
     {
       "number": 2,
@@ -923,7 +923,7 @@
       "name": "WYRS",
       "tagline": "Tonight, back then",
       "year": 1981,
-      "totalDuration": 4104.452,
+      "totalDuration": 4102.372,
       "items": [
         {
           "kind": "card",
@@ -1071,16 +1071,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/OdysseyCommercialLeonardNimoy/nimoy.mp4",
+          "src": "https://archive.org/download/BrookeShieldsInTheCalvinKleinJeansCommercial1981/Brooke%20Shields%20in%20the%20Calvin%20Klein%20Jeans%20commercial%201981.mp4",
           "start": 0,
-          "duration": 27.58,
-          "title": "Odyssey² Commercial, Narrated by Leonard Nimoy",
+          "duration": 26.54,
+          "title": "Brooke Shields - Calvin Klein jeans commercial (USA, 1981)",
           "year": 1981,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/OdysseyCommercialLeonardNimoy"
+          "credit": "archive.org/details/BrookeShieldsInTheCalvinKleinJeansCommercial1981"
         },
         {
           "kind": "video",
@@ -1204,16 +1204,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/OdysseyCommercialLeonardNimoy/nimoy.mp4",
+          "src": "https://archive.org/download/BrookeShieldsInTheCalvinKleinJeansCommercial1981/Brooke%20Shields%20in%20the%20Calvin%20Klein%20Jeans%20commercial%201981.mp4",
           "start": 0,
-          "duration": 27.58,
-          "title": "Odyssey² Commercial, Narrated by Leonard Nimoy",
+          "duration": 26.54,
+          "title": "Brooke Shields - Calvin Klein jeans commercial (USA, 1981)",
           "year": 1981,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/OdysseyCommercialLeonardNimoy"
+          "credit": "archive.org/details/BrookeShieldsInTheCalvinKleinJeansCommercial1981"
         },
         {
           "kind": "card",
@@ -2441,7 +2441,7 @@
       "name": "WDAY",
       "tagline": "Seven on your dial",
       "year": 1990,
-      "totalDuration": 7870.89,
+      "totalDuration": 7941.82,
       "items": [
         {
           "kind": "card",
@@ -2495,16 +2495,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/tmnt-video/TMNT%20Video.mp4",
+          "src": "https://archive.org/download/1990-coca-cola-magi-cans-commercial/1990%20Coca%20Cola%20MagiCans%20Commercial.mp4",
           "start": 0,
-          "duration": 15.23,
-          "title": "TMNT Teenage Mutant Ninja Turtles - VHS Release (1990) TV Commercial",
+          "duration": 40.35,
+          "title": "1990 Coca Cola MagiCans Commercial",
           "year": 1990,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/tmnt-video"
+          "credit": "archive.org/details/1990-coca-cola-magi-cans-commercial"
         },
         {
           "kind": "video",
@@ -2529,16 +2529,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1990-coca-cola-magi-cans-commercial/1990%20Coca%20Cola%20MagiCans%20Commercial.mp4",
+          "src": "https://archive.org/download/1990-george-carlin-doin-it-again-intro/1990%20George%20Carlin%20-%20Doin'%20it%20Again!%20Intro.mp4",
           "start": 0,
-          "duration": 40.35,
-          "title": "1990 Coca Cola MagiCans Commercial",
+          "duration": 30.05,
+          "title": "1990 George Carlin - Doin' It Again! Intro",
           "year": 1990,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1990-coca-cola-magi-cans-commercial"
+          "credit": "archive.org/details/1990-george-carlin-doin-it-again-intro"
         },
         {
           "kind": "video",
@@ -2576,6 +2576,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/tmnt-video/TMNT%20Video.mp4",
+          "start": 0,
+          "duration": 15.23,
+          "title": "TMNT Teenage Mutant Ninja Turtles - VHS Release (1990) TV Commercial",
+          "year": 1990,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/tmnt-video"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/1990-total-recall-commercial/1990%20Total%20Recall%20Commercial.mp4",
           "start": 0,
           "duration": 29.98,
@@ -2586,19 +2599,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1990-total-recall-commercial"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/Milka90/Milka90.mp4",
-          "start": 0,
-          "duration": 14.78,
-          "title": "Milka",
-          "year": 1990,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/Milka90"
         },
         {
           "kind": "video",
@@ -2636,16 +2636,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/tmnt-video/TMNT%20Video.mp4",
+          "src": "https://archive.org/download/1990-coca-cola-magi-cans-commercial/1990%20Coca%20Cola%20MagiCans%20Commercial.mp4",
           "start": 0,
-          "duration": 15.23,
-          "title": "TMNT Teenage Mutant Ninja Turtles - VHS Release (1990) TV Commercial",
+          "duration": 40.35,
+          "title": "1990 Coca Cola MagiCans Commercial",
           "year": 1990,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/tmnt-video"
+          "credit": "archive.org/details/1990-coca-cola-magi-cans-commercial"
         },
         {
           "kind": "video",
@@ -2670,16 +2670,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1990-coca-cola-magi-cans-commercial/1990%20Coca%20Cola%20MagiCans%20Commercial.mp4",
+          "src": "https://archive.org/download/1990-george-carlin-doin-it-again-intro/1990%20George%20Carlin%20-%20Doin'%20it%20Again!%20Intro.mp4",
           "start": 0,
-          "duration": 40.35,
-          "title": "1990 Coca Cola MagiCans Commercial",
+          "duration": 30.05,
+          "title": "1990 George Carlin - Doin' It Again! Intro",
           "year": 1990,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1990-coca-cola-magi-cans-commercial"
+          "credit": "archive.org/details/1990-george-carlin-doin-it-again-intro"
         },
         {
           "kind": "video",
@@ -2717,6 +2717,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/tmnt-video/TMNT%20Video.mp4",
+          "start": 0,
+          "duration": 15.23,
+          "title": "TMNT Teenage Mutant Ninja Turtles - VHS Release (1990) TV Commercial",
+          "year": 1990,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/tmnt-video"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/1990-total-recall-commercial/1990%20Total%20Recall%20Commercial.mp4",
           "start": 0,
           "duration": 29.98,
@@ -2727,19 +2740,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1990-total-recall-commercial"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/Milka90/Milka90.mp4",
-          "start": 0,
-          "duration": 14.78,
-          "title": "Milka",
-          "year": 1990,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/Milka90"
         },
         {
           "kind": "video",
@@ -2777,16 +2777,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/tmnt-video/TMNT%20Video.mp4",
+          "src": "https://archive.org/download/1990-coca-cola-magi-cans-commercial/1990%20Coca%20Cola%20MagiCans%20Commercial.mp4",
           "start": 0,
-          "duration": 15.23,
-          "title": "TMNT Teenage Mutant Ninja Turtles - VHS Release (1990) TV Commercial",
+          "duration": 40.35,
+          "title": "1990 Coca Cola MagiCans Commercial",
           "year": 1990,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/tmnt-video"
+          "credit": "archive.org/details/1990-coca-cola-magi-cans-commercial"
         },
         {
           "kind": "video",
@@ -2811,16 +2811,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1990-coca-cola-magi-cans-commercial/1990%20Coca%20Cola%20MagiCans%20Commercial.mp4",
+          "src": "https://archive.org/download/1990-george-carlin-doin-it-again-intro/1990%20George%20Carlin%20-%20Doin'%20it%20Again!%20Intro.mp4",
           "start": 0,
-          "duration": 40.35,
-          "title": "1990 Coca Cola MagiCans Commercial",
+          "duration": 30.05,
+          "title": "1990 George Carlin - Doin' It Again! Intro",
           "year": 1990,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1990-coca-cola-magi-cans-commercial"
+          "credit": "archive.org/details/1990-george-carlin-doin-it-again-intro"
         },
         {
           "kind": "video",
@@ -2858,6 +2858,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/tmnt-video/TMNT%20Video.mp4",
+          "start": 0,
+          "duration": 15.23,
+          "title": "TMNT Teenage Mutant Ninja Turtles - VHS Release (1990) TV Commercial",
+          "year": 1990,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/tmnt-video"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/1990-total-recall-commercial/1990%20Total%20Recall%20Commercial.mp4",
           "start": 0,
           "duration": 29.98,
@@ -2868,19 +2881,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1990-total-recall-commercial"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/Milka90/Milka90.mp4",
-          "start": 0,
-          "duration": 14.78,
-          "title": "Milka",
-          "year": 1990,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/Milka90"
         },
         {
           "kind": "video",
@@ -2910,16 +2910,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/tmnt-video/TMNT%20Video.mp4",
+          "src": "https://archive.org/download/1990-coca-cola-magi-cans-commercial/1990%20Coca%20Cola%20MagiCans%20Commercial.mp4",
           "start": 0,
-          "duration": 15.23,
-          "title": "TMNT Teenage Mutant Ninja Turtles - VHS Release (1990) TV Commercial",
+          "duration": 40.35,
+          "title": "1990 Coca Cola MagiCans Commercial",
           "year": 1990,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/tmnt-video"
+          "credit": "archive.org/details/1990-coca-cola-magi-cans-commercial"
         },
         {
           "kind": "card",
@@ -4335,19 +4335,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1995-chevy-blazer-commercial/1995%20Chevy%20Blazer%20Commercial.mp4",
-          "start": 0,
-          "duration": 29.93,
-          "title": "1996 Chevy Blazer Commercial",
-          "year": 1996,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1995-chevy-blazer-commercial"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/rare-first-pokemon-red-and-green-japanese-commercial-ever/RARE%20first%20Pok%C3%A9mon%20Red%20and%20Green%20Japanese%20commercial%20EVER%20HD-z4JeRKo3Rr4.mp4",
           "start": 0,
           "duration": 30.53,
@@ -4358,19 +4345,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/rare-first-pokemon-red-and-green-japanese-commercial-ever"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/tagesschau-20-clock-evening-news-1996-11-20/tagesschau-20-clock-evening-news-1996-11-20.mp4",
-          "start": 444.97,
-          "duration": 444.97,
-          "title": "Tagesschau 20-clock Evening News",
-          "year": 1996,
-          "airDate": "1996-11-20",
-          "category": "news",
-          "part": 2,
-          "parts": 2,
-          "credit": "archive.org/details/tagesschau-20-clock-evening-news-1996-11-20"
         },
         {
           "kind": "video",
@@ -4387,6 +4361,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/tagesschau-20-clock-evening-news-1996-11-20/tagesschau-20-clock-evening-news-1996-11-20.mp4",
+          "start": 444.97,
+          "duration": 444.97,
+          "title": "Tagesschau 20-clock Evening News",
+          "year": 1996,
+          "airDate": "1996-11-20",
+          "category": "news",
+          "part": 2,
+          "parts": 2,
+          "credit": "archive.org/details/tagesschau-20-clock-evening-news-1996-11-20"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/commercials-nick-jr-1996/commercials%20-%20Nick%20Jr%20-%201996.mp4",
           "start": 0,
           "duration": 95.12,
@@ -4397,6 +4384,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/commercials-nick-jr-1996"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1995-chevy-blazer-commercial/1995%20Chevy%20Blazer%20Commercial.mp4",
+          "start": 0,
+          "duration": 29.93,
+          "title": "1996 Chevy Blazer Commercial",
+          "year": 1996,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1995-chevy-blazer-commercial"
         },
         {
           "kind": "video",
@@ -4434,16 +4434,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1995-chevy-blazer-commercial/1995%20Chevy%20Blazer%20Commercial.mp4",
+          "src": "https://archive.org/download/rare-first-pokemon-red-and-green-japanese-commercial-ever/RARE%20first%20Pok%C3%A9mon%20Red%20and%20Green%20Japanese%20commercial%20EVER%20HD-z4JeRKo3Rr4.mp4",
           "start": 0,
-          "duration": 29.93,
-          "title": "1996 Chevy Blazer Commercial",
+          "duration": 30.53,
+          "title": "RARE First Pokémon Red And Green Japanese Commercial EVER",
           "year": 1996,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1995-chevy-blazer-commercial"
+          "credit": "archive.org/details/rare-first-pokemon-red-and-green-japanese-commercial-ever"
         },
         {
           "kind": "video",
@@ -4468,19 +4468,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/rare-first-pokemon-red-and-green-japanese-commercial-ever/RARE%20first%20Pok%C3%A9mon%20Red%20and%20Green%20Japanese%20commercial%20EVER%20HD-z4JeRKo3Rr4.mp4",
-          "start": 0,
-          "duration": 30.53,
-          "title": "RARE First Pokémon Red And Green Japanese Commercial EVER",
-          "year": 1996,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/rare-first-pokemon-red-and-green-japanese-commercial-ever"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore/KVBC%20Ch%203%20-%201996%20-%20The%20Good%20Guys!-WOW!%20Multimedia%20Superstore.mp4",
           "start": 0,
           "duration": 30.04,
@@ -4491,6 +4478,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/commercials-nick-jr-1996/commercials%20-%20Nick%20Jr%20-%201996.mp4",
+          "start": 0,
+          "duration": 95.12,
+          "title": "Commercials - Nick Jr - 1996",
+          "year": 1996,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/commercials-nick-jr-1996"
         },
         {
           "kind": "video",
@@ -4515,16 +4515,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/commercials-nick-jr-1996/commercials%20-%20Nick%20Jr%20-%201996.mp4",
+          "src": "https://archive.org/download/1995-chevy-blazer-commercial/1995%20Chevy%20Blazer%20Commercial.mp4",
           "start": 0,
-          "duration": 95.12,
-          "title": "Commercials - Nick Jr - 1996",
+          "duration": 29.93,
+          "title": "1996 Chevy Blazer Commercial",
           "year": 1996,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/commercials-nick-jr-1996"
+          "credit": "archive.org/details/1995-chevy-blazer-commercial"
         },
         {
           "kind": "video",
@@ -4562,19 +4562,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1995-chevy-blazer-commercial/1995%20Chevy%20Blazer%20Commercial.mp4",
-          "start": 0,
-          "duration": 29.93,
-          "title": "1996 Chevy Blazer Commercial",
-          "year": 1996,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1995-chevy-blazer-commercial"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/rare-first-pokemon-red-and-green-japanese-commercial-ever/RARE%20first%20Pok%C3%A9mon%20Red%20and%20Green%20Japanese%20commercial%20EVER%20HD-z4JeRKo3Rr4.mp4",
           "start": 0,
           "duration": 30.53,
@@ -4585,19 +4572,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/rare-first-pokemon-red-and-green-japanese-commercial-ever"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/Morearty_TiT961120/Morearty_TiT961120.mp4",
-          "start": 2785.184,
-          "duration": 696.296,
-          "title": "Talking It Through: Calaveras Politicas [Dia de los Muertos](November 20, 1996)",
-          "year": 1996,
-          "airDate": "1996-11-20",
-          "category": "program",
-          "part": 5,
-          "parts": 5,
-          "credit": "archive.org/details/Morearty_TiT961120"
         },
         {
           "kind": "video",
@@ -4614,6 +4588,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/Morearty_TiT961120/Morearty_TiT961120.mp4",
+          "start": 2785.184,
+          "duration": 696.296,
+          "title": "Talking It Through: Calaveras Politicas [Dia de los Muertos](November 20, 1996)",
+          "year": 1996,
+          "airDate": "1996-11-20",
+          "category": "program",
+          "part": 5,
+          "parts": 5,
+          "credit": "archive.org/details/Morearty_TiT961120"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/commercials-nick-jr-1996/commercials%20-%20Nick%20Jr%20-%201996.mp4",
           "start": 0,
           "duration": 95.12,
@@ -4624,6 +4611,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/commercials-nick-jr-1996"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1995-chevy-blazer-commercial/1995%20Chevy%20Blazer%20Commercial.mp4",
+          "start": 0,
+          "duration": 29.93,
+          "title": "1996 Chevy Blazer Commercial",
+          "year": 1996,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1995-chevy-blazer-commercial"
         },
         {
           "kind": "card",
