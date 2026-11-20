@@ -3,7 +3,7 @@
   "target": "web",
   "date": "11-20",
   "title": "This Day in History — November 20",
-  "publishedAt": "2026-11-19T09:11:35.756Z",
+  "publishedAt": "2026-11-20T09:08:54.302Z",
   "channels": [
     {
       "number": 2,
@@ -1576,7 +1576,7 @@
       "name": "WOLD",
       "tagline": "Your evening companion",
       "year": 1984,
-      "totalDuration": 4390.588,
+      "totalDuration": 4390.988,
       "items": [
         {
           "kind": "card",
@@ -1630,16 +1630,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/NissanDavenport/nissan-davenport.mp4",
+          "src": "https://archive.org/download/commercials-vhs1/Dumbo-Wizard-of-Oz-Pinochio-commericals-13.mp4",
           "start": 0,
-          "duration": 30.08,
-          "title": "\"A Little Racy\" starring Lisa Davenport",
+          "duration": 30.2,
+          "title": "Commercials from mid-1980s VHS tape",
           "year": 1984,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/NissanDavenport"
+          "credit": "archive.org/details/commercials-vhs1"
         },
         {
           "kind": "video",
@@ -1664,6 +1664,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/NissanDavenport/nissan-davenport.mp4",
+          "start": 0,
+          "duration": 30.08,
+          "title": "\"A Little Racy\" starring Lisa Davenport",
+          "year": 1984,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/NissanDavenport"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/commercials-disney-channel-1983/Commercials%20-%20Disney%20Channel%20-%201983.mp4",
           "start": 0,
           "duration": 49.27,
@@ -1674,19 +1687,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/commercials-disney-channel-1983"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/commercials-hbo-1984/commercials%20-%20HBO%20-%201984.mp4",
-          "start": 0,
-          "duration": 177.47,
-          "title": "Commercials - HBO - 1984 (fragment)",
-          "year": 1984,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/commercials-hbo-1984"
         },
         {
           "kind": "video",
@@ -1711,6 +1711,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/commercials-hbo-1984/commercials%20-%20HBO%20-%201984.mp4",
+          "start": 0,
+          "duration": 177.47,
+          "title": "Commercials - HBO - 1984 (fragment)",
+          "year": 1984,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/commercials-hbo-1984"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/TVC_K-Tel_Breakdance_album_and_video/TVC%20K-Tel%20Breakdance%20album%20and%20video.mp4",
           "start": 0,
           "duration": 29.28,
@@ -1721,19 +1734,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/TVC_K-Tel_Breakdance_album_and_video"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/Roadshow84/Roadshow84.mp4",
-          "start": 0,
-          "duration": 30,
-          "title": "Roadshow Home Video - Silkwood & Angel",
-          "year": 1984,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/Roadshow84"
         },
         {
           "kind": "video",
@@ -1771,16 +1771,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/NissanDavenport/nissan-davenport.mp4",
+          "src": "https://archive.org/download/commercials-vhs1/Dumbo-Wizard-of-Oz-Pinochio-commericals-13.mp4",
           "start": 0,
-          "duration": 30.08,
-          "title": "\"A Little Racy\" starring Lisa Davenport",
+          "duration": 30.2,
+          "title": "Commercials from mid-1980s VHS tape",
           "year": 1984,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/NissanDavenport"
+          "credit": "archive.org/details/commercials-vhs1"
         },
         {
           "kind": "video",
@@ -1805,6 +1805,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/NissanDavenport/nissan-davenport.mp4",
+          "start": 0,
+          "duration": 30.08,
+          "title": "\"A Little Racy\" starring Lisa Davenport",
+          "year": 1984,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/NissanDavenport"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/commercials-disney-channel-1983/Commercials%20-%20Disney%20Channel%20-%201983.mp4",
           "start": 0,
           "duration": 49.27,
@@ -1815,19 +1828,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/commercials-disney-channel-1983"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/commercials-hbo-1984/commercials%20-%20HBO%20-%201984.mp4",
-          "start": 0,
-          "duration": 177.47,
-          "title": "Commercials - HBO - 1984 (fragment)",
-          "year": 1984,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/commercials-hbo-1984"
         },
         {
           "kind": "video",
@@ -1844,6 +1844,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/commercials-hbo-1984/commercials%20-%20HBO%20-%201984.mp4",
+          "start": 0,
+          "duration": 177.47,
+          "title": "Commercials - HBO - 1984 (fragment)",
+          "year": 1984,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/commercials-hbo-1984"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/TVC_K-Tel_Breakdance_album_and_video/TVC%20K-Tel%20Breakdance%20album%20and%20video.mp4",
           "start": 0,
           "duration": 29.28,
@@ -1854,19 +1867,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/TVC_K-Tel_Breakdance_album_and_video"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/Roadshow84/Roadshow84.mp4",
-          "start": 0,
-          "duration": 30,
-          "title": "Roadshow Home Video - Silkwood & Angel",
-          "year": 1984,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/Roadshow84"
         },
         {
           "kind": "card",
@@ -3564,7 +3564,7 @@
       "name": "WTHN",
       "tagline": "Tonight, back then",
       "year": 1995,
-      "totalDuration": 10855.284,
+      "totalDuration": 10934.734,
       "items": [
         {
           "kind": "card",
@@ -3665,16 +3665,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/slam-dunk-sega-saturn-1995-japanese-tv-commercial/Slam%20Dunk%20-%20Sega%20Saturn%20(1995)%20Japanese%20TV%20Commercial.mp4",
+          "src": "https://archive.org/download/casinomoviecommercial/Casino%20Movie%20Commercial.mp4",
           "start": 0,
-          "duration": 14.81,
-          "title": "Slam Dunk Sega Saturn (1995) Japanese TV Commercial",
+          "duration": 30.9,
+          "title": "Casino Movie Commercial",
           "year": 1995,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/slam-dunk-sega-saturn-1995-japanese-tv-commercial"
+          "credit": "archive.org/details/casinomoviecommercial"
         },
         {
           "kind": "video",
@@ -3699,19 +3699,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/casinomoviecommercial/Casino%20Movie%20Commercial.mp4",
-          "start": 0,
-          "duration": 30.9,
-          "title": "Casino Movie Commercial",
-          "year": 1995,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/casinomoviecommercial"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/DisneyonIce_June95/DisneyonIce_June95.mp4",
           "start": 0,
           "duration": 30,
@@ -3722,6 +3709,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/DisneyonIce_June95"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/pizzahut_201912/Pizza%20Hut.mp4",
+          "start": 0,
+          "duration": 30.7,
+          "title": "Pizza Hut Commercial",
+          "year": 1995,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/pizzahut_201912"
         },
         {
           "kind": "video",
@@ -3806,16 +3806,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/slam-dunk-sega-saturn-1995-japanese-tv-commercial/Slam%20Dunk%20-%20Sega%20Saturn%20(1995)%20Japanese%20TV%20Commercial.mp4",
+          "src": "https://archive.org/download/casinomoviecommercial/Casino%20Movie%20Commercial.mp4",
           "start": 0,
-          "duration": 14.81,
-          "title": "Slam Dunk Sega Saturn (1995) Japanese TV Commercial",
+          "duration": 30.9,
+          "title": "Casino Movie Commercial",
           "year": 1995,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/slam-dunk-sega-saturn-1995-japanese-tv-commercial"
+          "credit": "archive.org/details/casinomoviecommercial"
         },
         {
           "kind": "video",
@@ -3840,19 +3840,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/casinomoviecommercial/Casino%20Movie%20Commercial.mp4",
-          "start": 0,
-          "duration": 30.9,
-          "title": "Casino Movie Commercial",
-          "year": 1995,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/casinomoviecommercial"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/DisneyonIce_June95/DisneyonIce_June95.mp4",
           "start": 0,
           "duration": 30,
@@ -3863,6 +3850,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/DisneyonIce_June95"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/pizzahut_201912/Pizza%20Hut.mp4",
+          "start": 0,
+          "duration": 30.7,
+          "title": "Pizza Hut Commercial",
+          "year": 1995,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/pizzahut_201912"
         },
         {
           "kind": "video",
@@ -3947,16 +3947,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/slam-dunk-sega-saturn-1995-japanese-tv-commercial/Slam%20Dunk%20-%20Sega%20Saturn%20(1995)%20Japanese%20TV%20Commercial.mp4",
+          "src": "https://archive.org/download/casinomoviecommercial/Casino%20Movie%20Commercial.mp4",
           "start": 0,
-          "duration": 14.81,
-          "title": "Slam Dunk Sega Saturn (1995) Japanese TV Commercial",
+          "duration": 30.9,
+          "title": "Casino Movie Commercial",
           "year": 1995,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/slam-dunk-sega-saturn-1995-japanese-tv-commercial"
+          "credit": "archive.org/details/casinomoviecommercial"
         },
         {
           "kind": "video",
@@ -3981,19 +3981,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/casinomoviecommercial/Casino%20Movie%20Commercial.mp4",
-          "start": 0,
-          "duration": 30.9,
-          "title": "Casino Movie Commercial",
-          "year": 1995,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/casinomoviecommercial"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/DisneyonIce_June95/DisneyonIce_June95.mp4",
           "start": 0,
           "duration": 30,
@@ -4004,6 +3991,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/DisneyonIce_June95"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/pizzahut_201912/Pizza%20Hut.mp4",
+          "start": 0,
+          "duration": 30.7,
+          "title": "Pizza Hut Commercial",
+          "year": 1995,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/pizzahut_201912"
         },
         {
           "kind": "video",
@@ -4088,16 +4088,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/slam-dunk-sega-saturn-1995-japanese-tv-commercial/Slam%20Dunk%20-%20Sega%20Saturn%20(1995)%20Japanese%20TV%20Commercial.mp4",
+          "src": "https://archive.org/download/casinomoviecommercial/Casino%20Movie%20Commercial.mp4",
           "start": 0,
-          "duration": 14.81,
-          "title": "Slam Dunk Sega Saturn (1995) Japanese TV Commercial",
+          "duration": 30.9,
+          "title": "Casino Movie Commercial",
           "year": 1995,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/slam-dunk-sega-saturn-1995-japanese-tv-commercial"
+          "credit": "archive.org/details/casinomoviecommercial"
         },
         {
           "kind": "video",
@@ -4122,19 +4122,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/casinomoviecommercial/Casino%20Movie%20Commercial.mp4",
-          "start": 0,
-          "duration": 30.9,
-          "title": "Casino Movie Commercial",
-          "year": 1995,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/casinomoviecommercial"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/DisneyonIce_June95/DisneyonIce_June95.mp4",
           "start": 0,
           "duration": 30,
@@ -4145,6 +4132,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/DisneyonIce_June95"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/pizzahut_201912/Pizza%20Hut.mp4",
+          "start": 0,
+          "duration": 30.7,
+          "title": "Pizza Hut Commercial",
+          "year": 1995,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/pizzahut_201912"
         },
         {
           "kind": "video",
@@ -4229,16 +4229,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/slam-dunk-sega-saturn-1995-japanese-tv-commercial/Slam%20Dunk%20-%20Sega%20Saturn%20(1995)%20Japanese%20TV%20Commercial.mp4",
+          "src": "https://archive.org/download/casinomoviecommercial/Casino%20Movie%20Commercial.mp4",
           "start": 0,
-          "duration": 14.81,
-          "title": "Slam Dunk Sega Saturn (1995) Japanese TV Commercial",
+          "duration": 30.9,
+          "title": "Casino Movie Commercial",
           "year": 1995,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/slam-dunk-sega-saturn-1995-japanese-tv-commercial"
+          "credit": "archive.org/details/casinomoviecommercial"
         },
         {
           "kind": "video",
@@ -4255,19 +4255,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/casinomoviecommercial/Casino%20Movie%20Commercial.mp4",
-          "start": 0,
-          "duration": 30.9,
-          "title": "Casino Movie Commercial",
-          "year": 1995,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/casinomoviecommercial"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/DisneyonIce_June95/DisneyonIce_June95.mp4",
           "start": 0,
           "duration": 30,
@@ -4278,6 +4265,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/DisneyonIce_June95"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/pizzahut_201912/Pizza%20Hut.mp4",
+          "start": 0,
+          "duration": 30.7,
+          "title": "Pizza Hut Commercial",
+          "year": 1995,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/pizzahut_201912"
         },
         {
           "kind": "card",

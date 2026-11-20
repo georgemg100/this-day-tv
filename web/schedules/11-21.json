@@ -3,7 +3,7 @@
   "target": "web",
   "date": "11-21",
   "title": "This Day in History — November 21",
-  "publishedAt": "2026-11-19T09:12:31.509Z",
+  "publishedAt": "2026-11-20T09:09:51.264Z",
   "channels": [
     {
       "number": 2,
@@ -665,7 +665,7 @@
       "name": "WYRS",
       "tagline": "Tonight, back then",
       "year": 1970,
-      "totalDuration": 735.22,
+      "totalDuration": 692.13,
       "items": [
         {
           "kind": "card",
@@ -698,6 +698,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/1970-sponsor-tag-for-wisk/1970%20sponsor%20tag%20for%20Wisk.mp4",
+          "start": 0,
+          "duration": 17,
+          "title": "1970 sponsor tag for Wisk",
+          "year": 1970,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1970-sponsor-tag-for-wisk"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/JordacheJeans70s/Jordache%20Jeans%2070s.mp4",
           "start": 0,
           "duration": 30.16,
@@ -708,19 +721,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/JordacheJeans70s"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/pampers-babysitter-commercial-70s/PG_-_Pampers_Disposable_Diapers_-_The_Expert_Babysitter_-_Vintage_Commercial_-_1960s_-_1970s.mp4",
-          "start": 0,
-          "duration": 60.09,
-          "title": "Pampers Disposable Diapers - The Expert Babysitter Vintage Commercial (Early 1970's) featuring Denise Nickerson",
-          "year": 1970,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/pampers-babysitter-commercial-70s"
         },
         {
           "kind": "card",
@@ -1533,7 +1533,7 @@
       "name": "WDAY",
       "tagline": "Seven on your dial",
       "year": 1982,
-      "totalDuration": 4628.92,
+      "totalDuration": 4511.52,
       "items": [
         {
           "kind": "card",
@@ -1587,16 +1587,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/AtariComputers_Feb8_1982/AtariComputers_Feb8_1982.mp4",
+          "src": "https://archive.org/download/cleanjapan82/cleanjapan82.mp4",
           "start": 0,
-          "duration": 29.56,
-          "title": "Atari Computers commercial (USA, 1982)",
+          "duration": 30,
+          "title": "日本テレビクリーンジャパン CM/Nippon TV Clean Japan PSA",
           "year": 1982,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/AtariComputers_Feb8_1982"
+          "credit": "archive.org/details/cleanjapan82"
         },
         {
           "kind": "video",
@@ -1621,6 +1621,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/AtariComputers_Feb8_1982/AtariComputers_Feb8_1982.mp4",
+          "start": 0,
+          "duration": 29.56,
+          "title": "Atari Computers commercial (USA, 1982)",
+          "year": 1982,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/AtariComputers_Feb8_1982"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/ComputerFair1982/ComputerFair1982.mp4",
           "start": 0,
           "duration": 10.84,
@@ -1631,19 +1644,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/ComputerFair1982"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/cleanjapan82/cleanjapan82.mp4",
-          "start": 0,
-          "duration": 30,
-          "title": "日本テレビクリーンジャパン CM/Nippon TV Clean Japan PSA",
-          "year": 1982,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/cleanjapan82"
         },
         {
           "kind": "video",
@@ -1668,19 +1668,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/circus-world-championships-1980s/The%20Circus%20World%20Championships%20(1982%20airing)%20-%2006%20-%20ads%20(3rd%20break).mp4",
-          "start": 0,
-          "duration": 81.66,
-          "title": "The Circus World Championships (2 episodes - early 1980s)",
-          "year": 1982,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/circus-world-championships-1980s"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/BottledMilk1982/Bottled%20Milk%201982.mp4",
           "start": 0,
           "duration": 42.68,
@@ -1691,6 +1678,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/BottledMilk1982"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/TopnFillCakeToppingFilling1982/Top'n'Fill%20Cake%20Topping%20%26%20Filling%20(1982).mp4",
+          "start": 0,
+          "duration": 22.96,
+          "title": "1982 commercial: Top'n'Fill cake topping & filling",
+          "year": 1982,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/TopnFillCakeToppingFilling1982"
         },
         {
           "kind": "video",
@@ -1728,16 +1728,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/AtariComputers_Feb8_1982/AtariComputers_Feb8_1982.mp4",
+          "src": "https://archive.org/download/cleanjapan82/cleanjapan82.mp4",
           "start": 0,
-          "duration": 29.56,
-          "title": "Atari Computers commercial (USA, 1982)",
+          "duration": 30,
+          "title": "日本テレビクリーンジャパン CM/Nippon TV Clean Japan PSA",
           "year": 1982,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/AtariComputers_Feb8_1982"
+          "credit": "archive.org/details/cleanjapan82"
         },
         {
           "kind": "video",
@@ -1754,6 +1754,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/AtariComputers_Feb8_1982/AtariComputers_Feb8_1982.mp4",
+          "start": 0,
+          "duration": 29.56,
+          "title": "Atari Computers commercial (USA, 1982)",
+          "year": 1982,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/AtariComputers_Feb8_1982"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/ComputerFair1982/ComputerFair1982.mp4",
           "start": 0,
           "duration": 10.84,
@@ -1764,19 +1777,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/ComputerFair1982"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/cleanjapan82/cleanjapan82.mp4",
-          "start": 0,
-          "duration": 30,
-          "title": "日本テレビクリーンジャパン CM/Nippon TV Clean Japan PSA",
-          "year": 1982,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/cleanjapan82"
         },
         {
           "kind": "video",
@@ -1793,19 +1793,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/circus-world-championships-1980s/The%20Circus%20World%20Championships%20(1982%20airing)%20-%2006%20-%20ads%20(3rd%20break).mp4",
-          "start": 0,
-          "duration": 81.66,
-          "title": "The Circus World Championships (2 episodes - early 1980s)",
-          "year": 1982,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/circus-world-championships-1980s"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/BottledMilk1982/Bottled%20Milk%201982.mp4",
           "start": 0,
           "duration": 42.68,
@@ -1816,6 +1803,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/BottledMilk1982"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/TopnFillCakeToppingFilling1982/Top'n'Fill%20Cake%20Topping%20%26%20Filling%20(1982).mp4",
+          "start": 0,
+          "duration": 22.96,
+          "title": "1982 commercial: Top'n'Fill cake topping & filling",
+          "year": 1982,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/TopnFillCakeToppingFilling1982"
         },
         {
           "kind": "card",
