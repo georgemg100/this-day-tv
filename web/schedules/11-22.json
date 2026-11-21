@@ -3,7 +3,7 @@
   "target": "web",
   "date": "11-22",
   "title": "This Day in History — November 22",
-  "publishedAt": "2026-11-20T09:10:44.517Z",
+  "publishedAt": "2026-11-21T09:09:12.996Z",
   "channels": [
     {
       "number": 2,
@@ -1993,7 +1993,7 @@
       "name": "WPST",
       "tagline": "Your window to yesterday",
       "year": 1987,
-      "totalDuration": 5857.862,
+      "totalDuration": 5827.382,
       "items": [
         {
           "kind": "card",
@@ -2047,16 +2047,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1987AftaAfterShave/1987%20Afta%20After-Shave.mp4",
+          "src": "https://archive.org/download/flintstones_commercials/1985%20-%20Post%20Fruity%20Pebbles%20with%20Grape%20-%20Bedrock%20Jones.mp4",
           "start": 0,
-          "duration": 30.26,
-          "title": "1987 Afta After Shave",
+          "duration": 15.16,
+          "title": "Flintstones Commercials (1960-1987)",
           "year": 1987,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1987AftaAfterShave"
+          "credit": "archive.org/details/flintstones_commercials"
         },
         {
           "kind": "video",
@@ -2081,6 +2081,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/1987AftaAfterShave/1987%20Afta%20After-Shave.mp4",
+          "start": 0,
+          "duration": 30.26,
+          "title": "1987 Afta After Shave",
+          "year": 1987,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1987AftaAfterShave"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/SouthernComfort_6-1-87/SouthernComfort_6-1-87.mp4",
           "start": 0,
           "duration": 29.9,
@@ -2091,19 +2104,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/SouthernComfort_6-1-87"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/flintstones_commercials_1987-2002/2010's%20-%20Treats%20Screaming%20Good%20Commercial%20Post%20Cereal%20Fruity%20and%20Cocoa%20Pebbles.mp4",
-          "start": 0,
-          "duration": 15.58,
-          "title": "Flintstones Commercials (1987-2022)",
-          "year": 1987,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/flintstones_commercials_1987-2002"
         },
         {
           "kind": "video",
@@ -2128,6 +2128,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/flintstones_commercials_1987-2002/2010's%20-%20Treats%20Screaming%20Good%20Commercial%20Post%20Cereal%20Fruity%20and%20Cocoa%20Pebbles.mp4",
+          "start": 0,
+          "duration": 15.58,
+          "title": "Flintstones Commercials (1987-2022)",
+          "year": 1987,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/flintstones_commercials_1987-2002"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/1987ConairHotStickCurlers/1987ConairHotSticksCurlersCommercial.mp4",
           "start": 0,
           "duration": 30.26,
@@ -2138,19 +2151,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1987ConairHotStickCurlers"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/1987-a-nightmare-on-elm-street-4-the-dream-master-commercial/1987%20A%20Nightmare%20on%20Elm%20Street%204%20The%20Dream%20Master%20Commercial.mp4",
-          "start": 0,
-          "duration": 30.19,
-          "title": "1987 A Nightmare On Elm Street 4 The Dream Master Commercial",
-          "year": 1987,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1987-a-nightmare-on-elm-street-4-the-dream-master-commercial"
         },
         {
           "kind": "video",
@@ -2188,16 +2188,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1987AftaAfterShave/1987%20Afta%20After-Shave.mp4",
+          "src": "https://archive.org/download/flintstones_commercials/1985%20-%20Post%20Fruity%20Pebbles%20with%20Grape%20-%20Bedrock%20Jones.mp4",
           "start": 0,
-          "duration": 30.26,
-          "title": "1987 Afta After Shave",
+          "duration": 15.16,
+          "title": "Flintstones Commercials (1960-1987)",
           "year": 1987,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1987AftaAfterShave"
+          "credit": "archive.org/details/flintstones_commercials"
         },
         {
           "kind": "video",
@@ -2222,6 +2222,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/1987AftaAfterShave/1987%20Afta%20After-Shave.mp4",
+          "start": 0,
+          "duration": 30.26,
+          "title": "1987 Afta After Shave",
+          "year": 1987,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1987AftaAfterShave"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/SouthernComfort_6-1-87/SouthernComfort_6-1-87.mp4",
           "start": 0,
           "duration": 29.9,
@@ -2232,19 +2245,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/SouthernComfort_6-1-87"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/flintstones_commercials_1987-2002/2010's%20-%20Treats%20Screaming%20Good%20Commercial%20Post%20Cereal%20Fruity%20and%20Cocoa%20Pebbles.mp4",
-          "start": 0,
-          "duration": 15.58,
-          "title": "Flintstones Commercials (1987-2022)",
-          "year": 1987,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/flintstones_commercials_1987-2002"
         },
         {
           "kind": "video",
@@ -2269,6 +2269,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/flintstones_commercials_1987-2002/2010's%20-%20Treats%20Screaming%20Good%20Commercial%20Post%20Cereal%20Fruity%20and%20Cocoa%20Pebbles.mp4",
+          "start": 0,
+          "duration": 15.58,
+          "title": "Flintstones Commercials (1987-2022)",
+          "year": 1987,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/flintstones_commercials_1987-2002"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/1987ConairHotStickCurlers/1987ConairHotSticksCurlersCommercial.mp4",
           "start": 0,
           "duration": 30.26,
@@ -2279,19 +2292,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1987ConairHotStickCurlers"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/1987-a-nightmare-on-elm-street-4-the-dream-master-commercial/1987%20A%20Nightmare%20on%20Elm%20Street%204%20The%20Dream%20Master%20Commercial.mp4",
-          "start": 0,
-          "duration": 30.19,
-          "title": "1987 A Nightmare On Elm Street 4 The Dream Master Commercial",
-          "year": 1987,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1987-a-nightmare-on-elm-street-4-the-dream-master-commercial"
         },
         {
           "kind": "video",
@@ -2329,16 +2329,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1987AftaAfterShave/1987%20Afta%20After-Shave.mp4",
+          "src": "https://archive.org/download/flintstones_commercials/1985%20-%20Post%20Fruity%20Pebbles%20with%20Grape%20-%20Bedrock%20Jones.mp4",
           "start": 0,
-          "duration": 30.26,
-          "title": "1987 Afta After Shave",
+          "duration": 15.16,
+          "title": "Flintstones Commercials (1960-1987)",
           "year": 1987,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1987AftaAfterShave"
+          "credit": "archive.org/details/flintstones_commercials"
         },
         {
           "kind": "video",
@@ -2355,6 +2355,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/1987AftaAfterShave/1987%20Afta%20After-Shave.mp4",
+          "start": 0,
+          "duration": 30.26,
+          "title": "1987 Afta After Shave",
+          "year": 1987,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1987AftaAfterShave"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/SouthernComfort_6-1-87/SouthernComfort_6-1-87.mp4",
           "start": 0,
           "duration": 29.9,
@@ -2365,19 +2378,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/SouthernComfort_6-1-87"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/flintstones_commercials_1987-2002/2010's%20-%20Treats%20Screaming%20Good%20Commercial%20Post%20Cereal%20Fruity%20and%20Cocoa%20Pebbles.mp4",
-          "start": 0,
-          "duration": 15.58,
-          "title": "Flintstones Commercials (1987-2022)",
-          "year": 1987,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/flintstones_commercials_1987-2002"
         },
         {
           "kind": "card",
@@ -2394,7 +2394,7 @@
       "name": "WDAY",
       "tagline": "Seven on your dial",
       "year": 1988,
-      "totalDuration": 5191.101,
+      "totalDuration": 5189.431,
       "items": [
         {
           "kind": "card",
@@ -2435,19 +2435,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/CarlsbergComplaintsLineAdvert/Carlsberg%20'Complaints%20Line'%20Advert.mp4",
-          "start": 0,
-          "duration": 30.72,
-          "title": "Carlsberg 'Complaints Department' Advert",
-          "year": 1988,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/CarlsbergComplaintsLineAdvert"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/1988variouscommercials/1988%20Contac%20Allergy%20Meds%20Commercial.mp4",
           "start": 0,
           "duration": 14.68,
@@ -2458,6 +2445,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1988variouscommercials"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1988-colors-movie-commercial/1988%20Colors%20Movie%20Commercial.mp4",
+          "start": 0,
+          "duration": 30.02,
+          "title": "1988 Colors Movie Commercial",
+          "year": 1988,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1988-colors-movie-commercial"
         },
         {
           "kind": "video",
@@ -2482,19 +2482,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1988-colors-movie-commercial/1988%20Colors%20Movie%20Commercial.mp4",
-          "start": 0,
-          "duration": 30.02,
-          "title": "1988 Colors Movie Commercial",
-          "year": 1988,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1988-colors-movie-commercial"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/the-land-before-time-promo/stream%20(1).mp4",
           "start": 0,
           "duration": 52.48,
@@ -2505,6 +2492,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/the-land-before-time-promo"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198801/1988_01_VS_Japan_512kb.mp4",
+          "start": 0,
+          "duration": 29.56,
+          "title": "Virginia Slims Cigarettes Japanese Television Commercial 1988 / 01",
+          "year": 1988,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198801"
         },
         {
           "kind": "video",
@@ -2521,19 +2521,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198801/1988_01_VS_Japan_512kb.mp4",
-          "start": 0,
-          "duration": 29.56,
-          "title": "Virginia Slims Cigarettes Japanese Television Commercial 1988 / 01",
-          "year": 1988,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198801"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/USATVCommercialCollection/1996%20-%20Lifes%20Work%20Promo03.mp4",
           "start": 0,
           "duration": 13.37,
@@ -2544,6 +2531,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/USATVCommercialCollection"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1988-chevy-chase-funny-farm-movie-commercial/1988%20Chevy%20Chase%20Funny%20Farm%20Movie%20Commercial.mp4",
+          "start": 0,
+          "duration": 30.55,
+          "title": "1988 Chevy Chase - Funny Farm Movie Commercial",
+          "year": 1988,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1988-chevy-chase-funny-farm-movie-commercial"
         },
         {
           "kind": "video",
@@ -2560,19 +2560,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/CarlsbergComplaintsLineAdvert/Carlsberg%20'Complaints%20Line'%20Advert.mp4",
-          "start": 0,
-          "duration": 30.72,
-          "title": "Carlsberg 'Complaints Department' Advert",
-          "year": 1988,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/CarlsbergComplaintsLineAdvert"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/1988variouscommercials/1988%20Contac%20Allergy%20Meds%20Commercial.mp4",
           "start": 0,
           "duration": 14.68,
@@ -2583,6 +2570,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1988variouscommercials"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1988-colors-movie-commercial/1988%20Colors%20Movie%20Commercial.mp4",
+          "start": 0,
+          "duration": 30.02,
+          "title": "1988 Colors Movie Commercial",
+          "year": 1988,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1988-colors-movie-commercial"
         },
         {
           "kind": "video",
@@ -2599,19 +2599,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1988-colors-movie-commercial/1988%20Colors%20Movie%20Commercial.mp4",
-          "start": 0,
-          "duration": 30.02,
-          "title": "1988 Colors Movie Commercial",
-          "year": 1988,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1988-colors-movie-commercial"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/the-land-before-time-promo/stream%20(1).mp4",
           "start": 0,
           "duration": 52.48,
@@ -2622,6 +2609,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/the-land-before-time-promo"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198801/1988_01_VS_Japan_512kb.mp4",
+          "start": 0,
+          "duration": 29.56,
+          "title": "Virginia Slims Cigarettes Japanese Television Commercial 1988 / 01",
+          "year": 1988,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198801"
         },
         {
           "kind": "video",
@@ -2638,19 +2638,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198801/1988_01_VS_Japan_512kb.mp4",
-          "start": 0,
-          "duration": 29.56,
-          "title": "Virginia Slims Cigarettes Japanese Television Commercial 1988 / 01",
-          "year": 1988,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198801"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/USATVCommercialCollection/1996%20-%20Lifes%20Work%20Promo03.mp4",
           "start": 0,
           "duration": 13.37,
@@ -2661,6 +2648,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/USATVCommercialCollection"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1988-chevy-chase-funny-farm-movie-commercial/1988%20Chevy%20Chase%20Funny%20Farm%20Movie%20Commercial.mp4",
+          "start": 0,
+          "duration": 30.55,
+          "title": "1988 Chevy Chase - Funny Farm Movie Commercial",
+          "year": 1988,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1988-chevy-chase-funny-farm-movie-commercial"
         },
         {
           "kind": "video",
@@ -2677,19 +2677,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/CarlsbergComplaintsLineAdvert/Carlsberg%20'Complaints%20Line'%20Advert.mp4",
-          "start": 0,
-          "duration": 30.72,
-          "title": "Carlsberg 'Complaints Department' Advert",
-          "year": 1988,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/CarlsbergComplaintsLineAdvert"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/1988variouscommercials/1988%20Contac%20Allergy%20Meds%20Commercial.mp4",
           "start": 0,
           "duration": 14.68,
@@ -2700,19 +2687,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1988variouscommercials"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/CLE-B40_453301-454239/453301_Pizza-Hut-Land-Before-Time-Dinosaurs-Promo-CBS-WJW-8_1988-11-22.mp4",
-          "start": 0,
-          "duration": 31.28,
-          "title": "Pizza Hut 'Land Before Time Dinosaurs' Promo CBS/WJW 8",
-          "year": 1988,
-          "airDate": "1988-11-22",
-          "category": "program",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/CLE-B40_453301-454239"
         },
         {
           "kind": "video",
@@ -2729,6 +2703,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/CLE-B40_453301-454239/453301_Pizza-Hut-Land-Before-Time-Dinosaurs-Promo-CBS-WJW-8_1988-11-22.mp4",
+          "start": 0,
+          "duration": 31.28,
+          "title": "Pizza Hut 'Land Before Time Dinosaurs' Promo CBS/WJW 8",
+          "year": 1988,
+          "airDate": "1988-11-22",
+          "category": "program",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/CLE-B40_453301-454239"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/the-land-before-time-promo/stream%20(1).mp4",
           "start": 0,
           "duration": 52.48,
@@ -2739,19 +2726,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/the-land-before-time-promo"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/CLE-B40_451488-452399/451488_Delta-Airlines-Love-To-Fly-Commercial-CBS-WJW-8_1988-11-22.mp4",
-          "start": 0,
-          "duration": 30.38,
-          "title": "Delta Airlines 'We Love to Fly and It Shows' Commercial CBS/WJW 8",
-          "year": 1988,
-          "airDate": "1988-11-22",
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/CLE-B40_451488-452399"
         },
         {
           "kind": "video",
@@ -2768,6 +2742,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/CLE-B40_451488-452399/451488_Delta-Airlines-Love-To-Fly-Commercial-CBS-WJW-8_1988-11-22.mp4",
+          "start": 0,
+          "duration": 30.38,
+          "title": "Delta Airlines 'We Love to Fly and It Shows' Commercial CBS/WJW 8",
+          "year": 1988,
+          "airDate": "1988-11-22",
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/CLE-B40_451488-452399"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/USATVCommercialCollection/1996%20-%20Lifes%20Work%20Promo03.mp4",
           "start": 0,
           "duration": 13.37,
@@ -2778,6 +2765,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/USATVCommercialCollection"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1988-chevy-chase-funny-farm-movie-commercial/1988%20Chevy%20Chase%20Funny%20Farm%20Movie%20Commercial.mp4",
+          "start": 0,
+          "duration": 30.55,
+          "title": "1988 Chevy Chase - Funny Farm Movie Commercial",
+          "year": 1988,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1988-chevy-chase-funny-farm-movie-commercial"
         },
         {
           "kind": "video",
@@ -2802,19 +2802,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/CarlsbergComplaintsLineAdvert/Carlsberg%20'Complaints%20Line'%20Advert.mp4",
-          "start": 0,
-          "duration": 30.72,
-          "title": "Carlsberg 'Complaints Department' Advert",
-          "year": 1988,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/CarlsbergComplaintsLineAdvert"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/1988variouscommercials/1988%20Contac%20Allergy%20Meds%20Commercial.mp4",
           "start": 0,
           "duration": 14.68,
@@ -2825,19 +2812,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1988variouscommercials"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/ale-of-the-century-11-22-88/%24ale%20of%20the%20Century%20-%2011%3A22%3A88.mp4",
-          "start": 651.535,
-          "duration": 651.535,
-          "title": "$ale of the Century - Lucinda/Fred/Diane",
-          "year": 1988,
-          "airDate": "1988-11-22",
-          "category": "program",
-          "part": 2,
-          "parts": 2,
-          "credit": "archive.org/details/ale-of-the-century-11-22-88"
         },
         {
           "kind": "video",
@@ -2854,6 +2828,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/ale-of-the-century-11-22-88/%24ale%20of%20the%20Century%20-%2011%3A22%3A88.mp4",
+          "start": 651.535,
+          "duration": 651.535,
+          "title": "$ale of the Century - Lucinda/Fred/Diane",
+          "year": 1988,
+          "airDate": "1988-11-22",
+          "category": "program",
+          "part": 2,
+          "parts": 2,
+          "credit": "archive.org/details/ale-of-the-century-11-22-88"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/the-land-before-time-promo/stream%20(1).mp4",
           "start": 0,
           "duration": 52.48,
@@ -2864,6 +2851,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/the-land-before-time-promo"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198801/1988_01_VS_Japan_512kb.mp4",
+          "start": 0,
+          "duration": 29.56,
+          "title": "Virginia Slims Cigarettes Japanese Television Commercial 1988 / 01",
+          "year": 1988,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198801"
         },
         {
           "kind": "card",
