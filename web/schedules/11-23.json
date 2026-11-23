@@ -3,14 +3,14 @@
   "target": "web",
   "date": "11-23",
   "title": "This Day in History — November 23",
-  "publishedAt": "2026-11-22T09:09:16.623Z",
+  "publishedAt": "2026-11-23T09:11:03.758Z",
   "channels": [
     {
       "number": 2,
       "name": "WTDI",
       "tagline": "Your window to yesterday",
       "year": 1963,
-      "totalDuration": 4421.01,
+      "totalDuration": 4277.35,
       "items": [
         {
           "kind": "card",
@@ -51,19 +51,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/DutchMasters1963/DutchMasters1963.mp4",
-          "start": 0,
-          "duration": 60.66,
-          "title": "1963 commercial: Dutch Masters cigars",
-          "year": 1963,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/DutchMasters1963"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/ExLax1963/exlax1963.mp4",
           "start": 0,
           "duration": 68.38,
@@ -74,6 +61,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/ExLax1963"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/DutchMasters1963/DutchMasters1963.mp4",
+          "start": 0,
+          "duration": 60.66,
+          "title": "1963 commercial: Dutch Masters cigars",
+          "year": 1963,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/DutchMasters1963"
         },
         {
           "kind": "video",
@@ -98,29 +98,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/DutchMasters1963Ad2/DutchMasters1963-Ad2.mp4",
+          "src": "https://archive.org/download/Orafix1963/Orafix1963.mp4",
           "start": 0,
-          "duration": 60.41,
-          "title": "1963 commercial: Dutch Masters (Ad 2)",
+          "duration": 70.04,
+          "title": "1963 commercial for Orafix denture adhesive",
           "year": 1963,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/DutchMasters1963Ad2"
+          "credit": "archive.org/details/Orafix1963"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/dash1963-1962/dash1963-1962.mp4",
+          "src": "https://archive.org/download/Clairol1963/clairol1963.mp4",
           "start": 0,
-          "duration": 62.49,
-          "title": "1963 commercial for Dash detergent",
+          "duration": 72.81,
+          "title": "1963 commercial for Loving Care hair color lotion",
           "year": 1963,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/dash1963-1962"
+          "credit": "archive.org/details/Clairol1963"
         },
         {
           "kind": "video",
@@ -145,29 +145,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/Clairol1963/clairol1963.mp4",
+          "src": "https://archive.org/download/BreezeScrubWashingPowder1963TVCommercialXvid/Breeze%20_Scrub_%20washing%20powder%201963%20TV%20commercial_xvid.mp4",
           "start": 0,
-          "duration": 72.81,
-          "title": "1963 commercial for Loving Care hair color lotion",
+          "duration": 30.6,
+          "title": "Breeze Scrub Washing Powder 1963 TV Commercial Xvid",
           "year": 1963,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/Clairol1963"
+          "credit": "archive.org/details/BreezeScrubWashingPowder1963TVCommercialXvid"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/Promo_Hootenanny_ABC-TV_1963_Saturday_Night/Promo_Hootenanny_ABC-TV_1963_Saturday_Night_512kb.mp4",
+          "src": "https://archive.org/download/HooverWalkOnAirConstellation1963TVCommercialXvid/Hoover%20Constellation%201963%20TV%20commercial_xvid.mp4",
           "start": 0,
-          "duration": 59.93,
-          "title": "Promo Hootenanny ABC-TV 1963 Saturday Night",
+          "duration": 10.36,
+          "title": "Hoover Walk On Air Constellation 1963 TV Commercials",
           "year": 1963,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/Promo_Hootenanny_ABC-TV_1963_Saturday_Night"
+          "credit": "archive.org/details/HooverWalkOnAirConstellation1963TVCommercialXvid"
         },
         {
           "kind": "video",
@@ -192,19 +192,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/DutchMasters1963/DutchMasters1963.mp4",
-          "start": 0,
-          "duration": 60.66,
-          "title": "1963 commercial: Dutch Masters cigars",
-          "year": 1963,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/DutchMasters1963"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/ExLax1963/exlax1963.mp4",
           "start": 0,
           "duration": 68.38,
@@ -215,6 +202,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/ExLax1963"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/DutchMasters1963/DutchMasters1963.mp4",
+          "start": 0,
+          "duration": 60.66,
+          "title": "1963 commercial: Dutch Masters cigars",
+          "year": 1963,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/DutchMasters1963"
         },
         {
           "kind": "video",
@@ -231,42 +231,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/DutchMasters1963Ad2/DutchMasters1963-Ad2.mp4",
+          "src": "https://archive.org/download/Orafix1963/Orafix1963.mp4",
           "start": 0,
-          "duration": 60.41,
-          "title": "1963 commercial: Dutch Masters (Ad 2)",
+          "duration": 70.04,
+          "title": "1963 commercial for Orafix denture adhesive",
           "year": 1963,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/DutchMasters1963Ad2"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/dash1963-1962/dash1963-1962.mp4",
-          "start": 0,
-          "duration": 62.49,
-          "title": "1963 commercial for Dash detergent",
-          "year": 1963,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/dash1963-1962"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/e_history_StreamRoot_DH_0444_19631123_01/e_history_StreamRoot_DH_0444_19631123_01.mp4",
-          "start": 0,
-          "duration": 620.42,
-          "title": "In Korean: 대한뉴스 제 444호 11월 13일, 휴전선 부근에서 8명의 유엔군 감시반이 북한 괴뢰군의 불법 총격을 받아…",
-          "year": 1963,
-          "airDate": "1963-11-23",
-          "category": "program",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/e_history_StreamRoot_DH_0444_19631123_01"
+          "credit": "archive.org/details/Orafix1963"
         },
         {
           "kind": "video",
@@ -283,16 +257,42 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/Promo_Hootenanny_ABC-TV_1963_Saturday_Night/Promo_Hootenanny_ABC-TV_1963_Saturday_Night_512kb.mp4",
+          "src": "https://archive.org/download/e_history_StreamRoot_DH_0444_19631123_01/e_history_StreamRoot_DH_0444_19631123_01.mp4",
           "start": 0,
-          "duration": 59.93,
-          "title": "Promo Hootenanny ABC-TV 1963 Saturday Night",
+          "duration": 620.42,
+          "title": "In Korean: 대한뉴스 제 444호 11월 13일, 휴전선 부근에서 8명의 유엔군 감시반이 북한 괴뢰군의 불법 총격을 받아…",
+          "year": 1963,
+          "airDate": "1963-11-23",
+          "category": "program",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/e_history_StreamRoot_DH_0444_19631123_01"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/BreezeScrubWashingPowder1963TVCommercialXvid/Breeze%20_Scrub_%20washing%20powder%201963%20TV%20commercial_xvid.mp4",
+          "start": 0,
+          "duration": 30.6,
+          "title": "Breeze Scrub Washing Powder 1963 TV Commercial Xvid",
           "year": 1963,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/Promo_Hootenanny_ABC-TV_1963_Saturday_Night"
+          "credit": "archive.org/details/BreezeScrubWashingPowder1963TVCommercialXvid"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/HooverWalkOnAirConstellation1963TVCommercialXvid/Hoover%20Constellation%201963%20TV%20commercial_xvid.mp4",
+          "start": 0,
+          "duration": 10.36,
+          "title": "Hoover Walk On Air Constellation 1963 TV Commercials",
+          "year": 1963,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/HooverWalkOnAirConstellation1963TVCommercialXvid"
         },
         {
           "kind": "card",
@@ -309,7 +309,7 @@
       "name": "WKTV",
       "tagline": "Seven on your dial",
       "year": 1965,
-      "totalDuration": 620.21,
+      "totalDuration": 551.52,
       "items": [
         {
           "kind": "card",
@@ -334,29 +334,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/LostInSpacePromo/Lost%20in%20Space%20promo.mp4",
+          "src": "https://archive.org/download/Classic1965CommercialForArridDeodorant/Arrid_deodorant_512kb.mp4",
           "start": 0,
-          "duration": 79.63,
-          "title": "Lost In Space promo",
+          "duration": 64,
+          "title": "Classic 1965 Commercial for Arrid Deodorant",
           "year": 1965,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/LostInSpacePromo"
+          "credit": "archive.org/details/Classic1965CommercialForArridDeodorant"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1965CommercialstheFbiGleemToothpasteCamaySoap/ABCGleemCamay_512kb.mp4",
+          "src": "https://archive.org/download/1965Tv-commercialForbrylcreemmensHairGroomingProduct/Brylcreem_512kb.mp4",
           "start": 0,
-          "duration": 84.02,
-          "title": "1965 Commercials (''The FBI'', Gleem Toothpaste, Camay Soap)",
+          "duration": 30.5,
+          "title": "1965 TV commercial for Brylcreem (men's hair grooming product)",
           "year": 1965,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1965CommercialstheFbiGleemToothpasteCamaySoap"
+          "credit": "archive.org/details/1965Tv-commercialForbrylcreemmensHairGroomingProduct"
         },
         {
           "kind": "video",
@@ -373,29 +373,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1965CommercialForVanquishPainReliever/vanquish1965.mp4",
+          "src": "https://archive.org/download/Promo_Honey_West_ABC-TV_1965_Friday_night/Promo_Honey_West_ABC-TV_1965_Friday_night_512kb.mp4",
           "start": 0,
-          "duration": 59.1,
-          "title": "1965 commercial for Vanquish pain reliever",
+          "duration": 59.56,
+          "title": "Promo Honey West ABC-TV 1965 Friday night",
           "year": 1965,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1965CommercialForVanquishPainReliever"
+          "credit": "archive.org/details/Promo_Honey_West_ABC-TV_1965_Friday_night"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1965CommercialBreakDialSoapAndArmourTreet/1965%20commercial%20break%20-%20Dial%20soap%20and%20Armour%20Treet.mp4",
+          "src": "https://archive.org/download/Promo__The_F.B.I._ABC-TV_1965_Sunday_night/Promo__The_F.B.I._ABC-TV_1965_Sunday_night_512kb.mp4",
           "start": 0,
           "duration": 59.83,
-          "title": "1965 commercial break: Dial Soap and Armour Treet",
+          "title": "Promo The F.B.I. ABC-TV 1965 Sunday night",
           "year": 1965,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1965CommercialBreakDialSoapAndArmourTreet"
+          "credit": "archive.org/details/Promo__The_F.B.I._ABC-TV_1965_Sunday_night"
         },
         {
           "kind": "card",
@@ -412,7 +412,7 @@
       "name": "WNTW",
       "tagline": "The way it was",
       "year": 1968,
-      "totalDuration": 3992.622,
+      "totalDuration": 4294.922,
       "items": [
         {
           "kind": "card",
@@ -437,29 +437,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial04a19681971/VirginiaSlims_04a.mp4",
+          "src": "https://archive.org/download/BorisKarloffRonsonCometLighter1968/Boris%20Karloff%20Ronson%20Comet%20Lighter%201968.mp4",
           "start": 0,
-          "duration": 10.27,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial 04a / 1968-1971",
+          "duration": 59.21,
+          "title": "Ronson Comet Lighter with Boris Karloff",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial04a19681971"
+          "credit": "archive.org/details/BorisKarloffRonsonCometLighter1968"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial0419681971/VirginiaSlims_04.mp4",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial0619681971/VirginiaSlims_06.mp4",
           "start": 0,
-          "duration": 60.08,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial 04 / 1968-1971",
+          "duration": 60.98,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 06 / 1968-1971",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial0419681971"
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial0619681971"
         },
         {
           "kind": "video",
@@ -484,29 +484,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1968TexacoJackBenny/1968%20Texaco%20with%20Jack%20Benny%20.mp4",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial141968-1971/VirginiaSlims_14.mp4",
           "start": 0,
-          "duration": 59.97,
-          "title": "Texaco with Jack Benny & Dennis Day",
+          "duration": 61,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 14 / 1968-1971",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1968TexacoJackBenny"
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial141968-1971"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial0819681971/VirginiaSlims_08.mp4",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial151968-1971/VirginiaSlims_15.mp4",
           "start": 0,
-          "duration": 10.2,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial 08 / 1968-1971",
+          "duration": 60.01,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 15 / 1968-1971",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial0819681971"
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial151968-1971"
         },
         {
           "kind": "video",
@@ -531,29 +531,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/Promo_The_Good_Guys_CBS_TV_1968/Promo_-_The_Good_Guys_CBS_-_TV_1968_512kb.mp4",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial131968-1971/VirginiaSlims_13_512kb.mp4",
           "start": 0,
-          "duration": 59.09,
-          "title": "Promo, The Good Guys CBS TV 1968",
+          "duration": 59.93,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 13 / 1968-1971",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/Promo_The_Good_Guys_CBS_TV_1968"
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial131968-1971"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercialHumor021968-1971/VirginiaSlims_Humor_02.mp4",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial121968-1971/VirginiaSlims_12.mp4",
           "start": 0,
-          "duration": 10.63,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial / Humor 02 / 1968-1971",
+          "duration": 60.26,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 12 / 1968-1971",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercialHumor021968-1971"
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial121968-1971"
         },
         {
           "kind": "video",
@@ -578,29 +578,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial04a19681971/VirginiaSlims_04a.mp4",
+          "src": "https://archive.org/download/BorisKarloffRonsonCometLighter1968/Boris%20Karloff%20Ronson%20Comet%20Lighter%201968.mp4",
           "start": 0,
-          "duration": 10.27,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial 04a / 1968-1971",
+          "duration": 59.21,
+          "title": "Ronson Comet Lighter with Boris Karloff",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial04a19681971"
+          "credit": "archive.org/details/BorisKarloffRonsonCometLighter1968"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial0419681971/VirginiaSlims_04.mp4",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial0619681971/VirginiaSlims_06.mp4",
           "start": 0,
-          "duration": 60.08,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial 04 / 1968-1971",
+          "duration": 60.98,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 06 / 1968-1971",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial0419681971"
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial0619681971"
         },
         {
           "kind": "video",
@@ -617,29 +617,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1968TexacoJackBenny/1968%20Texaco%20with%20Jack%20Benny%20.mp4",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial141968-1971/VirginiaSlims_14.mp4",
           "start": 0,
-          "duration": 59.97,
-          "title": "Texaco with Jack Benny & Dennis Day",
+          "duration": 61,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 14 / 1968-1971",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1968TexacoJackBenny"
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial141968-1971"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial0819681971/VirginiaSlims_08.mp4",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial151968-1971/VirginiaSlims_15.mp4",
           "start": 0,
-          "duration": 10.2,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial 08 / 1968-1971",
+          "duration": 60.01,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 15 / 1968-1971",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial0819681971"
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial151968-1971"
         },
         {
           "kind": "video",
@@ -656,29 +656,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/Promo_The_Good_Guys_CBS_TV_1968/Promo_-_The_Good_Guys_CBS_-_TV_1968_512kb.mp4",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial131968-1971/VirginiaSlims_13_512kb.mp4",
           "start": 0,
-          "duration": 59.09,
-          "title": "Promo, The Good Guys CBS TV 1968",
+          "duration": 59.93,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 13 / 1968-1971",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/Promo_The_Good_Guys_CBS_TV_1968"
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial131968-1971"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercialHumor021968-1971/VirginiaSlims_Humor_02.mp4",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial121968-1971/VirginiaSlims_12.mp4",
           "start": 0,
-          "duration": 10.63,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial / Humor 02 / 1968-1971",
+          "duration": 60.26,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 12 / 1968-1971",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercialHumor021968-1971"
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial121968-1971"
         },
         {
           "kind": "card",
@@ -823,7 +823,7 @@
       "name": "WHEN",
       "tagline": "Stay tuned",
       "year": 1977,
-      "totalDuration": 3880.81,
+      "totalDuration": 4039.71,
       "items": [
         {
           "kind": "card",
@@ -856,29 +856,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/TheHardyBoysNancyDrewMysteriesPromo/The%20Hardy%20Boys-Nancy%20Drew%20Mysteries%20promo.mp4",
+          "src": "https://archive.org/download/1977CommercialForArrival/1977%20commercial%20for%20Arrival.mp4",
           "start": 0,
-          "duration": 30.77,
-          "title": "The Hardy Boys/Nancy Drew Mysteries promo",
+          "duration": 14.23,
+          "title": "1977 commercial for 'Arrival' by ABBA",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/TheHardyBoysNancyDrewMysteriesPromo"
+          "credit": "archive.org/details/1977CommercialForArrival"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/CuprinolTVAdDucksBack/Cuprinol%20TV%20ad%20%20Hourglass.mp4",
+          "src": "https://archive.org/download/DigibarnXeroxMonksTvCommercial1977/XEROXMonks_KoreyKay_512kb.mp4",
           "start": 0,
-          "duration": 10.05,
-          "title": "Cuprinol Man TV Ads",
+          "duration": 60.33,
+          "title": "Digibarn: Xerox Monks TV Commercial",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/CuprinolTVAdDucksBack"
+          "credit": "archive.org/details/DigibarnXeroxMonksTvCommercial1977"
         },
         {
           "kind": "video",
@@ -903,16 +903,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977GoldenGrahamsCereal/1977%20Golden%20Grahams%20Cereal.mp4",
+          "src": "https://archive.org/download/1977AlmondJoyMounds/1977%20Almond%20Joy%20Mounds.mp4",
           "start": 0,
-          "duration": 30.02,
-          "title": "Oh, Those Golden Grahams!",
+          "duration": 60.86,
+          "title": "Almond Joy and Mounds Candy Bars",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977GoldenGrahamsCereal"
+          "credit": "archive.org/details/1977AlmondJoyMounds"
         },
         {
           "kind": "video",
@@ -950,29 +950,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977PurinaCatChow/1977%20Purina%20Cat%20Chow.mp4",
+          "src": "https://archive.org/download/1977SingerSewingMachinesWithDebbieReynolds/1977%20Singer%20Sewing%20Machines%20with%20Debbie%20Reynolds.mp4",
           "start": 0,
-          "duration": 30.48,
-          "title": "Purina Cat Chow",
+          "duration": 30.58,
+          "title": "Singer Sewing Machines sale with Debbie Reynolds",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977PurinaCatChow"
+          "credit": "archive.org/details/1977SingerSewingMachinesWithDebbieReynolds"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977CocaColaCokeAddsLife/1977%20Coca-Cola%20(Coke%20Adds%20Life).mp4",
+          "src": "https://archive.org/download/1977BellTelephoneSuperSwitcher/1977%20Bell%20Telephone%20Super-Switcher.mp4",
           "start": 0,
-          "duration": 30.36,
-          "title": "Coca-Cola (Coke Adds Life)",
+          "duration": 60,
+          "title": "Bell Telephone's Super-Switcher",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977CocaColaCokeAddsLife"
+          "credit": "archive.org/details/1977BellTelephoneSuperSwitcher"
         },
         {
           "kind": "video",
@@ -997,29 +997,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/TheHardyBoysNancyDrewMysteriesPromo/The%20Hardy%20Boys-Nancy%20Drew%20Mysteries%20promo.mp4",
+          "src": "https://archive.org/download/1977CommercialForArrival/1977%20commercial%20for%20Arrival.mp4",
           "start": 0,
-          "duration": 30.77,
-          "title": "The Hardy Boys/Nancy Drew Mysteries promo",
+          "duration": 14.23,
+          "title": "1977 commercial for 'Arrival' by ABBA",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/TheHardyBoysNancyDrewMysteriesPromo"
+          "credit": "archive.org/details/1977CommercialForArrival"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/CuprinolTVAdDucksBack/Cuprinol%20TV%20ad%20%20Hourglass.mp4",
+          "src": "https://archive.org/download/DigibarnXeroxMonksTvCommercial1977/XEROXMonks_KoreyKay_512kb.mp4",
           "start": 0,
-          "duration": 10.05,
-          "title": "Cuprinol Man TV Ads",
+          "duration": 60.33,
+          "title": "Digibarn: Xerox Monks TV Commercial",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/CuprinolTVAdDucksBack"
+          "credit": "archive.org/details/DigibarnXeroxMonksTvCommercial1977"
         },
         {
           "kind": "video",
@@ -1036,16 +1036,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977GoldenGrahamsCereal/1977%20Golden%20Grahams%20Cereal.mp4",
+          "src": "https://archive.org/download/1977AlmondJoyMounds/1977%20Almond%20Joy%20Mounds.mp4",
           "start": 0,
-          "duration": 30.02,
-          "title": "Oh, Those Golden Grahams!",
+          "duration": 60.86,
+          "title": "Almond Joy and Mounds Candy Bars",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977GoldenGrahamsCereal"
+          "credit": "archive.org/details/1977AlmondJoyMounds"
         },
         {
           "kind": "video",
@@ -1439,19 +1439,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/TVC_K-Tel_Breakdance_album_and_video/TVC%20K-Tel%20Breakdance%20album%20and%20video.mp4",
-          "start": 0,
-          "duration": 29.28,
-          "title": "K-Tel Breakdance Album & Video",
-          "year": 1984,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/TVC_K-Tel_Breakdance_album_and_video"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/Roadshow84/Roadshow84.mp4",
           "start": 0,
           "duration": 30,
@@ -1462,6 +1449,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/Roadshow84"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/commercials-vhs1/Dumbo-Wizard-of-Oz-Pinochio-commericals-13.mp4",
+          "start": 0,
+          "duration": 30.2,
+          "title": "Commercials from mid-1980s VHS tape",
+          "year": 1984,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/commercials-vhs1"
         },
         {
           "kind": "video",
@@ -1486,19 +1486,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/commercials-vhs1/Dumbo-Wizard-of-Oz-Pinochio-commericals-13.mp4",
-          "start": 0,
-          "duration": 30.2,
-          "title": "Commercials from mid-1980s VHS tape",
-          "year": 1984,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/commercials-vhs1"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/SCV_07-28-84/SCV_07-28-84.mp4",
           "start": 0,
           "duration": 30.02,
@@ -1509,6 +1496,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/SCV_07-28-84"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/NissanDavenport/nissan-davenport.mp4",
+          "start": 0,
+          "duration": 30.08,
+          "title": "\"A Little Racy\" starring Lisa Davenport",
+          "year": 1984,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/NissanDavenport"
         },
         {
           "kind": "video",
@@ -1525,16 +1525,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/NissanDavenport/nissan-davenport.mp4",
+          "src": "https://archive.org/download/TVC_K-Tel_Breakdance_album_and_video/TVC%20K-Tel%20Breakdance%20album%20and%20video.mp4",
           "start": 0,
-          "duration": 30.08,
-          "title": "\"A Little Racy\" starring Lisa Davenport",
+          "duration": 29.28,
+          "title": "K-Tel Breakdance Album & Video",
           "year": 1984,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/NissanDavenport"
+          "credit": "archive.org/details/TVC_K-Tel_Breakdance_album_and_video"
         },
         {
           "kind": "video",
@@ -1564,19 +1564,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/TVC_K-Tel_Breakdance_album_and_video/TVC%20K-Tel%20Breakdance%20album%20and%20video.mp4",
-          "start": 0,
-          "duration": 29.28,
-          "title": "K-Tel Breakdance Album & Video",
-          "year": 1984,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/TVC_K-Tel_Breakdance_album_and_video"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/Roadshow84/Roadshow84.mp4",
           "start": 0,
           "duration": 30,
@@ -1587,6 +1574,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/Roadshow84"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/commercials-vhs1/Dumbo-Wizard-of-Oz-Pinochio-commericals-13.mp4",
+          "start": 0,
+          "duration": 30.2,
+          "title": "Commercials from mid-1980s VHS tape",
+          "year": 1984,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/commercials-vhs1"
         },
         {
           "kind": "video",
@@ -1611,19 +1611,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/commercials-vhs1/Dumbo-Wizard-of-Oz-Pinochio-commericals-13.mp4",
-          "start": 0,
-          "duration": 30.2,
-          "title": "Commercials from mid-1980s VHS tape",
-          "year": 1984,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/commercials-vhs1"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/SCV_07-28-84/SCV_07-28-84.mp4",
           "start": 0,
           "duration": 30.02,
@@ -1634,6 +1621,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/SCV_07-28-84"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/NissanDavenport/nissan-davenport.mp4",
+          "start": 0,
+          "duration": 30.08,
+          "title": "\"A Little Racy\" starring Lisa Davenport",
+          "year": 1984,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/NissanDavenport"
         },
         {
           "kind": "video",
@@ -1658,16 +1658,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/NissanDavenport/nissan-davenport.mp4",
+          "src": "https://archive.org/download/TVC_K-Tel_Breakdance_album_and_video/TVC%20K-Tel%20Breakdance%20album%20and%20video.mp4",
           "start": 0,
-          "duration": 30.08,
-          "title": "\"A Little Racy\" starring Lisa Davenport",
+          "duration": 29.28,
+          "title": "K-Tel Breakdance Album & Video",
           "year": 1984,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/NissanDavenport"
+          "credit": "archive.org/details/TVC_K-Tel_Breakdance_album_and_video"
         },
         {
           "kind": "video",
@@ -1705,19 +1705,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/TVC_K-Tel_Breakdance_album_and_video/TVC%20K-Tel%20Breakdance%20album%20and%20video.mp4",
-          "start": 0,
-          "duration": 29.28,
-          "title": "K-Tel Breakdance Album & Video",
-          "year": 1984,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/TVC_K-Tel_Breakdance_album_and_video"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/Roadshow84/Roadshow84.mp4",
           "start": 0,
           "duration": 30,
@@ -1728,6 +1715,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/Roadshow84"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/commercials-vhs1/Dumbo-Wizard-of-Oz-Pinochio-commericals-13.mp4",
+          "start": 0,
+          "duration": 30.2,
+          "title": "Commercials from mid-1980s VHS tape",
+          "year": 1984,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/commercials-vhs1"
         },
         {
           "kind": "video",
@@ -1752,19 +1752,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/commercials-vhs1/Dumbo-Wizard-of-Oz-Pinochio-commericals-13.mp4",
-          "start": 0,
-          "duration": 30.2,
-          "title": "Commercials from mid-1980s VHS tape",
-          "year": 1984,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/commercials-vhs1"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/SCV_07-28-84/SCV_07-28-84.mp4",
           "start": 0,
           "duration": 30.02,
@@ -1775,6 +1762,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/SCV_07-28-84"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/NissanDavenport/nissan-davenport.mp4",
+          "start": 0,
+          "duration": 30.08,
+          "title": "\"A Little Racy\" starring Lisa Davenport",
+          "year": 1984,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/NissanDavenport"
         },
         {
           "kind": "video",
@@ -1791,16 +1791,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/NissanDavenport/nissan-davenport.mp4",
+          "src": "https://archive.org/download/TVC_K-Tel_Breakdance_album_and_video/TVC%20K-Tel%20Breakdance%20album%20and%20video.mp4",
           "start": 0,
-          "duration": 30.08,
-          "title": "\"A Little Racy\" starring Lisa Davenport",
+          "duration": 29.28,
+          "title": "K-Tel Breakdance Album & Video",
           "year": 1984,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/NissanDavenport"
+          "credit": "archive.org/details/TVC_K-Tel_Breakdance_album_and_video"
         },
         {
           "kind": "video",
@@ -2240,19 +2240,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/aerobicsozstyle-1992/11%20-%20Aerobics%20Oz%20Style%202%20ads%20(3rd%20break).mp4",
-          "start": 0,
-          "duration": 130.03,
-          "title": "Aerobics Oz Style - 7 episodes",
-          "year": 1992,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/aerobicsozstyle-1992"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/1992-uan-2/1992%20UAN2.mp4",
           "start": 0,
           "duration": 165,
@@ -2263,6 +2250,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1992-uan-2"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/aerobicsozstyle-1992/11%20-%20Aerobics%20Oz%20Style%202%20ads%20(3rd%20break).mp4",
+          "start": 0,
+          "duration": 130.03,
+          "title": "Aerobics Oz Style - 7 episodes",
+          "year": 1992,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/aerobicsozstyle-1992"
         },
         {
           "kind": "video",
@@ -2347,16 +2347,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/aerobicsozstyle-1992/11%20-%20Aerobics%20Oz%20Style%202%20ads%20(3rd%20break).mp4",
+          "src": "https://archive.org/download/1992-uan-2/1992%20UAN2.mp4",
           "start": 0,
-          "duration": 130.03,
-          "title": "Aerobics Oz Style - 7 episodes",
+          "duration": 165,
+          "title": "More 1992 USA Up All Night Bumpers/Commercialz #tuneintrashout",
           "year": 1992,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/aerobicsozstyle-1992"
+          "credit": "archive.org/details/1992-uan-2"
         },
         {
           "kind": "video",
@@ -2373,16 +2373,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1992-uan-2/1992%20UAN2.mp4",
+          "src": "https://archive.org/download/aerobicsozstyle-1992/11%20-%20Aerobics%20Oz%20Style%202%20ads%20(3rd%20break).mp4",
           "start": 0,
-          "duration": 165,
-          "title": "More 1992 USA Up All Night Bumpers/Commercialz #tuneintrashout",
+          "duration": 130.03,
+          "title": "Aerobics Oz Style - 7 episodes",
           "year": 1992,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1992-uan-2"
+          "credit": "archive.org/details/aerobicsozstyle-1992"
         },
         {
           "kind": "video",
@@ -2475,19 +2475,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/aerobicsozstyle-1992/11%20-%20Aerobics%20Oz%20Style%202%20ads%20(3rd%20break).mp4",
-          "start": 0,
-          "duration": 130.03,
-          "title": "Aerobics Oz Style - 7 episodes",
-          "year": 1992,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/aerobicsozstyle-1992"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/1992-uan-2/1992%20UAN2.mp4",
           "start": 0,
           "duration": 165,
@@ -2498,6 +2485,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1992-uan-2"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/aerobicsozstyle-1992/11%20-%20Aerobics%20Oz%20Style%202%20ads%20(3rd%20break).mp4",
+          "start": 0,
+          "duration": 130.03,
+          "title": "Aerobics Oz Style - 7 episodes",
+          "year": 1992,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/aerobicsozstyle-1992"
         },
         {
           "kind": "video",
@@ -2658,29 +2658,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore/KVBC%20Ch%203%20-%201996%20-%20The%20Good%20Guys!-WOW!%20Multimedia%20Superstore.mp4",
+          "src": "https://archive.org/download/1996-commercial-for-athletes-foot/1996%20commercial%20for%20Athlete's%20Foot.mp4",
           "start": 0,
-          "duration": 30.04,
-          "title": "KVBC Ch. 3 - (1996) The Good Guys! WOW! Multimedia Superstore Commercial",
+          "duration": 14.96,
+          "title": "1996 commercial for Athlete's Foot",
           "year": 1996,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore"
+          "credit": "archive.org/details/1996-commercial-for-athletes-foot"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1995-chevy-blazer-commercial/1995%20Chevy%20Blazer%20Commercial.mp4",
+          "src": "https://archive.org/download/rare-first-pokemon-red-and-green-japanese-commercial-ever/RARE%20first%20Pok%C3%A9mon%20Red%20and%20Green%20Japanese%20commercial%20EVER%20HD-z4JeRKo3Rr4.mp4",
           "start": 0,
-          "duration": 29.93,
-          "title": "1996 Chevy Blazer Commercial",
+          "duration": 30.53,
+          "title": "RARE First Pokémon Red And Green Japanese Commercial EVER",
           "year": 1996,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1995-chevy-blazer-commercial"
+          "credit": "archive.org/details/rare-first-pokemon-red-and-green-japanese-commercial-ever"
         },
         {
           "kind": "video",
@@ -2710,16 +2710,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1996-commercial-for-athletes-foot/1996%20commercial%20for%20Athlete's%20Foot.mp4",
+          "src": "https://archive.org/download/1995-chevy-blazer-commercial/1995%20Chevy%20Blazer%20Commercial.mp4",
           "start": 0,
-          "duration": 14.96,
-          "title": "1996 commercial for Athlete's Foot",
+          "duration": 29.93,
+          "title": "1996 Chevy Blazer Commercial",
           "year": 1996,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1996-commercial-for-athletes-foot"
+          "credit": "archive.org/details/1995-chevy-blazer-commercial"
         },
         {
           "kind": "card",
@@ -2752,19 +2752,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/rare-first-pokemon-red-and-green-japanese-commercial-ever/RARE%20first%20Pok%C3%A9mon%20Red%20and%20Green%20Japanese%20commercial%20EVER%20HD-z4JeRKo3Rr4.mp4",
-          "start": 0,
-          "duration": 30.53,
-          "title": "RARE First Pokémon Red And Green Japanese Commercial EVER",
-          "year": 1996,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/rare-first-pokemon-red-and-green-japanese-commercial-ever"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore/KVBC%20Ch%203%20-%201996%20-%20The%20Good%20Guys!-WOW!%20Multimedia%20Superstore.mp4",
           "start": 0,
           "duration": 30.04,
@@ -2775,6 +2762,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1996-commercial-for-athletes-foot/1996%20commercial%20for%20Athlete's%20Foot.mp4",
+          "start": 0,
+          "duration": 14.96,
+          "title": "1996 commercial for Athlete's Foot",
+          "year": 1996,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1996-commercial-for-athletes-foot"
         },
         {
           "kind": "video",
@@ -2791,16 +2791,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1995-chevy-blazer-commercial/1995%20Chevy%20Blazer%20Commercial.mp4",
+          "src": "https://archive.org/download/rare-first-pokemon-red-and-green-japanese-commercial-ever/RARE%20first%20Pok%C3%A9mon%20Red%20and%20Green%20Japanese%20commercial%20EVER%20HD-z4JeRKo3Rr4.mp4",
           "start": 0,
-          "duration": 29.93,
-          "title": "1996 Chevy Blazer Commercial",
+          "duration": 30.53,
+          "title": "RARE First Pokémon Red And Green Japanese Commercial EVER",
           "year": 1996,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1995-chevy-blazer-commercial"
+          "credit": "archive.org/details/rare-first-pokemon-red-and-green-japanese-commercial-ever"
         },
         {
           "kind": "video",
@@ -2846,29 +2846,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1996-commercial-for-athletes-foot/1996%20commercial%20for%20Athlete's%20Foot.mp4",
+          "src": "https://archive.org/download/1995-chevy-blazer-commercial/1995%20Chevy%20Blazer%20Commercial.mp4",
           "start": 0,
-          "duration": 14.96,
-          "title": "1996 commercial for Athlete's Foot",
+          "duration": 29.93,
+          "title": "1996 Chevy Blazer Commercial",
           "year": 1996,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1996-commercial-for-athletes-foot"
+          "credit": "archive.org/details/1995-chevy-blazer-commercial"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/rare-first-pokemon-red-and-green-japanese-commercial-ever/RARE%20first%20Pok%C3%A9mon%20Red%20and%20Green%20Japanese%20commercial%20EVER%20HD-z4JeRKo3Rr4.mp4",
+          "src": "https://archive.org/download/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore/KVBC%20Ch%203%20-%201996%20-%20The%20Good%20Guys!-WOW!%20Multimedia%20Superstore.mp4",
           "start": 0,
-          "duration": 30.53,
-          "title": "RARE First Pokémon Red And Green Japanese Commercial EVER",
+          "duration": 30.04,
+          "title": "KVBC Ch. 3 - (1996) The Good Guys! WOW! Multimedia Superstore Commercial",
           "year": 1996,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/rare-first-pokemon-red-and-green-japanese-commercial-ever"
+          "credit": "archive.org/details/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore"
         },
         {
           "kind": "video",
@@ -2893,29 +2893,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore/KVBC%20Ch%203%20-%201996%20-%20The%20Good%20Guys!-WOW!%20Multimedia%20Superstore.mp4",
+          "src": "https://archive.org/download/1996-commercial-for-athletes-foot/1996%20commercial%20for%20Athlete's%20Foot.mp4",
           "start": 0,
-          "duration": 30.04,
-          "title": "KVBC Ch. 3 - (1996) The Good Guys! WOW! Multimedia Superstore Commercial",
+          "duration": 14.96,
+          "title": "1996 commercial for Athlete's Foot",
           "year": 1996,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore"
+          "credit": "archive.org/details/1996-commercial-for-athletes-foot"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1995-chevy-blazer-commercial/1995%20Chevy%20Blazer%20Commercial.mp4",
+          "src": "https://archive.org/download/rare-first-pokemon-red-and-green-japanese-commercial-ever/RARE%20first%20Pok%C3%A9mon%20Red%20and%20Green%20Japanese%20commercial%20EVER%20HD-z4JeRKo3Rr4.mp4",
           "start": 0,
-          "duration": 29.93,
-          "title": "1996 Chevy Blazer Commercial",
+          "duration": 30.53,
+          "title": "RARE First Pokémon Red And Green Japanese Commercial EVER",
           "year": 1996,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1995-chevy-blazer-commercial"
+          "credit": "archive.org/details/rare-first-pokemon-red-and-green-japanese-commercial-ever"
         },
         {
           "kind": "video",
@@ -2953,16 +2953,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1996-commercial-for-athletes-foot/1996%20commercial%20for%20Athlete's%20Foot.mp4",
+          "src": "https://archive.org/download/1995-chevy-blazer-commercial/1995%20Chevy%20Blazer%20Commercial.mp4",
           "start": 0,
-          "duration": 14.96,
-          "title": "1996 commercial for Athlete's Foot",
+          "duration": 29.93,
+          "title": "1996 Chevy Blazer Commercial",
           "year": 1996,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1996-commercial-for-athletes-foot"
+          "credit": "archive.org/details/1995-chevy-blazer-commercial"
         },
         {
           "kind": "video",
@@ -2987,19 +2987,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/rare-first-pokemon-red-and-green-japanese-commercial-ever/RARE%20first%20Pok%C3%A9mon%20Red%20and%20Green%20Japanese%20commercial%20EVER%20HD-z4JeRKo3Rr4.mp4",
-          "start": 0,
-          "duration": 30.53,
-          "title": "RARE First Pokémon Red And Green Japanese Commercial EVER",
-          "year": 1996,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/rare-first-pokemon-red-and-green-japanese-commercial-ever"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore/KVBC%20Ch%203%20-%201996%20-%20The%20Good%20Guys!-WOW!%20Multimedia%20Superstore.mp4",
           "start": 0,
           "duration": 30.04,
@@ -3010,6 +2997,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1996-commercial-for-athletes-foot/1996%20commercial%20for%20Athlete's%20Foot.mp4",
+          "start": 0,
+          "duration": 14.96,
+          "title": "1996 commercial for Athlete's Foot",
+          "year": 1996,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1996-commercial-for-athletes-foot"
         },
         {
           "kind": "video",
@@ -3034,16 +3034,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1995-chevy-blazer-commercial/1995%20Chevy%20Blazer%20Commercial.mp4",
+          "src": "https://archive.org/download/rare-first-pokemon-red-and-green-japanese-commercial-ever/RARE%20first%20Pok%C3%A9mon%20Red%20and%20Green%20Japanese%20commercial%20EVER%20HD-z4JeRKo3Rr4.mp4",
           "start": 0,
-          "duration": 29.93,
-          "title": "1996 Chevy Blazer Commercial",
+          "duration": 30.53,
+          "title": "RARE First Pokémon Red And Green Japanese Commercial EVER",
           "year": 1996,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1995-chevy-blazer-commercial"
+          "credit": "archive.org/details/rare-first-pokemon-red-and-green-japanese-commercial-ever"
         },
         {
           "kind": "video",
@@ -3073,29 +3073,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1996-commercial-for-athletes-foot/1996%20commercial%20for%20Athlete's%20Foot.mp4",
+          "src": "https://archive.org/download/1995-chevy-blazer-commercial/1995%20Chevy%20Blazer%20Commercial.mp4",
           "start": 0,
-          "duration": 14.96,
-          "title": "1996 commercial for Athlete's Foot",
+          "duration": 29.93,
+          "title": "1996 Chevy Blazer Commercial",
           "year": 1996,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1996-commercial-for-athletes-foot"
+          "credit": "archive.org/details/1995-chevy-blazer-commercial"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/rare-first-pokemon-red-and-green-japanese-commercial-ever/RARE%20first%20Pok%C3%A9mon%20Red%20and%20Green%20Japanese%20commercial%20EVER%20HD-z4JeRKo3Rr4.mp4",
+          "src": "https://archive.org/download/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore/KVBC%20Ch%203%20-%201996%20-%20The%20Good%20Guys!-WOW!%20Multimedia%20Superstore.mp4",
           "start": 0,
-          "duration": 30.53,
-          "title": "RARE First Pokémon Red And Green Japanese Commercial EVER",
+          "duration": 30.04,
+          "title": "KVBC Ch. 3 - (1996) The Good Guys! WOW! Multimedia Superstore Commercial",
           "year": 1996,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/rare-first-pokemon-red-and-green-japanese-commercial-ever"
+          "credit": "archive.org/details/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore"
         },
         {
           "kind": "card",
@@ -3208,29 +3208,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1998-brave-little-toaster-goes-to-mars-vhs-release-commercial/1998%20Brave%20Little%20Toaster%20Goes%20to%20Mars%20VHS%20Release%20Commercial.mp4",
+          "src": "https://archive.org/download/1998-for-your-love-tv-show-commercial/1998%20For%20Your%20Love%20TV%20Show%20Commercial.mp4",
           "start": 0,
-          "duration": 30.82,
-          "title": "1998 Brave Little Toaster Goes To Mars VHS Release Commercial",
+          "duration": 19.88,
+          "title": "1998 For Your Love TV Show Commercial",
           "year": 1998,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1998-brave-little-toaster-goes-to-mars-vhs-release-commercial"
+          "credit": "archive.org/details/1998-for-your-love-tv-show-commercial"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1998-truman-show-promo/1998%20Truman%20Show%20Promo.mp4",
+          "src": "https://archive.org/download/pixar-mcdonalds-commercials-1998-2000/McDonald's%20-%20%E2%80%9CNothing%20Good%20on%20TV%20Jr.%E2%80%9D%20(1998).mp4",
           "start": 0,
-          "duration": 29.42,
-          "title": "1998 The Truman Show Promo",
+          "duration": 16.19,
+          "title": "Pixar McDonald's Commercials (1998-2000)",
           "year": 1998,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1998-truman-show-promo"
+          "credit": "archive.org/details/pixar-mcdonalds-commercials-1998-2000"
         },
         {
           "kind": "video",
@@ -3255,29 +3255,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/pixar-mcdonalds-commercials-1998-2000/McDonald's%20-%20%E2%80%9CNothing%20Good%20on%20TV%20Jr.%E2%80%9D%20(1998).mp4",
+          "src": "https://archive.org/download/1998-brave-little-toaster-goes-to-mars-vhs-release-commercial/1998%20Brave%20Little%20Toaster%20Goes%20to%20Mars%20VHS%20Release%20Commercial.mp4",
           "start": 0,
-          "duration": 16.19,
-          "title": "Pixar McDonald's Commercials (1998-2000)",
+          "duration": 30.82,
+          "title": "1998 Brave Little Toaster Goes To Mars VHS Release Commercial",
           "year": 1998,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/pixar-mcdonalds-commercials-1998-2000"
+          "credit": "archive.org/details/1998-brave-little-toaster-goes-to-mars-vhs-release-commercial"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1998-for-your-love-tv-show-commercial/1998%20For%20Your%20Love%20TV%20Show%20Commercial.mp4",
+          "src": "https://archive.org/download/1998-truman-show-promo/1998%20Truman%20Show%20Promo.mp4",
           "start": 0,
-          "duration": 19.88,
-          "title": "1998 For Your Love TV Show Commercial",
+          "duration": 29.42,
+          "title": "1998 The Truman Show Promo",
           "year": 1998,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1998-for-your-love-tv-show-commercial"
+          "credit": "archive.org/details/1998-truman-show-promo"
         },
         {
           "kind": "video",
@@ -3349,29 +3349,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1998-brave-little-toaster-goes-to-mars-vhs-release-commercial/1998%20Brave%20Little%20Toaster%20Goes%20to%20Mars%20VHS%20Release%20Commercial.mp4",
+          "src": "https://archive.org/download/1998-for-your-love-tv-show-commercial/1998%20For%20Your%20Love%20TV%20Show%20Commercial.mp4",
           "start": 0,
-          "duration": 30.82,
-          "title": "1998 Brave Little Toaster Goes To Mars VHS Release Commercial",
+          "duration": 19.88,
+          "title": "1998 For Your Love TV Show Commercial",
           "year": 1998,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1998-brave-little-toaster-goes-to-mars-vhs-release-commercial"
+          "credit": "archive.org/details/1998-for-your-love-tv-show-commercial"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1998-truman-show-promo/1998%20Truman%20Show%20Promo.mp4",
+          "src": "https://archive.org/download/pixar-mcdonalds-commercials-1998-2000/McDonald's%20-%20%E2%80%9CNothing%20Good%20on%20TV%20Jr.%E2%80%9D%20(1998).mp4",
           "start": 0,
-          "duration": 29.42,
-          "title": "1998 The Truman Show Promo",
+          "duration": 16.19,
+          "title": "Pixar McDonald's Commercials (1998-2000)",
           "year": 1998,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1998-truman-show-promo"
+          "credit": "archive.org/details/pixar-mcdonalds-commercials-1998-2000"
         },
         {
           "kind": "video",
@@ -3396,29 +3396,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/pixar-mcdonalds-commercials-1998-2000/McDonald's%20-%20%E2%80%9CNothing%20Good%20on%20TV%20Jr.%E2%80%9D%20(1998).mp4",
+          "src": "https://archive.org/download/1998-brave-little-toaster-goes-to-mars-vhs-release-commercial/1998%20Brave%20Little%20Toaster%20Goes%20to%20Mars%20VHS%20Release%20Commercial.mp4",
           "start": 0,
-          "duration": 16.19,
-          "title": "Pixar McDonald's Commercials (1998-2000)",
+          "duration": 30.82,
+          "title": "1998 Brave Little Toaster Goes To Mars VHS Release Commercial",
           "year": 1998,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/pixar-mcdonalds-commercials-1998-2000"
+          "credit": "archive.org/details/1998-brave-little-toaster-goes-to-mars-vhs-release-commercial"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1998-for-your-love-tv-show-commercial/1998%20For%20Your%20Love%20TV%20Show%20Commercial.mp4",
+          "src": "https://archive.org/download/1998-truman-show-promo/1998%20Truman%20Show%20Promo.mp4",
           "start": 0,
-          "duration": 19.88,
-          "title": "1998 For Your Love TV Show Commercial",
+          "duration": 29.42,
+          "title": "1998 The Truman Show Promo",
           "year": 1998,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1998-for-your-love-tv-show-commercial"
+          "credit": "archive.org/details/1998-truman-show-promo"
         },
         {
           "kind": "video",
@@ -3490,29 +3490,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1998-brave-little-toaster-goes-to-mars-vhs-release-commercial/1998%20Brave%20Little%20Toaster%20Goes%20to%20Mars%20VHS%20Release%20Commercial.mp4",
+          "src": "https://archive.org/download/1998-for-your-love-tv-show-commercial/1998%20For%20Your%20Love%20TV%20Show%20Commercial.mp4",
           "start": 0,
-          "duration": 30.82,
-          "title": "1998 Brave Little Toaster Goes To Mars VHS Release Commercial",
+          "duration": 19.88,
+          "title": "1998 For Your Love TV Show Commercial",
           "year": 1998,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1998-brave-little-toaster-goes-to-mars-vhs-release-commercial"
+          "credit": "archive.org/details/1998-for-your-love-tv-show-commercial"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1998-truman-show-promo/1998%20Truman%20Show%20Promo.mp4",
+          "src": "https://archive.org/download/pixar-mcdonalds-commercials-1998-2000/McDonald's%20-%20%E2%80%9CNothing%20Good%20on%20TV%20Jr.%E2%80%9D%20(1998).mp4",
           "start": 0,
-          "duration": 29.42,
-          "title": "1998 The Truman Show Promo",
+          "duration": 16.19,
+          "title": "Pixar McDonald's Commercials (1998-2000)",
           "year": 1998,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1998-truman-show-promo"
+          "credit": "archive.org/details/pixar-mcdonalds-commercials-1998-2000"
         },
         {
           "kind": "video",
@@ -3537,29 +3537,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/pixar-mcdonalds-commercials-1998-2000/McDonald's%20-%20%E2%80%9CNothing%20Good%20on%20TV%20Jr.%E2%80%9D%20(1998).mp4",
+          "src": "https://archive.org/download/1998-brave-little-toaster-goes-to-mars-vhs-release-commercial/1998%20Brave%20Little%20Toaster%20Goes%20to%20Mars%20VHS%20Release%20Commercial.mp4",
           "start": 0,
-          "duration": 16.19,
-          "title": "Pixar McDonald's Commercials (1998-2000)",
+          "duration": 30.82,
+          "title": "1998 Brave Little Toaster Goes To Mars VHS Release Commercial",
           "year": 1998,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/pixar-mcdonalds-commercials-1998-2000"
+          "credit": "archive.org/details/1998-brave-little-toaster-goes-to-mars-vhs-release-commercial"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1998-for-your-love-tv-show-commercial/1998%20For%20Your%20Love%20TV%20Show%20Commercial.mp4",
+          "src": "https://archive.org/download/1998-truman-show-promo/1998%20Truman%20Show%20Promo.mp4",
           "start": 0,
-          "duration": 19.88,
-          "title": "1998 For Your Love TV Show Commercial",
+          "duration": 29.42,
+          "title": "1998 The Truman Show Promo",
           "year": 1998,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1998-for-your-love-tv-show-commercial"
+          "credit": "archive.org/details/1998-truman-show-promo"
         },
         {
           "kind": "video",

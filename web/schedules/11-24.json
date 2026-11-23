@@ -3,14 +3,14 @@
   "target": "web",
   "date": "11-24",
   "title": "This Day in History — November 24",
-  "publishedAt": "2026-11-22T09:09:48.591Z",
+  "publishedAt": "2026-11-23T09:11:50.277Z",
   "channels": [
     {
       "number": 2,
       "name": "WTDI",
       "tagline": "Your window to yesterday",
       "year": 1967,
-      "totalDuration": 866.39,
+      "totalDuration": 909.74,
       "items": [
         {
           "kind": "card",
@@ -35,29 +35,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1968CommercialForAbsorbine/Absorbine1968.mp4",
+          "src": "https://archive.org/download/1967Listerine/1967%20Listerine.mp4",
           "start": 0,
-          "duration": 60.96,
-          "title": "1967 commercial for Absorbine",
+          "duration": 59.02,
+          "title": "Listerine Commercial",
           "year": 1967,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1968CommercialForAbsorbine"
+          "credit": "archive.org/details/1967Listerine"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/WhipNChill1967/WhipNChill1967.mp4",
+          "src": "https://archive.org/download/CommercialBreaksFrom1967hogansHeroesEpisode/HoganAdBreak1.mp4",
           "start": 0,
-          "duration": 62.73,
-          "title": "1967 commercial for Whip 'n Chill",
+          "duration": 60.69,
+          "title": "Commercial breaks from 1967 ''Hogan's Heroes'' Episode",
           "year": 1967,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/WhipNChill1967"
+          "credit": "archive.org/details/CommercialBreaksFrom1967hogansHeroesEpisode"
         },
         {
           "kind": "video",
@@ -74,29 +74,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1968CommercialBreakKraftCaramelskraftMiniatureMarshmallows/KraftCaramels1968.mp4",
+          "src": "https://archive.org/download/1967MarxBestOfTheWestActionFigures/1967%20Marx%20Best%20of%20the%20West%20action%20figures.mp4",
           "start": 0,
-          "duration": 60.96,
-          "title": "Late-1960s commercial break: Kraft Caramels/Kraft Miniature Marshmallows",
+          "duration": 59.93,
+          "title": "Marx Best Of The West Action Figures",
           "year": 1967,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1968CommercialBreakKraftCaramelskraftMiniatureMarshmallows"
+          "credit": "archive.org/details/1967MarxBestOfTheWestActionFigures"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/MaxwellhouseInstantCoffee1967/MaxwellhouseInstantCoffee1967.mp4",
+          "src": "https://archive.org/download/TheManFromUNCLEPromos/The%20Man%20from%20UNCLE%20Promos.mp4",
           "start": 0,
-          "duration": 29.66,
-          "title": "1967 commercial for Maxwell House Instant Coffee",
+          "duration": 78.02,
+          "title": "The Man From UNCLE Promos",
           "year": 1967,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/MaxwellhouseInstantCoffee1967"
+          "credit": "archive.org/details/TheManFromUNCLEPromos"
         },
         {
           "kind": "card",
@@ -766,7 +766,7 @@
       "name": "WYRS",
       "tagline": "Tonight, back then",
       "year": 1977,
-      "totalDuration": 2026.93,
+      "totalDuration": 2026.2,
       "items": [
         {
           "kind": "card",
@@ -799,29 +799,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977HaveAPepsiDay/1977%20Have%20a%20Pepsi%20Day.mp4",
+          "src": "https://archive.org/download/1977BoyScoutsOfAmerica/1977%20Boy%20Scouts%20of%20America.mp4",
           "start": 0,
-          "duration": 30.29,
-          "title": "Have a Pepsi Day",
+          "duration": 23.18,
+          "title": "The Boy Scouts Of America",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977HaveAPepsiDay"
+          "credit": "archive.org/details/1977BoyScoutsOfAmerica"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977SingerSewingMachinesWithDebbieReynolds/1977%20Singer%20Sewing%20Machines%20with%20Debbie%20Reynolds.mp4",
+          "src": "https://archive.org/download/1977NecafeInstantCoffeeCommercial/1977%20Necafe%20Instant%20Coffee%20commercial.mp4",
           "start": 0,
-          "duration": 30.58,
-          "title": "Singer Sewing Machines sale with Debbie Reynolds",
+          "duration": 30.77,
+          "title": "Necafe Instant Coffee",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977SingerSewingMachinesWithDebbieReynolds"
+          "credit": "archive.org/details/1977NecafeInstantCoffeeCommercial"
         },
         {
           "kind": "video",
@@ -846,29 +846,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977NecafeInstantCoffeeCommercial/1977%20Necafe%20Instant%20Coffee%20commercial.mp4",
+          "src": "https://archive.org/download/TheSixMillionDollarManDannysInfernoPromo/The%20Six%20Million%20Dollar%20Man%20-%20Danny's%20Inferno%20promo.mp4",
           "start": 0,
-          "duration": 30.77,
-          "title": "Necafe Instant Coffee",
+          "duration": 21.38,
+          "title": "The Six Million Dollar Man - \"Danny's Inferno\" promo",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977NecafeInstantCoffeeCommercial"
+          "credit": "archive.org/details/TheSixMillionDollarManDannysInfernoPromo"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977CocaColaCokeAddsLife/1977%20Coca-Cola%20(Coke%20Adds%20Life).mp4",
+          "src": "https://archive.org/download/1977CarnationInstantMilkWithVickiLawrence/1977%20Carnation%20Instant%20Milk%20with%20Vicki%20Lawrence.mp4",
           "start": 0,
-          "duration": 30.36,
-          "title": "Coca-Cola (Coke Adds Life)",
+          "duration": 31.34,
+          "title": "Carnation Instant Milk with Vicki Lawrence",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977CocaColaCokeAddsLife"
+          "credit": "archive.org/details/1977CarnationInstantMilkWithVickiLawrence"
         },
         {
           "kind": "video",
@@ -885,29 +885,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/TheSixMillionDollarManDannysInfernoPromo/The%20Six%20Million%20Dollar%20Man%20-%20Danny's%20Inferno%20promo.mp4",
+          "src": "https://archive.org/download/1977GoldenGrahamsCereal/1977%20Golden%20Grahams%20Cereal.mp4",
           "start": 0,
-          "duration": 21.38,
-          "title": "The Six Million Dollar Man - \"Danny's Inferno\" promo",
+          "duration": 30.02,
+          "title": "Oh, Those Golden Grahams!",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/TheSixMillionDollarManDannysInfernoPromo"
+          "credit": "archive.org/details/1977GoldenGrahamsCereal"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977FutureCopThreesCompanyPromo/1977%20Future%20Cop%20Three's%20Company%20promo.mp4",
+          "src": "https://archive.org/download/1977HaveAPepsiDay/1977%20Have%20a%20Pepsi%20Day.mp4",
           "start": 0,
-          "duration": 24.33,
-          "title": "Future Cop/Three's Company promo",
+          "duration": 30.29,
+          "title": "Have a Pepsi Day",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977FutureCopThreesCompanyPromo"
+          "credit": "archive.org/details/1977HaveAPepsiDay"
         },
         {
           "kind": "card",
@@ -2040,16 +2040,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1990-wtxf-tv-fox-29-simpsons-married-with-children-promo/1990%20WTXF-TV%20Fox%2029%20Simpsons%20%26%20Married%20with%20Children%20Promo.mp4",
+          "src": "https://archive.org/download/tmnt-video/TMNT%20Video.mp4",
           "start": 0,
-          "duration": 30.15,
-          "title": "1990 WTXF-TV Fox 29 Simpsons & Married With Children Promo",
+          "duration": 15.23,
+          "title": "TMNT Teenage Mutant Ninja Turtles - VHS Release (1990) TV Commercial",
           "year": 1990,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1990-wtxf-tv-fox-29-simpsons-married-with-children-promo"
+          "credit": "archive.org/details/tmnt-video"
         },
         {
           "kind": "video",
@@ -2074,6 +2074,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/1990-wtxf-tv-fox-29-simpsons-married-with-children-promo/1990%20WTXF-TV%20Fox%2029%20Simpsons%20%26%20Married%20with%20Children%20Promo.mp4",
+          "start": 0,
+          "duration": 30.15,
+          "title": "1990 WTXF-TV Fox 29 Simpsons & Married With Children Promo",
+          "year": 1990,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1990-wtxf-tv-fox-29-simpsons-married-with-children-promo"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/1990-coca-cola-magi-cans-commercial/1990%20Coca%20Cola%20MagiCans%20Commercial.mp4",
           "start": 0,
           "duration": 40.35,
@@ -2084,19 +2097,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1990-coca-cola-magi-cans-commercial"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/tmnt-video/TMNT%20Video.mp4",
-          "start": 0,
-          "duration": 15.23,
-          "title": "TMNT Teenage Mutant Ninja Turtles - VHS Release (1990) TV Commercial",
-          "year": 1990,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/tmnt-video"
         },
         {
           "kind": "video",
@@ -2181,16 +2181,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1990-wtxf-tv-fox-29-simpsons-married-with-children-promo/1990%20WTXF-TV%20Fox%2029%20Simpsons%20%26%20Married%20with%20Children%20Promo.mp4",
+          "src": "https://archive.org/download/tmnt-video/TMNT%20Video.mp4",
           "start": 0,
-          "duration": 30.15,
-          "title": "1990 WTXF-TV Fox 29 Simpsons & Married With Children Promo",
+          "duration": 15.23,
+          "title": "TMNT Teenage Mutant Ninja Turtles - VHS Release (1990) TV Commercial",
           "year": 1990,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1990-wtxf-tv-fox-29-simpsons-married-with-children-promo"
+          "credit": "archive.org/details/tmnt-video"
         },
         {
           "kind": "video",
@@ -2215,6 +2215,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/1990-wtxf-tv-fox-29-simpsons-married-with-children-promo/1990%20WTXF-TV%20Fox%2029%20Simpsons%20%26%20Married%20with%20Children%20Promo.mp4",
+          "start": 0,
+          "duration": 30.15,
+          "title": "1990 WTXF-TV Fox 29 Simpsons & Married With Children Promo",
+          "year": 1990,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1990-wtxf-tv-fox-29-simpsons-married-with-children-promo"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/1990-coca-cola-magi-cans-commercial/1990%20Coca%20Cola%20MagiCans%20Commercial.mp4",
           "start": 0,
           "duration": 40.35,
@@ -2225,19 +2238,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1990-coca-cola-magi-cans-commercial"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/tmnt-video/TMNT%20Video.mp4",
-          "start": 0,
-          "duration": 15.23,
-          "title": "TMNT Teenage Mutant Ninja Turtles - VHS Release (1990) TV Commercial",
-          "year": 1990,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/tmnt-video"
         },
         {
           "kind": "video",
@@ -2387,16 +2387,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/RapRatvideoboardgamepromo1992/'Rap%20Rat'%20video%20board%20game%20promo%20(1992).mp4",
+          "src": "https://archive.org/download/aerobicsozstyle-1992/11%20-%20Aerobics%20Oz%20Style%202%20ads%20(3rd%20break).mp4",
           "start": 0,
-          "duration": 30.37,
-          "title": "'Rap Rat' video board game promo",
+          "duration": 130.03,
+          "title": "Aerobics Oz Style - 7 episodes",
           "year": 1992,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/RapRatvideoboardgamepromo1992"
+          "credit": "archive.org/details/aerobicsozstyle-1992"
         },
         {
           "kind": "video",
@@ -2421,29 +2421,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1992-uan-2/1992%20UAN2.mp4",
+          "src": "https://archive.org/download/sonikku/Sonic%20Spinball%20advert.mp4",
           "start": 0,
-          "duration": 165,
-          "title": "More 1992 USA Up All Night Bumpers/Commercialz #tuneintrashout",
+          "duration": 16.07,
+          "title": "Sonic Commercials",
           "year": 1992,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1992-uan-2"
+          "credit": "archive.org/details/sonikku"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/aerobicsozstyle-1992/11%20-%20Aerobics%20Oz%20Style%202%20ads%20(3rd%20break).mp4",
+          "src": "https://archive.org/download/RapRatvideoboardgamepromo1992/'Rap%20Rat'%20video%20board%20game%20promo%20(1992).mp4",
           "start": 0,
-          "duration": 130.03,
-          "title": "Aerobics Oz Style - 7 episodes",
+          "duration": 30.37,
+          "title": "'Rap Rat' video board game promo",
           "year": 1992,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/aerobicsozstyle-1992"
+          "credit": "archive.org/details/RapRatvideoboardgamepromo1992"
         },
         {
           "kind": "video",
@@ -2460,16 +2460,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/sonikku/Sonic%20Spinball%20advert.mp4",
+          "src": "https://archive.org/download/1992-uan-2/1992%20UAN2.mp4",
           "start": 0,
-          "duration": 16.07,
-          "title": "Sonic Commercials",
+          "duration": 165,
+          "title": "More 1992 USA Up All Night Bumpers/Commercialz #tuneintrashout",
           "year": 1992,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/sonikku"
+          "credit": "archive.org/details/1992-uan-2"
         },
         {
           "kind": "video",
@@ -2507,45 +2507,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/RapRatvideoboardgamepromo1992/'Rap%20Rat'%20video%20board%20game%20promo%20(1992).mp4",
-          "start": 0,
-          "duration": 30.37,
-          "title": "'Rap Rat' video board game promo",
-          "year": 1992,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/RapRatvideoboardgamepromo1992"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/1992-uan-2/1992%20UAN2.mp4",
-          "start": 0,
-          "duration": 165,
-          "title": "More 1992 USA Up All Night Bumpers/Commercialz #tuneintrashout",
-          "year": 1992,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1992-uan-2"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/tagesschau-20-clock-evening-news-1992-11-24/tagesschau-20-clock-evening-news-1992-11-24.mp4",
-          "start": 464.275,
-          "duration": 464.275,
-          "title": "Tagesschau 20-clock Evening News",
-          "year": 1992,
-          "airDate": "1992-11-24",
-          "category": "news",
-          "part": 2,
-          "parts": 2,
-          "credit": "archive.org/details/tagesschau-20-clock-evening-news-1992-11-24"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/aerobicsozstyle-1992/11%20-%20Aerobics%20Oz%20Style%202%20ads%20(3rd%20break).mp4",
           "start": 0,
           "duration": 130.03,
@@ -2569,6 +2530,45 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/sonikku"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/tagesschau-20-clock-evening-news-1992-11-24/tagesschau-20-clock-evening-news-1992-11-24.mp4",
+          "start": 464.275,
+          "duration": 464.275,
+          "title": "Tagesschau 20-clock Evening News",
+          "year": 1992,
+          "airDate": "1992-11-24",
+          "category": "news",
+          "part": 2,
+          "parts": 2,
+          "credit": "archive.org/details/tagesschau-20-clock-evening-news-1992-11-24"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/RapRatvideoboardgamepromo1992/'Rap%20Rat'%20video%20board%20game%20promo%20(1992).mp4",
+          "start": 0,
+          "duration": 30.37,
+          "title": "'Rap Rat' video board game promo",
+          "year": 1992,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/RapRatvideoboardgamepromo1992"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1992-uan-2/1992%20UAN2.mp4",
+          "start": 0,
+          "duration": 165,
+          "title": "More 1992 USA Up All Night Bumpers/Commercialz #tuneintrashout",
+          "year": 1992,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1992-uan-2"
         },
         {
           "kind": "video",
@@ -2606,16 +2606,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/RapRatvideoboardgamepromo1992/'Rap%20Rat'%20video%20board%20game%20promo%20(1992).mp4",
+          "src": "https://archive.org/download/aerobicsozstyle-1992/11%20-%20Aerobics%20Oz%20Style%202%20ads%20(3rd%20break).mp4",
           "start": 0,
-          "duration": 30.37,
-          "title": "'Rap Rat' video board game promo",
+          "duration": 130.03,
+          "title": "Aerobics Oz Style - 7 episodes",
           "year": 1992,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/RapRatvideoboardgamepromo1992"
+          "credit": "archive.org/details/aerobicsozstyle-1992"
         },
         {
           "kind": "video",
@@ -2640,29 +2640,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1992-uan-2/1992%20UAN2.mp4",
+          "src": "https://archive.org/download/sonikku/Sonic%20Spinball%20advert.mp4",
           "start": 0,
-          "duration": 165,
-          "title": "More 1992 USA Up All Night Bumpers/Commercialz #tuneintrashout",
+          "duration": 16.07,
+          "title": "Sonic Commercials",
           "year": 1992,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1992-uan-2"
+          "credit": "archive.org/details/sonikku"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/aerobicsozstyle-1992/11%20-%20Aerobics%20Oz%20Style%202%20ads%20(3rd%20break).mp4",
+          "src": "https://archive.org/download/RapRatvideoboardgamepromo1992/'Rap%20Rat'%20video%20board%20game%20promo%20(1992).mp4",
           "start": 0,
-          "duration": 130.03,
-          "title": "Aerobics Oz Style - 7 episodes",
+          "duration": 30.37,
+          "title": "'Rap Rat' video board game promo",
           "year": 1992,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/aerobicsozstyle-1992"
+          "credit": "archive.org/details/RapRatvideoboardgamepromo1992"
         },
         {
           "kind": "video",
@@ -2679,16 +2679,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/sonikku/Sonic%20Spinball%20advert.mp4",
+          "src": "https://archive.org/download/1992-uan-2/1992%20UAN2.mp4",
           "start": 0,
-          "duration": 16.07,
-          "title": "Sonic Commercials",
+          "duration": 165,
+          "title": "More 1992 USA Up All Night Bumpers/Commercialz #tuneintrashout",
           "year": 1992,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/sonikku"
+          "credit": "archive.org/details/1992-uan-2"
         },
         {
           "kind": "video",
@@ -2718,7 +2718,7 @@
       "name": "WTHN",
       "tagline": "Tonight, back then",
       "year": 1997,
-      "totalDuration": 5801.37,
+      "totalDuration": 5801.19,
       "items": [
         {
           "kind": "card",
@@ -2759,29 +2759,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1997variouscommercials/1997%20MasterCard%20Online%20Shopping%20Commercial.mp4",
+          "src": "https://archive.org/download/PcWorldChristmasSale97Advert/Pc%20World%20Christmas%20Sale%20Advert.mp4",
           "start": 0,
-          "duration": 30.02,
-          "title": "Various 1997 Commercials/Promos",
+          "duration": 10.78,
+          "title": "PC World Christmas Sale 1997 Advert",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1997variouscommercials"
+          "credit": "archive.org/details/PcWorldChristmasSale97Advert"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1997-jackie-chan-s-first-strike-movie-commercial/1997%20Jackie%20Chan_s%20First%20Strike%20Movie%20Commercial.mp4",
+          "src": "https://archive.org/download/1997-amistad-film-commercial/1997%20Amistad%20Film%20Commercial.mp4",
           "start": 0,
-          "duration": 29.93,
-          "title": "1997 Jackie Chan's First Strike Movie Commercial",
+          "duration": 30.02,
+          "title": "1997 Amistad Film Commercial",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1997-jackie-chan-s-first-strike-movie-commercial"
+          "credit": "archive.org/details/1997-amistad-film-commercial"
         },
         {
           "kind": "video",
@@ -2806,19 +2806,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/Currysxmassale97Advert/Currys%20Boxing%20Day%20Sale%20Advert.mp4",
-          "start": 0,
-          "duration": 11.08,
-          "title": "Currys Christmas Sale 1997 Advert",
-          "year": 1997,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/Currysxmassale97Advert"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/CometTeletextChristmasSaleAdvert/Comet%20Teletext%20Christmas%20Sale%20Advert.mp4",
           "start": 0,
           "duration": 10.64,
@@ -2829,6 +2816,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/CometTeletextChristmasSaleAdvert"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/christmas-classic-vhs-collection-1997/Christmas%20Classic%20VHS%20collection%20(1997).mp4",
+          "start": 0,
+          "duration": 29.97,
+          "title": "Christmas Classics Collection VHS (1997) TV Commercial",
+          "year": 1997,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/christmas-classic-vhs-collection-1997"
         },
         {
           "kind": "video",
@@ -2853,29 +2853,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1997-amistad-film-commercial/1997%20Amistad%20Film%20Commercial.mp4",
+          "src": "https://archive.org/download/Currysxmassale97Advert/Currys%20Boxing%20Day%20Sale%20Advert.mp4",
           "start": 0,
-          "duration": 30.02,
-          "title": "1997 Amistad Film Commercial",
+          "duration": 11.08,
+          "title": "Currys Christmas Sale 1997 Advert",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1997-amistad-film-commercial"
+          "credit": "archive.org/details/Currysxmassale97Advert"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/PcWorldChristmasSale97Advert/Pc%20World%20Christmas%20Sale%20Advert.mp4",
+          "src": "https://archive.org/download/1997variouscommercials/1997%20MasterCard%20Online%20Shopping%20Commercial.mp4",
           "start": 0,
-          "duration": 10.78,
-          "title": "PC World Christmas Sale 1997 Advert",
+          "duration": 30.02,
+          "title": "Various 1997 Commercials/Promos",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/PcWorldChristmasSale97Advert"
+          "credit": "archive.org/details/1997variouscommercials"
         },
         {
           "kind": "video",
@@ -2900,29 +2900,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1997variouscommercials/1997%20MasterCard%20Online%20Shopping%20Commercial.mp4",
+          "src": "https://archive.org/download/PcWorldChristmasSale97Advert/Pc%20World%20Christmas%20Sale%20Advert.mp4",
           "start": 0,
-          "duration": 30.02,
-          "title": "Various 1997 Commercials/Promos",
+          "duration": 10.78,
+          "title": "PC World Christmas Sale 1997 Advert",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1997variouscommercials"
+          "credit": "archive.org/details/PcWorldChristmasSale97Advert"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1997-jackie-chan-s-first-strike-movie-commercial/1997%20Jackie%20Chan_s%20First%20Strike%20Movie%20Commercial.mp4",
+          "src": "https://archive.org/download/1997-amistad-film-commercial/1997%20Amistad%20Film%20Commercial.mp4",
           "start": 0,
-          "duration": 29.93,
-          "title": "1997 Jackie Chan's First Strike Movie Commercial",
+          "duration": 30.02,
+          "title": "1997 Amistad Film Commercial",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1997-jackie-chan-s-first-strike-movie-commercial"
+          "credit": "archive.org/details/1997-amistad-film-commercial"
         },
         {
           "kind": "video",
@@ -2947,19 +2947,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/Currysxmassale97Advert/Currys%20Boxing%20Day%20Sale%20Advert.mp4",
-          "start": 0,
-          "duration": 11.08,
-          "title": "Currys Christmas Sale 1997 Advert",
-          "year": 1997,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/Currysxmassale97Advert"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/CometTeletextChristmasSaleAdvert/Comet%20Teletext%20Christmas%20Sale%20Advert.mp4",
           "start": 0,
           "duration": 10.64,
@@ -2970,6 +2957,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/CometTeletextChristmasSaleAdvert"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/christmas-classic-vhs-collection-1997/Christmas%20Classic%20VHS%20collection%20(1997).mp4",
+          "start": 0,
+          "duration": 29.97,
+          "title": "Christmas Classics Collection VHS (1997) TV Commercial",
+          "year": 1997,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/christmas-classic-vhs-collection-1997"
         },
         {
           "kind": "video",
@@ -2994,29 +2994,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1997-amistad-film-commercial/1997%20Amistad%20Film%20Commercial.mp4",
+          "src": "https://archive.org/download/Currysxmassale97Advert/Currys%20Boxing%20Day%20Sale%20Advert.mp4",
           "start": 0,
-          "duration": 30.02,
-          "title": "1997 Amistad Film Commercial",
+          "duration": 11.08,
+          "title": "Currys Christmas Sale 1997 Advert",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1997-amistad-film-commercial"
+          "credit": "archive.org/details/Currysxmassale97Advert"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/PcWorldChristmasSale97Advert/Pc%20World%20Christmas%20Sale%20Advert.mp4",
+          "src": "https://archive.org/download/1997variouscommercials/1997%20MasterCard%20Online%20Shopping%20Commercial.mp4",
           "start": 0,
-          "duration": 10.78,
-          "title": "PC World Christmas Sale 1997 Advert",
+          "duration": 30.02,
+          "title": "Various 1997 Commercials/Promos",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/PcWorldChristmasSale97Advert"
+          "credit": "archive.org/details/1997variouscommercials"
         },
         {
           "kind": "video",
@@ -3041,29 +3041,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1997variouscommercials/1997%20MasterCard%20Online%20Shopping%20Commercial.mp4",
+          "src": "https://archive.org/download/PcWorldChristmasSale97Advert/Pc%20World%20Christmas%20Sale%20Advert.mp4",
           "start": 0,
-          "duration": 30.02,
-          "title": "Various 1997 Commercials/Promos",
+          "duration": 10.78,
+          "title": "PC World Christmas Sale 1997 Advert",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1997variouscommercials"
+          "credit": "archive.org/details/PcWorldChristmasSale97Advert"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1997-jackie-chan-s-first-strike-movie-commercial/1997%20Jackie%20Chan_s%20First%20Strike%20Movie%20Commercial.mp4",
+          "src": "https://archive.org/download/1997-amistad-film-commercial/1997%20Amistad%20Film%20Commercial.mp4",
           "start": 0,
-          "duration": 29.93,
-          "title": "1997 Jackie Chan's First Strike Movie Commercial",
+          "duration": 30.02,
+          "title": "1997 Amistad Film Commercial",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1997-jackie-chan-s-first-strike-movie-commercial"
+          "credit": "archive.org/details/1997-amistad-film-commercial"
         },
         {
           "kind": "video",
@@ -3080,19 +3080,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/Currysxmassale97Advert/Currys%20Boxing%20Day%20Sale%20Advert.mp4",
-          "start": 0,
-          "duration": 11.08,
-          "title": "Currys Christmas Sale 1997 Advert",
-          "year": 1997,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/Currysxmassale97Advert"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/CometTeletextChristmasSaleAdvert/Comet%20Teletext%20Christmas%20Sale%20Advert.mp4",
           "start": 0,
           "duration": 10.64,
@@ -3103,6 +3090,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/CometTeletextChristmasSaleAdvert"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/christmas-classic-vhs-collection-1997/Christmas%20Classic%20VHS%20collection%20(1997).mp4",
+          "start": 0,
+          "duration": 29.97,
+          "title": "Christmas Classics Collection VHS (1997) TV Commercial",
+          "year": 1997,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/christmas-classic-vhs-collection-1997"
         },
         {
           "kind": "card",
@@ -3119,7 +3119,7 @@
       "name": "WAGO",
       "tagline": "Stay tuned",
       "year": 1998,
-      "totalDuration": 4752.91,
+      "totalDuration": 4756.6,
       "items": [
         {
           "kind": "card",
@@ -3152,6 +3152,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/1998-for-your-love-tv-show-commercial/1998%20For%20Your%20Love%20TV%20Show%20Commercial.mp4",
+          "start": 0,
+          "duration": 19.88,
+          "title": "1998 For Your Love TV Show Commercial",
+          "year": 1998,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1998-for-your-love-tv-show-commercial"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/1998-brave-little-toaster-goes-to-mars-vhs-release-commercial/1998%20Brave%20Little%20Toaster%20Goes%20to%20Mars%20VHS%20Release%20Commercial.mp4",
           "start": 0,
           "duration": 30.82,
@@ -3162,19 +3175,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1998-brave-little-toaster-goes-to-mars-vhs-release-commercial"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/pixar-mcdonalds-commercials-1998-2000/McDonald's%20-%20%E2%80%9CNothing%20Good%20on%20TV%20Jr.%E2%80%9D%20(1998).mp4",
-          "start": 0,
-          "duration": 16.19,
-          "title": "Pixar McDonald's Commercials (1998-2000)",
-          "year": 1998,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/pixar-mcdonalds-commercials-1998-2000"
         },
         {
           "kind": "video",
@@ -3238,16 +3238,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1998-for-your-love-tv-show-commercial/1998%20For%20Your%20Love%20TV%20Show%20Commercial.mp4",
+          "src": "https://archive.org/download/pixar-mcdonalds-commercials-1998-2000/McDonald's%20-%20%E2%80%9CNothing%20Good%20on%20TV%20Jr.%E2%80%9D%20(1998).mp4",
           "start": 0,
-          "duration": 19.88,
-          "title": "1998 For Your Love TV Show Commercial",
+          "duration": 16.19,
+          "title": "Pixar McDonald's Commercials (1998-2000)",
           "year": 1998,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1998-for-your-love-tv-show-commercial"
+          "credit": "archive.org/details/pixar-mcdonalds-commercials-1998-2000"
         },
         {
           "kind": "video",
@@ -3285,6 +3285,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/1998-for-your-love-tv-show-commercial/1998%20For%20Your%20Love%20TV%20Show%20Commercial.mp4",
+          "start": 0,
+          "duration": 19.88,
+          "title": "1998 For Your Love TV Show Commercial",
+          "year": 1998,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1998-for-your-love-tv-show-commercial"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/1998-brave-little-toaster-goes-to-mars-vhs-release-commercial/1998%20Brave%20Little%20Toaster%20Goes%20to%20Mars%20VHS%20Release%20Commercial.mp4",
           "start": 0,
           "duration": 30.82,
@@ -3295,19 +3308,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1998-brave-little-toaster-goes-to-mars-vhs-release-commercial"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/pixar-mcdonalds-commercials-1998-2000/McDonald's%20-%20%E2%80%9CNothing%20Good%20on%20TV%20Jr.%E2%80%9D%20(1998).mp4",
-          "start": 0,
-          "duration": 16.19,
-          "title": "Pixar McDonald's Commercials (1998-2000)",
-          "year": 1998,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/pixar-mcdonalds-commercials-1998-2000"
         },
         {
           "kind": "video",
@@ -3379,16 +3379,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1998-for-your-love-tv-show-commercial/1998%20For%20Your%20Love%20TV%20Show%20Commercial.mp4",
+          "src": "https://archive.org/download/pixar-mcdonalds-commercials-1998-2000/McDonald's%20-%20%E2%80%9CNothing%20Good%20on%20TV%20Jr.%E2%80%9D%20(1998).mp4",
           "start": 0,
-          "duration": 19.88,
-          "title": "1998 For Your Love TV Show Commercial",
+          "duration": 16.19,
+          "title": "Pixar McDonald's Commercials (1998-2000)",
           "year": 1998,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1998-for-your-love-tv-show-commercial"
+          "credit": "archive.org/details/pixar-mcdonalds-commercials-1998-2000"
         },
         {
           "kind": "video",
@@ -3418,6 +3418,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/1998-for-your-love-tv-show-commercial/1998%20For%20Your%20Love%20TV%20Show%20Commercial.mp4",
+          "start": 0,
+          "duration": 19.88,
+          "title": "1998 For Your Love TV Show Commercial",
+          "year": 1998,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1998-for-your-love-tv-show-commercial"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/1998-brave-little-toaster-goes-to-mars-vhs-release-commercial/1998%20Brave%20Little%20Toaster%20Goes%20to%20Mars%20VHS%20Release%20Commercial.mp4",
           "start": 0,
           "duration": 30.82,
@@ -3428,19 +3441,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1998-brave-little-toaster-goes-to-mars-vhs-release-commercial"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/pixar-mcdonalds-commercials-1998-2000/McDonald's%20-%20%E2%80%9CNothing%20Good%20on%20TV%20Jr.%E2%80%9D%20(1998).mp4",
-          "start": 0,
-          "duration": 16.19,
-          "title": "Pixar McDonald's Commercials (1998-2000)",
-          "year": 1998,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/pixar-mcdonalds-commercials-1998-2000"
         },
         {
           "kind": "card",
@@ -3457,7 +3457,7 @@
       "name": "WERA",
       "tagline": "Your evening companion",
       "year": 1999,
-      "totalDuration": 5465.81,
+      "totalDuration": 5416.02,
       "items": [
         {
           "kind": "card",
@@ -3534,16 +3534,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/pbs-kids-danimals-bumpers/yt5s.com-PBS%20Kids%20-%20All%20Danimals%20Yogurt%20Bumpers%20for%20Zoboomafoo%20Clifford%20.mp4",
+          "src": "https://archive.org/download/digimon-adventure-02-ken-fox-kids-promo/Premiere%20Promo.mp4",
           "start": 0,
-          "duration": 60.12,
-          "title": "PBS Kids Danimals Bumpers",
+          "duration": 10.33,
+          "title": "Digimon Promos",
           "year": 1999,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/pbs-kids-danimals-bumpers"
+          "credit": "archive.org/details/digimon-adventure-02-ken-fox-kids-promo"
         },
         {
           "kind": "video",
@@ -3560,16 +3560,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/digimon-adventure-02-ken-fox-kids-promo/Premiere%20Promo.mp4",
+          "src": "https://archive.org/download/pbs-kids-danimals-bumpers/yt5s.com-PBS%20Kids%20-%20All%20Danimals%20Yogurt%20Bumpers%20for%20Zoboomafoo%20Clifford%20.mp4",
           "start": 0,
-          "duration": 10.33,
-          "title": "Digimon Promos",
+          "duration": 60.12,
+          "title": "PBS Kids Danimals Bumpers",
           "year": 1999,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/digimon-adventure-02-ken-fox-kids-promo"
+          "credit": "archive.org/details/pbs-kids-danimals-bumpers"
         },
         {
           "kind": "video",
@@ -3638,19 +3638,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/pbs-kids-danimals-bumpers/yt5s.com-PBS%20Kids%20-%20All%20Danimals%20Yogurt%20Bumpers%20for%20Zoboomafoo%20Clifford%20.mp4",
-          "start": 0,
-          "duration": 60.12,
-          "title": "PBS Kids Danimals Bumpers",
-          "year": 1999,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/pbs-kids-danimals-bumpers"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/digimon-adventure-02-ken-fox-kids-promo/Premiere%20Promo.mp4",
           "start": 0,
           "duration": 10.33,
@@ -3661,6 +3648,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/digimon-adventure-02-ken-fox-kids-promo"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/pbs-kids-danimals-bumpers/yt5s.com-PBS%20Kids%20-%20All%20Danimals%20Yogurt%20Bumpers%20for%20Zoboomafoo%20Clifford%20.mp4",
+          "start": 0,
+          "duration": 60.12,
+          "title": "PBS Kids Danimals Bumpers",
+          "year": 1999,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/pbs-kids-danimals-bumpers"
         },
         {
           "kind": "video",
@@ -3729,16 +3729,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/pbs-kids-danimals-bumpers/yt5s.com-PBS%20Kids%20-%20All%20Danimals%20Yogurt%20Bumpers%20for%20Zoboomafoo%20Clifford%20.mp4",
+          "src": "https://archive.org/download/digimon-adventure-02-ken-fox-kids-promo/Premiere%20Promo.mp4",
           "start": 0,
-          "duration": 60.12,
-          "title": "PBS Kids Danimals Bumpers",
+          "duration": 10.33,
+          "title": "Digimon Promos",
           "year": 1999,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/pbs-kids-danimals-bumpers"
+          "credit": "archive.org/details/digimon-adventure-02-ken-fox-kids-promo"
         },
         {
           "kind": "video",
@@ -3755,16 +3755,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/digimon-adventure-02-ken-fox-kids-promo/Premiere%20Promo.mp4",
+          "src": "https://archive.org/download/pbs-kids-danimals-bumpers/yt5s.com-PBS%20Kids%20-%20All%20Danimals%20Yogurt%20Bumpers%20for%20Zoboomafoo%20Clifford%20.mp4",
           "start": 0,
-          "duration": 10.33,
-          "title": "Digimon Promos",
+          "duration": 60.12,
+          "title": "PBS Kids Danimals Bumpers",
           "year": 1999,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/digimon-adventure-02-ken-fox-kids-promo"
+          "credit": "archive.org/details/pbs-kids-danimals-bumpers"
         },
         {
           "kind": "video",
@@ -3833,19 +3833,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/pbs-kids-danimals-bumpers/yt5s.com-PBS%20Kids%20-%20All%20Danimals%20Yogurt%20Bumpers%20for%20Zoboomafoo%20Clifford%20.mp4",
-          "start": 0,
-          "duration": 60.12,
-          "title": "PBS Kids Danimals Bumpers",
-          "year": 1999,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/pbs-kids-danimals-bumpers"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/digimon-adventure-02-ken-fox-kids-promo/Premiere%20Promo.mp4",
           "start": 0,
           "duration": 10.33,
@@ -3856,6 +3843,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/digimon-adventure-02-ken-fox-kids-promo"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/pbs-kids-danimals-bumpers/yt5s.com-PBS%20Kids%20-%20All%20Danimals%20Yogurt%20Bumpers%20for%20Zoboomafoo%20Clifford%20.mp4",
+          "start": 0,
+          "duration": 60.12,
+          "title": "PBS Kids Danimals Bumpers",
+          "year": 1999,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/pbs-kids-danimals-bumpers"
         },
         {
           "kind": "video",
@@ -3932,16 +3932,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/pbs-kids-danimals-bumpers/yt5s.com-PBS%20Kids%20-%20All%20Danimals%20Yogurt%20Bumpers%20for%20Zoboomafoo%20Clifford%20.mp4",
+          "src": "https://archive.org/download/digimon-adventure-02-ken-fox-kids-promo/Premiere%20Promo.mp4",
           "start": 0,
-          "duration": 60.12,
-          "title": "PBS Kids Danimals Bumpers",
+          "duration": 10.33,
+          "title": "Digimon Promos",
           "year": 1999,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/pbs-kids-danimals-bumpers"
+          "credit": "archive.org/details/digimon-adventure-02-ken-fox-kids-promo"
         },
         {
           "kind": "video",
@@ -3966,16 +3966,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/digimon-adventure-02-ken-fox-kids-promo/Premiere%20Promo.mp4",
+          "src": "https://archive.org/download/pbs-kids-danimals-bumpers/yt5s.com-PBS%20Kids%20-%20All%20Danimals%20Yogurt%20Bumpers%20for%20Zoboomafoo%20Clifford%20.mp4",
           "start": 0,
-          "duration": 10.33,
-          "title": "Digimon Promos",
+          "duration": 60.12,
+          "title": "PBS Kids Danimals Bumpers",
           "year": 1999,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/digimon-adventure-02-ken-fox-kids-promo"
+          "credit": "archive.org/details/pbs-kids-danimals-bumpers"
         },
         {
           "kind": "video",
@@ -4060,19 +4060,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/pbs-kids-danimals-bumpers/yt5s.com-PBS%20Kids%20-%20All%20Danimals%20Yogurt%20Bumpers%20for%20Zoboomafoo%20Clifford%20.mp4",
-          "start": 0,
-          "duration": 60.12,
-          "title": "PBS Kids Danimals Bumpers",
-          "year": 1999,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/pbs-kids-danimals-bumpers"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/digimon-adventure-02-ken-fox-kids-promo/Premiere%20Promo.mp4",
           "start": 0,
           "duration": 10.33,
@@ -4083,6 +4070,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/digimon-adventure-02-ken-fox-kids-promo"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/pbs-kids-danimals-bumpers/yt5s.com-PBS%20Kids%20-%20All%20Danimals%20Yogurt%20Bumpers%20for%20Zoboomafoo%20Clifford%20.mp4",
+          "start": 0,
+          "duration": 60.12,
+          "title": "PBS Kids Danimals Bumpers",
+          "year": 1999,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/pbs-kids-danimals-bumpers"
         },
         {
           "kind": "video",
@@ -4159,16 +4159,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/pbs-kids-danimals-bumpers/yt5s.com-PBS%20Kids%20-%20All%20Danimals%20Yogurt%20Bumpers%20for%20Zoboomafoo%20Clifford%20.mp4",
+          "src": "https://archive.org/download/digimon-adventure-02-ken-fox-kids-promo/Premiere%20Promo.mp4",
           "start": 0,
-          "duration": 60.12,
-          "title": "PBS Kids Danimals Bumpers",
+          "duration": 10.33,
+          "title": "Digimon Promos",
           "year": 1999,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/pbs-kids-danimals-bumpers"
+          "credit": "archive.org/details/digimon-adventure-02-ken-fox-kids-promo"
         },
         {
           "kind": "card",
