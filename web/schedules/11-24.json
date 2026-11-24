@@ -3,14 +3,14 @@
   "target": "web",
   "date": "11-24",
   "title": "This Day in History — November 24",
-  "publishedAt": "2026-11-23T09:11:50.277Z",
+  "publishedAt": "2026-11-24T09:10:35.028Z",
   "channels": [
     {
       "number": 2,
       "name": "WTDI",
       "tagline": "Your window to yesterday",
       "year": 1967,
-      "totalDuration": 909.74,
+      "totalDuration": 866.39,
       "items": [
         {
           "kind": "card",
@@ -35,29 +35,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1967Listerine/1967%20Listerine.mp4",
+          "src": "https://archive.org/download/1968CommercialForAbsorbine/Absorbine1968.mp4",
           "start": 0,
-          "duration": 59.02,
-          "title": "Listerine Commercial",
+          "duration": 60.96,
+          "title": "1967 commercial for Absorbine",
           "year": 1967,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1967Listerine"
+          "credit": "archive.org/details/1968CommercialForAbsorbine"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/CommercialBreaksFrom1967hogansHeroesEpisode/HoganAdBreak1.mp4",
+          "src": "https://archive.org/download/WhipNChill1967/WhipNChill1967.mp4",
           "start": 0,
-          "duration": 60.69,
-          "title": "Commercial breaks from 1967 ''Hogan's Heroes'' Episode",
+          "duration": 62.73,
+          "title": "1967 commercial for Whip 'n Chill",
           "year": 1967,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/CommercialBreaksFrom1967hogansHeroesEpisode"
+          "credit": "archive.org/details/WhipNChill1967"
         },
         {
           "kind": "video",
@@ -74,29 +74,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1967MarxBestOfTheWestActionFigures/1967%20Marx%20Best%20of%20the%20West%20action%20figures.mp4",
+          "src": "https://archive.org/download/1968CommercialBreakKraftCaramelskraftMiniatureMarshmallows/KraftCaramels1968.mp4",
           "start": 0,
-          "duration": 59.93,
-          "title": "Marx Best Of The West Action Figures",
+          "duration": 60.96,
+          "title": "Late-1960s commercial break: Kraft Caramels/Kraft Miniature Marshmallows",
           "year": 1967,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1967MarxBestOfTheWestActionFigures"
+          "credit": "archive.org/details/1968CommercialBreakKraftCaramelskraftMiniatureMarshmallows"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/TheManFromUNCLEPromos/The%20Man%20from%20UNCLE%20Promos.mp4",
+          "src": "https://archive.org/download/MaxwellhouseInstantCoffee1967/MaxwellhouseInstantCoffee1967.mp4",
           "start": 0,
-          "duration": 78.02,
-          "title": "The Man From UNCLE Promos",
+          "duration": 29.66,
+          "title": "1967 commercial for Maxwell House Instant Coffee",
           "year": 1967,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/TheManFromUNCLEPromos"
+          "credit": "archive.org/details/MaxwellhouseInstantCoffee1967"
         },
         {
           "kind": "card",
@@ -412,7 +412,7 @@
       "name": "WNTW",
       "tagline": "The way it was",
       "year": 1973,
-      "totalDuration": 5872.86,
+      "totalDuration": 5492.18,
       "items": [
         {
           "kind": "card",
@@ -445,29 +445,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1973-commercial-for-colvan-potato-chips/1973%20commercial%20for%20Colvan%20potato%20chips.mp4",
+          "src": "https://archive.org/download/1973-commercial-for-tom-piper-canned-dinners/1973%20commercial%20for%20Tom%20Piper%20canned%20dinners.mp4",
           "start": 0,
-          "duration": 159.92,
-          "title": "1973 commercial for Colvan potato chips",
+          "duration": 98.92,
+          "title": "1973 commercial for Tom Piper canned dinners",
           "year": 1973,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1973-commercial-for-colvan-potato-chips"
+          "credit": "archive.org/details/1973-commercial-for-tom-piper-canned-dinners"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1973-commercial-for-fosters-lager/1973%20commercial%20for%20Foster's%20lager.mp4",
+          "src": "https://archive.org/download/1973-commercial-for-glad-oven-bags/1973%20commercial%20for%20Glad%20oven%20bags.mp4",
           "start": 0,
-          "duration": 51.92,
-          "title": "1973 commercial for Foster's Lager",
+          "duration": 31.44,
+          "title": "1973 commercial for Glad oven bags",
           "year": 1973,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1973-commercial-for-fosters-lager"
+          "credit": "archive.org/details/1973-commercial-for-glad-oven-bags"
         },
         {
           "kind": "card",
@@ -500,16 +500,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/gicl-0862-monsters-cereal-boo-1-1-1972/Gicl%200862%20-%20Monsters%20Cereal%20-%20Boo%20-%201-1-1972.mp4",
+          "src": "https://archive.org/download/1973-commercial-for-brockhoff-chocolate-royals/1973%20commercial%20for%20Brockhoff%20Chocolate%20Royals.mp4",
           "start": 0,
-          "duration": 61.1,
-          "title": "General Mills' Boo Berry commercial (1973) [1-minute version]",
+          "duration": 32.24,
+          "title": "1973 commercial for Brockhoff Chocolate Royals",
           "year": 1973,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/gicl-0862-monsters-cereal-boo-1-1-1972"
+          "credit": "archive.org/details/1973-commercial-for-brockhoff-chocolate-royals"
         },
         {
           "kind": "video",
@@ -547,29 +547,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1973-commercial-for-tom-piper-canned-dinners/1973%20commercial%20for%20Tom%20Piper%20canned%20dinners.mp4",
+          "src": "https://archive.org/download/1973-commercial-for-kelloggs-special-k/1973%20commercial%20for%20Kellogg's%20Special%20K.mp4",
           "start": 0,
-          "duration": 98.92,
-          "title": "1973 commercial for Tom Piper canned dinners",
+          "duration": 29.96,
+          "title": "1973 commercial for Kellogg's Special K",
           "year": 1973,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1973-commercial-for-tom-piper-canned-dinners"
+          "credit": "archive.org/details/1973-commercial-for-kelloggs-special-k"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1973-arco-commercial-noahs-ark-toy-promotion/1973%20ARCO%20Commercial%20-%20Noah's%20Ark%20Toy%20Promotion%20-.mp4",
+          "src": "https://archive.org/download/Magnavox_Oddysey_16-11-73/Magnavox_Oddysey_16-11-73.mp4",
           "start": 0,
-          "duration": 29.89,
-          "title": "1973 ARCO Commercial Noah's Ark Toy Promotion",
+          "duration": 59.59,
+          "title": "Magnavox Colour TVs (USA, 1973)",
           "year": 1973,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1973-arco-commercial-noahs-ark-toy-promotion"
+          "credit": "archive.org/details/Magnavox_Oddysey_16-11-73"
         },
         {
           "kind": "video",
@@ -594,29 +594,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1973-commercial-for-colvan-potato-chips/1973%20commercial%20for%20Colvan%20potato%20chips.mp4",
+          "src": "https://archive.org/download/1973-commercial-for-tom-piper-canned-dinners/1973%20commercial%20for%20Tom%20Piper%20canned%20dinners.mp4",
           "start": 0,
-          "duration": 159.92,
-          "title": "1973 commercial for Colvan potato chips",
+          "duration": 98.92,
+          "title": "1973 commercial for Tom Piper canned dinners",
           "year": 1973,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1973-commercial-for-colvan-potato-chips"
+          "credit": "archive.org/details/1973-commercial-for-tom-piper-canned-dinners"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1973-commercial-for-fosters-lager/1973%20commercial%20for%20Foster's%20lager.mp4",
+          "src": "https://archive.org/download/1973-commercial-for-glad-oven-bags/1973%20commercial%20for%20Glad%20oven%20bags.mp4",
           "start": 0,
-          "duration": 51.92,
-          "title": "1973 commercial for Foster's Lager",
+          "duration": 31.44,
+          "title": "1973 commercial for Glad oven bags",
           "year": 1973,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1973-commercial-for-fosters-lager"
+          "credit": "archive.org/details/1973-commercial-for-glad-oven-bags"
         },
         {
           "kind": "video",
@@ -641,16 +641,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/gicl-0862-monsters-cereal-boo-1-1-1972/Gicl%200862%20-%20Monsters%20Cereal%20-%20Boo%20-%201-1-1972.mp4",
+          "src": "https://archive.org/download/1973-commercial-for-brockhoff-chocolate-royals/1973%20commercial%20for%20Brockhoff%20Chocolate%20Royals.mp4",
           "start": 0,
-          "duration": 61.1,
-          "title": "General Mills' Boo Berry commercial (1973) [1-minute version]",
+          "duration": 32.24,
+          "title": "1973 commercial for Brockhoff Chocolate Royals",
           "year": 1973,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/gicl-0862-monsters-cereal-boo-1-1-1972"
+          "credit": "archive.org/details/1973-commercial-for-brockhoff-chocolate-royals"
         },
         {
           "kind": "video",
@@ -688,29 +688,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1973-commercial-for-tom-piper-canned-dinners/1973%20commercial%20for%20Tom%20Piper%20canned%20dinners.mp4",
+          "src": "https://archive.org/download/1973-commercial-for-kelloggs-special-k/1973%20commercial%20for%20Kellogg's%20Special%20K.mp4",
           "start": 0,
-          "duration": 98.92,
-          "title": "1973 commercial for Tom Piper canned dinners",
+          "duration": 29.96,
+          "title": "1973 commercial for Kellogg's Special K",
           "year": 1973,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1973-commercial-for-tom-piper-canned-dinners"
+          "credit": "archive.org/details/1973-commercial-for-kelloggs-special-k"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1973-arco-commercial-noahs-ark-toy-promotion/1973%20ARCO%20Commercial%20-%20Noah's%20Ark%20Toy%20Promotion%20-.mp4",
+          "src": "https://archive.org/download/Magnavox_Oddysey_16-11-73/Magnavox_Oddysey_16-11-73.mp4",
           "start": 0,
-          "duration": 29.89,
-          "title": "1973 ARCO Commercial Noah's Ark Toy Promotion",
+          "duration": 59.59,
+          "title": "Magnavox Colour TVs (USA, 1973)",
           "year": 1973,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1973-arco-commercial-noahs-ark-toy-promotion"
+          "credit": "archive.org/details/Magnavox_Oddysey_16-11-73"
         },
         {
           "kind": "video",
@@ -727,29 +727,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1973-commercial-for-colvan-potato-chips/1973%20commercial%20for%20Colvan%20potato%20chips.mp4",
+          "src": "https://archive.org/download/1973-commercial-for-tom-piper-canned-dinners/1973%20commercial%20for%20Tom%20Piper%20canned%20dinners.mp4",
           "start": 0,
-          "duration": 159.92,
-          "title": "1973 commercial for Colvan potato chips",
+          "duration": 98.92,
+          "title": "1973 commercial for Tom Piper canned dinners",
           "year": 1973,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1973-commercial-for-colvan-potato-chips"
+          "credit": "archive.org/details/1973-commercial-for-tom-piper-canned-dinners"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1973-commercial-for-fosters-lager/1973%20commercial%20for%20Foster's%20lager.mp4",
+          "src": "https://archive.org/download/1973-commercial-for-glad-oven-bags/1973%20commercial%20for%20Glad%20oven%20bags.mp4",
           "start": 0,
-          "duration": 51.92,
-          "title": "1973 commercial for Foster's Lager",
+          "duration": 31.44,
+          "title": "1973 commercial for Glad oven bags",
           "year": 1973,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1973-commercial-for-fosters-lager"
+          "credit": "archive.org/details/1973-commercial-for-glad-oven-bags"
         },
         {
           "kind": "card",
@@ -766,7 +766,7 @@
       "name": "WYRS",
       "tagline": "Tonight, back then",
       "year": 1977,
-      "totalDuration": 2026.2,
+      "totalDuration": 2026.93,
       "items": [
         {
           "kind": "card",
@@ -799,29 +799,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977BoyScoutsOfAmerica/1977%20Boy%20Scouts%20of%20America.mp4",
+          "src": "https://archive.org/download/1977HaveAPepsiDay/1977%20Have%20a%20Pepsi%20Day.mp4",
           "start": 0,
-          "duration": 23.18,
-          "title": "The Boy Scouts Of America",
+          "duration": 30.29,
+          "title": "Have a Pepsi Day",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977BoyScoutsOfAmerica"
+          "credit": "archive.org/details/1977HaveAPepsiDay"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977NecafeInstantCoffeeCommercial/1977%20Necafe%20Instant%20Coffee%20commercial.mp4",
+          "src": "https://archive.org/download/1977SingerSewingMachinesWithDebbieReynolds/1977%20Singer%20Sewing%20Machines%20with%20Debbie%20Reynolds.mp4",
           "start": 0,
-          "duration": 30.77,
-          "title": "Necafe Instant Coffee",
+          "duration": 30.58,
+          "title": "Singer Sewing Machines sale with Debbie Reynolds",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977NecafeInstantCoffeeCommercial"
+          "credit": "archive.org/details/1977SingerSewingMachinesWithDebbieReynolds"
         },
         {
           "kind": "video",
@@ -846,29 +846,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/TheSixMillionDollarManDannysInfernoPromo/The%20Six%20Million%20Dollar%20Man%20-%20Danny's%20Inferno%20promo.mp4",
+          "src": "https://archive.org/download/1977NecafeInstantCoffeeCommercial/1977%20Necafe%20Instant%20Coffee%20commercial.mp4",
           "start": 0,
-          "duration": 21.38,
-          "title": "The Six Million Dollar Man - \"Danny's Inferno\" promo",
+          "duration": 30.77,
+          "title": "Necafe Instant Coffee",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/TheSixMillionDollarManDannysInfernoPromo"
+          "credit": "archive.org/details/1977NecafeInstantCoffeeCommercial"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977CarnationInstantMilkWithVickiLawrence/1977%20Carnation%20Instant%20Milk%20with%20Vicki%20Lawrence.mp4",
+          "src": "https://archive.org/download/1977CocaColaCokeAddsLife/1977%20Coca-Cola%20(Coke%20Adds%20Life).mp4",
           "start": 0,
-          "duration": 31.34,
-          "title": "Carnation Instant Milk with Vicki Lawrence",
+          "duration": 30.36,
+          "title": "Coca-Cola (Coke Adds Life)",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977CarnationInstantMilkWithVickiLawrence"
+          "credit": "archive.org/details/1977CocaColaCokeAddsLife"
         },
         {
           "kind": "video",
@@ -885,29 +885,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977GoldenGrahamsCereal/1977%20Golden%20Grahams%20Cereal.mp4",
+          "src": "https://archive.org/download/TheSixMillionDollarManDannysInfernoPromo/The%20Six%20Million%20Dollar%20Man%20-%20Danny's%20Inferno%20promo.mp4",
           "start": 0,
-          "duration": 30.02,
-          "title": "Oh, Those Golden Grahams!",
+          "duration": 21.38,
+          "title": "The Six Million Dollar Man - \"Danny's Inferno\" promo",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977GoldenGrahamsCereal"
+          "credit": "archive.org/details/TheSixMillionDollarManDannysInfernoPromo"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977HaveAPepsiDay/1977%20Have%20a%20Pepsi%20Day.mp4",
+          "src": "https://archive.org/download/1977FutureCopThreesCompanyPromo/1977%20Future%20Cop%20Three's%20Company%20promo.mp4",
           "start": 0,
-          "duration": 30.29,
-          "title": "Have a Pepsi Day",
+          "duration": 24.33,
+          "title": "Future Cop/Three's Company promo",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977HaveAPepsiDay"
+          "credit": "archive.org/details/1977FutureCopThreesCompanyPromo"
         },
         {
           "kind": "card",
@@ -1114,7 +1114,7 @@
       "name": "WOLD",
       "tagline": "Your evening companion",
       "year": 1981,
-      "totalDuration": 4311.128,
+      "totalDuration": 4309.188,
       "items": [
         {
           "kind": "card",
@@ -1147,16 +1147,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/BrookeShieldsInTheCalvinKleinJeansCommercial1981/Brooke%20Shields%20in%20the%20Calvin%20Klein%20Jeans%20commercial%201981.mp4",
+          "src": "https://archive.org/download/ZenithVCRs1981-12-02/ZenithVCRs1981-12-02.mp4",
           "start": 0,
-          "duration": 26.54,
-          "title": "Brooke Shields - Calvin Klein jeans commercial (USA, 1981)",
+          "duration": 30.06,
+          "title": "Zenith VCR Commercial (USA, 1981)",
           "year": 1981,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/BrookeShieldsInTheCalvinKleinJeansCommercial1981"
+          "credit": "archive.org/details/ZenithVCRs1981-12-02"
         },
         {
           "kind": "video",
@@ -1207,16 +1207,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/DietPepsi_1981/DietPepsi_1981.mp4",
+          "src": "https://archive.org/download/OdysseyCommercialLeonardNimoy/nimoy.mp4",
           "start": 0,
-          "duration": 30.06,
-          "title": "Diet Pepsi (USA, 1981)",
+          "duration": 27.58,
+          "title": "Odyssey² Commercial, Narrated by Leonard Nimoy",
           "year": 1981,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/DietPepsi_1981"
+          "credit": "archive.org/details/OdysseyCommercialLeonardNimoy"
         },
         {
           "kind": "video",
@@ -1254,16 +1254,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/SearsVideoGames1981-12-02/SearsVideoGames1981-12-02.mp4",
+          "src": "https://archive.org/download/DietPepsi_1981/DietPepsi_1981.mp4",
           "start": 0,
-          "duration": 32.07,
-          "title": "Sears Video Games Commercial (USA, 1981)",
+          "duration": 30.06,
+          "title": "Diet Pepsi (USA, 1981)",
           "year": 1981,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/SearsVideoGames1981-12-02"
+          "credit": "archive.org/details/DietPepsi_1981"
         },
         {
           "kind": "video",
@@ -1288,16 +1288,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/BrookeShieldsInTheCalvinKleinJeansCommercial1981/Brooke%20Shields%20in%20the%20Calvin%20Klein%20Jeans%20commercial%201981.mp4",
+          "src": "https://archive.org/download/ZenithVCRs1981-12-02/ZenithVCRs1981-12-02.mp4",
           "start": 0,
-          "duration": 26.54,
-          "title": "Brooke Shields - Calvin Klein jeans commercial (USA, 1981)",
+          "duration": 30.06,
+          "title": "Zenith VCR Commercial (USA, 1981)",
           "year": 1981,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/BrookeShieldsInTheCalvinKleinJeansCommercial1981"
+          "credit": "archive.org/details/ZenithVCRs1981-12-02"
         },
         {
           "kind": "video",
@@ -1348,16 +1348,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/DietPepsi_1981/DietPepsi_1981.mp4",
+          "src": "https://archive.org/download/OdysseyCommercialLeonardNimoy/nimoy.mp4",
           "start": 0,
-          "duration": 30.06,
-          "title": "Diet Pepsi (USA, 1981)",
+          "duration": 27.58,
+          "title": "Odyssey² Commercial, Narrated by Leonard Nimoy",
           "year": 1981,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/DietPepsi_1981"
+          "credit": "archive.org/details/OdysseyCommercialLeonardNimoy"
         },
         {
           "kind": "video",
@@ -1387,16 +1387,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/SearsVideoGames1981-12-02/SearsVideoGames1981-12-02.mp4",
+          "src": "https://archive.org/download/DietPepsi_1981/DietPepsi_1981.mp4",
           "start": 0,
-          "duration": 32.07,
-          "title": "Sears Video Games Commercial (USA, 1981)",
+          "duration": 30.06,
+          "title": "Diet Pepsi (USA, 1981)",
           "year": 1981,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/SearsVideoGames1981-12-02"
+          "credit": "archive.org/details/DietPepsi_1981"
         },
         {
           "kind": "card",
@@ -1446,16 +1446,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/star_frontiers_commercial-1983/star_frontiers_commercial-1983.mp4",
+          "src": "https://archive.org/download/muppet-movie-promo/MuppetMovie_bunnicula.mp4",
           "start": 0,
-          "duration": 29.7,
-          "title": "Star Frontiers commercial",
+          "duration": 31.12,
+          "title": "Muppet Movie promo (HSV-7, 1983)",
           "year": 1983,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/star_frontiers_commercial-1983"
+          "credit": "archive.org/details/muppet-movie-promo"
         },
         {
           "kind": "video",
@@ -1485,16 +1485,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/muppet-movie-promo/MuppetMovie_bunnicula.mp4",
+          "src": "https://archive.org/download/star_frontiers_commercial-1983/star_frontiers_commercial-1983.mp4",
           "start": 0,
-          "duration": 31.12,
-          "title": "Muppet Movie promo (HSV-7, 1983)",
+          "duration": 29.7,
+          "title": "Star Frontiers commercial",
           "year": 1983,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/muppet-movie-promo"
+          "credit": "archive.org/details/star_frontiers_commercial-1983"
         },
         {
           "kind": "video",
@@ -1532,16 +1532,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/star_frontiers_commercial-1983/star_frontiers_commercial-1983.mp4",
+          "src": "https://archive.org/download/muppet-movie-promo/MuppetMovie_bunnicula.mp4",
           "start": 0,
-          "duration": 29.7,
-          "title": "Star Frontiers commercial",
+          "duration": 31.12,
+          "title": "Muppet Movie promo (HSV-7, 1983)",
           "year": 1983,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/star_frontiers_commercial-1983"
+          "credit": "archive.org/details/muppet-movie-promo"
         },
         {
           "kind": "video",
@@ -1579,16 +1579,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/muppet-movie-promo/MuppetMovie_bunnicula.mp4",
+          "src": "https://archive.org/download/star_frontiers_commercial-1983/star_frontiers_commercial-1983.mp4",
           "start": 0,
-          "duration": 31.12,
-          "title": "Muppet Movie promo (HSV-7, 1983)",
+          "duration": 29.7,
+          "title": "Star Frontiers commercial",
           "year": 1983,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/muppet-movie-promo"
+          "credit": "archive.org/details/star_frontiers_commercial-1983"
         },
         {
           "kind": "video",
@@ -1626,16 +1626,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/star_frontiers_commercial-1983/star_frontiers_commercial-1983.mp4",
+          "src": "https://archive.org/download/muppet-movie-promo/MuppetMovie_bunnicula.mp4",
           "start": 0,
-          "duration": 29.7,
-          "title": "Star Frontiers commercial",
+          "duration": 31.12,
+          "title": "Muppet Movie promo (HSV-7, 1983)",
           "year": 1983,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/star_frontiers_commercial-1983"
+          "credit": "archive.org/details/muppet-movie-promo"
         },
         {
           "kind": "video",
@@ -1673,16 +1673,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/muppet-movie-promo/MuppetMovie_bunnicula.mp4",
+          "src": "https://archive.org/download/star_frontiers_commercial-1983/star_frontiers_commercial-1983.mp4",
           "start": 0,
-          "duration": 31.12,
-          "title": "Muppet Movie promo (HSV-7, 1983)",
+          "duration": 29.7,
+          "title": "Star Frontiers commercial",
           "year": 1983,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/muppet-movie-promo"
+          "credit": "archive.org/details/star_frontiers_commercial-1983"
         },
         {
           "kind": "video",
@@ -1720,16 +1720,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/star_frontiers_commercial-1983/star_frontiers_commercial-1983.mp4",
+          "src": "https://archive.org/download/muppet-movie-promo/MuppetMovie_bunnicula.mp4",
           "start": 0,
-          "duration": 29.7,
-          "title": "Star Frontiers commercial",
+          "duration": 31.12,
+          "title": "Muppet Movie promo (HSV-7, 1983)",
           "year": 1983,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/star_frontiers_commercial-1983"
+          "credit": "archive.org/details/muppet-movie-promo"
         },
         {
           "kind": "video",
@@ -1767,16 +1767,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/muppet-movie-promo/MuppetMovie_bunnicula.mp4",
+          "src": "https://archive.org/download/star_frontiers_commercial-1983/star_frontiers_commercial-1983.mp4",
           "start": 0,
-          "duration": 31.12,
-          "title": "Muppet Movie promo (HSV-7, 1983)",
+          "duration": 29.7,
+          "title": "Star Frontiers commercial",
           "year": 1983,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/muppet-movie-promo"
+          "credit": "archive.org/details/star_frontiers_commercial-1983"
         },
         {
           "kind": "video",
@@ -1814,16 +1814,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/star_frontiers_commercial-1983/star_frontiers_commercial-1983.mp4",
+          "src": "https://archive.org/download/muppet-movie-promo/MuppetMovie_bunnicula.mp4",
           "start": 0,
-          "duration": 29.7,
-          "title": "Star Frontiers commercial",
+          "duration": 31.12,
+          "title": "Muppet Movie promo (HSV-7, 1983)",
           "year": 1983,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/star_frontiers_commercial-1983"
+          "credit": "archive.org/details/muppet-movie-promo"
         },
         {
           "kind": "video",
@@ -1861,16 +1861,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/muppet-movie-promo/MuppetMovie_bunnicula.mp4",
+          "src": "https://archive.org/download/star_frontiers_commercial-1983/star_frontiers_commercial-1983.mp4",
           "start": 0,
-          "duration": 31.12,
-          "title": "Muppet Movie promo (HSV-7, 1983)",
+          "duration": 29.7,
+          "title": "Star Frontiers commercial",
           "year": 1983,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/muppet-movie-promo"
+          "credit": "archive.org/details/star_frontiers_commercial-1983"
         },
         {
           "kind": "video",
@@ -1908,16 +1908,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/star_frontiers_commercial-1983/star_frontiers_commercial-1983.mp4",
+          "src": "https://archive.org/download/muppet-movie-promo/MuppetMovie_bunnicula.mp4",
           "start": 0,
-          "duration": 29.7,
-          "title": "Star Frontiers commercial",
+          "duration": 31.12,
+          "title": "Muppet Movie promo (HSV-7, 1983)",
           "year": 1983,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/star_frontiers_commercial-1983"
+          "credit": "archive.org/details/muppet-movie-promo"
         },
         {
           "kind": "video",
@@ -1947,16 +1947,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/muppet-movie-promo/MuppetMovie_bunnicula.mp4",
+          "src": "https://archive.org/download/star_frontiers_commercial-1983/star_frontiers_commercial-1983.mp4",
           "start": 0,
-          "duration": 31.12,
-          "title": "Muppet Movie promo (HSV-7, 1983)",
+          "duration": 29.7,
+          "title": "Star Frontiers commercial",
           "year": 1983,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/muppet-movie-promo"
+          "credit": "archive.org/details/star_frontiers_commercial-1983"
         },
         {
           "kind": "video",
@@ -2027,29 +2027,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1990-total-recall-commercial/1990%20Total%20Recall%20Commercial.mp4",
+          "src": "https://archive.org/download/1990-wtxf-tv-fox-29-simpsons-married-with-children-promo/1990%20WTXF-TV%20Fox%2029%20Simpsons%20%26%20Married%20with%20Children%20Promo.mp4",
           "start": 0,
-          "duration": 29.98,
-          "title": "1990 Total Recall Movie Commercial",
+          "duration": 30.15,
+          "title": "1990 WTXF-TV Fox 29 Simpsons & Married With Children Promo",
           "year": 1990,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1990-total-recall-commercial"
+          "credit": "archive.org/details/1990-wtxf-tv-fox-29-simpsons-married-with-children-promo"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/tmnt-video/TMNT%20Video.mp4",
+          "src": "https://archive.org/download/1990-ford-fairlane-movie-commercial/1990%20Ford%20Fairlane%20Movie%20Commercial.mp4",
           "start": 0,
-          "duration": 15.23,
-          "title": "TMNT Teenage Mutant Ninja Turtles - VHS Release (1990) TV Commercial",
+          "duration": 30.38,
+          "title": "1990 The Adventures of Ford Fairlane Movie Commercial",
           "year": 1990,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/tmnt-video"
+          "credit": "archive.org/details/1990-ford-fairlane-movie-commercial"
         },
         {
           "kind": "video",
@@ -2074,66 +2074,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1990-wtxf-tv-fox-29-simpsons-married-with-children-promo/1990%20WTXF-TV%20Fox%2029%20Simpsons%20%26%20Married%20with%20Children%20Promo.mp4",
-          "start": 0,
-          "duration": 30.15,
-          "title": "1990 WTXF-TV Fox 29 Simpsons & Married With Children Promo",
-          "year": 1990,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1990-wtxf-tv-fox-29-simpsons-married-with-children-promo"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/1990-coca-cola-magi-cans-commercial/1990%20Coca%20Cola%20MagiCans%20Commercial.mp4",
-          "start": 0,
-          "duration": 40.35,
-          "title": "1990 Coca Cola MagiCans Commercial",
-          "year": 1990,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1990-coca-cola-magi-cans-commercial"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/FocusOnFoxboro1990.11.24SpecialEditionTownArticlesNovember/FocusOnFoxboro_1990.11.24SpecialEditionTownArticlesNovember.mp4",
-          "start": 1212.633,
-          "duration": 606.317,
-          "title": "Focus On Foxboro: 1990/11/24 Special Edition, Town Articles November",
-          "year": 1990,
-          "airDate": "1990-11-24",
-          "category": "program",
-          "part": 3,
-          "parts": 6,
-          "credit": "archive.org/details/FocusOnFoxboro1990.11.24SpecialEditionTownArticlesNovember"
-        },
-        {
-          "kind": "card",
-          "style": "break",
-          "duration": 4,
-          "title": "We'll be right back",
-          "text": "Stay tuned!",
-          "year": null
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/1990-ford-fairlane-movie-commercial/1990%20Ford%20Fairlane%20Movie%20Commercial.mp4",
-          "start": 0,
-          "duration": 30.38,
-          "title": "1990 The Adventures of Ford Fairlane Movie Commercial",
-          "year": 1990,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1990-ford-fairlane-movie-commercial"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/1990-george-carlin-doin-it-again-intro/1990%20George%20Carlin%20-%20Doin'%20it%20Again!%20Intro.mp4",
           "start": 0,
           "duration": 30.05,
@@ -2147,14 +2087,27 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/tmnt-video/TMNT%20Video.mp4",
+          "start": 0,
+          "duration": 15.23,
+          "title": "TMNT Teenage Mutant Ninja Turtles - VHS Release (1990) TV Commercial",
+          "year": 1990,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/tmnt-video"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/FocusOnFoxboro1990.11.24SpecialEditionTownArticlesNovember/FocusOnFoxboro_1990.11.24SpecialEditionTownArticlesNovember.mp4",
-          "start": 1818.95,
+          "start": 1212.633,
           "duration": 606.317,
           "title": "Focus On Foxboro: 1990/11/24 Special Edition, Town Articles November",
           "year": 1990,
           "airDate": "1990-11-24",
           "category": "program",
-          "part": 4,
+          "part": 3,
           "parts": 6,
           "credit": "archive.org/details/FocusOnFoxboro1990.11.24SpecialEditionTownArticlesNovember"
         },
@@ -2181,27 +2134,27 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/tmnt-video/TMNT%20Video.mp4",
+          "src": "https://archive.org/download/1990-coca-cola-magi-cans-commercial/1990%20Coca%20Cola%20MagiCans%20Commercial.mp4",
           "start": 0,
-          "duration": 15.23,
-          "title": "TMNT Teenage Mutant Ninja Turtles - VHS Release (1990) TV Commercial",
+          "duration": 40.35,
+          "title": "1990 Coca Cola MagiCans Commercial",
           "year": 1990,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/tmnt-video"
+          "credit": "archive.org/details/1990-coca-cola-magi-cans-commercial"
         },
         {
           "kind": "video",
           "src": "https://archive.org/download/FocusOnFoxboro1990.11.24SpecialEditionTownArticlesNovember/FocusOnFoxboro_1990.11.24SpecialEditionTownArticlesNovember.mp4",
-          "start": 2425.267,
+          "start": 1818.95,
           "duration": 606.317,
           "title": "Focus On Foxboro: 1990/11/24 Special Edition, Town Articles November",
           "year": 1990,
           "airDate": "1990-11-24",
           "category": "program",
-          "part": 5,
+          "part": 4,
           "parts": 6,
           "credit": "archive.org/details/FocusOnFoxboro1990.11.24SpecialEditionTownArticlesNovember"
         },
@@ -2228,16 +2181,63 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1990-coca-cola-magi-cans-commercial/1990%20Coca%20Cola%20MagiCans%20Commercial.mp4",
+          "src": "https://archive.org/download/1990-ford-fairlane-movie-commercial/1990%20Ford%20Fairlane%20Movie%20Commercial.mp4",
           "start": 0,
-          "duration": 40.35,
-          "title": "1990 Coca Cola MagiCans Commercial",
+          "duration": 30.38,
+          "title": "1990 The Adventures of Ford Fairlane Movie Commercial",
           "year": 1990,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1990-coca-cola-magi-cans-commercial"
+          "credit": "archive.org/details/1990-ford-fairlane-movie-commercial"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/FocusOnFoxboro1990.11.24SpecialEditionTownArticlesNovember/FocusOnFoxboro_1990.11.24SpecialEditionTownArticlesNovember.mp4",
+          "start": 2425.267,
+          "duration": 606.317,
+          "title": "Focus On Foxboro: 1990/11/24 Special Edition, Town Articles November",
+          "year": 1990,
+          "airDate": "1990-11-24",
+          "category": "program",
+          "part": 5,
+          "parts": 6,
+          "credit": "archive.org/details/FocusOnFoxboro1990.11.24SpecialEditionTownArticlesNovember"
+        },
+        {
+          "kind": "card",
+          "style": "break",
+          "duration": 4,
+          "title": "We'll be right back",
+          "text": "Stay tuned!",
+          "year": null
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1990-george-carlin-doin-it-again-intro/1990%20George%20Carlin%20-%20Doin'%20it%20Again!%20Intro.mp4",
+          "start": 0,
+          "duration": 30.05,
+          "title": "1990 George Carlin - Doin' It Again! Intro",
+          "year": 1990,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1990-george-carlin-doin-it-again-intro"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/tmnt-video/TMNT%20Video.mp4",
+          "start": 0,
+          "duration": 15.23,
+          "title": "TMNT Teenage Mutant Ninja Turtles - VHS Release (1990) TV Commercial",
+          "year": 1990,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/tmnt-video"
         },
         {
           "kind": "video",
@@ -2254,29 +2254,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1990-ford-fairlane-movie-commercial/1990%20Ford%20Fairlane%20Movie%20Commercial.mp4",
+          "src": "https://archive.org/download/1990-total-recall-commercial/1990%20Total%20Recall%20Commercial.mp4",
           "start": 0,
-          "duration": 30.38,
-          "title": "1990 The Adventures of Ford Fairlane Movie Commercial",
+          "duration": 29.98,
+          "title": "1990 Total Recall Movie Commercial",
           "year": 1990,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1990-ford-fairlane-movie-commercial"
+          "credit": "archive.org/details/1990-total-recall-commercial"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1990-george-carlin-doin-it-again-intro/1990%20George%20Carlin%20-%20Doin'%20it%20Again!%20Intro.mp4",
+          "src": "https://archive.org/download/1990-coca-cola-magi-cans-commercial/1990%20Coca%20Cola%20MagiCans%20Commercial.mp4",
           "start": 0,
-          "duration": 30.05,
-          "title": "1990 George Carlin - Doin' It Again! Intro",
+          "duration": 40.35,
+          "title": "1990 Coca Cola MagiCans Commercial",
           "year": 1990,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1990-george-carlin-doin-it-again-intro"
+          "credit": "archive.org/details/1990-coca-cola-magi-cans-commercial"
         },
         {
           "kind": "card",
@@ -2387,16 +2387,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/aerobicsozstyle-1992/11%20-%20Aerobics%20Oz%20Style%202%20ads%20(3rd%20break).mp4",
+          "src": "https://archive.org/download/RapRatvideoboardgamepromo1992/'Rap%20Rat'%20video%20board%20game%20promo%20(1992).mp4",
           "start": 0,
-          "duration": 130.03,
-          "title": "Aerobics Oz Style - 7 episodes",
+          "duration": 30.37,
+          "title": "'Rap Rat' video board game promo",
           "year": 1992,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/aerobicsozstyle-1992"
+          "credit": "archive.org/details/RapRatvideoboardgamepromo1992"
         },
         {
           "kind": "video",
@@ -2421,6 +2421,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/aerobicsozstyle-1992/11%20-%20Aerobics%20Oz%20Style%202%20ads%20(3rd%20break).mp4",
+          "start": 0,
+          "duration": 130.03,
+          "title": "Aerobics Oz Style - 7 episodes",
+          "year": 1992,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/aerobicsozstyle-1992"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/sonikku/Sonic%20Spinball%20advert.mp4",
           "start": 0,
           "duration": 16.07,
@@ -2431,19 +2444,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/sonikku"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/RapRatvideoboardgamepromo1992/'Rap%20Rat'%20video%20board%20game%20promo%20(1992).mp4",
-          "start": 0,
-          "duration": 30.37,
-          "title": "'Rap Rat' video board game promo",
-          "year": 1992,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/RapRatvideoboardgamepromo1992"
         },
         {
           "kind": "video",
@@ -2507,6 +2507,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/RapRatvideoboardgamepromo1992/'Rap%20Rat'%20video%20board%20game%20promo%20(1992).mp4",
+          "start": 0,
+          "duration": 30.37,
+          "title": "'Rap Rat' video board game promo",
+          "year": 1992,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/RapRatvideoboardgamepromo1992"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/aerobicsozstyle-1992/11%20-%20Aerobics%20Oz%20Style%202%20ads%20(3rd%20break).mp4",
           "start": 0,
           "duration": 130.03,
@@ -2517,19 +2530,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/aerobicsozstyle-1992"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/sonikku/Sonic%20Spinball%20advert.mp4",
-          "start": 0,
-          "duration": 16.07,
-          "title": "Sonic Commercials",
-          "year": 1992,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/sonikku"
         },
         {
           "kind": "video",
@@ -2546,16 +2546,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/RapRatvideoboardgamepromo1992/'Rap%20Rat'%20video%20board%20game%20promo%20(1992).mp4",
+          "src": "https://archive.org/download/sonikku/Sonic%20Spinball%20advert.mp4",
           "start": 0,
-          "duration": 30.37,
-          "title": "'Rap Rat' video board game promo",
+          "duration": 16.07,
+          "title": "Sonic Commercials",
           "year": 1992,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/RapRatvideoboardgamepromo1992"
+          "credit": "archive.org/details/sonikku"
         },
         {
           "kind": "video",
@@ -2606,16 +2606,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/aerobicsozstyle-1992/11%20-%20Aerobics%20Oz%20Style%202%20ads%20(3rd%20break).mp4",
+          "src": "https://archive.org/download/RapRatvideoboardgamepromo1992/'Rap%20Rat'%20video%20board%20game%20promo%20(1992).mp4",
           "start": 0,
-          "duration": 130.03,
-          "title": "Aerobics Oz Style - 7 episodes",
+          "duration": 30.37,
+          "title": "'Rap Rat' video board game promo",
           "year": 1992,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/aerobicsozstyle-1992"
+          "credit": "archive.org/details/RapRatvideoboardgamepromo1992"
         },
         {
           "kind": "video",
@@ -2640,6 +2640,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/aerobicsozstyle-1992/11%20-%20Aerobics%20Oz%20Style%202%20ads%20(3rd%20break).mp4",
+          "start": 0,
+          "duration": 130.03,
+          "title": "Aerobics Oz Style - 7 episodes",
+          "year": 1992,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/aerobicsozstyle-1992"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/sonikku/Sonic%20Spinball%20advert.mp4",
           "start": 0,
           "duration": 16.07,
@@ -2650,19 +2663,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/sonikku"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/RapRatvideoboardgamepromo1992/'Rap%20Rat'%20video%20board%20game%20promo%20(1992).mp4",
-          "start": 0,
-          "duration": 30.37,
-          "title": "'Rap Rat' video board game promo",
-          "year": 1992,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/RapRatvideoboardgamepromo1992"
         },
         {
           "kind": "video",
@@ -2718,7 +2718,7 @@
       "name": "WTHN",
       "tagline": "Tonight, back then",
       "year": 1997,
-      "totalDuration": 5801.19,
+      "totalDuration": 5801.49,
       "items": [
         {
           "kind": "card",
@@ -2759,29 +2759,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/PcWorldChristmasSale97Advert/Pc%20World%20Christmas%20Sale%20Advert.mp4",
+          "src": "https://archive.org/download/1997variouscommercials/1997%20MasterCard%20Online%20Shopping%20Commercial.mp4",
           "start": 0,
-          "duration": 10.78,
-          "title": "PC World Christmas Sale 1997 Advert",
+          "duration": 30.02,
+          "title": "Various 1997 Commercials/Promos",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/PcWorldChristmasSale97Advert"
+          "credit": "archive.org/details/1997variouscommercials"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1997-amistad-film-commercial/1997%20Amistad%20Film%20Commercial.mp4",
+          "src": "https://archive.org/download/christmas-classic-vhs-collection-1997/Christmas%20Classic%20VHS%20collection%20(1997).mp4",
           "start": 0,
-          "duration": 30.02,
-          "title": "1997 Amistad Film Commercial",
+          "duration": 29.97,
+          "title": "Christmas Classics Collection VHS (1997) TV Commercial",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1997-amistad-film-commercial"
+          "credit": "archive.org/details/christmas-classic-vhs-collection-1997"
         },
         {
           "kind": "video",
@@ -2806,6 +2806,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/Currysxmassale97Advert/Currys%20Boxing%20Day%20Sale%20Advert.mp4",
+          "start": 0,
+          "duration": 11.08,
+          "title": "Currys Christmas Sale 1997 Advert",
+          "year": 1997,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/Currysxmassale97Advert"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/CometTeletextChristmasSaleAdvert/Comet%20Teletext%20Christmas%20Sale%20Advert.mp4",
           "start": 0,
           "duration": 10.64,
@@ -2816,19 +2829,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/CometTeletextChristmasSaleAdvert"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/christmas-classic-vhs-collection-1997/Christmas%20Classic%20VHS%20collection%20(1997).mp4",
-          "start": 0,
-          "duration": 29.97,
-          "title": "Christmas Classics Collection VHS (1997) TV Commercial",
-          "year": 1997,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/christmas-classic-vhs-collection-1997"
         },
         {
           "kind": "video",
@@ -2853,29 +2853,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/Currysxmassale97Advert/Currys%20Boxing%20Day%20Sale%20Advert.mp4",
+          "src": "https://archive.org/download/1997-amistad-film-commercial/1997%20Amistad%20Film%20Commercial.mp4",
           "start": 0,
-          "duration": 11.08,
-          "title": "Currys Christmas Sale 1997 Advert",
+          "duration": 30.02,
+          "title": "1997 Amistad Film Commercial",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/Currysxmassale97Advert"
+          "credit": "archive.org/details/1997-amistad-film-commercial"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1997variouscommercials/1997%20MasterCard%20Online%20Shopping%20Commercial.mp4",
+          "src": "https://archive.org/download/PcWorldChristmasSale97Advert/Pc%20World%20Christmas%20Sale%20Advert.mp4",
           "start": 0,
-          "duration": 30.02,
-          "title": "Various 1997 Commercials/Promos",
+          "duration": 10.78,
+          "title": "PC World Christmas Sale 1997 Advert",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1997variouscommercials"
+          "credit": "archive.org/details/PcWorldChristmasSale97Advert"
         },
         {
           "kind": "video",
@@ -2900,63 +2900,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/PcWorldChristmasSale97Advert/Pc%20World%20Christmas%20Sale%20Advert.mp4",
-          "start": 0,
-          "duration": 10.78,
-          "title": "PC World Christmas Sale 1997 Advert",
-          "year": 1997,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/PcWorldChristmasSale97Advert"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/1997-amistad-film-commercial/1997%20Amistad%20Film%20Commercial.mp4",
+          "src": "https://archive.org/download/1997variouscommercials/1997%20MasterCard%20Online%20Shopping%20Commercial.mp4",
           "start": 0,
           "duration": 30.02,
-          "title": "1997 Amistad Film Commercial",
+          "title": "Various 1997 Commercials/Promos",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1997-amistad-film-commercial"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/1997-11-24-1998-war-j-1-tournament-1/1997%2011%2024%20-%201998%20War%20J-1%20Tournament-1.mp4",
-          "start": 2710.38,
-          "duration": 677.595,
-          "title": "WAR 1997/11/24 J1 Tournament",
-          "year": 1997,
-          "airDate": "1997-11-24",
-          "category": "news",
-          "part": 5,
-          "parts": 8,
-          "credit": "archive.org/details/1997-11-24-1998-war-j-1-tournament-1"
-        },
-        {
-          "kind": "card",
-          "style": "break",
-          "duration": 4,
-          "title": "We'll be right back",
-          "text": "Stay tuned!",
-          "year": null
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/CometTeletextChristmasSaleAdvert/Comet%20Teletext%20Christmas%20Sale%20Advert.mp4",
-          "start": 0,
-          "duration": 10.64,
-          "title": "Comet Teletext Christmas Sale 1997 Advert",
-          "year": 1997,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/CometTeletextChristmasSaleAdvert"
+          "credit": "archive.org/details/1997variouscommercials"
         },
         {
           "kind": "video",
@@ -2974,13 +2927,13 @@
         {
           "kind": "video",
           "src": "https://archive.org/download/1997-11-24-1998-war-j-1-tournament-1/1997%2011%2024%20-%201998%20War%20J-1%20Tournament-1.mp4",
-          "start": 3387.975,
+          "start": 2710.38,
           "duration": 677.595,
           "title": "WAR 1997/11/24 J1 Tournament",
           "year": 1997,
           "airDate": "1997-11-24",
           "category": "news",
-          "part": 6,
+          "part": 5,
           "parts": 8,
           "credit": "archive.org/details/1997-11-24-1998-war-j-1-tournament-1"
         },
@@ -3007,16 +2960,63 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1997variouscommercials/1997%20MasterCard%20Online%20Shopping%20Commercial.mp4",
+          "src": "https://archive.org/download/CometTeletextChristmasSaleAdvert/Comet%20Teletext%20Christmas%20Sale%20Advert.mp4",
           "start": 0,
-          "duration": 30.02,
-          "title": "Various 1997 Commercials/Promos",
+          "duration": 10.64,
+          "title": "Comet Teletext Christmas Sale 1997 Advert",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1997variouscommercials"
+          "credit": "archive.org/details/CometTeletextChristmasSaleAdvert"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1997-11-24-1998-war-j-1-tournament-1/1997%2011%2024%20-%201998%20War%20J-1%20Tournament-1.mp4",
+          "start": 3387.975,
+          "duration": 677.595,
+          "title": "WAR 1997/11/24 J1 Tournament",
+          "year": 1997,
+          "airDate": "1997-11-24",
+          "category": "news",
+          "part": 6,
+          "parts": 8,
+          "credit": "archive.org/details/1997-11-24-1998-war-j-1-tournament-1"
+        },
+        {
+          "kind": "card",
+          "style": "break",
+          "duration": 4,
+          "title": "We'll be right back",
+          "text": "Stay tuned!",
+          "year": null
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1997-amistad-film-commercial/1997%20Amistad%20Film%20Commercial.mp4",
+          "start": 0,
+          "duration": 30.02,
+          "title": "1997 Amistad Film Commercial",
+          "year": 1997,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1997-amistad-film-commercial"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/PcWorldChristmasSale97Advert/Pc%20World%20Christmas%20Sale%20Advert.mp4",
+          "start": 0,
+          "duration": 10.78,
+          "title": "PC World Christmas Sale 1997 Advert",
+          "year": 1997,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/PcWorldChristmasSale97Advert"
         },
         {
           "kind": "video",
@@ -3041,29 +3041,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/PcWorldChristmasSale97Advert/Pc%20World%20Christmas%20Sale%20Advert.mp4",
+          "src": "https://archive.org/download/1997variouscommercials/1997%20MasterCard%20Online%20Shopping%20Commercial.mp4",
           "start": 0,
-          "duration": 10.78,
-          "title": "PC World Christmas Sale 1997 Advert",
+          "duration": 30.02,
+          "title": "Various 1997 Commercials/Promos",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/PcWorldChristmasSale97Advert"
+          "credit": "archive.org/details/1997variouscommercials"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1997-amistad-film-commercial/1997%20Amistad%20Film%20Commercial.mp4",
+          "src": "https://archive.org/download/christmas-classic-vhs-collection-1997/Christmas%20Classic%20VHS%20collection%20(1997).mp4",
           "start": 0,
-          "duration": 30.02,
-          "title": "1997 Amistad Film Commercial",
+          "duration": 29.97,
+          "title": "Christmas Classics Collection VHS (1997) TV Commercial",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1997-amistad-film-commercial"
+          "credit": "archive.org/details/christmas-classic-vhs-collection-1997"
         },
         {
           "kind": "video",
@@ -3080,6 +3080,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/Currysxmassale97Advert/Currys%20Boxing%20Day%20Sale%20Advert.mp4",
+          "start": 0,
+          "duration": 11.08,
+          "title": "Currys Christmas Sale 1997 Advert",
+          "year": 1997,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/Currysxmassale97Advert"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/CometTeletextChristmasSaleAdvert/Comet%20Teletext%20Christmas%20Sale%20Advert.mp4",
           "start": 0,
           "duration": 10.64,
@@ -3090,19 +3103,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/CometTeletextChristmasSaleAdvert"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/christmas-classic-vhs-collection-1997/Christmas%20Classic%20VHS%20collection%20(1997).mp4",
-          "start": 0,
-          "duration": 29.97,
-          "title": "Christmas Classics Collection VHS (1997) TV Commercial",
-          "year": 1997,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/christmas-classic-vhs-collection-1997"
         },
         {
           "kind": "card",

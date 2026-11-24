@@ -3,14 +3,14 @@
   "target": "web",
   "date": "11-25",
   "title": "This Day in History — November 25",
-  "publishedAt": "2026-11-23T09:12:36.986Z",
+  "publishedAt": "2026-11-24T09:12:29.168Z",
   "channels": [
     {
       "number": 2,
       "name": "WTDI",
       "tagline": "Your window to yesterday",
       "year": 1963,
-      "totalDuration": 1225.11,
+      "totalDuration": 1154.2,
       "items": [
         {
           "kind": "card",
@@ -51,29 +51,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/Cascade19631962/Cascade1963-1962.mp4",
+          "src": "https://archive.org/download/HooverWalkOnAirConstellation1963TVCommercialXvid/Hoover%20Constellation%201963%20TV%20commercial_xvid.mp4",
           "start": 0,
-          "duration": 36.82,
-          "title": "1963 commercial for Cascade dishwashing liquid",
+          "duration": 10.36,
+          "title": "Hoover Walk On Air Constellation 1963 TV Commercials",
           "year": 1963,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/Cascade19631962"
+          "credit": "archive.org/details/HooverWalkOnAirConstellation1963TVCommercialXvid"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/Orafix1963/Orafix1963.mp4",
+          "src": "https://archive.org/download/MurielCigars1963Ad7/MurielCigars1963-Ad7.mp4",
           "start": 0,
-          "duration": 70.04,
-          "title": "1963 commercial for Orafix denture adhesive",
+          "duration": 59.74,
+          "title": "1963 commercial: Muriel cigars (Ad 7)",
           "year": 1963,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/Orafix1963"
+          "credit": "archive.org/details/MurielCigars1963Ad7"
         },
         {
           "kind": "video",
@@ -90,29 +90,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/dash1963-1962/dash1963-1962.mp4",
+          "src": "https://archive.org/download/MurielCigars1963Ad5/MurielCigars1963-ad5.mp4",
           "start": 0,
-          "duration": 62.49,
-          "title": "1963 commercial for Dash detergent",
+          "duration": 60.18,
+          "title": "1963 commercial: Muriel Cigars (Ad 5)",
           "year": 1963,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/dash1963-1962"
+          "credit": "archive.org/details/MurielCigars1963Ad5"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/SHGreenStamps19634/S%26H%20Green%20Stamps%20(1963)%20(4).mp4",
+          "src": "https://archive.org/download/JoopGeesinksKoolCigarettesCommercial1963/Joop%20Geesink's%20Kool%20Cigarettes%20Commercial%201963.mp4",
           "start": 0,
-          "duration": 92.15,
-          "title": "1963 commercial: S&H Green Stamps (ad 4)",
+          "duration": 60.31,
+          "title": "Stop-Motion Kool Cigarettes Commercial",
           "year": 1963,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/SHGreenStamps19634"
+          "credit": "archive.org/details/JoopGeesinksKoolCigarettesCommercial1963"
         },
         {
           "kind": "card",
@@ -145,7 +145,7 @@
       "name": "WKTV",
       "tagline": "Seven on your dial",
       "year": 1968,
-      "totalDuration": 3349.26,
+      "totalDuration": 3348.47,
       "items": [
         {
           "kind": "card",
@@ -186,29 +186,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1968JenosPizzaRollsWithTheLoneRanger/1968%20Jeno's%20Pizza%20Rolls%20with%20The%20Lone%20Ranger.mp4",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial181968-1971/VirginiaSlims_18.mp4",
           "start": 0,
-          "duration": 60.67,
-          "title": "Jeno's Pizza Rolls with The Lone Ranger",
+          "duration": 61.24,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 18 / 1968-1971",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1968JenosPizzaRollsWithTheLoneRanger"
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial181968-1971"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial131968-1971/VirginiaSlims_13_512kb.mp4",
+          "src": "https://archive.org/download/BorisKarloffRonsonCometLighter1968/Boris%20Karloff%20Ronson%20Comet%20Lighter%201968.mp4",
           "start": 0,
-          "duration": 59.93,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial 13 / 1968-1971",
+          "duration": 59.21,
+          "title": "Ronson Comet Lighter with Boris Karloff",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial131968-1971"
+          "credit": "archive.org/details/BorisKarloffRonsonCometLighter1968"
         },
         {
           "kind": "video",
@@ -233,29 +233,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercialHumor021968-1971/VirginiaSlims_Humor_02.mp4",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial0419681971/VirginiaSlims_04.mp4",
           "start": 0,
-          "duration": 10.63,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial / Humor 02 / 1968-1971",
+          "duration": 60.08,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 04 / 1968-1971",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercialHumor021968-1971"
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial0419681971"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial191968-1971/VirginiaSlims_19.mp4",
+          "src": "https://archive.org/download/1968JenosPizzaRollsWithTheLoneRanger/1968%20Jeno's%20Pizza%20Rolls%20with%20The%20Lone%20Ranger.mp4",
           "start": 0,
-          "duration": 60.59,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial 19 / 1968-1971",
+          "duration": 60.67,
+          "title": "Jeno's Pizza Rolls with The Lone Ranger",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial191968-1971"
+          "credit": "archive.org/details/1968JenosPizzaRollsWithTheLoneRanger"
         },
         {
           "kind": "video",
@@ -280,16 +280,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial101968-1971/VirginiaSlims_10.mp4",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial0819681971/VirginiaSlims_08.mp4",
           "start": 0,
-          "duration": 60.22,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial 10 / 1968-1971",
+          "duration": 10.2,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 08 / 1968-1971",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial101968-1971"
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial0819681971"
         },
         {
           "kind": "video",
@@ -319,29 +319,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1968JenosPizzaRollsWithTheLoneRanger/1968%20Jeno's%20Pizza%20Rolls%20with%20The%20Lone%20Ranger.mp4",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial181968-1971/VirginiaSlims_18.mp4",
           "start": 0,
-          "duration": 60.67,
-          "title": "Jeno's Pizza Rolls with The Lone Ranger",
+          "duration": 61.24,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 18 / 1968-1971",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1968JenosPizzaRollsWithTheLoneRanger"
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial181968-1971"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial131968-1971/VirginiaSlims_13_512kb.mp4",
+          "src": "https://archive.org/download/BorisKarloffRonsonCometLighter1968/Boris%20Karloff%20Ronson%20Comet%20Lighter%201968.mp4",
           "start": 0,
-          "duration": 59.93,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial 13 / 1968-1971",
+          "duration": 59.21,
+          "title": "Ronson Comet Lighter with Boris Karloff",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial131968-1971"
+          "credit": "archive.org/details/BorisKarloffRonsonCometLighter1968"
         },
         {
           "kind": "card",
@@ -382,7 +382,7 @@
       "name": "WNTW",
       "tagline": "The way it was",
       "year": 1972,
-      "totalDuration": 1504.19,
+      "totalDuration": 1470.87,
       "items": [
         {
           "kind": "card",
@@ -415,29 +415,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/bricks-mens-wear-wichita-commercial-01/BricksMensWear-WichitaCommercial-01.mp4",
+          "src": "https://archive.org/download/swiss-chalet-salad-dressing-01/SwissChaletSaladDressing-01.mp4",
           "start": 0,
-          "duration": 61.4,
-          "title": "Wichita TV Commercial, Brick’s Menswear 01- 16mm film",
+          "duration": 33.37,
+          "title": "Wichita TV Commercial, Swiss Chalet Salad Dressing 01 - 16mm film",
           "year": 1972,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/bricks-mens-wear-wichita-commercial-01"
+          "credit": "archive.org/details/swiss-chalet-salad-dressing-01"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/kake-1240-radio-wichita/KAKE-1240Radio-Wichita.mp4",
+          "src": "https://archive.org/download/UnitedAirlinesBurgessMeredith/United%20Airlines%20-%20Burgess%20Meredith%20narration.mp4",
           "start": 0,
-          "duration": 32.53,
-          "title": "Wichita TV Commercial, KAKE 1240 Radio - 16mm film",
+          "duration": 59.69,
+          "title": "United Airlines with Burgess Meredith narration",
           "year": 1972,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/kake-1240-radio-wichita"
+          "credit": "archive.org/details/UnitedAirlinesBurgessMeredith"
         },
         {
           "kind": "card",
@@ -462,29 +462,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1972WaffleWhiffer/1972%20Waffle%20Whiffer%20and%20the%20Diving%20Bell.mp4",
+          "src": "https://archive.org/download/total-cereal-commcial/Total-CerealCommcial.mp4",
           "start": 0,
-          "duration": 60.74,
-          "title": "Waffle Whiffer",
+          "duration": 33.27,
+          "title": "Total Cereal - Television Commercial, 16mm",
           "year": 1972,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1972WaffleWhiffer"
+          "credit": "archive.org/details/total-cereal-commcial"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/pillsbury-dough-boy-pop-n-fresh-dough-commercial-1972/Pillsbury%20Dough%20Boy%20-%20Pop%20n'%20Fresh%20Dough%20Commercial%201972.mp4",
+          "src": "https://archive.org/download/swiss-chalet-salad-dressing-02/SwissChaletSaladDressing-02.mp4",
           "start": 0,
-          "duration": 28.77,
-          "title": "Pillsbury Dough Boy Pop N' Fresh Dough Commercial 1972",
+          "duration": 23.79,
+          "title": "Wichita TV Commercial, Swiss Chalet Salad Dressing 02 - 16mm film",
           "year": 1972,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/pillsbury-dough-boy-pop-n-fresh-dough-commercial-1972"
+          "credit": "archive.org/details/swiss-chalet-salad-dressing-02"
         },
         {
           "kind": "card",
@@ -501,7 +501,7 @@
       "name": "WYRS",
       "tagline": "Tonight, back then",
       "year": 1977,
-      "totalDuration": 4033.46,
+      "totalDuration": 4032.12,
       "items": [
         {
           "kind": "card",
@@ -555,16 +555,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977CarnationInstantMilkWithVickiLawrence/1977%20Carnation%20Instant%20Milk%20with%20Vicki%20Lawrence.mp4",
+          "src": "https://archive.org/download/1977PillsburyPlusPuddingCake/1977%20Pillsbury%20Plus%20Pudding%20Cake.mp4",
           "start": 0,
-          "duration": 31.34,
-          "title": "Carnation Instant Milk with Vicki Lawrence",
+          "duration": 30.67,
+          "title": "Pillsbury Plus Pudding Cake Mix",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977CarnationInstantMilkWithVickiLawrence"
+          "credit": "archive.org/details/1977PillsburyPlusPuddingCake"
         },
         {
           "kind": "video",
@@ -696,16 +696,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977CarnationInstantMilkWithVickiLawrence/1977%20Carnation%20Instant%20Milk%20with%20Vicki%20Lawrence.mp4",
+          "src": "https://archive.org/download/1977PillsburyPlusPuddingCake/1977%20Pillsbury%20Plus%20Pudding%20Cake.mp4",
           "start": 0,
-          "duration": 31.34,
-          "title": "Carnation Instant Milk with Vicki Lawrence",
+          "duration": 30.67,
+          "title": "Pillsbury Plus Pudding Cake Mix",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977CarnationInstantMilkWithVickiLawrence"
+          "credit": "archive.org/details/1977PillsburyPlusPuddingCake"
         },
         {
           "kind": "video",
@@ -833,29 +833,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/boys-underoos-1979/Underoos%20Underwear%201979%20Commercial%20'Boys'.mp4",
+          "src": "https://archive.org/download/ComputerPerfection_Dec79/ComputerPerfection_Dec79.mp4",
           "start": 0,
-          "duration": 28.91,
-          "title": "Boys Underoos 1979",
+          "duration": 29.56,
+          "title": "Computer Perfection commercial (USA, 1979)",
           "year": 1979,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/boys-underoos-1979"
+          "credit": "archive.org/details/ComputerPerfection_Dec79"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/cadburys-caramel-rabbit-1979-tv-advert/Cadburys%20Caramel%20Rabbit%201979%20TV%20Advert.mp4",
+          "src": "https://archive.org/download/michelle-pfeiffer-lux/Michelle%20Pfeiffer%20LUX.mp4",
           "start": 0,
-          "duration": 31.57,
-          "title": "Cadbury's Caramel - Take It Easy (1979) TV Advert",
+          "duration": 28.8,
+          "title": "Michelle Pfeiffer - LUX Soap (1979) TV Commercial",
           "year": 1979,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/cadburys-caramel-rabbit-1979-tv-advert"
+          "credit": "archive.org/details/michelle-pfeiffer-lux"
         },
         {
           "kind": "video",
@@ -880,29 +880,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1979-disco-dance-machine-commercial/1979%20Disco%20Dance%20Machine%20Commercial.mp4",
+          "src": "https://archive.org/download/cadburys-caramel-rabbit-1979-tv-advert/Cadburys%20Caramel%20Rabbit%201979%20TV%20Advert.mp4",
           "start": 0,
-          "duration": 31.09,
-          "title": "1979 Disco Dance Machine Commercial",
+          "duration": 31.57,
+          "title": "Cadbury's Caramel - Take It Easy (1979) TV Advert",
           "year": 1979,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1979-disco-dance-machine-commercial"
+          "credit": "archive.org/details/cadburys-caramel-rabbit-1979-tv-advert"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/michelle-pfeiffer-lux/Michelle%20Pfeiffer%20LUX.mp4",
+          "src": "https://archive.org/download/toys-us-discotheque-commercial-1979/Toys%20%D0%AF%20Us%20-%20Discotheque%20(Commercial%2C%201979).mp4",
           "start": 0,
-          "duration": 28.8,
-          "title": "Michelle Pfeiffer - LUX Soap (1979) TV Commercial",
+          "duration": 30.73,
+          "title": "Toys \"Я\" Us - \"Discotheque\" (Commercial, 1979)",
           "year": 1979,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/michelle-pfeiffer-lux"
+          "credit": "archive.org/details/toys-us-discotheque-commercial-1979"
         },
         {
           "kind": "video",
@@ -927,29 +927,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/ComputerPerfection_Dec79/ComputerPerfection_Dec79.mp4",
+          "src": "https://archive.org/download/1979-disco-dance-machine-commercial/1979%20Disco%20Dance%20Machine%20Commercial.mp4",
           "start": 0,
-          "duration": 29.56,
-          "title": "Computer Perfection commercial (USA, 1979)",
+          "duration": 31.09,
+          "title": "1979 Disco Dance Machine Commercial",
           "year": 1979,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/ComputerPerfection_Dec79"
+          "credit": "archive.org/details/1979-disco-dance-machine-commercial"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/toys-us-discotheque-commercial-1979/Toys%20%D0%AF%20Us%20-%20Discotheque%20(Commercial%2C%201979).mp4",
+          "src": "https://archive.org/download/boys-underoos-1979/Underoos%20Underwear%201979%20Commercial%20'Boys'.mp4",
           "start": 0,
-          "duration": 30.73,
-          "title": "Toys \"Я\" Us - \"Discotheque\" (Commercial, 1979)",
+          "duration": 28.91,
+          "title": "Boys Underoos 1979",
           "year": 1979,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/toys-us-discotheque-commercial-1979"
+          "credit": "archive.org/details/boys-underoos-1979"
         },
         {
           "kind": "video",
@@ -974,29 +974,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/boys-underoos-1979/Underoos%20Underwear%201979%20Commercial%20'Boys'.mp4",
+          "src": "https://archive.org/download/ComputerPerfection_Dec79/ComputerPerfection_Dec79.mp4",
           "start": 0,
-          "duration": 28.91,
-          "title": "Boys Underoos 1979",
+          "duration": 29.56,
+          "title": "Computer Perfection commercial (USA, 1979)",
           "year": 1979,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/boys-underoos-1979"
+          "credit": "archive.org/details/ComputerPerfection_Dec79"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/cadburys-caramel-rabbit-1979-tv-advert/Cadburys%20Caramel%20Rabbit%201979%20TV%20Advert.mp4",
+          "src": "https://archive.org/download/michelle-pfeiffer-lux/Michelle%20Pfeiffer%20LUX.mp4",
           "start": 0,
-          "duration": 31.57,
-          "title": "Cadbury's Caramel - Take It Easy (1979) TV Advert",
+          "duration": 28.8,
+          "title": "Michelle Pfeiffer - LUX Soap (1979) TV Commercial",
           "year": 1979,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/cadburys-caramel-rabbit-1979-tv-advert"
+          "credit": "archive.org/details/michelle-pfeiffer-lux"
         },
         {
           "kind": "video",
@@ -1021,29 +1021,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1979-disco-dance-machine-commercial/1979%20Disco%20Dance%20Machine%20Commercial.mp4",
+          "src": "https://archive.org/download/cadburys-caramel-rabbit-1979-tv-advert/Cadburys%20Caramel%20Rabbit%201979%20TV%20Advert.mp4",
           "start": 0,
-          "duration": 31.09,
-          "title": "1979 Disco Dance Machine Commercial",
+          "duration": 31.57,
+          "title": "Cadbury's Caramel - Take It Easy (1979) TV Advert",
           "year": 1979,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1979-disco-dance-machine-commercial"
+          "credit": "archive.org/details/cadburys-caramel-rabbit-1979-tv-advert"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/michelle-pfeiffer-lux/Michelle%20Pfeiffer%20LUX.mp4",
+          "src": "https://archive.org/download/toys-us-discotheque-commercial-1979/Toys%20%D0%AF%20Us%20-%20Discotheque%20(Commercial%2C%201979).mp4",
           "start": 0,
-          "duration": 28.8,
-          "title": "Michelle Pfeiffer - LUX Soap (1979) TV Commercial",
+          "duration": 30.73,
+          "title": "Toys \"Я\" Us - \"Discotheque\" (Commercial, 1979)",
           "year": 1979,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/michelle-pfeiffer-lux"
+          "credit": "archive.org/details/toys-us-discotheque-commercial-1979"
         },
         {
           "kind": "video",
@@ -1068,29 +1068,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/ComputerPerfection_Dec79/ComputerPerfection_Dec79.mp4",
+          "src": "https://archive.org/download/1979-disco-dance-machine-commercial/1979%20Disco%20Dance%20Machine%20Commercial.mp4",
           "start": 0,
-          "duration": 29.56,
-          "title": "Computer Perfection commercial (USA, 1979)",
+          "duration": 31.09,
+          "title": "1979 Disco Dance Machine Commercial",
           "year": 1979,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/ComputerPerfection_Dec79"
+          "credit": "archive.org/details/1979-disco-dance-machine-commercial"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/toys-us-discotheque-commercial-1979/Toys%20%D0%AF%20Us%20-%20Discotheque%20(Commercial%2C%201979).mp4",
+          "src": "https://archive.org/download/boys-underoos-1979/Underoos%20Underwear%201979%20Commercial%20'Boys'.mp4",
           "start": 0,
-          "duration": 30.73,
-          "title": "Toys \"Я\" Us - \"Discotheque\" (Commercial, 1979)",
+          "duration": 28.91,
+          "title": "Boys Underoos 1979",
           "year": 1979,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/toys-us-discotheque-commercial-1979"
+          "credit": "archive.org/details/boys-underoos-1979"
         },
         {
           "kind": "video",
@@ -1115,29 +1115,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/boys-underoos-1979/Underoos%20Underwear%201979%20Commercial%20'Boys'.mp4",
+          "src": "https://archive.org/download/ComputerPerfection_Dec79/ComputerPerfection_Dec79.mp4",
           "start": 0,
-          "duration": 28.91,
-          "title": "Boys Underoos 1979",
+          "duration": 29.56,
+          "title": "Computer Perfection commercial (USA, 1979)",
           "year": 1979,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/boys-underoos-1979"
+          "credit": "archive.org/details/ComputerPerfection_Dec79"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/cadburys-caramel-rabbit-1979-tv-advert/Cadburys%20Caramel%20Rabbit%201979%20TV%20Advert.mp4",
+          "src": "https://archive.org/download/michelle-pfeiffer-lux/Michelle%20Pfeiffer%20LUX.mp4",
           "start": 0,
-          "duration": 31.57,
-          "title": "Cadbury's Caramel - Take It Easy (1979) TV Advert",
+          "duration": 28.8,
+          "title": "Michelle Pfeiffer - LUX Soap (1979) TV Commercial",
           "year": 1979,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/cadburys-caramel-rabbit-1979-tv-advert"
+          "credit": "archive.org/details/michelle-pfeiffer-lux"
         },
         {
           "kind": "video",
@@ -1162,29 +1162,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1979-disco-dance-machine-commercial/1979%20Disco%20Dance%20Machine%20Commercial.mp4",
+          "src": "https://archive.org/download/cadburys-caramel-rabbit-1979-tv-advert/Cadburys%20Caramel%20Rabbit%201979%20TV%20Advert.mp4",
           "start": 0,
-          "duration": 31.09,
-          "title": "1979 Disco Dance Machine Commercial",
+          "duration": 31.57,
+          "title": "Cadbury's Caramel - Take It Easy (1979) TV Advert",
           "year": 1979,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1979-disco-dance-machine-commercial"
+          "credit": "archive.org/details/cadburys-caramel-rabbit-1979-tv-advert"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/michelle-pfeiffer-lux/Michelle%20Pfeiffer%20LUX.mp4",
+          "src": "https://archive.org/download/toys-us-discotheque-commercial-1979/Toys%20%D0%AF%20Us%20-%20Discotheque%20(Commercial%2C%201979).mp4",
           "start": 0,
-          "duration": 28.8,
-          "title": "Michelle Pfeiffer - LUX Soap (1979) TV Commercial",
+          "duration": 30.73,
+          "title": "Toys \"Я\" Us - \"Discotheque\" (Commercial, 1979)",
           "year": 1979,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/michelle-pfeiffer-lux"
+          "credit": "archive.org/details/toys-us-discotheque-commercial-1979"
         },
         {
           "kind": "video",
@@ -1201,29 +1201,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/ComputerPerfection_Dec79/ComputerPerfection_Dec79.mp4",
+          "src": "https://archive.org/download/1979-disco-dance-machine-commercial/1979%20Disco%20Dance%20Machine%20Commercial.mp4",
           "start": 0,
-          "duration": 29.56,
-          "title": "Computer Perfection commercial (USA, 1979)",
+          "duration": 31.09,
+          "title": "1979 Disco Dance Machine Commercial",
           "year": 1979,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/ComputerPerfection_Dec79"
+          "credit": "archive.org/details/1979-disco-dance-machine-commercial"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/toys-us-discotheque-commercial-1979/Toys%20%D0%AF%20Us%20-%20Discotheque%20(Commercial%2C%201979).mp4",
+          "src": "https://archive.org/download/boys-underoos-1979/Underoos%20Underwear%201979%20Commercial%20'Boys'.mp4",
           "start": 0,
-          "duration": 30.73,
-          "title": "Toys \"Я\" Us - \"Discotheque\" (Commercial, 1979)",
+          "duration": 28.91,
+          "title": "Boys Underoos 1979",
           "year": 1979,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/toys-us-discotheque-commercial-1979"
+          "credit": "archive.org/details/boys-underoos-1979"
         },
         {
           "kind": "card",
@@ -1674,16 +1674,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1981-mtv-commercial-i-want-my-mtv-early-promo/1981%20MTV%20Commercial%20_I%20Want%20My%20MTV!_%20(Early%20Promo).mp4",
+          "src": "https://archive.org/download/SearsVideoGames1981-12-02/SearsVideoGames1981-12-02.mp4",
           "start": 0,
-          "duration": 31,
-          "title": "1981 MTV Commercial (Early Promo)",
+          "duration": 32.07,
+          "title": "Sears Video Games Commercial (USA, 1981)",
           "year": 1981,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1981-mtv-commercial-i-want-my-mtv-early-promo"
+          "credit": "archive.org/details/SearsVideoGames1981-12-02"
         },
         {
           "kind": "video",
@@ -1721,16 +1721,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/SearsVideoGames1981-12-02/SearsVideoGames1981-12-02.mp4",
+          "src": "https://archive.org/download/1981-mtv-commercial-i-want-my-mtv-early-promo/1981%20MTV%20Commercial%20_I%20Want%20My%20MTV!_%20(Early%20Promo).mp4",
           "start": 0,
-          "duration": 32.07,
-          "title": "Sears Video Games Commercial (USA, 1981)",
+          "duration": 31,
+          "title": "1981 MTV Commercial (Early Promo)",
           "year": 1981,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/SearsVideoGames1981-12-02"
+          "credit": "archive.org/details/1981-mtv-commercial-i-want-my-mtv-early-promo"
         },
         {
           "kind": "video",
@@ -1815,16 +1815,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1981-mtv-commercial-i-want-my-mtv-early-promo/1981%20MTV%20Commercial%20_I%20Want%20My%20MTV!_%20(Early%20Promo).mp4",
+          "src": "https://archive.org/download/SearsVideoGames1981-12-02/SearsVideoGames1981-12-02.mp4",
           "start": 0,
-          "duration": 31,
-          "title": "1981 MTV Commercial (Early Promo)",
+          "duration": 32.07,
+          "title": "Sears Video Games Commercial (USA, 1981)",
           "year": 1981,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1981-mtv-commercial-i-want-my-mtv-early-promo"
+          "credit": "archive.org/details/SearsVideoGames1981-12-02"
         },
         {
           "kind": "video",
@@ -1854,16 +1854,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/SearsVideoGames1981-12-02/SearsVideoGames1981-12-02.mp4",
+          "src": "https://archive.org/download/1981-mtv-commercial-i-want-my-mtv-early-promo/1981%20MTV%20Commercial%20_I%20Want%20My%20MTV!_%20(Early%20Promo).mp4",
           "start": 0,
-          "duration": 32.07,
-          "title": "Sears Video Games Commercial (USA, 1981)",
+          "duration": 31,
+          "title": "1981 MTV Commercial (Early Promo)",
           "year": 1981,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/SearsVideoGames1981-12-02"
+          "credit": "archive.org/details/1981-mtv-commercial-i-want-my-mtv-early-promo"
         },
         {
           "kind": "video",
@@ -1909,7 +1909,7 @@
       "name": "WDAY",
       "tagline": "Seven on your dial",
       "year": 1982,
-      "totalDuration": 1498.33,
+      "totalDuration": 1588.61,
       "items": [
         {
           "kind": "card",
@@ -1942,42 +1942,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/Nescafe1982/Nescafe1982.mp4",
+          "src": "https://archive.org/download/Flash1982/Flash1982.mp4",
           "start": 0,
-          "duration": 10.76,
-          "title": "1982 advert for Nescafe",
+          "duration": 39.8,
+          "title": "1982 advert for Pine Fresh Flash",
           "year": 1982,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/Nescafe1982"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/DiscoverAtari2_Feb8_82/DiscoverAtari2_Feb8_82.mp4",
-          "start": 0,
-          "duration": 60.09,
-          "title": "Atari - Discover Atari (USA, 1982)",
-          "year": 1982,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/DiscoverAtari2_Feb8_82"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/tape-29-1.-fireworks-2.-b-52s-backstage-interview-3.-dead-party-b-w-november-25-1982-night/Tape%20%2329%20-%201.%20Fireworks%202.%20B-52's%20Backstage%20Interview%203.%20Dead%20Party%20(B%26W)%20November%2025%2C%201982%20(Night).mp4",
-          "start": 668.68,
-          "duration": 668.68,
-          "title": "Jamaica Music Festival Tape # 29 1. Fireworks 2. B 52's Backstage Interview 3. Dead Party (B&W) November 25, 1982 (Night",
-          "year": 1982,
-          "airDate": "1982-11-25",
-          "category": "news",
-          "part": 2,
-          "parts": 2,
-          "credit": "archive.org/details/tape-29-1.-fireworks-2.-b-52s-backstage-interview-3.-dead-party-b-w-november-25-1982-night"
+          "credit": "archive.org/details/Flash1982"
         },
         {
           "kind": "video",
@@ -1994,16 +1968,42 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/Flash1982/Flash1982.mp4",
+          "src": "https://archive.org/download/tape-29-1.-fireworks-2.-b-52s-backstage-interview-3.-dead-party-b-w-november-25-1982-night/Tape%20%2329%20-%201.%20Fireworks%202.%20B-52's%20Backstage%20Interview%203.%20Dead%20Party%20(B%26W)%20November%2025%2C%201982%20(Night).mp4",
+          "start": 668.68,
+          "duration": 668.68,
+          "title": "Jamaica Music Festival Tape # 29 1. Fireworks 2. B 52's Backstage Interview 3. Dead Party (B&W) November 25, 1982 (Night",
+          "year": 1982,
+          "airDate": "1982-11-25",
+          "category": "news",
+          "part": 2,
+          "parts": 2,
+          "credit": "archive.org/details/tape-29-1.-fireworks-2.-b-52s-backstage-interview-3.-dead-party-b-w-november-25-1982-night"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/Nescafe1982/Nescafe1982.mp4",
           "start": 0,
-          "duration": 39.8,
-          "title": "1982 advert for Pine Fresh Flash",
+          "duration": 10.76,
+          "title": "1982 advert for Nescafe",
           "year": 1982,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/Flash1982"
+          "credit": "archive.org/details/Nescafe1982"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/MAGISynthavisionDemoReel1982/MAGI%20Synthavision%20Demo%20Reel%201982.mp4",
+          "start": 0,
+          "duration": 150.37,
+          "title": "MAGI Synthavision Demo Reel 1982",
+          "year": 1982,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/MAGISynthavisionDemoReel1982"
         },
         {
           "kind": "card",
@@ -2020,7 +2020,7 @@
       "name": "WNOW",
       "tagline": "The way it was",
       "year": 1990,
-      "totalDuration": 5363.28,
+      "totalDuration": 2388.96,
       "items": [
         {
           "kind": "card",
@@ -2061,29 +2061,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1990-coca-cola-magi-cans-commercial/1990%20Coca%20Cola%20MagiCans%20Commercial.mp4",
+          "src": "https://archive.org/download/1990-george-carlin-doin-it-again-intro/1990%20George%20Carlin%20-%20Doin'%20it%20Again!%20Intro.mp4",
           "start": 0,
-          "duration": 40.35,
-          "title": "1990 Coca Cola MagiCans Commercial",
+          "duration": 30.05,
+          "title": "1990 George Carlin - Doin' It Again! Intro",
           "year": 1990,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1990-coca-cola-magi-cans-commercial"
+          "credit": "archive.org/details/1990-george-carlin-doin-it-again-intro"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1990-ford-fairlane-movie-commercial/1990%20Ford%20Fairlane%20Movie%20Commercial.mp4",
+          "src": "https://archive.org/download/1990-michael-jordon-coca-cola-commercia/1990%20Michael%20Jordon%20Coca%20Cola%20Commercia.mp4",
           "start": 0,
-          "duration": 30.38,
-          "title": "1990 The Adventures of Ford Fairlane Movie Commercial",
+          "duration": 29.98,
+          "title": "1990 Michael Jordon Coca Cola Commercial",
           "year": 1990,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1990-ford-fairlane-movie-commercial"
+          "credit": "archive.org/details/1990-michael-jordon-coca-cola-commercia"
         },
         {
           "kind": "video",
@@ -2100,29 +2100,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1990-michael-jordon-coca-cola-commercia/1990%20Michael%20Jordon%20Coca%20Cola%20Commercia.mp4",
+          "src": "https://archive.org/download/1990-ford-fairlane-movie-commercial/1990%20Ford%20Fairlane%20Movie%20Commercial.mp4",
           "start": 0,
-          "duration": 29.98,
-          "title": "1990 Michael Jordon Coca Cola Commercial",
+          "duration": 30.38,
+          "title": "1990 The Adventures of Ford Fairlane Movie Commercial",
           "year": 1990,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1990-michael-jordon-coca-cola-commercia"
+          "credit": "archive.org/details/1990-ford-fairlane-movie-commercial"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/Milka90/Milka90.mp4",
+          "src": "https://archive.org/download/1990-coca-cola-rolling-stones-sponsor-commercial/1990%20Coca%20Cola%20Rolling%20Stones%20Sponsor%20Commercial.mp4",
           "start": 0,
-          "duration": 14.78,
-          "title": "Milka",
+          "duration": 38.75,
+          "title": "1990 Coca Cola Rolling Stones Sponsor Commercial",
           "year": 1990,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/Milka90"
+          "credit": "archive.org/details/1990-coca-cola-rolling-stones-sponsor-commercial"
         },
         {
           "kind": "video",
@@ -2147,19 +2147,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/tmnt-video/TMNT%20Video.mp4",
-          "start": 0,
-          "duration": 15.23,
-          "title": "TMNT Teenage Mutant Ninja Turtles - VHS Release (1990) TV Commercial",
-          "year": 1990,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/tmnt-video"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/1990-wtxf-tv-fox-29-simpsons-married-with-children-promo/1990%20WTXF-TV%20Fox%2029%20Simpsons%20%26%20Married%20with%20Children%20Promo.mp4",
           "start": 0,
           "duration": 30.15,
@@ -2170,6 +2157,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1990-wtxf-tv-fox-29-simpsons-married-with-children-promo"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1990-tbs-commercials/07.mp4",
+          "start": 0,
+          "duration": 64.21,
+          "title": "1990 TBS Commercials",
+          "year": 1990,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1990-tbs-commercials"
         },
         {
           "kind": "video",
@@ -2186,50 +2186,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1990-coca-cola-magi-cans-commercial/1990%20Coca%20Cola%20MagiCans%20Commercial.mp4",
+          "src": "https://archive.org/download/1990-george-carlin-doin-it-again-intro/1990%20George%20Carlin%20-%20Doin'%20it%20Again!%20Intro.mp4",
           "start": 0,
-          "duration": 40.35,
-          "title": "1990 Coca Cola MagiCans Commercial",
+          "duration": 30.05,
+          "title": "1990 George Carlin - Doin' It Again! Intro",
           "year": 1990,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1990-coca-cola-magi-cans-commercial"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/1990-ford-fairlane-movie-commercial/1990%20Ford%20Fairlane%20Movie%20Commercial.mp4",
-          "start": 0,
-          "duration": 30.38,
-          "title": "1990 The Adventures of Ford Fairlane Movie Commercial",
-          "year": 1990,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1990-ford-fairlane-movie-commercial"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/wwf-wrestling-challenge-november-25-1990/WWF%20Wrestling%20Challenge%20-%20November%2025%2C%201990.mp4",
-          "start": 0,
-          "duration": 702.16,
-          "title": "WWF Wrestling Challenge November 25, 1990",
-          "year": 1990,
-          "airDate": "1990-11-25",
-          "category": "program",
-          "part": 1,
-          "parts": 4,
-          "credit": "archive.org/details/wwf-wrestling-challenge-november-25-1990"
-        },
-        {
-          "kind": "card",
-          "style": "break",
-          "duration": 4,
-          "title": "We'll be right back",
-          "text": "Stay tuned!",
-          "year": null
+          "credit": "archive.org/details/1990-george-carlin-doin-it-again-intro"
         },
         {
           "kind": "video",
@@ -2243,152 +2209,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1990-michael-jordon-coca-cola-commercia"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/Milka90/Milka90.mp4",
-          "start": 0,
-          "duration": 14.78,
-          "title": "Milka",
-          "year": 1990,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/Milka90"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/wwf-wrestling-challenge-november-25-1990/WWF%20Wrestling%20Challenge%20-%20November%2025%2C%201990.mp4",
-          "start": 702.16,
-          "duration": 702.16,
-          "title": "WWF Wrestling Challenge November 25, 1990",
-          "year": 1990,
-          "airDate": "1990-11-25",
-          "category": "program",
-          "part": 2,
-          "parts": 4,
-          "credit": "archive.org/details/wwf-wrestling-challenge-november-25-1990"
-        },
-        {
-          "kind": "card",
-          "style": "break",
-          "duration": 4,
-          "title": "We'll be right back",
-          "text": "Stay tuned!",
-          "year": null
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/tmnt-video/TMNT%20Video.mp4",
-          "start": 0,
-          "duration": 15.23,
-          "title": "TMNT Teenage Mutant Ninja Turtles - VHS Release (1990) TV Commercial",
-          "year": 1990,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/tmnt-video"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/1990-wtxf-tv-fox-29-simpsons-married-with-children-promo/1990%20WTXF-TV%20Fox%2029%20Simpsons%20%26%20Married%20with%20Children%20Promo.mp4",
-          "start": 0,
-          "duration": 30.15,
-          "title": "1990 WTXF-TV Fox 29 Simpsons & Married With Children Promo",
-          "year": 1990,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1990-wtxf-tv-fox-29-simpsons-married-with-children-promo"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/wwf-wrestling-challenge-november-25-1990/WWF%20Wrestling%20Challenge%20-%20November%2025%2C%201990.mp4",
-          "start": 1404.32,
-          "duration": 702.16,
-          "title": "WWF Wrestling Challenge November 25, 1990",
-          "year": 1990,
-          "airDate": "1990-11-25",
-          "category": "program",
-          "part": 3,
-          "parts": 4,
-          "credit": "archive.org/details/wwf-wrestling-challenge-november-25-1990"
-        },
-        {
-          "kind": "card",
-          "style": "break",
-          "duration": 4,
-          "title": "We'll be right back",
-          "text": "Stay tuned!",
-          "year": null
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/1990-coca-cola-magi-cans-commercial/1990%20Coca%20Cola%20MagiCans%20Commercial.mp4",
-          "start": 0,
-          "duration": 40.35,
-          "title": "1990 Coca Cola MagiCans Commercial",
-          "year": 1990,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1990-coca-cola-magi-cans-commercial"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/1990-ford-fairlane-movie-commercial/1990%20Ford%20Fairlane%20Movie%20Commercial.mp4",
-          "start": 0,
-          "duration": 30.38,
-          "title": "1990 The Adventures of Ford Fairlane Movie Commercial",
-          "year": 1990,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1990-ford-fairlane-movie-commercial"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/wwf-wrestling-challenge-november-25-1990/WWF%20Wrestling%20Challenge%20-%20November%2025%2C%201990.mp4",
-          "start": 2106.48,
-          "duration": 702.16,
-          "title": "WWF Wrestling Challenge November 25, 1990",
-          "year": 1990,
-          "airDate": "1990-11-25",
-          "category": "program",
-          "part": 4,
-          "parts": 4,
-          "credit": "archive.org/details/wwf-wrestling-challenge-november-25-1990"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/1990-michael-jordon-coca-cola-commercia/1990%20Michael%20Jordon%20Coca%20Cola%20Commercia.mp4",
-          "start": 0,
-          "duration": 29.98,
-          "title": "1990 Michael Jordon Coca Cola Commercial",
-          "year": 1990,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1990-michael-jordon-coca-cola-commercia"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/Milka90/Milka90.mp4",
-          "start": 0,
-          "duration": 14.78,
-          "title": "Milka",
-          "year": 1990,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/Milka90"
         },
         {
           "kind": "card",
@@ -3119,7 +2939,7 @@
       "name": "WAGO",
       "tagline": "Stay tuned",
       "year": 1994,
-      "totalDuration": 6706.06,
+      "totalDuration": 6721.23,
       "items": [
         {
           "kind": "card",
@@ -3144,6 +2964,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/vhs-commercial-civic-dental-1994/VHS%20Commercial%20-%20CIVIC%20DENTAL%20(1994).mp4",
+          "start": 0,
+          "duration": 30.12,
+          "title": "VHS Commercial: CIVIC DENTAL",
+          "year": 1994,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/vhs-commercial-civic-dental-1994"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/1994-dumb-and-dumber-movie-commercial-1/1994%20Dumb%20and%20Dumber%20Movie%20Commercial%20%231.mp4",
           "start": 0,
           "duration": 14.88,
@@ -3154,19 +2987,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1994-dumb-and-dumber-movie-commercial-1"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/1994-speed-movie-videocasette-commercial/1994%20Speed%20Movie%20Videocasette%20Commercial.mp4",
-          "start": 0,
-          "duration": 14.95,
-          "title": "1994 Speed Movie Videocasette Commercial",
-          "year": 1994,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1994-speed-movie-videocasette-commercial"
         },
         {
           "kind": "video",
@@ -3204,16 +3024,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/vhs-commercial-civic-dental-1994/VHS%20Commercial%20-%20CIVIC%20DENTAL%20(1994).mp4",
+          "src": "https://archive.org/download/1994-speed-movie-videocasette-commercial/1994%20Speed%20Movie%20Videocasette%20Commercial.mp4",
           "start": 0,
-          "duration": 30.12,
-          "title": "VHS Commercial: CIVIC DENTAL",
+          "duration": 14.95,
+          "title": "1994 Speed Movie Videocasette Commercial",
           "year": 1994,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/vhs-commercial-civic-dental-1994"
+          "credit": "archive.org/details/1994-speed-movie-videocasette-commercial"
         },
         {
           "kind": "video",
@@ -3230,6 +3050,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/vhs-commercial-civic-dental-1994/VHS%20Commercial%20-%20CIVIC%20DENTAL%20(1994).mp4",
+          "start": 0,
+          "duration": 30.12,
+          "title": "VHS Commercial: CIVIC DENTAL",
+          "year": 1994,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/vhs-commercial-civic-dental-1994"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/1994-dumb-and-dumber-movie-commercial-1/1994%20Dumb%20and%20Dumber%20Movie%20Commercial%20%231.mp4",
           "start": 0,
           "duration": 14.88,
@@ -3240,19 +3073,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1994-dumb-and-dumber-movie-commercial-1"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/1994-speed-movie-videocasette-commercial/1994%20Speed%20Movie%20Videocasette%20Commercial.mp4",
-          "start": 0,
-          "duration": 14.95,
-          "title": "1994 Speed Movie Videocasette Commercial",
-          "year": 1994,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1994-speed-movie-videocasette-commercial"
         },
         {
           "kind": "video",
@@ -3290,16 +3110,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/vhs-commercial-civic-dental-1994/VHS%20Commercial%20-%20CIVIC%20DENTAL%20(1994).mp4",
+          "src": "https://archive.org/download/1994-speed-movie-videocasette-commercial/1994%20Speed%20Movie%20Videocasette%20Commercial.mp4",
           "start": 0,
-          "duration": 30.12,
-          "title": "VHS Commercial: CIVIC DENTAL",
+          "duration": 14.95,
+          "title": "1994 Speed Movie Videocasette Commercial",
           "year": 1994,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/vhs-commercial-civic-dental-1994"
+          "credit": "archive.org/details/1994-speed-movie-videocasette-commercial"
         },
         {
           "kind": "video",
@@ -3324,6 +3144,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/vhs-commercial-civic-dental-1994/VHS%20Commercial%20-%20CIVIC%20DENTAL%20(1994).mp4",
+          "start": 0,
+          "duration": 30.12,
+          "title": "VHS Commercial: CIVIC DENTAL",
+          "year": 1994,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/vhs-commercial-civic-dental-1994"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/1994-dumb-and-dumber-movie-commercial-1/1994%20Dumb%20and%20Dumber%20Movie%20Commercial%20%231.mp4",
           "start": 0,
           "duration": 14.88,
@@ -3334,19 +3167,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1994-dumb-and-dumber-movie-commercial-1"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/1994-speed-movie-videocasette-commercial/1994%20Speed%20Movie%20Videocasette%20Commercial.mp4",
-          "start": 0,
-          "duration": 14.95,
-          "title": "1994 Speed Movie Videocasette Commercial",
-          "year": 1994,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1994-speed-movie-videocasette-commercial"
         },
         {
           "kind": "video",
@@ -3384,16 +3204,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/vhs-commercial-civic-dental-1994/VHS%20Commercial%20-%20CIVIC%20DENTAL%20(1994).mp4",
+          "src": "https://archive.org/download/1994-speed-movie-videocasette-commercial/1994%20Speed%20Movie%20Videocasette%20Commercial.mp4",
           "start": 0,
-          "duration": 30.12,
-          "title": "VHS Commercial: CIVIC DENTAL",
+          "duration": 14.95,
+          "title": "1994 Speed Movie Videocasette Commercial",
           "year": 1994,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/vhs-commercial-civic-dental-1994"
+          "credit": "archive.org/details/1994-speed-movie-videocasette-commercial"
         },
         {
           "kind": "video",
@@ -3418,6 +3238,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/vhs-commercial-civic-dental-1994/VHS%20Commercial%20-%20CIVIC%20DENTAL%20(1994).mp4",
+          "start": 0,
+          "duration": 30.12,
+          "title": "VHS Commercial: CIVIC DENTAL",
+          "year": 1994,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/vhs-commercial-civic-dental-1994"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/1994-dumb-and-dumber-movie-commercial-1/1994%20Dumb%20and%20Dumber%20Movie%20Commercial%20%231.mp4",
           "start": 0,
           "duration": 14.88,
@@ -3428,19 +3261,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1994-dumb-and-dumber-movie-commercial-1"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/1994-speed-movie-videocasette-commercial/1994%20Speed%20Movie%20Videocasette%20Commercial.mp4",
-          "start": 0,
-          "duration": 14.95,
-          "title": "1994 Speed Movie Videocasette Commercial",
-          "year": 1994,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1994-speed-movie-videocasette-commercial"
         },
         {
           "kind": "video",
@@ -3478,16 +3298,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/vhs-commercial-civic-dental-1994/VHS%20Commercial%20-%20CIVIC%20DENTAL%20(1994).mp4",
+          "src": "https://archive.org/download/1994-speed-movie-videocasette-commercial/1994%20Speed%20Movie%20Videocasette%20Commercial.mp4",
           "start": 0,
-          "duration": 30.12,
-          "title": "VHS Commercial: CIVIC DENTAL",
+          "duration": 14.95,
+          "title": "1994 Speed Movie Videocasette Commercial",
           "year": 1994,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/vhs-commercial-civic-dental-1994"
+          "credit": "archive.org/details/1994-speed-movie-videocasette-commercial"
         },
         {
           "kind": "video",
@@ -3512,6 +3332,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/vhs-commercial-civic-dental-1994/VHS%20Commercial%20-%20CIVIC%20DENTAL%20(1994).mp4",
+          "start": 0,
+          "duration": 30.12,
+          "title": "VHS Commercial: CIVIC DENTAL",
+          "year": 1994,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/vhs-commercial-civic-dental-1994"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/1994-dumb-and-dumber-movie-commercial-1/1994%20Dumb%20and%20Dumber%20Movie%20Commercial%20%231.mp4",
           "start": 0,
           "duration": 14.88,
@@ -3522,19 +3355,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1994-dumb-and-dumber-movie-commercial-1"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/1994-speed-movie-videocasette-commercial/1994%20Speed%20Movie%20Videocasette%20Commercial.mp4",
-          "start": 0,
-          "duration": 14.95,
-          "title": "1994 Speed Movie Videocasette Commercial",
-          "year": 1994,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1994-speed-movie-videocasette-commercial"
         },
         {
           "kind": "video",
@@ -3572,16 +3392,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/vhs-commercial-civic-dental-1994/VHS%20Commercial%20-%20CIVIC%20DENTAL%20(1994).mp4",
+          "src": "https://archive.org/download/1994-speed-movie-videocasette-commercial/1994%20Speed%20Movie%20Videocasette%20Commercial.mp4",
           "start": 0,
-          "duration": 30.12,
-          "title": "VHS Commercial: CIVIC DENTAL",
+          "duration": 14.95,
+          "title": "1994 Speed Movie Videocasette Commercial",
           "year": 1994,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/vhs-commercial-civic-dental-1994"
+          "credit": "archive.org/details/1994-speed-movie-videocasette-commercial"
         },
         {
           "kind": "video",
@@ -3598,6 +3418,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/vhs-commercial-civic-dental-1994/VHS%20Commercial%20-%20CIVIC%20DENTAL%20(1994).mp4",
+          "start": 0,
+          "duration": 30.12,
+          "title": "VHS Commercial: CIVIC DENTAL",
+          "year": 1994,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/vhs-commercial-civic-dental-1994"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/1994-dumb-and-dumber-movie-commercial-1/1994%20Dumb%20and%20Dumber%20Movie%20Commercial%20%231.mp4",
           "start": 0,
           "duration": 14.88,
@@ -3608,19 +3441,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1994-dumb-and-dumber-movie-commercial-1"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/1994-speed-movie-videocasette-commercial/1994%20Speed%20Movie%20Videocasette%20Commercial.mp4",
-          "start": 0,
-          "duration": 14.95,
-          "title": "1994 Speed Movie Videocasette Commercial",
-          "year": 1994,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1994-speed-movie-videocasette-commercial"
         },
         {
           "kind": "card",
@@ -3709,6 +3529,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore/KVBC%20Ch%203%20-%201996%20-%20The%20Good%20Guys!-WOW!%20Multimedia%20Superstore.mp4",
+          "start": 0,
+          "duration": 30.04,
+          "title": "KVBC Ch. 3 - (1996) The Good Guys! WOW! Multimedia Superstore Commercial",
+          "year": 1996,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/commercials-nick-jr-1996/commercials%20-%20Nick%20Jr%20-%201996.mp4",
           "start": 0,
           "duration": 95.12,
@@ -3719,19 +3552,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/commercials-nick-jr-1996"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/1996-commercial-for-athletes-foot/1996%20commercial%20for%20Athlete's%20Foot.mp4",
-          "start": 0,
-          "duration": 14.96,
-          "title": "1996 commercial for Athlete's Foot",
-          "year": 1996,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1996-commercial-for-athletes-foot"
         },
         {
           "kind": "video",
@@ -3756,16 +3576,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore/KVBC%20Ch%203%20-%201996%20-%20The%20Good%20Guys!-WOW!%20Multimedia%20Superstore.mp4",
+          "src": "https://archive.org/download/1996-commercial-for-athletes-foot/1996%20commercial%20for%20Athlete's%20Foot.mp4",
           "start": 0,
-          "duration": 30.04,
-          "title": "KVBC Ch. 3 - (1996) The Good Guys! WOW! Multimedia Superstore Commercial",
+          "duration": 14.96,
+          "title": "1996 commercial for Athlete's Foot",
           "year": 1996,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore"
+          "credit": "archive.org/details/1996-commercial-for-athletes-foot"
         },
         {
           "kind": "video",
@@ -3808,16 +3628,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/commercials-nick-jr-1996/commercials%20-%20Nick%20Jr%20-%201996.mp4",
+          "src": "https://archive.org/download/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore/KVBC%20Ch%203%20-%201996%20-%20The%20Good%20Guys!-WOW!%20Multimedia%20Superstore.mp4",
           "start": 0,
-          "duration": 95.12,
-          "title": "Commercials - Nick Jr - 1996",
+          "duration": 30.04,
+          "title": "KVBC Ch. 3 - (1996) The Good Guys! WOW! Multimedia Superstore Commercial",
           "year": 1996,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/commercials-nick-jr-1996"
+          "credit": "archive.org/details/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore"
         },
         {
           "kind": "video",
@@ -3842,6 +3662,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/commercials-nick-jr-1996/commercials%20-%20Nick%20Jr%20-%201996.mp4",
+          "start": 0,
+          "duration": 95.12,
+          "title": "Commercials - Nick Jr - 1996",
+          "year": 1996,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/commercials-nick-jr-1996"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/1996-commercial-for-athletes-foot/1996%20commercial%20for%20Athlete's%20Foot.mp4",
           "start": 0,
           "duration": 14.96,
@@ -3852,19 +3685,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1996-commercial-for-athletes-foot"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore/KVBC%20Ch%203%20-%201996%20-%20The%20Good%20Guys!-WOW!%20Multimedia%20Superstore.mp4",
-          "start": 0,
-          "duration": 30.04,
-          "title": "KVBC Ch. 3 - (1996) The Good Guys! WOW! Multimedia Superstore Commercial",
-          "year": 1996,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore"
         },
         {
           "kind": "video",
@@ -3936,6 +3756,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore/KVBC%20Ch%203%20-%201996%20-%20The%20Good%20Guys!-WOW!%20Multimedia%20Superstore.mp4",
+          "start": 0,
+          "duration": 30.04,
+          "title": "KVBC Ch. 3 - (1996) The Good Guys! WOW! Multimedia Superstore Commercial",
+          "year": 1996,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/commercials-nick-jr-1996/commercials%20-%20Nick%20Jr%20-%201996.mp4",
           "start": 0,
           "duration": 95.12,
@@ -3946,19 +3779,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/commercials-nick-jr-1996"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/1996-commercial-for-athletes-foot/1996%20commercial%20for%20Athlete's%20Foot.mp4",
-          "start": 0,
-          "duration": 14.96,
-          "title": "1996 commercial for Athlete's Foot",
-          "year": 1996,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1996-commercial-for-athletes-foot"
         },
         {
           "kind": "video",
@@ -3983,16 +3803,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore/KVBC%20Ch%203%20-%201996%20-%20The%20Good%20Guys!-WOW!%20Multimedia%20Superstore.mp4",
+          "src": "https://archive.org/download/1996-commercial-for-athletes-foot/1996%20commercial%20for%20Athlete's%20Foot.mp4",
           "start": 0,
-          "duration": 30.04,
-          "title": "KVBC Ch. 3 - (1996) The Good Guys! WOW! Multimedia Superstore Commercial",
+          "duration": 14.96,
+          "title": "1996 commercial for Athlete's Foot",
           "year": 1996,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore"
+          "credit": "archive.org/details/1996-commercial-for-athletes-foot"
         },
         {
           "kind": "video",
@@ -4043,16 +3863,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/commercials-nick-jr-1996/commercials%20-%20Nick%20Jr%20-%201996.mp4",
+          "src": "https://archive.org/download/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore/KVBC%20Ch%203%20-%201996%20-%20The%20Good%20Guys!-WOW!%20Multimedia%20Superstore.mp4",
           "start": 0,
-          "duration": 95.12,
-          "title": "Commercials - Nick Jr - 1996",
+          "duration": 30.04,
+          "title": "KVBC Ch. 3 - (1996) The Good Guys! WOW! Multimedia Superstore Commercial",
           "year": 1996,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/commercials-nick-jr-1996"
+          "credit": "archive.org/details/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore"
         },
         {
           "kind": "video",
@@ -4077,6 +3897,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/commercials-nick-jr-1996/commercials%20-%20Nick%20Jr%20-%201996.mp4",
+          "start": 0,
+          "duration": 95.12,
+          "title": "Commercials - Nick Jr - 1996",
+          "year": 1996,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/commercials-nick-jr-1996"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/1996-commercial-for-athletes-foot/1996%20commercial%20for%20Athlete's%20Foot.mp4",
           "start": 0,
           "duration": 14.96,
@@ -4087,19 +3920,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1996-commercial-for-athletes-foot"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore/KVBC%20Ch%203%20-%201996%20-%20The%20Good%20Guys!-WOW!%20Multimedia%20Superstore.mp4",
-          "start": 0,
-          "duration": 30.04,
-          "title": "KVBC Ch. 3 - (1996) The Good Guys! WOW! Multimedia Superstore Commercial",
-          "year": 1996,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/kvbc-ch-3-1996-the-good-guys-wow-multimedia-superstore"
         },
         {
           "kind": "video",
