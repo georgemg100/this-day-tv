@@ -3,14 +3,14 @@
   "target": "web",
   "date": "11-26",
   "title": "This Day in History — November 26",
-  "publishedAt": "2026-11-24T09:14:22.381Z",
+  "publishedAt": "2026-11-25T09:14:22.764Z",
   "channels": [
     {
       "number": 2,
       "name": "WTDI",
       "tagline": "Your window to yesterday",
       "year": 1963,
-      "totalDuration": 1874.471,
+      "totalDuration": 1919.541,
       "items": [
         {
           "kind": "card",
@@ -51,29 +51,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/Promo_Hootenanny_ABC-TV_1963_Saturday_Night/Promo_Hootenanny_ABC-TV_1963_Saturday_Night_512kb.mp4",
+          "src": "https://archive.org/download/ricechex1963/ricechex1963.mp4",
           "start": 0,
-          "duration": 59.93,
-          "title": "Promo Hootenanny ABC-TV 1963 Saturday Night",
+          "duration": 87.7,
+          "title": "1963 commercial for Rice Chex",
           "year": 1963,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/Promo_Hootenanny_ABC-TV_1963_Saturday_Night"
+          "credit": "archive.org/details/ricechex1963"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/SHGreenStamps1963/S%26H%20Green%20Stamps%20(1963).mp4",
+          "src": "https://archive.org/download/dash1963-1962/dash1963-1962.mp4",
           "start": 0,
-          "duration": 92.06,
-          "title": "1963 commercial: S&H Green Stamps",
+          "duration": 62.49,
+          "title": "1963 commercial for Dash detergent",
           "year": 1963,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/SHGreenStamps1963"
+          "credit": "archive.org/details/dash1963-1962"
         },
         {
           "kind": "video",
@@ -98,29 +98,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1963PepsodentBreeze/pepsodentbreeze.mp4",
+          "src": "https://archive.org/download/1963CommercialsFromSameBroadcast/Post-Toastes1963.mp4",
           "start": 0,
-          "duration": 70.17,
-          "title": "1963 Commercial Break: Pepsodent toothpaste/Breeze detergent",
+          "duration": 22.25,
+          "title": "1963 commercials from same broadcast",
           "year": 1963,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1963PepsodentBreeze"
+          "credit": "archive.org/details/1963CommercialsFromSameBroadcast"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/Cascade19631962/Cascade1963-1962.mp4",
+          "src": "https://archive.org/download/JoopGeesinksKoolCigarettesCommercial1963/Joop%20Geesink's%20Kool%20Cigarettes%20Commercial%201963.mp4",
           "start": 0,
-          "duration": 36.82,
-          "title": "1963 commercial for Cascade dishwashing liquid",
+          "duration": 60.31,
+          "title": "Stop-Motion Kool Cigarettes Commercial",
           "year": 1963,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/Cascade19631962"
+          "credit": "archive.org/details/JoopGeesinksKoolCigarettesCommercial1963"
         },
         {
           "kind": "video",
@@ -137,29 +137,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1963CommercialsFromSameBroadcast/Post-Toastes1963.mp4",
+          "src": "https://archive.org/download/1963BufferinTvCommercialAd/Bufferin.mp4",
           "start": 0,
-          "duration": 22.25,
-          "title": "1963 commercials from same broadcast",
+          "duration": 94.06,
+          "title": "1963 Bufferin TV commercial ad",
           "year": 1963,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1963CommercialsFromSameBroadcast"
+          "credit": "archive.org/details/1963BufferinTvCommercialAd"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/ClassicCommercialForGainesBurgers/Gaines-Burgers-1963.mp4",
+          "src": "https://archive.org/download/MurielCigars1963Ad5/MurielCigars1963-ad5.mp4",
           "start": 0,
-          "duration": 60.69,
-          "title": "Classic commercial for Gaines Burgers",
+          "duration": 60.18,
+          "title": "1963 commercial: Muriel Cigars (Ad 5)",
           "year": 1963,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/ClassicCommercialForGainesBurgers"
+          "credit": "archive.org/details/MurielCigars1963Ad5"
         },
         {
           "kind": "card",
@@ -176,7 +176,7 @@
       "name": "WKTV",
       "tagline": "Seven on your dial",
       "year": 1967,
-      "totalDuration": 2163.18,
+      "totalDuration": 2338.36,
       "items": [
         {
           "kind": "card",
@@ -209,29 +209,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/Classic1967CommercialForinstantQuakerOatmealWithElizabethMontgomery/Oatmeal1967Witch_512kb.mp4",
+          "src": "https://archive.org/download/1967CommercialBreaksFromtoTellTheTruth/TTTT1967Break3.mp4",
           "start": 0,
-          "duration": 30.23,
-          "title": "Classic 1967 commercial for Instant Quaker Oatmeal with Elizabeth Montgomery",
+          "duration": 62.49,
+          "title": "1967 commercial breaks from ''To Tell the Truth''",
           "year": 1967,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/Classic1967CommercialForinstantQuakerOatmealWithElizabethMontgomery"
+          "credit": "archive.org/details/1967CommercialBreaksFromtoTellTheTruth"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/honey1967/honey1967.mp4",
+          "src": "https://archive.org/download/Promo_He__She_CBS_TV_1967/Promo_He__She_CBS_TV_1967_512kb.mp4",
           "start": 0,
-          "duration": 31.93,
-          "title": "1967 commercial for Honey-Comb cereal",
+          "duration": 55.96,
+          "title": "Promo He She CBS TV 1967",
           "year": 1967,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/honey1967"
+          "credit": "archive.org/details/Promo_He__She_CBS_TV_1967"
         },
         {
           "kind": "video",
@@ -256,29 +256,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1967CommercialForscopeMouthwash/Scope1967.mp4",
+          "src": "https://archive.org/download/1967CommercialForVanquishPainReliever/Vanquish1967.mp4",
           "start": 0,
-          "duration": 30.16,
-          "title": "1967 commercial for Scope mouthwash",
+          "duration": 59.96,
+          "title": "1967 commercial for Vanquish pain reliever",
           "year": 1967,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1967CommercialForscopeMouthwash"
+          "credit": "archive.org/details/1967CommercialForVanquishPainReliever"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/Castoria1967/Castoria1967.mp4",
+          "src": "https://archive.org/download/BreezeDetergentLuxLiquid1967/BreezeDetergentLuxLiquid1967.mp4",
           "start": 0,
-          "duration": 29.34,
-          "title": "1967 commercial: Fletcher's Castoria",
+          "duration": 61.21,
+          "title": "1967 commercial break: Breeze Detergent, Lux dishwashing liquid",
           "year": 1967,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/Castoria1967"
+          "credit": "archive.org/details/BreezeDetergentLuxLiquid1967"
         },
         {
           "kind": "video",
@@ -295,29 +295,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1967SecretDeodorantSpray/1967%20Secret%20Deodorant%20Spray.mp4",
+          "src": "https://archive.org/download/1967CommercialsForListerine/Listerine1967.mp4",
           "start": 0,
-          "duration": 30.36,
-          "title": "Secret Deodorant Spray",
+          "duration": 59.96,
+          "title": "1967 commercials for Listerine",
           "year": 1967,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1967SecretDeodorantSpray"
+          "credit": "archive.org/details/1967CommercialsForListerine"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1967CommercialForlifeCerealquakerOats/Life1967_512kb.mp4",
+          "src": "https://archive.org/download/1967Listerine/1967%20Listerine.mp4",
           "start": 0,
-          "duration": 31.4,
-          "title": "1967 commercial for Life cereal",
+          "duration": 59.02,
+          "title": "Listerine Commercial",
           "year": 1967,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1967CommercialForlifeCerealquakerOats"
+          "credit": "archive.org/details/1967Listerine"
         },
         {
           "kind": "card",
@@ -334,7 +334,7 @@
       "name": "WNTW",
       "tagline": "The way it was",
       "year": 1968,
-      "totalDuration": 3275,
+      "totalDuration": 3275.2,
       "items": [
         {
           "kind": "card",
@@ -375,29 +375,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1968MarxCarryAllActionPlaysetsWithChrisKnight/1968%20Marx%20Carry-All%20Action%20Playsets%20with%20Chris%20Knight.mp4",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial141968-1971/VirginiaSlims_14.mp4",
           "start": 0,
-          "duration": 60.02,
-          "title": "Marx Carry-All Action Playsets with Chris Knight",
+          "duration": 61,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 14 / 1968-1971",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1968MarxCarryAllActionPlaysetsWithChrisKnight"
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial141968-1971"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial0119681971/VirginiaSlims_01.mp4",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial0219681971/VirginiaSlims_02.mp4",
           "start": 0,
-          "duration": 60.22,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial 01 / 1968-1971",
+          "duration": 59.92,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 02 / 1968-1971",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial0119681971"
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial0219681971"
         },
         {
           "kind": "video",
@@ -422,29 +422,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial151968-1971/VirginiaSlims_15.mp4",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial0819681971/VirginiaSlims_08.mp4",
           "start": 0,
-          "duration": 60.01,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial 15 / 1968-1971",
+          "duration": 10.2,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 08 / 1968-1971",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial151968-1971"
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial0819681971"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial161968-1971/VirginiaSlims_16.mp4",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial101968-1971/VirginiaSlims_10.mp4",
           "start": 0,
-          "duration": 60.19,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial 16 / 1968-1971",
+          "duration": 60.22,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 10 / 1968-1971",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial161968-1971"
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial101968-1971"
         },
         {
           "kind": "video",
@@ -469,29 +469,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial0719681971/VirginiaSlims_07.mp4",
+          "src": "https://archive.org/download/BorisKarloffRonsonCometLighter1968/Boris%20Karloff%20Ronson%20Comet%20Lighter%201968.mp4",
           "start": 0,
-          "duration": 60.25,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial 07 / 1968-1971",
+          "duration": 59.21,
+          "title": "Ronson Comet Lighter with Boris Karloff",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial0719681971"
+          "credit": "archive.org/details/BorisKarloffRonsonCometLighter1968"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial04a19681971/VirginiaSlims_04a.mp4",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial131968-1971/VirginiaSlims_13_512kb.mp4",
           "start": 0,
-          "duration": 10.27,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial 04a / 1968-1971",
+          "duration": 59.93,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 13 / 1968-1971",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial04a19681971"
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial131968-1971"
         },
         {
           "kind": "video",
@@ -508,29 +508,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1968MarxCarryAllActionPlaysetsWithChrisKnight/1968%20Marx%20Carry-All%20Action%20Playsets%20with%20Chris%20Knight.mp4",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial141968-1971/VirginiaSlims_14.mp4",
           "start": 0,
-          "duration": 60.02,
-          "title": "Marx Carry-All Action Playsets with Chris Knight",
+          "duration": 61,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 14 / 1968-1971",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1968MarxCarryAllActionPlaysetsWithChrisKnight"
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial141968-1971"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial0119681971/VirginiaSlims_01.mp4",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial0219681971/VirginiaSlims_02.mp4",
           "start": 0,
-          "duration": 60.22,
-          "title": "Virginia Slims Cigarettes U.S. Television Commercial 01 / 1968-1971",
+          "duration": 59.92,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 02 / 1968-1971",
           "year": 1968,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial0119681971"
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial0219681971"
         },
         {
           "kind": "card",
@@ -546,86 +546,14 @@
       "number": 5,
       "name": "WYRS",
       "tagline": "Tonight, back then",
-      "year": 1973,
-      "totalDuration": 499.08,
+      "year": 1977,
+      "totalDuration": 5929.869,
       "items": [
         {
           "kind": "card",
           "style": "station-id",
           "duration": 8,
           "title": "WYRS · CHANNEL 5",
-          "text": "Good evening. It's November 26, 1973. Stay tuned.",
-          "year": 1973
-        },
-        {
-          "kind": "card",
-          "style": "headline",
-          "duration": 10,
-          "title": "November 26, 1973",
-          "text": "Died today: John Rostill, English bass player and songwriter (born 1942)",
-          "year": 1973
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/the-10-000-pyramid-1973-11-23-commercials/The%20%2410%2C000%20Pyramid%201973-11-23%20Commercials.mp4",
-          "start": 0,
-          "duration": 360.06,
-          "title": "CBS Commercials Aired on November 26, 1973",
-          "year": 1973,
-          "airDate": "1973-11-26",
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/the-10-000-pyramid-1973-11-23-commercials"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/1973-commercial-for-fosters-lager/1973%20commercial%20for%20Foster's%20lager.mp4",
-          "start": 0,
-          "duration": 51.92,
-          "title": "1973 commercial for Foster's Lager",
-          "year": 1973,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1973-commercial-for-fosters-lager"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/gicl-0862-monsters-cereal-boo-1-1-1972/Gicl%200862%20-%20Monsters%20Cereal%20-%20Boo%20-%201-1-1972.mp4",
-          "start": 0,
-          "duration": 61.1,
-          "title": "General Mills' Boo Berry commercial (1973) [1-minute version]",
-          "year": 1973,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/gicl-0862-monsters-cereal-boo-1-1-1972"
-        },
-        {
-          "kind": "card",
-          "style": "sign-off",
-          "duration": 8,
-          "title": "That concludes our broadcast day",
-          "text": "WYRS thanks you for watching. Our programming will now repeat.",
-          "year": 1973
-        }
-      ]
-    },
-    {
-      "number": 6,
-      "name": "WHEN",
-      "tagline": "Stay tuned",
-      "year": 1977,
-      "totalDuration": 5941.809,
-      "items": [
-        {
-          "kind": "card",
-          "style": "station-id",
-          "duration": 8,
-          "title": "WHEN · CHANNEL 6",
           "text": "Good evening. It's November 26, 1977. Stay tuned.",
           "year": 1977
         },
@@ -660,29 +588,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977HappyDaysFonzieLovesPinkyPromo/1977%20Happy%20Days-Fonzie%20Loves%20Pinky%20promo.mp4",
+          "src": "https://archive.org/download/1977CarnationInstantMilkWithVickiLawrence/1977%20Carnation%20Instant%20Milk%20with%20Vicki%20Lawrence.mp4",
           "start": 0,
-          "duration": 30.62,
-          "title": "Happy Days/Fonzie Loves Pinky promo",
+          "duration": 31.34,
+          "title": "Carnation Instant Milk with Vicki Lawrence",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977HappyDaysFonzieLovesPinkyPromo"
+          "credit": "archive.org/details/1977CarnationInstantMilkWithVickiLawrence"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977ChevroletConcours/1977%20Chevrolet%20Concours.mp4",
+          "src": "https://archive.org/download/1977DelMonteCornWithBillCosby/1977%20Del%20Monte%20Corn%20with%20Bill%20Cosby.mp4",
           "start": 0,
-          "duration": 30.48,
-          "title": "1977 Chevrolet Concours",
+          "duration": 30.6,
+          "title": "Del Monte Corn with Bill Cosby",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977ChevroletConcours"
+          "credit": "archive.org/details/1977DelMonteCornWithBillCosby"
         },
         {
           "kind": "video",
@@ -707,29 +635,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977GentlemenPreferHanesPantyhose/1977%20Gentlemen%20Prefer%20Hanes%20Pantyhose.mp4",
+          "src": "https://archive.org/download/1977FutureCopThreesCompanyPromo/1977%20Future%20Cop%20Three's%20Company%20promo.mp4",
           "start": 0,
-          "duration": 29.62,
-          "title": "Hanes Pantyhose",
+          "duration": 24.33,
+          "title": "Future Cop/Three's Company promo",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977GentlemenPreferHanesPantyhose"
+          "credit": "archive.org/details/1977FutureCopThreesCompanyPromo"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977DelMonteCornWithBillCosby/1977%20Del%20Monte%20Corn%20with%20Bill%20Cosby.mp4",
+          "src": "https://archive.org/download/1977HaveAPepsiDay/1977%20Have%20a%20Pepsi%20Day.mp4",
           "start": 0,
-          "duration": 30.6,
-          "title": "Del Monte Corn with Bill Cosby",
+          "duration": 30.29,
+          "title": "Have a Pepsi Day",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977DelMonteCornWithBillCosby"
+          "credit": "archive.org/details/1977HaveAPepsiDay"
         },
         {
           "kind": "video",
@@ -754,29 +682,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977GoldenGrahamsCereal/1977%20Golden%20Grahams%20Cereal.mp4",
+          "src": "https://archive.org/download/classic-atari-2600-commercials-from-the-80s-segment-0-x-264-002/Classic%20Atari%202600%20Commercials%20From%20the%20-80s_Segment_0_x264_002.mp4",
           "start": 0,
-          "duration": 30.02,
-          "title": "Oh, Those Golden Grahams!",
+          "duration": 30.62,
+          "title": "Atari Commercials P2",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977GoldenGrahamsCereal"
+          "credit": "archive.org/details/classic-atari-2600-commercials-from-the-80s-segment-0-x-264-002"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977SingerSewingMachinesWithDebbieReynolds/1977%20Singer%20Sewing%20Machines%20with%20Debbie%20Reynolds.mp4",
+          "src": "https://archive.org/download/1977BlanskysBeautiesFishStarskyHutch/1977%20Blansky's%20Beauties%20Fish%20Starsky%20Hutch.mp4",
           "start": 0,
-          "duration": 30.58,
-          "title": "Singer Sewing Machines sale with Debbie Reynolds",
+          "duration": 31.15,
+          "title": "Blansky's Beauties/Fish/Starsky & Hutch promo",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977SingerSewingMachinesWithDebbieReynolds"
+          "credit": "archive.org/details/1977BlanskysBeautiesFishStarskyHutch"
         },
         {
           "kind": "video",
@@ -801,29 +729,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977HappyDaysFonzieLovesPinkyPromo/1977%20Happy%20Days-Fonzie%20Loves%20Pinky%20promo.mp4",
+          "src": "https://archive.org/download/1977CarnationInstantMilkWithVickiLawrence/1977%20Carnation%20Instant%20Milk%20with%20Vicki%20Lawrence.mp4",
           "start": 0,
-          "duration": 30.62,
-          "title": "Happy Days/Fonzie Loves Pinky promo",
+          "duration": 31.34,
+          "title": "Carnation Instant Milk with Vicki Lawrence",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977HappyDaysFonzieLovesPinkyPromo"
+          "credit": "archive.org/details/1977CarnationInstantMilkWithVickiLawrence"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977ChevroletConcours/1977%20Chevrolet%20Concours.mp4",
+          "src": "https://archive.org/download/1977DelMonteCornWithBillCosby/1977%20Del%20Monte%20Corn%20with%20Bill%20Cosby.mp4",
           "start": 0,
-          "duration": 30.48,
-          "title": "1977 Chevrolet Concours",
+          "duration": 30.6,
+          "title": "Del Monte Corn with Bill Cosby",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977ChevroletConcours"
+          "credit": "archive.org/details/1977DelMonteCornWithBillCosby"
         },
         {
           "kind": "video",
@@ -840,29 +768,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977GentlemenPreferHanesPantyhose/1977%20Gentlemen%20Prefer%20Hanes%20Pantyhose.mp4",
+          "src": "https://archive.org/download/1977FutureCopThreesCompanyPromo/1977%20Future%20Cop%20Three's%20Company%20promo.mp4",
           "start": 0,
-          "duration": 29.62,
-          "title": "Hanes Pantyhose",
+          "duration": 24.33,
+          "title": "Future Cop/Three's Company promo",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977GentlemenPreferHanesPantyhose"
+          "credit": "archive.org/details/1977FutureCopThreesCompanyPromo"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977DelMonteCornWithBillCosby/1977%20Del%20Monte%20Corn%20with%20Bill%20Cosby.mp4",
+          "src": "https://archive.org/download/1977HaveAPepsiDay/1977%20Have%20a%20Pepsi%20Day.mp4",
           "start": 0,
-          "duration": 30.6,
-          "title": "Del Monte Corn with Bill Cosby",
+          "duration": 30.29,
+          "title": "Have a Pepsi Day",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977DelMonteCornWithBillCosby"
+          "credit": "archive.org/details/1977HaveAPepsiDay"
         },
         {
           "kind": "card",
@@ -895,29 +823,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977GoldenGrahamsCereal/1977%20Golden%20Grahams%20Cereal.mp4",
+          "src": "https://archive.org/download/classic-atari-2600-commercials-from-the-80s-segment-0-x-264-002/Classic%20Atari%202600%20Commercials%20From%20the%20-80s_Segment_0_x264_002.mp4",
           "start": 0,
-          "duration": 30.02,
-          "title": "Oh, Those Golden Grahams!",
+          "duration": 30.62,
+          "title": "Atari Commercials P2",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977GoldenGrahamsCereal"
+          "credit": "archive.org/details/classic-atari-2600-commercials-from-the-80s-segment-0-x-264-002"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977SingerSewingMachinesWithDebbieReynolds/1977%20Singer%20Sewing%20Machines%20with%20Debbie%20Reynolds.mp4",
+          "src": "https://archive.org/download/1977BlanskysBeautiesFishStarskyHutch/1977%20Blansky's%20Beauties%20Fish%20Starsky%20Hutch.mp4",
           "start": 0,
-          "duration": 30.58,
-          "title": "Singer Sewing Machines sale with Debbie Reynolds",
+          "duration": 31.15,
+          "title": "Blansky's Beauties/Fish/Starsky & Hutch promo",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977SingerSewingMachinesWithDebbieReynolds"
+          "credit": "archive.org/details/1977BlanskysBeautiesFishStarskyHutch"
         },
         {
           "kind": "video",
@@ -942,29 +870,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977HappyDaysFonzieLovesPinkyPromo/1977%20Happy%20Days-Fonzie%20Loves%20Pinky%20promo.mp4",
+          "src": "https://archive.org/download/1977CarnationInstantMilkWithVickiLawrence/1977%20Carnation%20Instant%20Milk%20with%20Vicki%20Lawrence.mp4",
           "start": 0,
-          "duration": 30.62,
-          "title": "Happy Days/Fonzie Loves Pinky promo",
+          "duration": 31.34,
+          "title": "Carnation Instant Milk with Vicki Lawrence",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977HappyDaysFonzieLovesPinkyPromo"
+          "credit": "archive.org/details/1977CarnationInstantMilkWithVickiLawrence"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977ChevroletConcours/1977%20Chevrolet%20Concours.mp4",
+          "src": "https://archive.org/download/1977DelMonteCornWithBillCosby/1977%20Del%20Monte%20Corn%20with%20Bill%20Cosby.mp4",
           "start": 0,
-          "duration": 30.48,
-          "title": "1977 Chevrolet Concours",
+          "duration": 30.6,
+          "title": "Del Monte Corn with Bill Cosby",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977ChevroletConcours"
+          "credit": "archive.org/details/1977DelMonteCornWithBillCosby"
         },
         {
           "kind": "video",
@@ -981,52 +909,52 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977GentlemenPreferHanesPantyhose/1977%20Gentlemen%20Prefer%20Hanes%20Pantyhose.mp4",
+          "src": "https://archive.org/download/1977FutureCopThreesCompanyPromo/1977%20Future%20Cop%20Three's%20Company%20promo.mp4",
           "start": 0,
-          "duration": 29.62,
-          "title": "Hanes Pantyhose",
+          "duration": 24.33,
+          "title": "Future Cop/Three's Company promo",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977GentlemenPreferHanesPantyhose"
+          "credit": "archive.org/details/1977FutureCopThreesCompanyPromo"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977DelMonteCornWithBillCosby/1977%20Del%20Monte%20Corn%20with%20Bill%20Cosby.mp4",
+          "src": "https://archive.org/download/1977HaveAPepsiDay/1977%20Have%20a%20Pepsi%20Day.mp4",
           "start": 0,
-          "duration": 30.6,
-          "title": "Del Monte Corn with Bill Cosby",
+          "duration": 30.29,
+          "title": "Have a Pepsi Day",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977DelMonteCornWithBillCosby"
+          "credit": "archive.org/details/1977HaveAPepsiDay"
         },
         {
           "kind": "card",
           "style": "sign-off",
           "duration": 8,
           "title": "That concludes our broadcast day",
-          "text": "WHEN thanks you for watching. Our programming will now repeat.",
+          "text": "WYRS thanks you for watching. Our programming will now repeat.",
           "year": 1977
         }
       ]
     },
     {
-      "number": 7,
-      "name": "WOLD",
-      "tagline": "Your evening companion",
+      "number": 6,
+      "name": "WHEN",
+      "tagline": "Stay tuned",
       "year": 1978,
-      "totalDuration": 3552.66,
+      "totalDuration": 3536.52,
       "items": [
         {
           "kind": "card",
           "style": "station-id",
           "duration": 8,
-          "title": "WOLD · CHANNEL 7",
+          "title": "WHEN · CHANNEL 6",
           "text": "Good evening. It's November 26, 1978. Stay tuned.",
           "year": 1978
         },
@@ -1074,16 +1002,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/k-tel-lets-disco-album-commercial-1978/K-Tel%20Let's%20Disco%20album%20commercial%201978.mp4",
+          "src": "https://archive.org/download/Betamax_12-3-78/Betamax_12-3-78.mp4",
           "start": 0,
-          "duration": 30.76,
-          "title": "K-Tel Let's Disco album commercial 1978",
+          "duration": 30.06,
+          "title": "Sony Betamax commercial (USA, 1978)",
           "year": 1978,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/k-tel-lets-disco-album-commercial-1978"
+          "credit": "archive.org/details/Betamax_12-3-78"
         },
         {
           "kind": "video",
@@ -1155,29 +1083,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/Betamax_12-3-78/Betamax_12-3-78.mp4",
+          "src": "https://archive.org/download/thunderbird-commercial-disco-style/Thunderbird%20commercial%20(disco-style).mp4",
           "start": 0,
-          "duration": 30.06,
-          "title": "Sony Betamax commercial (USA, 1978)",
+          "duration": 30.12,
+          "title": "Thunderbird Commercial (disco Style)",
           "year": 1978,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/Betamax_12-3-78"
+          "credit": "archive.org/details/thunderbird-commercial-disco-style"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/PolavisionDannyKaye_October_23rd_1978/PolavisionDannyKaye%20October%2023rd%2C%201978.mp4",
+          "src": "https://archive.org/download/k-tel-lets-disco-album-commercial-1978/K-Tel%20Let's%20Disco%20album%20commercial%201978.mp4",
           "start": 0,
-          "duration": 30.56,
-          "title": "Polavision commercial (USA, 1978)",
+          "duration": 30.76,
+          "title": "K-Tel Let's Disco album commercial 1978",
           "year": 1978,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/PolavisionDannyKaye_October_23rd_1978"
+          "credit": "archive.org/details/k-tel-lets-disco-album-commercial-1978"
         },
         {
           "kind": "video",
@@ -1215,16 +1143,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/k-tel-lets-disco-album-commercial-1978/K-Tel%20Let's%20Disco%20album%20commercial%201978.mp4",
+          "src": "https://archive.org/download/Betamax_12-3-78/Betamax_12-3-78.mp4",
           "start": 0,
-          "duration": 30.76,
-          "title": "K-Tel Let's Disco album commercial 1978",
+          "duration": 30.06,
+          "title": "Sony Betamax commercial (USA, 1978)",
           "year": 1978,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/k-tel-lets-disco-album-commercial-1978"
+          "credit": "archive.org/details/Betamax_12-3-78"
         },
         {
           "kind": "video",
@@ -1267,34 +1195,18 @@
         },
         {
           "kind": "card",
-          "style": "custom",
-          "duration": 5,
-          "title": "News Roundup",
-          "text": "More of the news on November 26, 1978…",
-          "year": 1978
-        },
-        {
-          "kind": "card",
-          "style": "headline",
-          "duration": 10,
-          "title": "November 26, 1978",
-          "text": "Died today: Frank Rosolino, American trombonist (born 1926)",
-          "year": 1978
-        },
-        {
-          "kind": "card",
           "style": "sign-off",
           "duration": 8,
           "title": "That concludes our broadcast day",
-          "text": "WOLD thanks you for watching. Our programming will now repeat.",
+          "text": "WHEN thanks you for watching. Our programming will now repeat.",
           "year": 1978
         }
       ]
     },
     {
-      "number": 8,
-      "name": "WPST",
-      "tagline": "Your window to yesterday",
+      "number": 7,
+      "name": "WOLD",
+      "tagline": "Your evening companion",
       "year": 1985,
       "totalDuration": 5337.671,
       "items": [
@@ -1302,7 +1214,7 @@
           "kind": "card",
           "style": "station-id",
           "duration": 8,
-          "title": "WPST · CHANNEL 8",
+          "title": "WOLD · CHANNEL 7",
           "text": "Good evening. It's November 26, 1985. Stay tuned.",
           "year": 1985
         },
@@ -1350,16 +1262,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1985-rocky-iv-movie-commercial/1985%20Rocky%20IV%20Movie%20Commercial.mp4",
+          "src": "https://archive.org/download/1985-back-to-the-future-movie-commercial/1985%20Back%20to%20the%20Future%20Movie%20Commercial.mp4",
           "start": 0,
-          "duration": 31.03,
-          "title": "1985 Rocky IV Movie Commercial",
+          "duration": 31.4,
+          "title": "1985 Back To The Future Movie Commercial",
           "year": 1985,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1985-rocky-iv-movie-commercial"
+          "credit": "archive.org/details/1985-back-to-the-future-movie-commercial"
         },
         {
           "kind": "video",
@@ -1384,19 +1296,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/castlemaine-xxxx-lager-advert/Castlemaine%20XXXX%20Lager%20Advert.mp4",
-          "start": 0,
-          "duration": 30.76,
-          "title": "Castlemaine XXXX Lager Advert",
-          "year": 1985,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/castlemaine-xxxx-lager-advert"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/GremlinsFandango_3-11-85/GremlinsFandango_3-11-85.mp4",
           "start": 0,
           "duration": 29.71,
@@ -1407,6 +1306,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/GremlinsFandango_3-11-85"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/castlemaine-xxxx-lager-advert/Castlemaine%20XXXX%20Lager%20Advert.mp4",
+          "start": 0,
+          "duration": 30.76,
+          "title": "Castlemaine XXXX Lager Advert",
+          "year": 1985,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/castlemaine-xxxx-lager-advert"
         },
         {
           "kind": "video",
@@ -1423,16 +1335,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1985-back-to-the-future-movie-commercial/1985%20Back%20to%20the%20Future%20Movie%20Commercial.mp4",
+          "src": "https://archive.org/download/1985-rocky-iv-movie-commercial/1985%20Rocky%20IV%20Movie%20Commercial.mp4",
           "start": 0,
-          "duration": 31.4,
-          "title": "1985 Back To The Future Movie Commercial",
+          "duration": 31.03,
+          "title": "1985 Rocky IV Movie Commercial",
           "year": 1985,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1985-back-to-the-future-movie-commercial"
+          "credit": "archive.org/details/1985-rocky-iv-movie-commercial"
         },
         {
           "kind": "video",
@@ -1470,42 +1382,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1985-rocky-iv-movie-commercial/1985%20Rocky%20IV%20Movie%20Commercial.mp4",
+          "src": "https://archive.org/download/1985-back-to-the-future-movie-commercial/1985%20Back%20to%20the%20Future%20Movie%20Commercial.mp4",
           "start": 0,
-          "duration": 31.03,
-          "title": "1985 Rocky IV Movie Commercial",
+          "duration": 31.4,
+          "title": "1985 Back To The Future Movie Commercial",
           "year": 1985,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1985-rocky-iv-movie-commercial"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/castlemaine-xxxx-lager-advert/Castlemaine%20XXXX%20Lager%20Advert.mp4",
-          "start": 0,
-          "duration": 30.76,
-          "title": "Castlemaine XXXX Lager Advert",
-          "year": 1985,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/castlemaine-xxxx-lager-advert"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/EntertainmentTonightNovember261985/Entertainment-Tonight-_November-26_-1985_.mp4",
-          "start": 671.28,
-          "duration": 671.28,
-          "title": "Entertainment Tonight (November 26, 1985)",
-          "year": 1985,
-          "airDate": "1985-11-26",
-          "category": "program",
-          "part": 2,
-          "parts": 2,
-          "credit": "archive.org/details/EntertainmentTonightNovember261985"
+          "credit": "archive.org/details/1985-back-to-the-future-movie-commercial"
         },
         {
           "kind": "video",
@@ -1522,16 +1408,42 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1985-back-to-the-future-movie-commercial/1985%20Back%20to%20the%20Future%20Movie%20Commercial.mp4",
+          "src": "https://archive.org/download/EntertainmentTonightNovember261985/Entertainment-Tonight-_November-26_-1985_.mp4",
+          "start": 671.28,
+          "duration": 671.28,
+          "title": "Entertainment Tonight (November 26, 1985)",
+          "year": 1985,
+          "airDate": "1985-11-26",
+          "category": "program",
+          "part": 2,
+          "parts": 2,
+          "credit": "archive.org/details/EntertainmentTonightNovember261985"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/castlemaine-xxxx-lager-advert/Castlemaine%20XXXX%20Lager%20Advert.mp4",
           "start": 0,
-          "duration": 31.4,
-          "title": "1985 Back To The Future Movie Commercial",
+          "duration": 30.76,
+          "title": "Castlemaine XXXX Lager Advert",
           "year": 1985,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1985-back-to-the-future-movie-commercial"
+          "credit": "archive.org/details/castlemaine-xxxx-lager-advert"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1985-rocky-iv-movie-commercial/1985%20Rocky%20IV%20Movie%20Commercial.mp4",
+          "start": 0,
+          "duration": 31.03,
+          "title": "1985 Rocky IV Movie Commercial",
+          "year": 1985,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1985-rocky-iv-movie-commercial"
         },
         {
           "kind": "video",
@@ -1569,16 +1481,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1985-rocky-iv-movie-commercial/1985%20Rocky%20IV%20Movie%20Commercial.mp4",
+          "src": "https://archive.org/download/1985-back-to-the-future-movie-commercial/1985%20Back%20to%20the%20Future%20Movie%20Commercial.mp4",
           "start": 0,
-          "duration": 31.03,
-          "title": "1985 Rocky IV Movie Commercial",
+          "duration": 31.4,
+          "title": "1985 Back To The Future Movie Commercial",
           "year": 1985,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1985-rocky-iv-movie-commercial"
+          "credit": "archive.org/details/1985-back-to-the-future-movie-commercial"
         },
         {
           "kind": "video",
@@ -1603,19 +1515,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/castlemaine-xxxx-lager-advert/Castlemaine%20XXXX%20Lager%20Advert.mp4",
-          "start": 0,
-          "duration": 30.76,
-          "title": "Castlemaine XXXX Lager Advert",
-          "year": 1985,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/castlemaine-xxxx-lager-advert"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/GremlinsFandango_3-11-85/GremlinsFandango_3-11-85.mp4",
           "start": 0,
           "duration": 29.71,
@@ -1626,6 +1525,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/GremlinsFandango_3-11-85"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/castlemaine-xxxx-lager-advert/Castlemaine%20XXXX%20Lager%20Advert.mp4",
+          "start": 0,
+          "duration": 30.76,
+          "title": "Castlemaine XXXX Lager Advert",
+          "year": 1985,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/castlemaine-xxxx-lager-advert"
         },
         {
           "kind": "video",
@@ -1642,16 +1554,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1985-back-to-the-future-movie-commercial/1985%20Back%20to%20the%20Future%20Movie%20Commercial.mp4",
+          "src": "https://archive.org/download/1985-rocky-iv-movie-commercial/1985%20Rocky%20IV%20Movie%20Commercial.mp4",
           "start": 0,
-          "duration": 31.4,
-          "title": "1985 Back To The Future Movie Commercial",
+          "duration": 31.03,
+          "title": "1985 Rocky IV Movie Commercial",
           "year": 1985,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1985-back-to-the-future-movie-commercial"
+          "credit": "archive.org/details/1985-rocky-iv-movie-commercial"
         },
         {
           "kind": "video",
@@ -1671,23 +1583,23 @@
           "style": "sign-off",
           "duration": 8,
           "title": "That concludes our broadcast day",
-          "text": "WPST thanks you for watching. Our programming will now repeat.",
+          "text": "WOLD thanks you for watching. Our programming will now repeat.",
           "year": 1985
         }
       ]
     },
     {
-      "number": 9,
-      "name": "WDAY",
-      "tagline": "Seven on your dial",
+      "number": 8,
+      "name": "WPST",
+      "tagline": "Your window to yesterday",
       "year": 1986,
-      "totalDuration": 4399.81,
+      "totalDuration": 4313.25,
       "items": [
         {
           "kind": "card",
           "style": "station-id",
           "duration": 8,
-          "title": "WDAY · CHANNEL 9",
+          "title": "WPST · CHANNEL 8",
           "text": "Good evening. It's November 26, 1986. Stay tuned.",
           "year": 1986
         },
@@ -1735,16 +1647,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/80s-commercials-1986480p_20230322/80s%20Commercials%201986480p.mp4",
+          "src": "https://archive.org/download/VictorVCRHQ_1986/VictorVCRHQ_1986.mp4",
           "start": 0,
-          "duration": 116.73,
-          "title": "1986 Unknown Channel Commercial Collection",
+          "duration": 30.17,
+          "title": "ビクターHiFiステレオビデオ CM/JVC HQ VCR",
           "year": 1986,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/80s-commercials-1986480p_20230322"
+          "credit": "archive.org/details/VictorVCRHQ_1986"
         },
         {
           "kind": "video",
@@ -1761,16 +1673,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VictorVCRHQ_1986/VictorVCRHQ_1986.mp4",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198601/1986_01_VS_Japan_512kb.mp4",
           "start": 0,
-          "duration": 30.17,
-          "title": "ビクターHiFiステレオビデオ CM/JVC HQ VCR",
+          "duration": 29.95,
+          "title": "Virginia Slims Cigarettes Japanese Television Commercial 1986 / 01",
           "year": 1986,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VictorVCRHQ_1986"
+          "credit": "archive.org/details/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198601"
         },
         {
           "kind": "video",
@@ -1816,16 +1728,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198601/1986_01_VS_Japan_512kb.mp4",
+          "src": "https://archive.org/download/80s-commercials-1986480p_20230322/80s%20Commercials%201986480p.mp4",
           "start": 0,
-          "duration": 29.95,
-          "title": "Virginia Slims Cigarettes Japanese Television Commercial 1986 / 01",
+          "duration": 116.73,
+          "title": "1986 Unknown Channel Commercial Collection",
           "year": 1986,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198601"
+          "credit": "archive.org/details/80s-commercials-1986480p_20230322"
         },
         {
           "kind": "video",
@@ -1855,19 +1767,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/80s-commercials-1986480p_20230322/80s%20Commercials%201986480p.mp4",
-          "start": 0,
-          "duration": 116.73,
-          "title": "1986 Unknown Channel Commercial Collection",
-          "year": 1986,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/80s-commercials-1986480p_20230322"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/VictorVCRHQ_1986/VictorVCRHQ_1986.mp4",
           "start": 0,
           "duration": 30.17,
@@ -1878,6 +1777,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/VictorVCRHQ_1986"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198601/1986_01_VS_Japan_512kb.mp4",
+          "start": 0,
+          "duration": 29.95,
+          "title": "Virginia Slims Cigarettes Japanese Television Commercial 1986 / 01",
+          "year": 1986,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198601"
         },
         {
           "kind": "card",
@@ -1923,16 +1835,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198601/1986_01_VS_Japan_512kb.mp4",
+          "src": "https://archive.org/download/80s-commercials-1986480p_20230322/80s%20Commercials%201986480p.mp4",
           "start": 0,
-          "duration": 29.95,
-          "title": "Virginia Slims Cigarettes Japanese Television Commercial 1986 / 01",
+          "duration": 116.73,
+          "title": "1986 Unknown Channel Commercial Collection",
           "year": 1986,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198601"
+          "credit": "archive.org/details/80s-commercials-1986480p_20230322"
         },
         {
           "kind": "video",
@@ -1962,39 +1874,39 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/80s-commercials-1986480p_20230322/80s%20Commercials%201986480p.mp4",
+          "src": "https://archive.org/download/VictorVCRHQ_1986/VictorVCRHQ_1986.mp4",
           "start": 0,
-          "duration": 116.73,
-          "title": "1986 Unknown Channel Commercial Collection",
+          "duration": 30.17,
+          "title": "ビクターHiFiステレオビデオ CM/JVC HQ VCR",
           "year": 1986,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/80s-commercials-1986480p_20230322"
+          "credit": "archive.org/details/VictorVCRHQ_1986"
         },
         {
           "kind": "card",
           "style": "sign-off",
           "duration": 8,
           "title": "That concludes our broadcast day",
-          "text": "WDAY thanks you for watching. Our programming will now repeat.",
+          "text": "WPST thanks you for watching. Our programming will now repeat.",
           "year": 1986
         }
       ]
     },
     {
-      "number": 10,
-      "name": "WNOW",
-      "tagline": "The way it was",
+      "number": 9,
+      "name": "WDAY",
+      "tagline": "Seven on your dial",
       "year": 1989,
-      "totalDuration": 997.69,
+      "totalDuration": 997.46,
       "items": [
         {
           "kind": "card",
           "style": "station-id",
           "duration": 8,
-          "title": "WNOW · CHANNEL 10",
+          "title": "WDAY · CHANNEL 9",
           "text": "Good evening. It's November 26, 1989. Stay tuned.",
           "year": 1989
         },
@@ -2029,6 +1941,45 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/1989-nintendo-game-boy-commercial/1989%20Nintendo%20GameBoy%20Commercial.mp4",
+          "start": 0,
+          "duration": 29.78,
+          "title": "1989 Nintendo Game Boy Commercial",
+          "year": 1989,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1989-nintendo-game-boy-commercial"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/pixar-commercials-1989-1996/Apple%20Mac%20Classic%20-%20%E2%80%9CIntroduction%E2%80%9D%20(1993).mp4",
+          "start": 0,
+          "duration": 19.97,
+          "title": "Pixar Commercials (1989-1996)",
+          "year": 1989,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/pixar-commercials-1989-1996"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/tagesschau-20-clock-evening-news-1989-11-26/tagesschau-20-clock-evening-news-1989-11-26.mp4",
+          "start": 428.96,
+          "duration": 428.96,
+          "title": "Tagesschau 20-clock Evening News",
+          "year": 1989,
+          "airDate": "1989-11-26",
+          "category": "news",
+          "part": 2,
+          "parts": 2,
+          "credit": "archive.org/details/tagesschau-20-clock-evening-news-1989-11-26"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/supermariobros3jpcm/SuperMarioBros3JPCM.mp4",
           "start": 0,
           "duration": 30.01,
@@ -2054,58 +2005,19 @@
           "credit": "archive.org/details/1989-nintendo-game-boy-commercial"
         },
         {
-          "kind": "video",
-          "src": "https://archive.org/download/tagesschau-20-clock-evening-news-1989-11-26/tagesschau-20-clock-evening-news-1989-11-26.mp4",
-          "start": 428.96,
-          "duration": 428.96,
-          "title": "Tagesschau 20-clock Evening News",
-          "year": 1989,
-          "airDate": "1989-11-26",
-          "category": "news",
-          "part": 2,
-          "parts": 2,
-          "credit": "archive.org/details/tagesschau-20-clock-evening-news-1989-11-26"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/pixar-commercials-1989-1996/Apple%20Mac%20Classic%20-%20%E2%80%9CIntroduction%E2%80%9D%20(1993).mp4",
-          "start": 0,
-          "duration": 19.97,
-          "title": "Pixar Commercials (1989-1996)",
-          "year": 1989,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/pixar-commercials-1989-1996"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/supermariobros3jpcm/SuperMarioBros3JPCM.mp4",
-          "start": 0,
-          "duration": 30.01,
-          "title": "Super Mario Bros. 3",
-          "year": 1989,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/supermariobros3jpcm"
-        },
-        {
           "kind": "card",
           "style": "sign-off",
           "duration": 8,
           "title": "That concludes our broadcast day",
-          "text": "WNOW thanks you for watching. Our programming will now repeat.",
+          "text": "WDAY thanks you for watching. Our programming will now repeat.",
           "year": 1989
         }
       ]
     },
     {
-      "number": 11,
-      "name": "WTHN",
-      "tagline": "Tonight, back then",
+      "number": 10,
+      "name": "WNOW",
+      "tagline": "The way it was",
       "year": 1993,
       "totalDuration": 6040.52,
       "items": [
@@ -2113,7 +2025,7 @@
           "kind": "card",
           "style": "station-id",
           "duration": 8,
-          "title": "WTHN · CHANNEL 11",
+          "title": "WNOW · CHANNEL 10",
           "text": "Good evening. It's November 26, 1993. Stay tuned.",
           "year": 1993
         },
@@ -2490,23 +2402,23 @@
           "style": "sign-off",
           "duration": 8,
           "title": "That concludes our broadcast day",
-          "text": "WTHN thanks you for watching. Our programming will now repeat.",
+          "text": "WNOW thanks you for watching. Our programming will now repeat.",
           "year": 1993
         }
       ]
     },
     {
-      "number": 12,
-      "name": "WAGO",
-      "tagline": "Stay tuned",
+      "number": 11,
+      "name": "WTHN",
+      "tagline": "Tonight, back then",
       "year": 1994,
-      "totalDuration": 5293.85,
+      "totalDuration": 5283.85,
       "items": [
         {
           "kind": "card",
           "style": "station-id",
           "duration": 8,
-          "title": "WAGO · CHANNEL 12",
+          "title": "WTHN · CHANNEL 11",
           "text": "Good evening. It's November 26, 1994. Stay tuned.",
           "year": 1994
         },
@@ -2515,7 +2427,7 @@
           "style": "headline",
           "duration": 10,
           "title": "November 26, 1994",
-          "text": "Died today: David Bache, English car designer (born 1925)",
+          "text": "Died today: Arturo Rivera y Damas, Salvadoran archbishop (born 1923)",
           "year": 1994
         },
         {
@@ -2603,14 +2515,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/vhs-commercial-civic-dental-1994"
-        },
-        {
-          "kind": "card",
-          "style": "headline",
-          "duration": 10,
-          "title": "November 26, 1994",
-          "text": "Died today: Arturo Rivera y Damas, Salvadoran archbishop (born 1923)",
-          "year": 1994
         },
         {
           "kind": "video",
@@ -2992,8 +2896,369 @@
           "style": "sign-off",
           "duration": 8,
           "title": "That concludes our broadcast day",
-          "text": "WAGO thanks you for watching. Our programming will now repeat.",
+          "text": "WTHN thanks you for watching. Our programming will now repeat.",
           "year": 1994
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "name": "WAGO",
+      "tagline": "Stay tuned",
+      "year": 1997,
+      "totalDuration": 4394.73,
+      "items": [
+        {
+          "kind": "card",
+          "style": "station-id",
+          "duration": 8,
+          "title": "WAGO · CHANNEL 12",
+          "text": "Good evening. It's November 26, 1997. Stay tuned.",
+          "year": 1997
+        },
+        {
+          "kind": "card",
+          "style": "headline",
+          "duration": 10,
+          "title": "November 26, 1997",
+          "text": "Died today: Marguerite Henry, American author (born 1902)",
+          "year": 1997
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/tagesschau-20-clock-evening-news-1997-11-26/tagesschau-20-clock-evening-news-1997-11-26.mp4",
+          "start": 0,
+          "duration": 475.99,
+          "title": "Tagesschau 20-clock Evening News",
+          "year": 1997,
+          "airDate": "1997-11-26",
+          "category": "news",
+          "part": 1,
+          "parts": 2,
+          "credit": "archive.org/details/tagesschau-20-clock-evening-news-1997-11-26"
+        },
+        {
+          "kind": "card",
+          "style": "break",
+          "duration": 4,
+          "title": "We'll be right back",
+          "text": "Stay tuned!",
+          "year": null
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/christmas-classic-vhs-collection-1997/Christmas%20Classic%20VHS%20collection%20(1997).mp4",
+          "start": 0,
+          "duration": 29.97,
+          "title": "Christmas Classics Collection VHS (1997) TV Commercial",
+          "year": 1997,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/christmas-classic-vhs-collection-1997"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/Currysxmassale97Advert/Currys%20Boxing%20Day%20Sale%20Advert.mp4",
+          "start": 0,
+          "duration": 11.08,
+          "title": "Currys Christmas Sale 1997 Advert",
+          "year": 1997,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/Currysxmassale97Advert"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/tagesschau-20-clock-evening-news-1997-11-26/tagesschau-20-clock-evening-news-1997-11-26.mp4",
+          "start": 475.99,
+          "duration": 475.99,
+          "title": "Tagesschau 20-clock Evening News",
+          "year": 1997,
+          "airDate": "1997-11-26",
+          "category": "news",
+          "part": 2,
+          "parts": 2,
+          "credit": "archive.org/details/tagesschau-20-clock-evening-news-1997-11-26"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1997variouscommercials/1997%20MasterCard%20Online%20Shopping%20Commercial.mp4",
+          "start": 0,
+          "duration": 30.02,
+          "title": "Various 1997 Commercials/Promos",
+          "year": 1997,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1997variouscommercials"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/CometTeletextChristmasSaleAdvert/Comet%20Teletext%20Christmas%20Sale%20Advert.mp4",
+          "start": 0,
+          "duration": 10.64,
+          "title": "Comet Teletext Christmas Sale 1997 Advert",
+          "year": 1997,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/CometTeletextChristmasSaleAdvert"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/videoplayback-3_20250529/videoplayback%203.mp4",
+          "start": 0,
+          "duration": 713.385,
+          "title": "Blue peter 26 November 1997",
+          "year": 1997,
+          "airDate": "1997-11-26",
+          "category": "program",
+          "part": 1,
+          "parts": 2,
+          "credit": "archive.org/details/videoplayback-3_20250529"
+        },
+        {
+          "kind": "card",
+          "style": "break",
+          "duration": 4,
+          "title": "We'll be right back",
+          "text": "Stay tuned!",
+          "year": null
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1997-jackie-chan-s-first-strike-movie-commercial/1997%20Jackie%20Chan_s%20First%20Strike%20Movie%20Commercial.mp4",
+          "start": 0,
+          "duration": 29.93,
+          "title": "1997 Jackie Chan's First Strike Movie Commercial",
+          "year": 1997,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1997-jackie-chan-s-first-strike-movie-commercial"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/PcWorldChristmasSale97Advert/Pc%20World%20Christmas%20Sale%20Advert.mp4",
+          "start": 0,
+          "duration": 10.78,
+          "title": "PC World Christmas Sale 1997 Advert",
+          "year": 1997,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/PcWorldChristmasSale97Advert"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/videoplayback-3_20250529/videoplayback%203.mp4",
+          "start": 713.385,
+          "duration": 713.385,
+          "title": "Blue peter 26 November 1997",
+          "year": 1997,
+          "airDate": "1997-11-26",
+          "category": "program",
+          "part": 2,
+          "parts": 2,
+          "credit": "archive.org/details/videoplayback-3_20250529"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/christmas-classic-vhs-collection-1997/Christmas%20Classic%20VHS%20collection%20(1997).mp4",
+          "start": 0,
+          "duration": 29.97,
+          "title": "Christmas Classics Collection VHS (1997) TV Commercial",
+          "year": 1997,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/christmas-classic-vhs-collection-1997"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/Currysxmassale97Advert/Currys%20Boxing%20Day%20Sale%20Advert.mp4",
+          "start": 0,
+          "duration": 11.08,
+          "title": "Currys Christmas Sale 1997 Advert",
+          "year": 1997,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/Currysxmassale97Advert"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/youtube-WEp7486565c/WEp7486565c.mp4",
+          "start": 0,
+          "duration": 448.98,
+          "title": "Late Night Live Via Satellite November 26, 1997",
+          "year": 1997,
+          "airDate": "1997-11-26",
+          "category": "program",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/youtube-WEp7486565c"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1997variouscommercials/1997%20MasterCard%20Online%20Shopping%20Commercial.mp4",
+          "start": 0,
+          "duration": 30.02,
+          "title": "Various 1997 Commercials/Promos",
+          "year": 1997,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1997variouscommercials"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/CometTeletextChristmasSaleAdvert/Comet%20Teletext%20Christmas%20Sale%20Advert.mp4",
+          "start": 0,
+          "duration": 10.64,
+          "title": "Comet Teletext Christmas Sale 1997 Advert",
+          "year": 1997,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/CometTeletextChristmasSaleAdvert"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/youtube-tJSD4jPUCH8/tJSD4jPUCH8.mp4",
+          "start": 0,
+          "duration": 454.13,
+          "title": "Nathan Lane on Late Night November 26, 1997 Pt. 2",
+          "year": 1997,
+          "airDate": "1997-11-26",
+          "category": "program",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/youtube-tJSD4jPUCH8"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1997-jackie-chan-s-first-strike-movie-commercial/1997%20Jackie%20Chan_s%20First%20Strike%20Movie%20Commercial.mp4",
+          "start": 0,
+          "duration": 29.93,
+          "title": "1997 Jackie Chan's First Strike Movie Commercial",
+          "year": 1997,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1997-jackie-chan-s-first-strike-movie-commercial"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/PcWorldChristmasSale97Advert/Pc%20World%20Christmas%20Sale%20Advert.mp4",
+          "start": 0,
+          "duration": 10.78,
+          "title": "PC World Christmas Sale 1997 Advert",
+          "year": 1997,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/PcWorldChristmasSale97Advert"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/youtube-VNyyntGeYhA/VNyyntGeYhA.mp4",
+          "start": 0,
+          "duration": 287.76,
+          "title": "Late Night monologue November 26, 1997",
+          "year": 1997,
+          "airDate": "1997-11-26",
+          "category": "program",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/youtube-VNyyntGeYhA"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/christmas-classic-vhs-collection-1997/Christmas%20Classic%20VHS%20collection%20(1997).mp4",
+          "start": 0,
+          "duration": 29.97,
+          "title": "Christmas Classics Collection VHS (1997) TV Commercial",
+          "year": 1997,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/christmas-classic-vhs-collection-1997"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/Currysxmassale97Advert/Currys%20Boxing%20Day%20Sale%20Advert.mp4",
+          "start": 0,
+          "duration": 11.08,
+          "title": "Currys Christmas Sale 1997 Advert",
+          "year": 1997,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/Currysxmassale97Advert"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/youtube-YELDH_w_3w4/YELDH_w_3w4.mp4",
+          "start": 0,
+          "duration": 464.56,
+          "title": "Al Sharpton on Late Night November 26, 1997",
+          "year": 1997,
+          "airDate": "1997-11-26",
+          "category": "program",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/youtube-YELDH_w_3w4"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1997variouscommercials/1997%20MasterCard%20Online%20Shopping%20Commercial.mp4",
+          "start": 0,
+          "duration": 30.02,
+          "title": "Various 1997 Commercials/Promos",
+          "year": 1997,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1997variouscommercials"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/CometTeletextChristmasSaleAdvert/Comet%20Teletext%20Christmas%20Sale%20Advert.mp4",
+          "start": 0,
+          "duration": 10.64,
+          "title": "Comet Teletext Christmas Sale 1997 Advert",
+          "year": 1997,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/CometTeletextChristmasSaleAdvert"
+        },
+        {
+          "kind": "card",
+          "style": "sign-off",
+          "duration": 8,
+          "title": "That concludes our broadcast day",
+          "text": "WAGO thanks you for watching. Our programming will now repeat.",
+          "year": 1997
         }
       ]
     },
@@ -3002,7 +3267,7 @@
       "name": "WERA",
       "tagline": "Your evening companion",
       "year": 1998,
-      "totalDuration": 4964.83,
+      "totalDuration": 4926,
       "items": [
         {
           "kind": "card",
@@ -3043,42 +3308,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1998-brave-little-toaster-goes-to-mars-vhs-release-commercial/1998%20Brave%20Little%20Toaster%20Goes%20to%20Mars%20VHS%20Release%20Commercial.mp4",
+          "src": "https://archive.org/download/pixar-mcdonalds-commercials-1998-2000/McDonald's%20-%20%E2%80%9CNothing%20Good%20on%20TV%20Jr.%E2%80%9D%20(1998).mp4",
           "start": 0,
-          "duration": 30.82,
-          "title": "1998 Brave Little Toaster Goes To Mars VHS Release Commercial",
+          "duration": 16.19,
+          "title": "Pixar McDonald's Commercials (1998-2000)",
           "year": 1998,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1998-brave-little-toaster-goes-to-mars-vhs-release-commercial"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/1998-for-your-love-tv-show-commercial/1998%20For%20Your%20Love%20TV%20Show%20Commercial.mp4",
-          "start": 0,
-          "duration": 19.88,
-          "title": "1998 For Your Love TV Show Commercial",
-          "year": 1998,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1998-for-your-love-tv-show-commercial"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/tagesschau-20-clock-evening-news-1998-11-26/26.11.1998.mp4",
-          "start": 468.225,
-          "duration": 468.225,
-          "title": "Tagesschau 20-clock Evening News",
-          "year": 1998,
-          "airDate": "1998-11-26",
-          "category": "news",
-          "part": 2,
-          "parts": 2,
-          "credit": "archive.org/details/tagesschau-20-clock-evening-news-1998-11-26"
+          "credit": "archive.org/details/pixar-mcdonalds-commercials-1998-2000"
         },
         {
           "kind": "video",
@@ -3095,16 +3334,42 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/SonyMinidisc_11-8-98/SonyMinidisc_11-8-98.mp4",
+          "src": "https://archive.org/download/tagesschau-20-clock-evening-news-1998-11-26/26.11.1998.mp4",
+          "start": 468.225,
+          "duration": 468.225,
+          "title": "Tagesschau 20-clock Evening News",
+          "year": 1998,
+          "airDate": "1998-11-26",
+          "category": "news",
+          "part": 2,
+          "parts": 2,
+          "credit": "archive.org/details/tagesschau-20-clock-evening-news-1998-11-26"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1998-for-your-love-tv-show-commercial/1998%20For%20Your%20Love%20TV%20Show%20Commercial.mp4",
           "start": 0,
-          "duration": 45.02,
-          "title": "Sony Minidisc",
+          "duration": 19.88,
+          "title": "1998 For Your Love TV Show Commercial",
           "year": 1998,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/SonyMinidisc_11-8-98"
+          "credit": "archive.org/details/1998-for-your-love-tv-show-commercial"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1998-brave-little-toaster-goes-to-mars-vhs-release-commercial/1998%20Brave%20Little%20Toaster%20Goes%20to%20Mars%20VHS%20Release%20Commercial.mp4",
+          "start": 0,
+          "duration": 30.82,
+          "title": "1998 Brave Little Toaster Goes To Mars VHS Release Commercial",
+          "year": 1998,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1998-brave-little-toaster-goes-to-mars-vhs-release-commercial"
         },
         {
           "kind": "card",
@@ -3129,19 +3394,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/pixar-mcdonalds-commercials-1998-2000/McDonald's%20-%20%E2%80%9CNothing%20Good%20on%20TV%20Jr.%E2%80%9D%20(1998).mp4",
-          "start": 0,
-          "duration": 16.19,
-          "title": "Pixar McDonald's Commercials (1998-2000)",
-          "year": 1998,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/pixar-mcdonalds-commercials-1998-2000"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/1998-sears-bikini-women-commercial/1998%20Sears%20Bikini%20Women%20Commercial.mp4",
           "start": 0,
           "duration": 30.45,
@@ -3152,79 +3404,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1998-sears-bikini-women-commercial"
-        },
-        {
-          "kind": "card",
-          "style": "headline",
-          "duration": 10,
-          "title": "November 26, 1998",
-          "text": "Died today: Jonathan Kwitny, American journalist and author (born 1941)",
-          "year": 1998
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/youtube-uGfCEMNc6ok/uGfCEMNc6ok.mp4",
-          "start": 0,
-          "duration": 530.71,
-          "title": "Late Night monologue / Kiss-Ass Turkey November 26, 1998",
-          "year": 1998,
-          "airDate": "1998-11-26",
-          "category": "program",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/youtube-uGfCEMNc6ok"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/1998-brave-little-toaster-goes-to-mars-vhs-release-commercial/1998%20Brave%20Little%20Toaster%20Goes%20to%20Mars%20VHS%20Release%20Commercial.mp4",
-          "start": 0,
-          "duration": 30.82,
-          "title": "1998 Brave Little Toaster Goes To Mars VHS Release Commercial",
-          "year": 1998,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1998-brave-little-toaster-goes-to-mars-vhs-release-commercial"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/1998-for-your-love-tv-show-commercial/1998%20For%20Your%20Love%20TV%20Show%20Commercial.mp4",
-          "start": 0,
-          "duration": 19.88,
-          "title": "1998 For Your Love TV Show Commercial",
-          "year": 1998,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1998-for-your-love-tv-show-commercial"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/youtube-pNt_0WTt_wI/pNt_0WTt_wI.mp4",
-          "start": 0,
-          "duration": 682.25,
-          "title": "Scott Thompson on Late Night November 26, 1998",
-          "year": 1998,
-          "airDate": "1998-11-26",
-          "category": "program",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/youtube-pNt_0WTt_wI"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/1998-victorias-secret-commercial/1998%20Victoria's%20Secret%20Commercial.mp4",
-          "start": 0,
-          "duration": 14.91,
-          "title": "1998 Victoria's Secret Commercial",
-          "year": 1998,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1998-victorias-secret-commercial"
         },
         {
           "kind": "video",
@@ -3241,16 +3420,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/youtube-r1g0n9ZN6rQ/r1g0n9ZN6rQ.mp4",
+          "src": "https://archive.org/download/youtube-uGfCEMNc6ok/uGfCEMNc6ok.mp4",
           "start": 0,
-          "duration": 340.82,
-          "title": "Mike Royce on Late Night November 26, 1998",
+          "duration": 530.71,
+          "title": "Late Night monologue / Kiss-Ass Turkey November 26, 1998",
           "year": 1998,
           "airDate": "1998-11-26",
           "category": "program",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/youtube-r1g0n9ZN6rQ"
+          "credit": "archive.org/details/youtube-uGfCEMNc6ok"
         },
         {
           "kind": "video",
@@ -3267,6 +3446,71 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/1998-victorias-secret-commercial/1998%20Victoria's%20Secret%20Commercial.mp4",
+          "start": 0,
+          "duration": 14.91,
+          "title": "1998 Victoria's Secret Commercial",
+          "year": 1998,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1998-victorias-secret-commercial"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/youtube-pNt_0WTt_wI/pNt_0WTt_wI.mp4",
+          "start": 0,
+          "duration": 682.25,
+          "title": "Scott Thompson on Late Night November 26, 1998",
+          "year": 1998,
+          "airDate": "1998-11-26",
+          "category": "program",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/youtube-pNt_0WTt_wI"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1998-for-your-love-tv-show-commercial/1998%20For%20Your%20Love%20TV%20Show%20Commercial.mp4",
+          "start": 0,
+          "duration": 19.88,
+          "title": "1998 For Your Love TV Show Commercial",
+          "year": 1998,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1998-for-your-love-tv-show-commercial"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1998-brave-little-toaster-goes-to-mars-vhs-release-commercial/1998%20Brave%20Little%20Toaster%20Goes%20to%20Mars%20VHS%20Release%20Commercial.mp4",
+          "start": 0,
+          "duration": 30.82,
+          "title": "1998 Brave Little Toaster Goes To Mars VHS Release Commercial",
+          "year": 1998,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1998-brave-little-toaster-goes-to-mars-vhs-release-commercial"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/youtube-r1g0n9ZN6rQ/r1g0n9ZN6rQ.mp4",
+          "start": 0,
+          "duration": 340.82,
+          "title": "Mike Royce on Late Night November 26, 1998",
+          "year": 1998,
+          "airDate": "1998-11-26",
+          "category": "program",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/youtube-r1g0n9ZN6rQ"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/1998-sears-bikini-women-commercial/1998%20Sears%20Bikini%20Women%20Commercial.mp4",
           "start": 0,
           "duration": 30.45,
@@ -3277,6 +3521,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1998-sears-bikini-women-commercial"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/SonyMinidisc_11-8-98/SonyMinidisc_11-8-98.mp4",
+          "start": 0,
+          "duration": 45.02,
+          "title": "Sony Minidisc",
+          "year": 1998,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/SonyMinidisc_11-8-98"
         },
         {
           "kind": "video",
@@ -3301,42 +3558,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1998-brave-little-toaster-goes-to-mars-vhs-release-commercial/1998%20Brave%20Little%20Toaster%20Goes%20to%20Mars%20VHS%20Release%20Commercial.mp4",
+          "src": "https://archive.org/download/pixar-mcdonalds-commercials-1998-2000/McDonald's%20-%20%E2%80%9CNothing%20Good%20on%20TV%20Jr.%E2%80%9D%20(1998).mp4",
           "start": 0,
-          "duration": 30.82,
-          "title": "1998 Brave Little Toaster Goes To Mars VHS Release Commercial",
+          "duration": 16.19,
+          "title": "Pixar McDonald's Commercials (1998-2000)",
           "year": 1998,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1998-brave-little-toaster-goes-to-mars-vhs-release-commercial"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/1998-for-your-love-tv-show-commercial/1998%20For%20Your%20Love%20TV%20Show%20Commercial.mp4",
-          "start": 0,
-          "duration": 19.88,
-          "title": "1998 For Your Love TV Show Commercial",
-          "year": 1998,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1998-for-your-love-tv-show-commercial"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/wheel-of-fortune-episode-2984-november-26-1998-thanksgiving-cali/Wheel%20of%20Fortune%20Episode%202984%20November%2026%201998%20Thanksgiving%20Cali.mp4",
-          "start": 639.93,
-          "duration": 639.93,
-          "title": "Wheel of Fortune Episode #2984 (November 26, 1998, Thanksgiving)",
-          "year": 1998,
-          "airDate": "1998-11-26",
-          "category": "program",
-          "part": 2,
-          "parts": 2,
-          "credit": "archive.org/details/wheel-of-fortune-episode-2984-november-26-1998-thanksgiving-cali"
+          "credit": "archive.org/details/pixar-mcdonalds-commercials-1998-2000"
         },
         {
           "kind": "video",
@@ -3353,16 +3584,42 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/SonyMinidisc_11-8-98/SonyMinidisc_11-8-98.mp4",
+          "src": "https://archive.org/download/wheel-of-fortune-episode-2984-november-26-1998-thanksgiving-cali/Wheel%20of%20Fortune%20Episode%202984%20November%2026%201998%20Thanksgiving%20Cali.mp4",
+          "start": 639.93,
+          "duration": 639.93,
+          "title": "Wheel of Fortune Episode #2984 (November 26, 1998, Thanksgiving)",
+          "year": 1998,
+          "airDate": "1998-11-26",
+          "category": "program",
+          "part": 2,
+          "parts": 2,
+          "credit": "archive.org/details/wheel-of-fortune-episode-2984-november-26-1998-thanksgiving-cali"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1998-for-your-love-tv-show-commercial/1998%20For%20Your%20Love%20TV%20Show%20Commercial.mp4",
           "start": 0,
-          "duration": 45.02,
-          "title": "Sony Minidisc",
+          "duration": 19.88,
+          "title": "1998 For Your Love TV Show Commercial",
           "year": 1998,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/SonyMinidisc_11-8-98"
+          "credit": "archive.org/details/1998-for-your-love-tv-show-commercial"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1998-brave-little-toaster-goes-to-mars-vhs-release-commercial/1998%20Brave%20Little%20Toaster%20Goes%20to%20Mars%20VHS%20Release%20Commercial.mp4",
+          "start": 0,
+          "duration": 30.82,
+          "title": "1998 Brave Little Toaster Goes To Mars VHS Release Commercial",
+          "year": 1998,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1998-brave-little-toaster-goes-to-mars-vhs-release-commercial"
         },
         {
           "kind": "card",
