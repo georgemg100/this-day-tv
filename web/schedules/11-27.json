@@ -3,7 +3,7 @@
   "target": "web",
   "date": "11-27",
   "title": "This Day in History — November 27",
-  "publishedAt": "2026-11-25T09:15:47.428Z",
+  "publishedAt": "2026-11-26T09:10:20.618Z",
   "channels": [
     {
       "number": 2,
@@ -129,7 +129,7 @@
       "name": "WKTV",
       "tagline": "Seven on your dial",
       "year": 1963,
-      "totalDuration": 2006.33,
+      "totalDuration": 2062.45,
       "items": [
         {
           "kind": "card",
@@ -209,19 +209,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/MurielCigars1963Ad6/MurielCigars1963-ad6.mp4",
-          "start": 0,
-          "duration": 59.26,
-          "title": "1963 commercial: Muriel cigars (Ad 6)",
-          "year": 1963,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/MurielCigars1963Ad6"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/BreezeScrubWashingPowder1963TVCommercialXvid/Breeze%20_Scrub_%20washing%20powder%201963%20TV%20commercial_xvid.mp4",
           "start": 0,
           "duration": 30.6,
@@ -232,19 +219,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/BreezeScrubWashingPowder1963TVCommercialXvid"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/June_Is_Always_Late--Ozzie-Harriet/June_Is_Always_Late--Ozzie-Harriet.mp4",
-          "start": 1048.12,
-          "duration": 524.06,
-          "title": "June Is Always Late (Ozzie & Harriet)",
-          "year": 1963,
-          "airDate": "1963-11-27",
-          "category": "program",
-          "part": 3,
-          "parts": 3,
-          "credit": "archive.org/details/June_Is_Always_Late--Ozzie-Harriet"
         },
         {
           "kind": "video",
@@ -261,6 +235,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/June_Is_Always_Late--Ozzie-Harriet/June_Is_Always_Late--Ozzie-Harriet.mp4",
+          "start": 1048.12,
+          "duration": 524.06,
+          "title": "June Is Always Late (Ozzie & Harriet)",
+          "year": 1963,
+          "airDate": "1963-11-27",
+          "category": "program",
+          "part": 3,
+          "parts": 3,
+          "credit": "archive.org/details/June_Is_Always_Late--Ozzie-Harriet"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/SHGreenStamps19634/S%26H%20Green%20Stamps%20(1963)%20(4).mp4",
           "start": 0,
           "duration": 92.15,
@@ -271,6 +258,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/SHGreenStamps19634"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/YvonneCraigIn1963ViceroyCigaretteTvAdShatnerClip/Viceroy.mp4",
+          "start": 0,
+          "duration": 115.38,
+          "title": "Yvonne Craig in 1963 Viceroy cigarette TV ad & Shatner clip",
+          "year": 1963,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/YvonneCraigIn1963ViceroyCigaretteTvAdShatnerClip"
         },
         {
           "kind": "card",
@@ -918,7 +918,7 @@
       "name": "WOLD",
       "tagline": "Your evening companion",
       "year": 1981,
-      "totalDuration": 4315.638,
+      "totalDuration": 4095.818,
       "items": [
         {
           "kind": "card",
@@ -1006,19 +1006,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/mobile-suit-gundam-commercial/ybvLjYDFtDI0JmD4.mp4",
-          "start": 0,
-          "duration": 139.97,
-          "title": "Mobile Suit Gundam Compilation Film TV Commercial - 機動戦士ガンダム TVCM (March 14, 1981) LOST/RARE MEDIA",
-          "year": 1981,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/mobile-suit-gundam-commercial"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/DietPepsi_1981/DietPepsi_1981.mp4",
           "start": 0,
           "duration": 30.06,
@@ -1029,6 +1016,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/DietPepsi_1981"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1981ToyotaCommercialWithEarlCampbell/1981%20Toyota%20Commercial%20with%20Earl%20Campbell.mp4",
+          "start": 0,
+          "duration": 30.45,
+          "title": "Toyota Commercial with Earl Campbell",
+          "year": 1981,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1981ToyotaCommercialWithEarlCampbell"
         },
         {
           "kind": "video",
@@ -1053,19 +1053,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1981ToyotaCommercialWithEarlCampbell/1981%20Toyota%20Commercial%20with%20Earl%20Campbell.mp4",
-          "start": 0,
-          "duration": 30.45,
-          "title": "Toyota Commercial with Earl Campbell",
-          "year": 1981,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1981ToyotaCommercialWithEarlCampbell"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/SearsVideoGames1981-12-02/SearsVideoGames1981-12-02.mp4",
           "start": 0,
           "duration": 32.07,
@@ -1076,6 +1063,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/SearsVideoGames1981-12-02"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/ZenithVCRs1981-12-02/ZenithVCRs1981-12-02.mp4",
+          "start": 0,
+          "duration": 30.06,
+          "title": "Zenith VCR Commercial (USA, 1981)",
+          "year": 1981,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/ZenithVCRs1981-12-02"
         },
         {
           "kind": "video",
@@ -1147,19 +1147,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/mobile-suit-gundam-commercial/ybvLjYDFtDI0JmD4.mp4",
-          "start": 0,
-          "duration": 139.97,
-          "title": "Mobile Suit Gundam Compilation Film TV Commercial - 機動戦士ガンダム TVCM (March 14, 1981) LOST/RARE MEDIA",
-          "year": 1981,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/mobile-suit-gundam-commercial"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/DietPepsi_1981/DietPepsi_1981.mp4",
           "start": 0,
           "duration": 30.06,
@@ -1170,19 +1157,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/DietPepsi_1981"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/WMAR_RAW_039_010_DIG/WMAR_RAW_039_010_DIG.mp4",
-          "start": 3101.817,
-          "duration": 620.363,
-          "title": "News Storage: November 27-30, 1981",
-          "year": 1981,
-          "airDate": "1981-11-27",
-          "category": "news",
-          "part": 6,
-          "parts": 6,
-          "credit": "archive.org/details/WMAR_RAW_039_010_DIG"
         },
         {
           "kind": "video",
@@ -1199,6 +1173,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/WMAR_RAW_039_010_DIG/WMAR_RAW_039_010_DIG.mp4",
+          "start": 3101.817,
+          "duration": 620.363,
+          "title": "News Storage: November 27-30, 1981",
+          "year": 1981,
+          "airDate": "1981-11-27",
+          "category": "news",
+          "part": 6,
+          "parts": 6,
+          "credit": "archive.org/details/WMAR_RAW_039_010_DIG"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/SearsVideoGames1981-12-02/SearsVideoGames1981-12-02.mp4",
           "start": 0,
           "duration": 32.07,
@@ -1209,6 +1196,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/SearsVideoGames1981-12-02"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/ZenithVCRs1981-12-02/ZenithVCRs1981-12-02.mp4",
+          "start": 0,
+          "duration": 30.06,
+          "title": "Zenith VCR Commercial (USA, 1981)",
+          "year": 1981,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/ZenithVCRs1981-12-02"
         },
         {
           "kind": "card",
@@ -2216,7 +2216,7 @@
       "name": "WTHN",
       "tagline": "Tonight, back then",
       "year": 1995,
-      "totalDuration": 6160.737,
+      "totalDuration": 6112.467,
       "items": [
         {
           "kind": "card",
@@ -2301,16 +2301,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/95-07-29/1995_07_29%20Build%20Rejected%20Commercial%20(Reupload)%20-%20YouTube.mp4",
+          "src": "https://archive.org/download/slam-dunk-sega-saturn-1995-japanese-tv-commercial/Slam%20Dunk%20-%20Sega%20Saturn%20(1995)%20Japanese%20TV%20Commercial.mp4",
           "start": 0,
-          "duration": 23.48,
-          "title": "1995/07/29 Build Rejected Commercial",
+          "duration": 14.81,
+          "title": "Slam Dunk Sega Saturn (1995) Japanese TV Commercial",
           "year": 1995,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/95-07-29"
+          "credit": "archive.org/details/slam-dunk-sega-saturn-1995-japanese-tv-commercial"
         },
         {
           "kind": "video",
@@ -2335,6 +2335,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/95-07-29/1995_07_29%20Build%20Rejected%20Commercial%20(Reupload)%20-%20YouTube.mp4",
+          "start": 0,
+          "duration": 23.48,
+          "title": "1995/07/29 Build Rejected Commercial",
+          "year": 1995,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/95-07-29"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/goldeneyemoviecommercial/GoldenEye%20Movie%20COmmercial.mp4",
           "start": 0,
           "duration": 15.78,
@@ -2345,19 +2358,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/goldeneyemoviecommercial"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/casinomoviecommercial/Casino%20Movie%20Commercial.mp4",
-          "start": 0,
-          "duration": 30.9,
-          "title": "Casino Movie Commercial",
-          "year": 1995,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/casinomoviecommercial"
         },
         {
           "kind": "video",
@@ -2442,16 +2442,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/95-07-29/1995_07_29%20Build%20Rejected%20Commercial%20(Reupload)%20-%20YouTube.mp4",
+          "src": "https://archive.org/download/slam-dunk-sega-saturn-1995-japanese-tv-commercial/Slam%20Dunk%20-%20Sega%20Saturn%20(1995)%20Japanese%20TV%20Commercial.mp4",
           "start": 0,
-          "duration": 23.48,
-          "title": "1995/07/29 Build Rejected Commercial",
+          "duration": 14.81,
+          "title": "Slam Dunk Sega Saturn (1995) Japanese TV Commercial",
           "year": 1995,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/95-07-29"
+          "credit": "archive.org/details/slam-dunk-sega-saturn-1995-japanese-tv-commercial"
         },
         {
           "kind": "video",
@@ -2476,6 +2476,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/95-07-29/1995_07_29%20Build%20Rejected%20Commercial%20(Reupload)%20-%20YouTube.mp4",
+          "start": 0,
+          "duration": 23.48,
+          "title": "1995/07/29 Build Rejected Commercial",
+          "year": 1995,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/95-07-29"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/goldeneyemoviecommercial/GoldenEye%20Movie%20COmmercial.mp4",
           "start": 0,
           "duration": 15.78,
@@ -2486,19 +2499,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/goldeneyemoviecommercial"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/casinomoviecommercial/Casino%20Movie%20Commercial.mp4",
-          "start": 0,
-          "duration": 30.9,
-          "title": "Casino Movie Commercial",
-          "year": 1995,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/casinomoviecommercial"
         },
         {
           "kind": "video",
@@ -2583,16 +2583,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/95-07-29/1995_07_29%20Build%20Rejected%20Commercial%20(Reupload)%20-%20YouTube.mp4",
+          "src": "https://archive.org/download/slam-dunk-sega-saturn-1995-japanese-tv-commercial/Slam%20Dunk%20-%20Sega%20Saturn%20(1995)%20Japanese%20TV%20Commercial.mp4",
           "start": 0,
-          "duration": 23.48,
-          "title": "1995/07/29 Build Rejected Commercial",
+          "duration": 14.81,
+          "title": "Slam Dunk Sega Saturn (1995) Japanese TV Commercial",
           "year": 1995,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/95-07-29"
+          "credit": "archive.org/details/slam-dunk-sega-saturn-1995-japanese-tv-commercial"
         },
         {
           "kind": "video",
@@ -2609,6 +2609,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/95-07-29/1995_07_29%20Build%20Rejected%20Commercial%20(Reupload)%20-%20YouTube.mp4",
+          "start": 0,
+          "duration": 23.48,
+          "title": "1995/07/29 Build Rejected Commercial",
+          "year": 1995,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/95-07-29"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/goldeneyemoviecommercial/GoldenEye%20Movie%20COmmercial.mp4",
           "start": 0,
           "duration": 15.78,
@@ -2619,19 +2632,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/goldeneyemoviecommercial"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/casinomoviecommercial/Casino%20Movie%20Commercial.mp4",
-          "start": 0,
-          "duration": 30.9,
-          "title": "Casino Movie Commercial",
-          "year": 1995,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/casinomoviecommercial"
         },
         {
           "kind": "card",
@@ -2648,7 +2648,7 @@
       "name": "WAGO",
       "tagline": "Stay tuned",
       "year": 1997,
-      "totalDuration": 12508.421,
+      "totalDuration": 12643.821,
       "items": [
         {
           "kind": "card",
@@ -2694,16 +2694,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/CometTeletextChristmasSaleAdvert/Comet%20Teletext%20Christmas%20Sale%20Advert.mp4",
+          "src": "https://archive.org/download/dariacommercials1997/daria2.mp4",
           "start": 0,
-          "duration": 10.64,
-          "title": "Comet Teletext Christmas Sale 1997 Advert",
+          "duration": 15.02,
+          "title": "MTV's Daria Commercials from 1997",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/CometTeletextChristmasSaleAdvert"
+          "credit": "archive.org/details/dariacommercials1997"
         },
         {
           "kind": "card",
@@ -2736,29 +2736,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/dariacommercials1997/daria2.mp4",
+          "src": "https://archive.org/download/1997variouscommercials/1997%20MasterCard%20Online%20Shopping%20Commercial.mp4",
           "start": 0,
-          "duration": 15.02,
-          "title": "MTV's Daria Commercials from 1997",
+          "duration": 30.02,
+          "title": "Various 1997 Commercials/Promos",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/dariacommercials1997"
+          "credit": "archive.org/details/1997variouscommercials"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1997-jackie-chan-s-first-strike-movie-commercial/1997%20Jackie%20Chan_s%20First%20Strike%20Movie%20Commercial.mp4",
+          "src": "https://archive.org/download/christmas-classic-vhs-collection-1997/Christmas%20Classic%20VHS%20collection%20(1997).mp4",
           "start": 0,
-          "duration": 29.93,
-          "title": "1997 Jackie Chan's First Strike Movie Commercial",
+          "duration": 29.97,
+          "title": "Christmas Classics Collection VHS (1997) TV Commercial",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1997-jackie-chan-s-first-strike-movie-commercial"
+          "credit": "archive.org/details/christmas-classic-vhs-collection-1997"
         },
         {
           "kind": "video",
@@ -2788,16 +2788,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1997variouscommercials/1997%20MasterCard%20Online%20Shopping%20Commercial.mp4",
+          "src": "https://archive.org/download/1997-jackie-chan-s-first-strike-movie-commercial/1997%20Jackie%20Chan_s%20First%20Strike%20Movie%20Commercial.mp4",
           "start": 0,
-          "duration": 30.02,
-          "title": "Various 1997 Commercials/Promos",
+          "duration": 29.93,
+          "title": "1997 Jackie Chan's First Strike Movie Commercial",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1997variouscommercials"
+          "credit": "archive.org/details/1997-jackie-chan-s-first-strike-movie-commercial"
         },
         {
           "kind": "video",
@@ -2827,16 +2827,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/CometTeletextChristmasSaleAdvert/Comet%20Teletext%20Christmas%20Sale%20Advert.mp4",
+          "src": "https://archive.org/download/dariacommercials1997/daria2.mp4",
           "start": 0,
-          "duration": 10.64,
-          "title": "Comet Teletext Christmas Sale 1997 Advert",
+          "duration": 15.02,
+          "title": "MTV's Daria Commercials from 1997",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/CometTeletextChristmasSaleAdvert"
+          "credit": "archive.org/details/dariacommercials1997"
         },
         {
           "kind": "video",
@@ -2853,29 +2853,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/dariacommercials1997/daria2.mp4",
+          "src": "https://archive.org/download/1997variouscommercials/1997%20MasterCard%20Online%20Shopping%20Commercial.mp4",
           "start": 0,
-          "duration": 15.02,
-          "title": "MTV's Daria Commercials from 1997",
+          "duration": 30.02,
+          "title": "Various 1997 Commercials/Promos",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/dariacommercials1997"
+          "credit": "archive.org/details/1997variouscommercials"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1997-jackie-chan-s-first-strike-movie-commercial/1997%20Jackie%20Chan_s%20First%20Strike%20Movie%20Commercial.mp4",
+          "src": "https://archive.org/download/christmas-classic-vhs-collection-1997/Christmas%20Classic%20VHS%20collection%20(1997).mp4",
           "start": 0,
-          "duration": 29.93,
-          "title": "1997 Jackie Chan's First Strike Movie Commercial",
+          "duration": 29.97,
+          "title": "Christmas Classics Collection VHS (1997) TV Commercial",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1997-jackie-chan-s-first-strike-movie-commercial"
+          "credit": "archive.org/details/christmas-classic-vhs-collection-1997"
         },
         {
           "kind": "video",
@@ -2905,16 +2905,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1997variouscommercials/1997%20MasterCard%20Online%20Shopping%20Commercial.mp4",
+          "src": "https://archive.org/download/1997-jackie-chan-s-first-strike-movie-commercial/1997%20Jackie%20Chan_s%20First%20Strike%20Movie%20Commercial.mp4",
           "start": 0,
-          "duration": 30.02,
-          "title": "Various 1997 Commercials/Promos",
+          "duration": 29.93,
+          "title": "1997 Jackie Chan's First Strike Movie Commercial",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1997variouscommercials"
+          "credit": "archive.org/details/1997-jackie-chan-s-first-strike-movie-commercial"
         },
         {
           "kind": "video",
@@ -2944,16 +2944,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/CometTeletextChristmasSaleAdvert/Comet%20Teletext%20Christmas%20Sale%20Advert.mp4",
+          "src": "https://archive.org/download/dariacommercials1997/daria2.mp4",
           "start": 0,
-          "duration": 10.64,
-          "title": "Comet Teletext Christmas Sale 1997 Advert",
+          "duration": 15.02,
+          "title": "MTV's Daria Commercials from 1997",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/CometTeletextChristmasSaleAdvert"
+          "credit": "archive.org/details/dariacommercials1997"
         },
         {
           "kind": "video",
@@ -2978,29 +2978,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/dariacommercials1997/daria2.mp4",
+          "src": "https://archive.org/download/1997variouscommercials/1997%20MasterCard%20Online%20Shopping%20Commercial.mp4",
           "start": 0,
-          "duration": 15.02,
-          "title": "MTV's Daria Commercials from 1997",
+          "duration": 30.02,
+          "title": "Various 1997 Commercials/Promos",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/dariacommercials1997"
+          "credit": "archive.org/details/1997variouscommercials"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1997-jackie-chan-s-first-strike-movie-commercial/1997%20Jackie%20Chan_s%20First%20Strike%20Movie%20Commercial.mp4",
+          "src": "https://archive.org/download/christmas-classic-vhs-collection-1997/Christmas%20Classic%20VHS%20collection%20(1997).mp4",
           "start": 0,
-          "duration": 29.93,
-          "title": "1997 Jackie Chan's First Strike Movie Commercial",
+          "duration": 29.97,
+          "title": "Christmas Classics Collection VHS (1997) TV Commercial",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1997-jackie-chan-s-first-strike-movie-commercial"
+          "credit": "archive.org/details/christmas-classic-vhs-collection-1997"
         },
         {
           "kind": "video",
@@ -3038,16 +3038,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1997variouscommercials/1997%20MasterCard%20Online%20Shopping%20Commercial.mp4",
+          "src": "https://archive.org/download/1997-jackie-chan-s-first-strike-movie-commercial/1997%20Jackie%20Chan_s%20First%20Strike%20Movie%20Commercial.mp4",
           "start": 0,
-          "duration": 30.02,
-          "title": "Various 1997 Commercials/Promos",
+          "duration": 29.93,
+          "title": "1997 Jackie Chan's First Strike Movie Commercial",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1997variouscommercials"
+          "credit": "archive.org/details/1997-jackie-chan-s-first-strike-movie-commercial"
         },
         {
           "kind": "video",
@@ -3085,16 +3085,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/CometTeletextChristmasSaleAdvert/Comet%20Teletext%20Christmas%20Sale%20Advert.mp4",
+          "src": "https://archive.org/download/dariacommercials1997/daria2.mp4",
           "start": 0,
-          "duration": 10.64,
-          "title": "Comet Teletext Christmas Sale 1997 Advert",
+          "duration": 15.02,
+          "title": "MTV's Daria Commercials from 1997",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/CometTeletextChristmasSaleAdvert"
+          "credit": "archive.org/details/dariacommercials1997"
         },
         {
           "kind": "video",
@@ -3119,29 +3119,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/dariacommercials1997/daria2.mp4",
+          "src": "https://archive.org/download/1997variouscommercials/1997%20MasterCard%20Online%20Shopping%20Commercial.mp4",
           "start": 0,
-          "duration": 15.02,
-          "title": "MTV's Daria Commercials from 1997",
+          "duration": 30.02,
+          "title": "Various 1997 Commercials/Promos",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/dariacommercials1997"
+          "credit": "archive.org/details/1997variouscommercials"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1997-jackie-chan-s-first-strike-movie-commercial/1997%20Jackie%20Chan_s%20First%20Strike%20Movie%20Commercial.mp4",
+          "src": "https://archive.org/download/christmas-classic-vhs-collection-1997/Christmas%20Classic%20VHS%20collection%20(1997).mp4",
           "start": 0,
-          "duration": 29.93,
-          "title": "1997 Jackie Chan's First Strike Movie Commercial",
+          "duration": 29.97,
+          "title": "Christmas Classics Collection VHS (1997) TV Commercial",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1997-jackie-chan-s-first-strike-movie-commercial"
+          "credit": "archive.org/details/christmas-classic-vhs-collection-1997"
         },
         {
           "kind": "video",
@@ -3179,16 +3179,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1997variouscommercials/1997%20MasterCard%20Online%20Shopping%20Commercial.mp4",
+          "src": "https://archive.org/download/1997-jackie-chan-s-first-strike-movie-commercial/1997%20Jackie%20Chan_s%20First%20Strike%20Movie%20Commercial.mp4",
           "start": 0,
-          "duration": 30.02,
-          "title": "Various 1997 Commercials/Promos",
+          "duration": 29.93,
+          "title": "1997 Jackie Chan's First Strike Movie Commercial",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1997variouscommercials"
+          "credit": "archive.org/details/1997-jackie-chan-s-first-strike-movie-commercial"
         },
         {
           "kind": "video",
@@ -3226,16 +3226,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/CometTeletextChristmasSaleAdvert/Comet%20Teletext%20Christmas%20Sale%20Advert.mp4",
+          "src": "https://archive.org/download/dariacommercials1997/daria2.mp4",
           "start": 0,
-          "duration": 10.64,
-          "title": "Comet Teletext Christmas Sale 1997 Advert",
+          "duration": 15.02,
+          "title": "MTV's Daria Commercials from 1997",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/CometTeletextChristmasSaleAdvert"
+          "credit": "archive.org/details/dariacommercials1997"
         },
         {
           "kind": "video",
@@ -3260,29 +3260,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/dariacommercials1997/daria2.mp4",
+          "src": "https://archive.org/download/1997variouscommercials/1997%20MasterCard%20Online%20Shopping%20Commercial.mp4",
           "start": 0,
-          "duration": 15.02,
-          "title": "MTV's Daria Commercials from 1997",
+          "duration": 30.02,
+          "title": "Various 1997 Commercials/Promos",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/dariacommercials1997"
+          "credit": "archive.org/details/1997variouscommercials"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1997-jackie-chan-s-first-strike-movie-commercial/1997%20Jackie%20Chan_s%20First%20Strike%20Movie%20Commercial.mp4",
+          "src": "https://archive.org/download/christmas-classic-vhs-collection-1997/Christmas%20Classic%20VHS%20collection%20(1997).mp4",
           "start": 0,
-          "duration": 29.93,
-          "title": "1997 Jackie Chan's First Strike Movie Commercial",
+          "duration": 29.97,
+          "title": "Christmas Classics Collection VHS (1997) TV Commercial",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1997-jackie-chan-s-first-strike-movie-commercial"
+          "credit": "archive.org/details/christmas-classic-vhs-collection-1997"
         },
         {
           "kind": "video",
@@ -3320,16 +3320,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1997variouscommercials/1997%20MasterCard%20Online%20Shopping%20Commercial.mp4",
+          "src": "https://archive.org/download/1997-jackie-chan-s-first-strike-movie-commercial/1997%20Jackie%20Chan_s%20First%20Strike%20Movie%20Commercial.mp4",
           "start": 0,
-          "duration": 30.02,
-          "title": "Various 1997 Commercials/Promos",
+          "duration": 29.93,
+          "title": "1997 Jackie Chan's First Strike Movie Commercial",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1997variouscommercials"
+          "credit": "archive.org/details/1997-jackie-chan-s-first-strike-movie-commercial"
         },
         {
           "kind": "video",
@@ -3367,16 +3367,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/CometTeletextChristmasSaleAdvert/Comet%20Teletext%20Christmas%20Sale%20Advert.mp4",
+          "src": "https://archive.org/download/dariacommercials1997/daria2.mp4",
           "start": 0,
-          "duration": 10.64,
-          "title": "Comet Teletext Christmas Sale 1997 Advert",
+          "duration": 15.02,
+          "title": "MTV's Daria Commercials from 1997",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/CometTeletextChristmasSaleAdvert"
+          "credit": "archive.org/details/dariacommercials1997"
         },
         {
           "kind": "video",
@@ -3401,29 +3401,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/dariacommercials1997/daria2.mp4",
+          "src": "https://archive.org/download/1997variouscommercials/1997%20MasterCard%20Online%20Shopping%20Commercial.mp4",
           "start": 0,
-          "duration": 15.02,
-          "title": "MTV's Daria Commercials from 1997",
+          "duration": 30.02,
+          "title": "Various 1997 Commercials/Promos",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/dariacommercials1997"
+          "credit": "archive.org/details/1997variouscommercials"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1997-jackie-chan-s-first-strike-movie-commercial/1997%20Jackie%20Chan_s%20First%20Strike%20Movie%20Commercial.mp4",
+          "src": "https://archive.org/download/christmas-classic-vhs-collection-1997/Christmas%20Classic%20VHS%20collection%20(1997).mp4",
           "start": 0,
-          "duration": 29.93,
-          "title": "1997 Jackie Chan's First Strike Movie Commercial",
+          "duration": 29.97,
+          "title": "Christmas Classics Collection VHS (1997) TV Commercial",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1997-jackie-chan-s-first-strike-movie-commercial"
+          "credit": "archive.org/details/christmas-classic-vhs-collection-1997"
         },
         {
           "kind": "video",
@@ -3461,16 +3461,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1997variouscommercials/1997%20MasterCard%20Online%20Shopping%20Commercial.mp4",
+          "src": "https://archive.org/download/1997-jackie-chan-s-first-strike-movie-commercial/1997%20Jackie%20Chan_s%20First%20Strike%20Movie%20Commercial.mp4",
           "start": 0,
-          "duration": 30.02,
-          "title": "Various 1997 Commercials/Promos",
+          "duration": 29.93,
+          "title": "1997 Jackie Chan's First Strike Movie Commercial",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1997variouscommercials"
+          "credit": "archive.org/details/1997-jackie-chan-s-first-strike-movie-commercial"
         },
         {
           "kind": "video",
@@ -3508,16 +3508,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/CometTeletextChristmasSaleAdvert/Comet%20Teletext%20Christmas%20Sale%20Advert.mp4",
+          "src": "https://archive.org/download/dariacommercials1997/daria2.mp4",
           "start": 0,
-          "duration": 10.64,
-          "title": "Comet Teletext Christmas Sale 1997 Advert",
+          "duration": 15.02,
+          "title": "MTV's Daria Commercials from 1997",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/CometTeletextChristmasSaleAdvert"
+          "credit": "archive.org/details/dariacommercials1997"
         },
         {
           "kind": "video",
@@ -3534,29 +3534,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/dariacommercials1997/daria2.mp4",
+          "src": "https://archive.org/download/1997variouscommercials/1997%20MasterCard%20Online%20Shopping%20Commercial.mp4",
           "start": 0,
-          "duration": 15.02,
-          "title": "MTV's Daria Commercials from 1997",
+          "duration": 30.02,
+          "title": "Various 1997 Commercials/Promos",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/dariacommercials1997"
+          "credit": "archive.org/details/1997variouscommercials"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1997-jackie-chan-s-first-strike-movie-commercial/1997%20Jackie%20Chan_s%20First%20Strike%20Movie%20Commercial.mp4",
+          "src": "https://archive.org/download/christmas-classic-vhs-collection-1997/Christmas%20Classic%20VHS%20collection%20(1997).mp4",
           "start": 0,
-          "duration": 29.93,
-          "title": "1997 Jackie Chan's First Strike Movie Commercial",
+          "duration": 29.97,
+          "title": "Christmas Classics Collection VHS (1997) TV Commercial",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1997-jackie-chan-s-first-strike-movie-commercial"
+          "credit": "archive.org/details/christmas-classic-vhs-collection-1997"
         },
         {
           "kind": "card",

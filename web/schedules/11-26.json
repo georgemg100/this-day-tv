@@ -3,7 +3,7 @@
   "target": "web",
   "date": "11-26",
   "title": "This Day in History — November 26",
-  "publishedAt": "2026-11-25T09:14:22.764Z",
+  "publishedAt": "2026-11-26T09:09:22.689Z",
   "channels": [
     {
       "number": 2,
@@ -334,7 +334,7 @@
       "name": "WNTW",
       "tagline": "The way it was",
       "year": 1968,
-      "totalDuration": 3275.2,
+      "totalDuration": 3735.19,
       "items": [
         {
           "kind": "card",
@@ -531,6 +531,45 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial0219681971"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/match_your_mood/match_your_mood.mp4",
+          "start": 0,
+          "duration": 389.57,
+          "title": "Match Your Mood",
+          "year": 1968,
+          "airDate": "1968-11-26",
+          "category": "program",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/match_your_mood"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial0819681971/VirginiaSlims_08.mp4",
+          "start": 0,
+          "duration": 10.2,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 08 / 1968-1971",
+          "year": 1968,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial0819681971"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesU.s.TelevisionCommercial101968-1971/VirginiaSlims_10.mp4",
+          "start": 0,
+          "duration": 60.22,
+          "title": "Virginia Slims Cigarettes U.S. Television Commercial 10 / 1968-1971",
+          "year": 1968,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/VirginiaSlimsCigarettesU.s.TelevisionCommercial101968-1971"
         },
         {
           "kind": "card",
@@ -1309,16 +1348,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/castlemaine-xxxx-lager-advert/Castlemaine%20XXXX%20Lager%20Advert.mp4",
+          "src": "https://archive.org/download/1985-rocky-iv-movie-commercial/1985%20Rocky%20IV%20Movie%20Commercial.mp4",
           "start": 0,
-          "duration": 30.76,
-          "title": "Castlemaine XXXX Lager Advert",
+          "duration": 31.03,
+          "title": "1985 Rocky IV Movie Commercial",
           "year": 1985,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/castlemaine-xxxx-lager-advert"
+          "credit": "archive.org/details/1985-rocky-iv-movie-commercial"
         },
         {
           "kind": "video",
@@ -1335,16 +1374,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1985-rocky-iv-movie-commercial/1985%20Rocky%20IV%20Movie%20Commercial.mp4",
+          "src": "https://archive.org/download/castlemaine-xxxx-lager-advert/Castlemaine%20XXXX%20Lager%20Advert.mp4",
           "start": 0,
-          "duration": 31.03,
-          "title": "1985 Rocky IV Movie Commercial",
+          "duration": 30.76,
+          "title": "Castlemaine XXXX Lager Advert",
           "year": 1985,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1985-rocky-iv-movie-commercial"
+          "credit": "archive.org/details/castlemaine-xxxx-lager-advert"
         },
         {
           "kind": "video",
@@ -1421,19 +1460,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/castlemaine-xxxx-lager-advert/Castlemaine%20XXXX%20Lager%20Advert.mp4",
-          "start": 0,
-          "duration": 30.76,
-          "title": "Castlemaine XXXX Lager Advert",
-          "year": 1985,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/castlemaine-xxxx-lager-advert"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/1985-rocky-iv-movie-commercial/1985%20Rocky%20IV%20Movie%20Commercial.mp4",
           "start": 0,
           "duration": 31.03,
@@ -1444,6 +1470,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1985-rocky-iv-movie-commercial"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/castlemaine-xxxx-lager-advert/Castlemaine%20XXXX%20Lager%20Advert.mp4",
+          "start": 0,
+          "duration": 30.76,
+          "title": "Castlemaine XXXX Lager Advert",
+          "year": 1985,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/castlemaine-xxxx-lager-advert"
         },
         {
           "kind": "video",
@@ -1528,16 +1567,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/castlemaine-xxxx-lager-advert/Castlemaine%20XXXX%20Lager%20Advert.mp4",
+          "src": "https://archive.org/download/1985-rocky-iv-movie-commercial/1985%20Rocky%20IV%20Movie%20Commercial.mp4",
           "start": 0,
-          "duration": 30.76,
-          "title": "Castlemaine XXXX Lager Advert",
+          "duration": 31.03,
+          "title": "1985 Rocky IV Movie Commercial",
           "year": 1985,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/castlemaine-xxxx-lager-advert"
+          "credit": "archive.org/details/1985-rocky-iv-movie-commercial"
         },
         {
           "kind": "video",
@@ -1554,16 +1593,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1985-rocky-iv-movie-commercial/1985%20Rocky%20IV%20Movie%20Commercial.mp4",
+          "src": "https://archive.org/download/castlemaine-xxxx-lager-advert/Castlemaine%20XXXX%20Lager%20Advert.mp4",
           "start": 0,
-          "duration": 31.03,
-          "title": "1985 Rocky IV Movie Commercial",
+          "duration": 30.76,
+          "title": "Castlemaine XXXX Lager Advert",
           "year": 1985,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1985-rocky-iv-movie-commercial"
+          "credit": "archive.org/details/castlemaine-xxxx-lager-advert"
         },
         {
           "kind": "video",
@@ -2906,7 +2945,7 @@
       "name": "WAGO",
       "tagline": "Stay tuned",
       "year": 1997,
-      "totalDuration": 4394.73,
+      "totalDuration": 4394.64,
       "items": [
         {
           "kind": "card",
@@ -2947,16 +2986,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/christmas-classic-vhs-collection-1997/Christmas%20Classic%20VHS%20collection%20(1997).mp4",
+          "src": "https://archive.org/download/1997-jackie-chan-s-first-strike-movie-commercial/1997%20Jackie%20Chan_s%20First%20Strike%20Movie%20Commercial.mp4",
           "start": 0,
-          "duration": 29.97,
-          "title": "Christmas Classics Collection VHS (1997) TV Commercial",
+          "duration": 29.93,
+          "title": "1997 Jackie Chan's First Strike Movie Commercial",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/christmas-classic-vhs-collection-1997"
+          "credit": "archive.org/details/1997-jackie-chan-s-first-strike-movie-commercial"
         },
         {
           "kind": "video",
@@ -2986,19 +3025,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1997variouscommercials/1997%20MasterCard%20Online%20Shopping%20Commercial.mp4",
-          "start": 0,
-          "duration": 30.02,
-          "title": "Various 1997 Commercials/Promos",
-          "year": 1997,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1997variouscommercials"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/CometTeletextChristmasSaleAdvert/Comet%20Teletext%20Christmas%20Sale%20Advert.mp4",
           "start": 0,
           "duration": 10.64,
@@ -3009,6 +3035,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/CometTeletextChristmasSaleAdvert"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/christmas-classic-vhs-collection-1997/Christmas%20Classic%20VHS%20collection%20(1997).mp4",
+          "start": 0,
+          "duration": 29.97,
+          "title": "Christmas Classics Collection VHS (1997) TV Commercial",
+          "year": 1997,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/christmas-classic-vhs-collection-1997"
         },
         {
           "kind": "video",
@@ -3033,19 +3072,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1997-jackie-chan-s-first-strike-movie-commercial/1997%20Jackie%20Chan_s%20First%20Strike%20Movie%20Commercial.mp4",
-          "start": 0,
-          "duration": 29.93,
-          "title": "1997 Jackie Chan's First Strike Movie Commercial",
-          "year": 1997,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1997-jackie-chan-s-first-strike-movie-commercial"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/PcWorldChristmasSale97Advert/Pc%20World%20Christmas%20Sale%20Advert.mp4",
           "start": 0,
           "duration": 10.78,
@@ -3056,6 +3082,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/PcWorldChristmasSale97Advert"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1997variouscommercials/1997%20MasterCard%20Online%20Shopping%20Commercial.mp4",
+          "start": 0,
+          "duration": 30.02,
+          "title": "Various 1997 Commercials/Promos",
+          "year": 1997,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1997variouscommercials"
         },
         {
           "kind": "video",
@@ -3072,16 +3111,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/christmas-classic-vhs-collection-1997/Christmas%20Classic%20VHS%20collection%20(1997).mp4",
+          "src": "https://archive.org/download/1997-jackie-chan-s-first-strike-movie-commercial/1997%20Jackie%20Chan_s%20First%20Strike%20Movie%20Commercial.mp4",
           "start": 0,
-          "duration": 29.97,
-          "title": "Christmas Classics Collection VHS (1997) TV Commercial",
+          "duration": 29.93,
+          "title": "1997 Jackie Chan's First Strike Movie Commercial",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/christmas-classic-vhs-collection-1997"
+          "credit": "archive.org/details/1997-jackie-chan-s-first-strike-movie-commercial"
         },
         {
           "kind": "video",
@@ -3111,19 +3150,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1997variouscommercials/1997%20MasterCard%20Online%20Shopping%20Commercial.mp4",
-          "start": 0,
-          "duration": 30.02,
-          "title": "Various 1997 Commercials/Promos",
-          "year": 1997,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1997variouscommercials"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/CometTeletextChristmasSaleAdvert/Comet%20Teletext%20Christmas%20Sale%20Advert.mp4",
           "start": 0,
           "duration": 10.64,
@@ -3134,6 +3160,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/CometTeletextChristmasSaleAdvert"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/christmas-classic-vhs-collection-1997/Christmas%20Classic%20VHS%20collection%20(1997).mp4",
+          "start": 0,
+          "duration": 29.97,
+          "title": "Christmas Classics Collection VHS (1997) TV Commercial",
+          "year": 1997,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/christmas-classic-vhs-collection-1997"
         },
         {
           "kind": "video",
@@ -3150,19 +3189,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1997-jackie-chan-s-first-strike-movie-commercial/1997%20Jackie%20Chan_s%20First%20Strike%20Movie%20Commercial.mp4",
-          "start": 0,
-          "duration": 29.93,
-          "title": "1997 Jackie Chan's First Strike Movie Commercial",
-          "year": 1997,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1997-jackie-chan-s-first-strike-movie-commercial"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/PcWorldChristmasSale97Advert/Pc%20World%20Christmas%20Sale%20Advert.mp4",
           "start": 0,
           "duration": 10.78,
@@ -3173,6 +3199,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/PcWorldChristmasSale97Advert"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1997variouscommercials/1997%20MasterCard%20Online%20Shopping%20Commercial.mp4",
+          "start": 0,
+          "duration": 30.02,
+          "title": "Various 1997 Commercials/Promos",
+          "year": 1997,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1997variouscommercials"
         },
         {
           "kind": "video",
@@ -3189,16 +3228,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/christmas-classic-vhs-collection-1997/Christmas%20Classic%20VHS%20collection%20(1997).mp4",
+          "src": "https://archive.org/download/1997-jackie-chan-s-first-strike-movie-commercial/1997%20Jackie%20Chan_s%20First%20Strike%20Movie%20Commercial.mp4",
           "start": 0,
-          "duration": 29.97,
-          "title": "Christmas Classics Collection VHS (1997) TV Commercial",
+          "duration": 29.93,
+          "title": "1997 Jackie Chan's First Strike Movie Commercial",
           "year": 1997,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/christmas-classic-vhs-collection-1997"
+          "credit": "archive.org/details/1997-jackie-chan-s-first-strike-movie-commercial"
         },
         {
           "kind": "video",
@@ -3228,19 +3267,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1997variouscommercials/1997%20MasterCard%20Online%20Shopping%20Commercial.mp4",
-          "start": 0,
-          "duration": 30.02,
-          "title": "Various 1997 Commercials/Promos",
-          "year": 1997,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1997variouscommercials"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/CometTeletextChristmasSaleAdvert/Comet%20Teletext%20Christmas%20Sale%20Advert.mp4",
           "start": 0,
           "duration": 10.64,
@@ -3251,6 +3277,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/CometTeletextChristmasSaleAdvert"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/christmas-classic-vhs-collection-1997/Christmas%20Classic%20VHS%20collection%20(1997).mp4",
+          "start": 0,
+          "duration": 29.97,
+          "title": "Christmas Classics Collection VHS (1997) TV Commercial",
+          "year": 1997,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/christmas-classic-vhs-collection-1997"
         },
         {
           "kind": "card",
