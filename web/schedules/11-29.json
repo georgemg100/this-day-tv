@@ -3,7 +3,7 @@
   "target": "web",
   "date": "11-29",
   "title": "This Day in History — November 29",
-  "publishedAt": "2026-11-27T09:10:58.208Z",
+  "publishedAt": "2026-11-28T09:10:13.282Z",
   "channels": [
     {
       "number": 2,
@@ -210,7 +210,7 @@
       "name": "WYRS",
       "tagline": "Tonight, back then",
       "year": 1977,
-      "totalDuration": 4147.142,
+      "totalDuration": 4136.722,
       "items": [
         {
           "kind": "card",
@@ -243,19 +243,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977CommercialForArrival/1977%20commercial%20for%20Arrival.mp4",
-          "start": 0,
-          "duration": 14.23,
-          "title": "1977 commercial for 'Arrival' by ABBA",
-          "year": 1977,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1977CommercialForArrival"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/TheSixMillionDollarManDannysInfernoPromo/The%20Six%20Million%20Dollar%20Man%20-%20Danny's%20Inferno%20promo.mp4",
           "start": 0,
           "duration": 21.38,
@@ -266,6 +253,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/TheSixMillionDollarManDannysInfernoPromo"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/CuprinolTVAdDucksBack/Cuprinol%20TV%20ad%20%20Hourglass.mp4",
+          "start": 0,
+          "duration": 10.05,
+          "title": "Cuprinol Man TV Ads",
+          "year": 1977,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/CuprinolTVAdDucksBack"
         },
         {
           "kind": "video",
@@ -303,16 +303,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977CarnationInstantMilkWithVickiLawrence/1977%20Carnation%20Instant%20Milk%20with%20Vicki%20Lawrence.mp4",
+          "src": "https://archive.org/download/1977PurinaPuppyChowWithSterlingHolloway/1977%20Purina%20Puppy%20Chow%20with%20Sterling%20Holloway.mp4",
           "start": 0,
-          "duration": 31.34,
-          "title": "Carnation Instant Milk with Vicki Lawrence",
+          "duration": 31.15,
+          "title": "Purina Puppy Chow with Sterling Holloway",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977CarnationInstantMilkWithVickiLawrence"
+          "credit": "archive.org/details/1977PurinaPuppyChowWithSterlingHolloway"
         },
         {
           "kind": "video",
@@ -337,29 +337,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977PurinaPuppyChowWithSterlingHolloway/1977%20Purina%20Puppy%20Chow%20with%20Sterling%20Holloway.mp4",
+          "src": "https://archive.org/download/TheHardyBoysNancyDrewMysteriesPromo/The%20Hardy%20Boys-Nancy%20Drew%20Mysteries%20promo.mp4",
           "start": 0,
-          "duration": 31.15,
-          "title": "Purina Puppy Chow with Sterling Holloway",
+          "duration": 30.77,
+          "title": "The Hardy Boys/Nancy Drew Mysteries promo",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977PurinaPuppyChowWithSterlingHolloway"
+          "credit": "archive.org/details/TheHardyBoysNancyDrewMysteriesPromo"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977ChevroletConcours/1977%20Chevrolet%20Concours.mp4",
+          "src": "https://archive.org/download/1977GoldenGrahamsCereal/1977%20Golden%20Grahams%20Cereal.mp4",
           "start": 0,
-          "duration": 30.48,
-          "title": "1977 Chevrolet Concours",
+          "duration": 30.02,
+          "title": "Oh, Those Golden Grahams!",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977ChevroletConcours"
+          "credit": "archive.org/details/1977GoldenGrahamsCereal"
         },
         {
           "kind": "video",
@@ -384,19 +384,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977CommercialForArrival/1977%20commercial%20for%20Arrival.mp4",
-          "start": 0,
-          "duration": 14.23,
-          "title": "1977 commercial for 'Arrival' by ABBA",
-          "year": 1977,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1977CommercialForArrival"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/TheSixMillionDollarManDannysInfernoPromo/The%20Six%20Million%20Dollar%20Man%20-%20Danny's%20Inferno%20promo.mp4",
           "start": 0,
           "duration": 21.38,
@@ -407,6 +394,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/TheSixMillionDollarManDannysInfernoPromo"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/CuprinolTVAdDucksBack/Cuprinol%20TV%20ad%20%20Hourglass.mp4",
+          "start": 0,
+          "duration": 10.05,
+          "title": "Cuprinol Man TV Ads",
+          "year": 1977,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/CuprinolTVAdDucksBack"
         },
         {
           "kind": "video",
@@ -444,16 +444,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977CarnationInstantMilkWithVickiLawrence/1977%20Carnation%20Instant%20Milk%20with%20Vicki%20Lawrence.mp4",
+          "src": "https://archive.org/download/1977PurinaPuppyChowWithSterlingHolloway/1977%20Purina%20Puppy%20Chow%20with%20Sterling%20Holloway.mp4",
           "start": 0,
-          "duration": 31.34,
-          "title": "Carnation Instant Milk with Vicki Lawrence",
+          "duration": 31.15,
+          "title": "Purina Puppy Chow with Sterling Holloway",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977CarnationInstantMilkWithVickiLawrence"
+          "credit": "archive.org/details/1977PurinaPuppyChowWithSterlingHolloway"
         },
         {
           "kind": "video",
@@ -470,29 +470,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977PurinaPuppyChowWithSterlingHolloway/1977%20Purina%20Puppy%20Chow%20with%20Sterling%20Holloway.mp4",
+          "src": "https://archive.org/download/TheHardyBoysNancyDrewMysteriesPromo/The%20Hardy%20Boys-Nancy%20Drew%20Mysteries%20promo.mp4",
           "start": 0,
-          "duration": 31.15,
-          "title": "Purina Puppy Chow with Sterling Holloway",
+          "duration": 30.77,
+          "title": "The Hardy Boys/Nancy Drew Mysteries promo",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977PurinaPuppyChowWithSterlingHolloway"
+          "credit": "archive.org/details/TheHardyBoysNancyDrewMysteriesPromo"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1977ChevroletConcours/1977%20Chevrolet%20Concours.mp4",
+          "src": "https://archive.org/download/1977GoldenGrahamsCereal/1977%20Golden%20Grahams%20Cereal.mp4",
           "start": 0,
-          "duration": 30.48,
-          "title": "1977 Chevrolet Concours",
+          "duration": 30.02,
+          "title": "Oh, Those Golden Grahams!",
           "year": 1977,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1977ChevroletConcours"
+          "credit": "archive.org/details/1977GoldenGrahamsCereal"
         },
         {
           "kind": "card",
@@ -509,7 +509,7 @@
       "name": "WHEN",
       "tagline": "Stay tuned",
       "year": 1984,
-      "totalDuration": 5300.38,
+      "totalDuration": 5319.45,
       "items": [
         {
           "kind": "card",
@@ -550,19 +550,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/commercials-vhs1/Dumbo-Wizard-of-Oz-Pinochio-commericals-13.mp4",
-          "start": 0,
-          "duration": 30.2,
-          "title": "Commercials from mid-1980s VHS tape",
-          "year": 1984,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/commercials-vhs1"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/commercials-hbo-1984/commercials%20-%20HBO%20-%201984.mp4",
           "start": 0,
           "duration": 177.47,
@@ -573,6 +560,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/commercials-hbo-1984"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/commercials-disney-channel-1983/Commercials%20-%20Disney%20Channel%20-%201983.mp4",
+          "start": 0,
+          "duration": 49.27,
+          "title": "Commercials - Disney Channel - 1984 (fragment)",
+          "year": 1984,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/commercials-disney-channel-1983"
         },
         {
           "kind": "video",
@@ -597,19 +597,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/commercials-disney-channel-1983/Commercials%20-%20Disney%20Channel%20-%201983.mp4",
-          "start": 0,
-          "duration": 49.27,
-          "title": "Commercials - Disney Channel - 1984 (fragment)",
-          "year": 1984,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/commercials-disney-channel-1983"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/TVC_K-Tel_Breakdance_album_and_video/TVC%20K-Tel%20Breakdance%20album%20and%20video.mp4",
           "start": 0,
           "duration": 29.28,
@@ -620,6 +607,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/TVC_K-Tel_Breakdance_album_and_video"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/commercials-vhs1/Dumbo-Wizard-of-Oz-Pinochio-commericals-13.mp4",
+          "start": 0,
+          "duration": 30.2,
+          "title": "Commercials from mid-1980s VHS tape",
+          "year": 1984,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/commercials-vhs1"
         },
         {
           "kind": "video",
@@ -683,19 +683,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/commercials-vhs1/Dumbo-Wizard-of-Oz-Pinochio-commericals-13.mp4",
-          "start": 0,
-          "duration": 30.2,
-          "title": "Commercials from mid-1980s VHS tape",
-          "year": 1984,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/commercials-vhs1"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/commercials-hbo-1984/commercials%20-%20HBO%20-%201984.mp4",
           "start": 0,
           "duration": 177.47,
@@ -706,6 +693,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/commercials-hbo-1984"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/commercials-disney-channel-1983/Commercials%20-%20Disney%20Channel%20-%201983.mp4",
+          "start": 0,
+          "duration": 49.27,
+          "title": "Commercials - Disney Channel - 1984 (fragment)",
+          "year": 1984,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/commercials-disney-channel-1983"
         },
         {
           "kind": "video",
@@ -730,19 +730,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/commercials-disney-channel-1983/Commercials%20-%20Disney%20Channel%20-%201983.mp4",
-          "start": 0,
-          "duration": 49.27,
-          "title": "Commercials - Disney Channel - 1984 (fragment)",
-          "year": 1984,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/commercials-disney-channel-1983"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/TVC_K-Tel_Breakdance_album_and_video/TVC%20K-Tel%20Breakdance%20album%20and%20video.mp4",
           "start": 0,
           "duration": 29.28,
@@ -753,6 +740,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/TVC_K-Tel_Breakdance_album_and_video"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/commercials-vhs1/Dumbo-Wizard-of-Oz-Pinochio-commericals-13.mp4",
+          "start": 0,
+          "duration": 30.2,
+          "title": "Commercials from mid-1980s VHS tape",
+          "year": 1984,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/commercials-vhs1"
         },
         {
           "kind": "video",
@@ -816,19 +816,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/commercials-vhs1/Dumbo-Wizard-of-Oz-Pinochio-commericals-13.mp4",
-          "start": 0,
-          "duration": 30.2,
-          "title": "Commercials from mid-1980s VHS tape",
-          "year": 1984,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/commercials-vhs1"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/commercials-hbo-1984/commercials%20-%20HBO%20-%201984.mp4",
           "start": 0,
           "duration": 177.47,
@@ -839,6 +826,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/commercials-hbo-1984"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/commercials-disney-channel-1983/Commercials%20-%20Disney%20Channel%20-%201983.mp4",
+          "start": 0,
+          "duration": 49.27,
+          "title": "Commercials - Disney Channel - 1984 (fragment)",
+          "year": 1984,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/commercials-disney-channel-1983"
         },
         {
           "kind": "card",
@@ -855,7 +855,7 @@
       "name": "WOLD",
       "tagline": "Your evening companion",
       "year": 1987,
-      "totalDuration": 1272.51,
+      "totalDuration": 1238.57,
       "items": [
         {
           "kind": "card",
@@ -896,6 +896,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/1987-a-nightmare-on-elm-street-4-the-dream-master-commercial/1987%20A%20Nightmare%20on%20Elm%20Street%204%20The%20Dream%20Master%20Commercial.mp4",
+          "start": 0,
+          "duration": 30.19,
+          "title": "1987 A Nightmare On Elm Street 4 The Dream Master Commercial",
+          "year": 1987,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1987-a-nightmare-on-elm-street-4-the-dream-master-commercial"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/flintstones_commercials/1985%20-%20Post%20Fruity%20Pebbles%20with%20Grape%20-%20Bedrock%20Jones.mp4",
           "start": 0,
           "duration": 15.16,
@@ -906,19 +919,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/flintstones_commercials"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/flintstones_commercials_1987-2002/2010's%20-%20Treats%20Screaming%20Good%20Commercial%20Post%20Cereal%20Fruity%20and%20Cocoa%20Pebbles.mp4",
-          "start": 0,
-          "duration": 15.58,
-          "title": "Flintstones Commercials (1987-2022)",
-          "year": 1987,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/flintstones_commercials_1987-2002"
         },
         {
           "kind": "video",
@@ -935,29 +935,29 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/CUSA19870321/CUSA-1987-03-211.mp4",
+          "src": "https://archive.org/download/SouthernComfort_6-1-87/SouthernComfort_6-1-87.mp4",
           "start": 0,
-          "duration": 63.77,
-          "title": "Commander USA - 1987-03-21 - I Walked With A Zombie (DVD) WOC",
+          "duration": 29.9,
+          "title": "Southern Comfort",
           "year": 1987,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/CUSA19870321"
+          "credit": "archive.org/details/SouthernComfort_6-1-87"
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1987AftaAfterShave/1987%20Afta%20After-Shave.mp4",
+          "src": "https://archive.org/download/flintstones_commercials_1987-2002/2010's%20-%20Treats%20Screaming%20Good%20Commercial%20Post%20Cereal%20Fruity%20and%20Cocoa%20Pebbles.mp4",
           "start": 0,
-          "duration": 30.26,
-          "title": "1987 Afta After Shave",
+          "duration": 15.58,
+          "title": "Flintstones Commercials (1987-2022)",
           "year": 1987,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/1987AftaAfterShave"
+          "credit": "archive.org/details/flintstones_commercials_1987-2002"
         },
         {
           "kind": "card",
@@ -990,7 +990,7 @@
       "name": "WPST",
       "tagline": "Your window to yesterday",
       "year": 1988,
-      "totalDuration": 4999.55,
+      "totalDuration": 4996.41,
       "items": [
         {
           "kind": "card",
@@ -1023,19 +1023,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/CarlsbergComplaintsLineAdvert/Carlsberg%20'Complaints%20Line'%20Advert.mp4",
-          "start": 0,
-          "duration": 30.72,
-          "title": "Carlsberg 'Complaints Department' Advert",
-          "year": 1988,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/CarlsbergComplaintsLineAdvert"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/1988-colors-movie-commercial/1988%20Colors%20Movie%20Commercial.mp4",
           "start": 0,
           "duration": 30.02,
@@ -1046,6 +1033,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1988-colors-movie-commercial"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198801/1988_01_VS_Japan_512kb.mp4",
+          "start": 0,
+          "duration": 29.56,
+          "title": "Virginia Slims Cigarettes Japanese Television Commercial 1988 / 01",
+          "year": 1988,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198801"
         },
         {
           "kind": "video",
@@ -1070,6 +1070,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/CarlsbergComplaintsLineAdvert/Carlsberg%20'Complaints%20Line'%20Advert.mp4",
+          "start": 0,
+          "duration": 30.72,
+          "title": "Carlsberg 'Complaints Department' Advert",
+          "year": 1988,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/CarlsbergComplaintsLineAdvert"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/JPCM_55_JOCX-TV_04-27-88/JPCM_55_JOCX-TV_04-27-88.mp4",
           "start": 0,
           "duration": 164.78,
@@ -1080,19 +1093,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/JPCM_55_JOCX-TV_04-27-88"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/USATVCommercialCollection/1996%20-%20Lifes%20Work%20Promo03.mp4",
-          "start": 0,
-          "duration": 13.37,
-          "title": "American TV Commercials (1960s-2000s)",
-          "year": 1988,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/USATVCommercialCollection"
         },
         {
           "kind": "video",
@@ -1109,6 +1109,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/USATVCommercialCollection/1996%20-%20Lifes%20Work%20Promo03.mp4",
+          "start": 0,
+          "duration": 13.37,
+          "title": "American TV Commercials (1960s-2000s)",
+          "year": 1988,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/USATVCommercialCollection"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/the-land-before-time-promo/stream%20(1).mp4",
           "start": 0,
           "duration": 52.48,
@@ -1119,19 +1132,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/the-land-before-time-promo"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/1988-chevy-chase-funny-farm-movie-commercial/1988%20Chevy%20Chase%20Funny%20Farm%20Movie%20Commercial.mp4",
-          "start": 0,
-          "duration": 30.55,
-          "title": "1988 Chevy Chase - Funny Farm Movie Commercial",
-          "year": 1988,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1988-chevy-chase-funny-farm-movie-commercial"
         },
         {
           "kind": "video",
@@ -1156,19 +1156,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/CarlsbergComplaintsLineAdvert/Carlsberg%20'Complaints%20Line'%20Advert.mp4",
-          "start": 0,
-          "duration": 30.72,
-          "title": "Carlsberg 'Complaints Department' Advert",
-          "year": 1988,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/CarlsbergComplaintsLineAdvert"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/1988-colors-movie-commercial/1988%20Colors%20Movie%20Commercial.mp4",
           "start": 0,
           "duration": 30.02,
@@ -1179,6 +1166,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1988-colors-movie-commercial"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198801/1988_01_VS_Japan_512kb.mp4",
+          "start": 0,
+          "duration": 29.56,
+          "title": "Virginia Slims Cigarettes Japanese Television Commercial 1988 / 01",
+          "year": 1988,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198801"
         },
         {
           "kind": "video",
@@ -1203,6 +1203,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/CarlsbergComplaintsLineAdvert/Carlsberg%20'Complaints%20Line'%20Advert.mp4",
+          "start": 0,
+          "duration": 30.72,
+          "title": "Carlsberg 'Complaints Department' Advert",
+          "year": 1988,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/CarlsbergComplaintsLineAdvert"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/JPCM_55_JOCX-TV_04-27-88/JPCM_55_JOCX-TV_04-27-88.mp4",
           "start": 0,
           "duration": 164.78,
@@ -1213,19 +1226,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/JPCM_55_JOCX-TV_04-27-88"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/USATVCommercialCollection/1996%20-%20Lifes%20Work%20Promo03.mp4",
-          "start": 0,
-          "duration": 13.37,
-          "title": "American TV Commercials (1960s-2000s)",
-          "year": 1988,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/USATVCommercialCollection"
         },
         {
           "kind": "video",
@@ -1250,6 +1250,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/USATVCommercialCollection/1996%20-%20Lifes%20Work%20Promo03.mp4",
+          "start": 0,
+          "duration": 13.37,
+          "title": "American TV Commercials (1960s-2000s)",
+          "year": 1988,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/USATVCommercialCollection"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/the-land-before-time-promo/stream%20(1).mp4",
           "start": 0,
           "duration": 52.48,
@@ -1260,19 +1273,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/the-land-before-time-promo"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/1988-chevy-chase-funny-farm-movie-commercial/1988%20Chevy%20Chase%20Funny%20Farm%20Movie%20Commercial.mp4",
-          "start": 0,
-          "duration": 30.55,
-          "title": "1988 Chevy Chase - Funny Farm Movie Commercial",
-          "year": 1988,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1988-chevy-chase-funny-farm-movie-commercial"
         },
         {
           "kind": "video",
@@ -1289,19 +1289,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/CarlsbergComplaintsLineAdvert/Carlsberg%20'Complaints%20Line'%20Advert.mp4",
-          "start": 0,
-          "duration": 30.72,
-          "title": "Carlsberg 'Complaints Department' Advert",
-          "year": 1988,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/CarlsbergComplaintsLineAdvert"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/1988-colors-movie-commercial/1988%20Colors%20Movie%20Commercial.mp4",
           "start": 0,
           "duration": 30.02,
@@ -1312,6 +1299,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1988-colors-movie-commercial"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198801/1988_01_VS_Japan_512kb.mp4",
+          "start": 0,
+          "duration": 29.56,
+          "title": "Virginia Slims Cigarettes Japanese Television Commercial 1988 / 01",
+          "year": 1988,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198801"
         },
         {
           "kind": "card",
@@ -1369,19 +1369,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/capture-a-3467/CaptureA_3467.mp4",
-          "start": 0,
-          "duration": 102.1,
-          "title": "Nickelodeon commercials, 12/22/1991",
-          "year": 1991,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/capture-a-3467"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/capture-a-3543/CaptureA_3543.mp4",
           "start": 0,
           "duration": 91.67,
@@ -1392,6 +1379,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/capture-a-3543"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/american-tail-vhs/American%20Tail%20VHS.mp4",
+          "start": 0,
+          "duration": 29.95,
+          "title": "An American Tail / Fievel Goes West (1991) VHS TV Commercial",
+          "year": 1991,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/american-tail-vhs"
         },
         {
           "kind": "video",
@@ -1416,19 +1416,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/american-tail-vhs/American%20Tail%20VHS.mp4",
-          "start": 0,
-          "duration": 29.95,
-          "title": "An American Tail / Fievel Goes West (1991) VHS TV Commercial",
-          "year": 1991,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/american-tail-vhs"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/capture-a-3467/CaptureA_3467.mp4",
           "start": 0,
           "duration": 102.1,
@@ -1439,6 +1426,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/capture-a-3467"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/capture-a-3543/CaptureA_3543.mp4",
+          "start": 0,
+          "duration": 91.67,
+          "title": "Nickelodeon commercials, 10/30/1991",
+          "year": 1991,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/capture-a-3543"
         },
         {
           "kind": "video",
@@ -1463,19 +1463,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/capture-a-3543/CaptureA_3543.mp4",
-          "start": 0,
-          "duration": 91.67,
-          "title": "Nickelodeon commercials, 10/30/1991",
-          "year": 1991,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/capture-a-3543"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/american-tail-vhs/American%20Tail%20VHS.mp4",
           "start": 0,
           "duration": 29.95,
@@ -1486,6 +1473,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/american-tail-vhs"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/capture-a-3467/CaptureA_3467.mp4",
+          "start": 0,
+          "duration": 102.1,
+          "title": "Nickelodeon commercials, 12/22/1991",
+          "year": 1991,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/capture-a-3467"
         },
         {
           "kind": "video",
@@ -1510,19 +1510,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/capture-a-3467/CaptureA_3467.mp4",
-          "start": 0,
-          "duration": 102.1,
-          "title": "Nickelodeon commercials, 12/22/1991",
-          "year": 1991,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/capture-a-3467"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/capture-a-3543/CaptureA_3543.mp4",
           "start": 0,
           "duration": 91.67,
@@ -1533,6 +1520,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/capture-a-3543"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/american-tail-vhs/American%20Tail%20VHS.mp4",
+          "start": 0,
+          "duration": 29.95,
+          "title": "An American Tail / Fievel Goes West (1991) VHS TV Commercial",
+          "year": 1991,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/american-tail-vhs"
         },
         {
           "kind": "video",
@@ -1557,6 +1557,45 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/capture-a-3467/CaptureA_3467.mp4",
+          "start": 0,
+          "duration": 102.1,
+          "title": "Nickelodeon commercials, 12/22/1991",
+          "year": 1991,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/capture-a-3467"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/capture-a-3543/CaptureA_3543.mp4",
+          "start": 0,
+          "duration": 91.67,
+          "title": "Nickelodeon commercials, 10/30/1991",
+          "year": 1991,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/capture-a-3543"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/thelabsf_1991-11-29_Madame-Strangelove_2.mp4/1991-11-29_Madame-Strangelove_2.mp4",
+          "start": 3026.317,
+          "duration": 605.263,
+          "title": "Madame Strangelove and Shelter",
+          "year": 1991,
+          "airDate": "1991-11-29",
+          "category": "program",
+          "part": 6,
+          "parts": 6,
+          "credit": "archive.org/details/thelabsf_1991-11-29_Madame-Strangelove_2.mp4"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/american-tail-vhs/American%20Tail%20VHS.mp4",
           "start": 0,
           "duration": 29.95,
@@ -1580,45 +1619,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/capture-a-3467"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/thelabsf_1991-11-29_Madame-Strangelove_2.mp4/1991-11-29_Madame-Strangelove_2.mp4",
-          "start": 3026.317,
-          "duration": 605.263,
-          "title": "Madame Strangelove and Shelter",
-          "year": 1991,
-          "airDate": "1991-11-29",
-          "category": "program",
-          "part": 6,
-          "parts": 6,
-          "credit": "archive.org/details/thelabsf_1991-11-29_Madame-Strangelove_2.mp4"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/capture-a-3543/CaptureA_3543.mp4",
-          "start": 0,
-          "duration": 91.67,
-          "title": "Nickelodeon commercials, 10/30/1991",
-          "year": 1991,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/capture-a-3543"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/american-tail-vhs/American%20Tail%20VHS.mp4",
-          "start": 0,
-          "duration": 29.95,
-          "title": "An American Tail / Fievel Goes West (1991) VHS TV Commercial",
-          "year": 1991,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/american-tail-vhs"
         },
         {
           "kind": "card",
@@ -1692,19 +1692,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/blue-sky-studios-commercials/Starburst%20Cheerleaders%20Commercial%20(1999).mp4",
-          "start": 0,
-          "duration": 30.77,
-          "title": "Early Blue Sky Studios Commercials (1992-2000)",
-          "year": 1992,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/blue-sky-studios-commercials"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/RapRatvideoboardgamepromo1992/'Rap%20Rat'%20video%20board%20game%20promo%20(1992).mp4",
           "start": 0,
           "duration": 30.37,
@@ -1715,6 +1702,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/RapRatvideoboardgamepromo1992"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/blue-sky-studios-commercials/Starburst%20Cheerleaders%20Commercial%20(1999).mp4",
+          "start": 0,
+          "duration": 30.77,
+          "title": "Early Blue Sky Studios Commercials (1992-2000)",
+          "year": 1992,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/blue-sky-studios-commercials"
         },
         {
           "kind": "video",
@@ -1791,16 +1791,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/blue-sky-studios-commercials/Starburst%20Cheerleaders%20Commercial%20(1999).mp4",
+          "src": "https://archive.org/download/RapRatvideoboardgamepromo1992/'Rap%20Rat'%20video%20board%20game%20promo%20(1992).mp4",
           "start": 0,
-          "duration": 30.77,
-          "title": "Early Blue Sky Studios Commercials (1992-2000)",
+          "duration": 30.37,
+          "title": "'Rap Rat' video board game promo",
           "year": 1992,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/blue-sky-studios-commercials"
+          "credit": "archive.org/details/RapRatvideoboardgamepromo1992"
         },
         {
           "kind": "video",
@@ -1817,16 +1817,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/RapRatvideoboardgamepromo1992/'Rap%20Rat'%20video%20board%20game%20promo%20(1992).mp4",
+          "src": "https://archive.org/download/blue-sky-studios-commercials/Starburst%20Cheerleaders%20Commercial%20(1999).mp4",
           "start": 0,
-          "duration": 30.37,
-          "title": "'Rap Rat' video board game promo",
+          "duration": 30.77,
+          "title": "Early Blue Sky Studios Commercials (1992-2000)",
           "year": 1992,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/RapRatvideoboardgamepromo1992"
+          "credit": "archive.org/details/blue-sky-studios-commercials"
         },
         {
           "kind": "video",
@@ -1889,19 +1889,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/trung-tam-bang-nhac-the-he-tre/TRUNG%20T%C3%82M%20B%C4%82NG%20NH%E1%BA%A0C%20TH%E1%BA%BE%20H%E1%BB%86%20TR%E1%BA%BA%20(DVD%20Version).mp4",
-          "start": 0,
-          "duration": 61.65,
-          "title": "DVD Commercial: TRUNG TÂM BĂNG NHẠC THẾ HỆ TRẺ",
-          "year": 1994,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/trung-tam-bang-nhac-the-he-tre"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/1994-dumb-and-dumber-movie-commercial-1/1994%20Dumb%20and%20Dumber%20Movie%20Commercial%20%231.mp4",
           "start": 0,
           "duration": 14.88,
@@ -1912,6 +1899,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1994-dumb-and-dumber-movie-commercial-1"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/trung-tam-bang-nhac-the-he-tre/TRUNG%20T%C3%82M%20B%C4%82NG%20NH%E1%BA%A0C%20TH%E1%BA%BE%20H%E1%BB%86%20TR%E1%BA%BA%20(DVD%20Version).mp4",
+          "start": 0,
+          "duration": 61.65,
+          "title": "DVD Commercial: TRUNG TÂM BĂNG NHẠC THẾ HỆ TRẺ",
+          "year": 1994,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/trung-tam-bang-nhac-the-he-tre"
         },
         {
           "kind": "video",
@@ -1975,19 +1975,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/trung-tam-bang-nhac-the-he-tre/TRUNG%20T%C3%82M%20B%C4%82NG%20NH%E1%BA%A0C%20TH%E1%BA%BE%20H%E1%BB%86%20TR%E1%BA%BA%20(DVD%20Version).mp4",
-          "start": 0,
-          "duration": 61.65,
-          "title": "DVD Commercial: TRUNG TÂM BĂNG NHẠC THẾ HỆ TRẺ",
-          "year": 1994,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/trung-tam-bang-nhac-the-he-tre"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/1994-dumb-and-dumber-movie-commercial-1/1994%20Dumb%20and%20Dumber%20Movie%20Commercial%20%231.mp4",
           "start": 0,
           "duration": 14.88,
@@ -1998,6 +1985,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1994-dumb-and-dumber-movie-commercial-1"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/trung-tam-bang-nhac-the-he-tre/TRUNG%20T%C3%82M%20B%C4%82NG%20NH%E1%BA%A0C%20TH%E1%BA%BE%20H%E1%BB%86%20TR%E1%BA%BA%20(DVD%20Version).mp4",
+          "start": 0,
+          "duration": 61.65,
+          "title": "DVD Commercial: TRUNG TÂM BĂNG NHẠC THẾ HỆ TRẺ",
+          "year": 1994,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/trung-tam-bang-nhac-the-he-tre"
         },
         {
           "kind": "video",
@@ -2069,19 +2069,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/trung-tam-bang-nhac-the-he-tre/TRUNG%20T%C3%82M%20B%C4%82NG%20NH%E1%BA%A0C%20TH%E1%BA%BE%20H%E1%BB%86%20TR%E1%BA%BA%20(DVD%20Version).mp4",
-          "start": 0,
-          "duration": 61.65,
-          "title": "DVD Commercial: TRUNG TÂM BĂNG NHẠC THẾ HỆ TRẺ",
-          "year": 1994,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/trung-tam-bang-nhac-the-he-tre"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/1994-dumb-and-dumber-movie-commercial-1/1994%20Dumb%20and%20Dumber%20Movie%20Commercial%20%231.mp4",
           "start": 0,
           "duration": 14.88,
@@ -2092,6 +2079,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1994-dumb-and-dumber-movie-commercial-1"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/trung-tam-bang-nhac-the-he-tre/TRUNG%20T%C3%82M%20B%C4%82NG%20NH%E1%BA%A0C%20TH%E1%BA%BE%20H%E1%BB%86%20TR%E1%BA%BA%20(DVD%20Version).mp4",
+          "start": 0,
+          "duration": 61.65,
+          "title": "DVD Commercial: TRUNG TÂM BĂNG NHẠC THẾ HỆ TRẺ",
+          "year": 1994,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/trung-tam-bang-nhac-the-he-tre"
         },
         {
           "kind": "video",
@@ -2155,19 +2155,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/trung-tam-bang-nhac-the-he-tre/TRUNG%20T%C3%82M%20B%C4%82NG%20NH%E1%BA%A0C%20TH%E1%BA%BE%20H%E1%BB%86%20TR%E1%BA%BA%20(DVD%20Version).mp4",
-          "start": 0,
-          "duration": 61.65,
-          "title": "DVD Commercial: TRUNG TÂM BĂNG NHẠC THẾ HỆ TRẺ",
-          "year": 1994,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/trung-tam-bang-nhac-the-he-tre"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/1994-dumb-and-dumber-movie-commercial-1/1994%20Dumb%20and%20Dumber%20Movie%20Commercial%20%231.mp4",
           "start": 0,
           "duration": 14.88,
@@ -2178,6 +2165,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/1994-dumb-and-dumber-movie-commercial-1"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/trung-tam-bang-nhac-the-he-tre/TRUNG%20T%C3%82M%20B%C4%82NG%20NH%E1%BA%A0C%20TH%E1%BA%BE%20H%E1%BB%86%20TR%E1%BA%BA%20(DVD%20Version).mp4",
+          "start": 0,
+          "duration": 61.65,
+          "title": "DVD Commercial: TRUNG TÂM BĂNG NHẠC THẾ HỆ TRẺ",
+          "year": 1994,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/trung-tam-bang-nhac-the-he-tre"
         },
         {
           "kind": "video",
@@ -2908,7 +2908,7 @@
       "name": "WERA",
       "tagline": "Your evening companion",
       "year": 1998,
-      "totalDuration": 2534.21,
+      "totalDuration": 2559.35,
       "items": [
         {
           "kind": "card",
@@ -2949,19 +2949,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1998-for-your-love-tv-show-commercial/1998%20For%20Your%20Love%20TV%20Show%20Commercial.mp4",
-          "start": 0,
-          "duration": 19.88,
-          "title": "1998 For Your Love TV Show Commercial",
-          "year": 1998,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1998-for-your-love-tv-show-commercial"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/pixar-mcdonalds-commercials-1998-2000/McDonald's%20-%20%E2%80%9CNothing%20Good%20on%20TV%20Jr.%E2%80%9D%20(1998).mp4",
           "start": 0,
           "duration": 16.19,
@@ -2972,6 +2959,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/pixar-mcdonalds-commercials-1998-2000"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/SonyMinidisc_11-8-98/SonyMinidisc_11-8-98.mp4",
+          "start": 0,
+          "duration": 45.02,
+          "title": "Sony Minidisc",
+          "year": 1998,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/SonyMinidisc_11-8-98"
         },
         {
           "kind": "video",
@@ -2988,16 +2988,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/SonyMinidisc_11-8-98/SonyMinidisc_11-8-98.mp4",
+          "src": "https://archive.org/download/1998-for-your-love-tv-show-commercial/1998%20For%20Your%20Love%20TV%20Show%20Commercial.mp4",
           "start": 0,
-          "duration": 45.02,
-          "title": "Sony Minidisc",
+          "duration": 19.88,
+          "title": "1998 For Your Love TV Show Commercial",
           "year": 1998,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/SonyMinidisc_11-8-98"
+          "credit": "archive.org/details/1998-for-your-love-tv-show-commercial"
         },
         {
           "kind": "video",
@@ -3082,19 +3082,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/1998-for-your-love-tv-show-commercial/1998%20For%20Your%20Love%20TV%20Show%20Commercial.mp4",
-          "start": 0,
-          "duration": 19.88,
-          "title": "1998 For Your Love TV Show Commercial",
-          "year": 1998,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/1998-for-your-love-tv-show-commercial"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/pixar-mcdonalds-commercials-1998-2000/McDonald's%20-%20%E2%80%9CNothing%20Good%20on%20TV%20Jr.%E2%80%9D%20(1998).mp4",
           "start": 0,
           "duration": 16.19,
@@ -3105,6 +3092,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/pixar-mcdonalds-commercials-1998-2000"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/SonyMinidisc_11-8-98/SonyMinidisc_11-8-98.mp4",
+          "start": 0,
+          "duration": 45.02,
+          "title": "Sony Minidisc",
+          "year": 1998,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/SonyMinidisc_11-8-98"
         },
         {
           "kind": "card",

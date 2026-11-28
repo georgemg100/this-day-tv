@@ -3,7 +3,7 @@
   "target": "web",
   "date": "11-28",
   "title": "This Day in History — November 28",
-  "publishedAt": "2026-11-27T09:10:03.899Z",
+  "publishedAt": "2026-11-28T09:08:55.094Z",
   "channels": [
     {
       "number": 2,
@@ -691,7 +691,7 @@
       "name": "WOLD",
       "tagline": "Your evening companion",
       "year": 1981,
-      "totalDuration": 1306.51,
+      "totalDuration": 1310.97,
       "items": [
         {
           "kind": "card",
@@ -776,16 +776,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/BrookeShieldsInTheCalvinKleinJeansCommercial1981/Brooke%20Shields%20in%20the%20Calvin%20Klein%20Jeans%20commercial%201981.mp4",
+          "src": "https://archive.org/download/SergioValenteJeansKoreaCommercials1981/Sergio%20Valente%20Jeans%20%20%20Korea%20Commercials%201981.mp4",
           "start": 0,
-          "duration": 26.54,
-          "title": "Brooke Shields - Calvin Klein jeans commercial (USA, 1981)",
+          "duration": 31.37,
+          "title": "Sergio Valente jeans commercial (Korea, 1981)",
           "year": 1981,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/BrookeShieldsInTheCalvinKleinJeansCommercial1981"
+          "credit": "archive.org/details/SergioValenteJeansKoreaCommercials1981"
         },
         {
           "kind": "video",
@@ -802,19 +802,6 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/SergioValenteJeansKoreaCommercials1981/Sergio%20Valente%20Jeans%20%20%20Korea%20Commercials%201981.mp4",
-          "start": 0,
-          "duration": 31.37,
-          "title": "Sergio Valente jeans commercial (Korea, 1981)",
-          "year": 1981,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/SergioValenteJeansKoreaCommercials1981"
-        },
-        {
-          "kind": "video",
           "src": "https://archive.org/download/OdysseyCommercialLeonardNimoy/nimoy.mp4",
           "start": 0,
           "duration": 27.58,
@@ -825,6 +812,19 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/OdysseyCommercialLeonardNimoy"
+        },
+        {
+          "kind": "video",
+          "src": "https://archive.org/download/1981-mtv-commercial-i-want-my-mtv-early-promo/1981%20MTV%20Commercial%20_I%20Want%20My%20MTV!_%20(Early%20Promo).mp4",
+          "start": 0,
+          "duration": 31,
+          "title": "1981 MTV Commercial (Early Promo)",
+          "year": 1981,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/1981-mtv-commercial-i-want-my-mtv-early-promo"
         },
         {
           "kind": "card",
@@ -895,16 +895,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/muppet-movie-promo/MuppetMovie_bunnicula.mp4",
+          "src": "https://archive.org/download/NissanReynolds/nissan-reynolds.mp4",
           "start": 0,
-          "duration": 31.12,
-          "title": "Muppet Movie promo (HSV-7, 1983)",
+          "duration": 30.08,
+          "title": "\"More Nissans\" starring Jack \"Hacksaw\" Reynolds",
           "year": 1983,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/muppet-movie-promo"
+          "credit": "archive.org/details/NissanReynolds"
         },
         {
           "kind": "video",
@@ -942,16 +942,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/NissanReynolds/nissan-reynolds.mp4",
+          "src": "https://archive.org/download/muppet-movie-promo/MuppetMovie_bunnicula.mp4",
           "start": 0,
-          "duration": 30.08,
-          "title": "\"More Nissans\" starring Jack \"Hacksaw\" Reynolds",
+          "duration": 31.12,
+          "title": "Muppet Movie promo (HSV-7, 1983)",
           "year": 1983,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/NissanReynolds"
+          "credit": "archive.org/details/muppet-movie-promo"
         },
         {
           "kind": "video",
@@ -989,16 +989,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/muppet-movie-promo/MuppetMovie_bunnicula.mp4",
+          "src": "https://archive.org/download/NissanReynolds/nissan-reynolds.mp4",
           "start": 0,
-          "duration": 31.12,
-          "title": "Muppet Movie promo (HSV-7, 1983)",
+          "duration": 30.08,
+          "title": "\"More Nissans\" starring Jack \"Hacksaw\" Reynolds",
           "year": 1983,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/muppet-movie-promo"
+          "credit": "archive.org/details/NissanReynolds"
         },
         {
           "kind": "video",
@@ -1036,16 +1036,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/NissanReynolds/nissan-reynolds.mp4",
+          "src": "https://archive.org/download/muppet-movie-promo/MuppetMovie_bunnicula.mp4",
           "start": 0,
-          "duration": 30.08,
-          "title": "\"More Nissans\" starring Jack \"Hacksaw\" Reynolds",
+          "duration": 31.12,
+          "title": "Muppet Movie promo (HSV-7, 1983)",
           "year": 1983,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/NissanReynolds"
+          "credit": "archive.org/details/muppet-movie-promo"
         },
         {
           "kind": "video",
@@ -1083,16 +1083,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/muppet-movie-promo/MuppetMovie_bunnicula.mp4",
+          "src": "https://archive.org/download/NissanReynolds/nissan-reynolds.mp4",
           "start": 0,
-          "duration": 31.12,
-          "title": "Muppet Movie promo (HSV-7, 1983)",
+          "duration": 30.08,
+          "title": "\"More Nissans\" starring Jack \"Hacksaw\" Reynolds",
           "year": 1983,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/muppet-movie-promo"
+          "credit": "archive.org/details/NissanReynolds"
         },
         {
           "kind": "video",
@@ -1122,16 +1122,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/NissanReynolds/nissan-reynolds.mp4",
+          "src": "https://archive.org/download/muppet-movie-promo/MuppetMovie_bunnicula.mp4",
           "start": 0,
-          "duration": 30.08,
-          "title": "\"More Nissans\" starring Jack \"Hacksaw\" Reynolds",
+          "duration": 31.12,
+          "title": "Muppet Movie promo (HSV-7, 1983)",
           "year": 1983,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/NissanReynolds"
+          "credit": "archive.org/details/muppet-movie-promo"
         },
         {
           "kind": "card",
@@ -1189,6 +1189,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/transformers-scramble-city-commercials/Scramble%20City%20Commercials/Scramble%20City%20Points%20Promotion.mp4",
+          "start": 0,
+          "duration": 15.07,
+          "title": "Transformers: Scramble City Commercials",
+          "year": 1986,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/transformers-scramble-city-commercials"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198601/1986_01_VS_Japan_512kb.mp4",
           "start": 0,
           "duration": 29.95,
@@ -1199,19 +1212,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198601"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/80s-commercials-1986480p_20230322/80s%20Commercials%201986480p.mp4",
-          "start": 0,
-          "duration": 116.73,
-          "title": "1986 Unknown Channel Commercial Collection",
-          "year": 1986,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/80s-commercials-1986480p_20230322"
         },
         {
           "kind": "video",
@@ -1228,16 +1228,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/transformers-scramble-city-commercials/Scramble%20City%20Commercials/Scramble%20City%20Points%20Promotion.mp4",
+          "src": "https://archive.org/download/80s-commercials-1986480p_20230322/80s%20Commercials%201986480p.mp4",
           "start": 0,
-          "duration": 15.07,
-          "title": "Transformers: Scramble City Commercials",
+          "duration": 116.73,
+          "title": "1986 Unknown Channel Commercial Collection",
           "year": 1986,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/transformers-scramble-city-commercials"
+          "credit": "archive.org/details/80s-commercials-1986480p_20230322"
         },
         {
           "kind": "video",
@@ -1280,16 +1280,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198601/1986_01_VS_Japan_512kb.mp4",
+          "src": "https://archive.org/download/transformers-scramble-city-commercials/Scramble%20City%20Commercials/Scramble%20City%20Points%20Promotion.mp4",
           "start": 0,
-          "duration": 29.95,
-          "title": "Virginia Slims Cigarettes Japanese Television Commercial 1986 / 01",
+          "duration": 15.07,
+          "title": "Transformers: Scramble City Commercials",
           "year": 1986,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198601"
+          "credit": "archive.org/details/transformers-scramble-city-commercials"
         },
         {
           "kind": "video",
@@ -1306,6 +1306,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198601/1986_01_VS_Japan_512kb.mp4",
+          "start": 0,
+          "duration": 29.95,
+          "title": "Virginia Slims Cigarettes Japanese Television Commercial 1986 / 01",
+          "year": 1986,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198601"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/80s-commercials-1986480p_20230322/80s%20Commercials%201986480p.mp4",
           "start": 0,
           "duration": 116.73,
@@ -1316,19 +1329,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/80s-commercials-1986480p_20230322"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/transformers-scramble-city-commercials/Scramble%20City%20Commercials/Scramble%20City%20Points%20Promotion.mp4",
-          "start": 0,
-          "duration": 15.07,
-          "title": "Transformers: Scramble City Commercials",
-          "year": 1986,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/transformers-scramble-city-commercials"
         },
         {
           "kind": "video",
@@ -1384,6 +1384,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/transformers-scramble-city-commercials/Scramble%20City%20Commercials/Scramble%20City%20Points%20Promotion.mp4",
+          "start": 0,
+          "duration": 15.07,
+          "title": "Transformers: Scramble City Commercials",
+          "year": 1986,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/transformers-scramble-city-commercials"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198601/1986_01_VS_Japan_512kb.mp4",
           "start": 0,
           "duration": 29.95,
@@ -1394,19 +1407,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198601"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/80s-commercials-1986480p_20230322/80s%20Commercials%201986480p.mp4",
-          "start": 0,
-          "duration": 116.73,
-          "title": "1986 Unknown Channel Commercial Collection",
-          "year": 1986,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/80s-commercials-1986480p_20230322"
         },
         {
           "kind": "video",
@@ -1423,16 +1423,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/transformers-scramble-city-commercials/Scramble%20City%20Commercials/Scramble%20City%20Points%20Promotion.mp4",
+          "src": "https://archive.org/download/80s-commercials-1986480p_20230322/80s%20Commercials%201986480p.mp4",
           "start": 0,
-          "duration": 15.07,
-          "title": "Transformers: Scramble City Commercials",
+          "duration": 116.73,
+          "title": "1986 Unknown Channel Commercial Collection",
           "year": 1986,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/transformers-scramble-city-commercials"
+          "credit": "archive.org/details/80s-commercials-1986480p_20230322"
         },
         {
           "kind": "video",
@@ -1475,16 +1475,16 @@
         },
         {
           "kind": "video",
-          "src": "https://archive.org/download/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198601/1986_01_VS_Japan_512kb.mp4",
+          "src": "https://archive.org/download/transformers-scramble-city-commercials/Scramble%20City%20Commercials/Scramble%20City%20Points%20Promotion.mp4",
           "start": 0,
-          "duration": 29.95,
-          "title": "Virginia Slims Cigarettes Japanese Television Commercial 1986 / 01",
+          "duration": 15.07,
+          "title": "Transformers: Scramble City Commercials",
           "year": 1986,
           "airDate": null,
           "category": "commercial",
           "part": 1,
           "parts": 1,
-          "credit": "archive.org/details/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198601"
+          "credit": "archive.org/details/transformers-scramble-city-commercials"
         },
         {
           "kind": "video",
@@ -1501,6 +1501,19 @@
         },
         {
           "kind": "video",
+          "src": "https://archive.org/download/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198601/1986_01_VS_Japan_512kb.mp4",
+          "start": 0,
+          "duration": 29.95,
+          "title": "Virginia Slims Cigarettes Japanese Television Commercial 1986 / 01",
+          "year": 1986,
+          "airDate": null,
+          "category": "commercial",
+          "part": 1,
+          "parts": 1,
+          "credit": "archive.org/details/VirginiaSlimsCigarettesJapaneseTelevisionCommercial198601"
+        },
+        {
+          "kind": "video",
           "src": "https://archive.org/download/80s-commercials-1986480p_20230322/80s%20Commercials%201986480p.mp4",
           "start": 0,
           "duration": 116.73,
@@ -1511,19 +1524,6 @@
           "part": 1,
           "parts": 1,
           "credit": "archive.org/details/80s-commercials-1986480p_20230322"
-        },
-        {
-          "kind": "video",
-          "src": "https://archive.org/download/transformers-scramble-city-commercials/Scramble%20City%20Commercials/Scramble%20City%20Points%20Promotion.mp4",
-          "start": 0,
-          "duration": 15.07,
-          "title": "Transformers: Scramble City Commercials",
-          "year": 1986,
-          "airDate": null,
-          "category": "commercial",
-          "part": 1,
-          "parts": 1,
-          "credit": "archive.org/details/transformers-scramble-city-commercials"
         },
         {
           "kind": "video",
@@ -2128,7 +2128,7 @@
           "style": "headline",
           "duration": 10,
           "title": "November 28, 1994",
-          "text": "Died today: Buster Edwards, English boxer and criminal (born 1932)",
+          "text": "Died today: Buster Edwards, English boxer and criminal (born 1931)",
           "year": 1994
         },
         {
